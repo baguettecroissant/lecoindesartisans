@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Calendar, Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { getAllBlogPosts, getBlogPostBySlug } from "@/data/blog-posts";
@@ -99,9 +100,15 @@ export default async function BlogPostPage({ params }: PageProps) {
                         {/* Article Content */}
                         <div className="lg:col-span-2">
                             <article className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
-                                {/* Featured Image Placeholder */}
-                                <div className="aspect-video bg-gradient-to-br from-navy-100 to-navy-200 rounded-lg mb-8 flex items-center justify-center">
-                                    <span className="text-6xl">📚</span>
+                                {/* Featured Image */}
+                                <div className="aspect-video relative rounded-lg mb-8 overflow-hidden bg-gray-100">
+                                    <Image
+                                        src={post.image}
+                                        alt={post.title}
+                                        fill
+                                        className="object-cover"
+                                        priority
+                                    />
                                 </div>
 
                                 {/* Article Body */}
