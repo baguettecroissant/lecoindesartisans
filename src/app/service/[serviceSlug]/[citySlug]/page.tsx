@@ -71,8 +71,37 @@ export default async function ServiceCityPage({ params }: PageProps) {
     // Generate localized H1
     const h1Title = generateSeoTitle(service.seo_title, city).replace(" - ", " : ");
 
+    // Schema.org Structured Data
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": service.name,
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": `${settings.name} ${city.name}`,
+            "image": `https://${settings.domain}/logo.png`,
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": city.name,
+                "postalCode": city.zip,
+                "addressCountry": "FR"
+            },
+            "priceRange": "€€-€€€"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": city.name
+        },
+        "description": service.full_desc,
+        "url": `https://${settings.domain}/service/${service.slug}/${city.slug}`
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <StickyCTA cityName={city.name} />
 
             {/* Hero Section */}
