@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { BlogPost } from "@/types";
 
@@ -12,11 +13,14 @@ export default function BlogCard({ post }: BlogCardProps) {
             href={`/blog/${post.slug}`}
             className="group bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
         >
-            {/* Image placeholder */}
-            <div className="aspect-video bg-gradient-to-br from-navy-100 to-navy-200 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-navy-400">
-                    <span className="text-6xl">📚</span>
-                </div>
+            {/* Image */}
+            <div className="aspect-video relative overflow-hidden bg-gray-100">
+                <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
             </div>
 
             <div className="p-5">
