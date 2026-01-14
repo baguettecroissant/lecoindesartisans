@@ -20,6 +20,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: "daily",
             priority: 0.8,
         },
+        {
+            url: `${baseUrl}/mentions-legales`,
+            lastModified: new Date(),
+            changeFrequency: "yearly",
+            priority: 0.3,
+        },
+        {
+            url: `${baseUrl}/politique-confidentialite`,
+            lastModified: new Date(),
+            changeFrequency: "yearly",
+            priority: 0.3,
+        },
     ];
 
     // Service/City pages (programmatic)

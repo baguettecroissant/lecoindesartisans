@@ -90,7 +90,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/mentions-legales"
                                     className="text-gray-300 hover:text-amber-400 transition-colors text-sm"
                                 >
                                     Mentions Légales
@@ -98,18 +98,10 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/politique-confidentialite"
                                     className="text-gray-300 hover:text-amber-400 transition-colors text-sm"
                                 >
                                     Politique de Confidentialité
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="#"
-                                    className="text-gray-300 hover:text-amber-400 transition-colors text-sm"
-                                >
-                                    CGU
                                 </Link>
                             </li>
                         </ul>
