@@ -1,0 +1,128 @@
+{
+  "site_settings": {
+    "name": "Le Coin des Artisans",
+    "domain": "lecoindesartisans.fr",
+    "tagline": "L'annuaire de confiance pour vos travaux et rénovations.",
+    "cta_main": "Comparer 3 Devis Gratuits",
+    "cta_sub": "Sans engagement • Réponse sous 24h",
+    "contact_email": "contact@lecoindesartisans.fr",
+    "trust_badges": ["Artisans RGE", "Vérifié", "Assurance Décennale"]
+  },
+  "services": [
+    {
+      "id": "solaire",
+      "slug": "panneaux-solaires",
+      "name": "Panneaux Solaires",
+      "short_desc": "Produisez votre électricité et réduisez vos factures jusqu'à 70%.",
+      "full_desc": "Installation de panneaux photovoltaïques par des artisans certifiés RGE. Autoconsommation, revente, batteries.",
+      "seo_title": "Installateur Panneaux Solaires à {city} - Devis & Rentabilité 2026",
+      "icon": "Sun",
+      "payout_category": "High Ticket"
+    },
+    {
+      "id": "pompe-a-chaleur",
+      "slug": "pompe-a-chaleur",
+      "name": "Pompe à Chaleur",
+      "short_desc": "Remplacez votre chaudière fioul/gaz et profitez des aides de l'État.",
+      "full_desc": "Installation de PAC Air/Eau ou Air/Air. Économies d'énergie garanties. Vérifiez votre éligibilité aux primes.",
+      "seo_title": "Installation Pompe à Chaleur à {city} - Aides de l'État Déduites",
+      "icon": "ThermometerSun",
+      "payout_category": "High Ticket"
+    },
+    {
+      "id": "isolation",
+      "slug": "isolation-exterieure",
+      "name": "Isolation Extérieure (ITE)",
+      "short_desc": "Isolez vos murs par l'extérieur et redonnez un coup de jeune à votre façade.",
+      "full_desc": "Suppression des ponts thermiques, ravalement de façade inclus. Solutions polystyrène ou laine de roche.",
+      "seo_title": "Entreprise d'Isolation Extérieure à {city} - Devis Murs & Façade",
+      "icon": "Home",
+      "payout_category": "Medium Ticket"
+    },
+    {
+      "id": "fenetres",
+      "slug": "fenetres-menuiserie",
+      "name": "Fenêtres & Volets",
+      "short_desc": "Double ou triple vitrage PVC, Alu, Bois pour une isolation phonique et thermique.",
+      "full_desc": "Pose de fenêtres, portes-fenêtres, baies vitrées et volets roulants solaires. Made in France disponible.",
+      "seo_title": "Pose de Fenêtres PVC/Alu à {city} - Prix & Devis",
+      "icon": "AppWindow",
+      "payout_category": "Medium Ticket"
+    },
+    {
+      "id": "toiture",
+      "slug": "toiture-couverture",
+      "name": "Toiture & Couverture",
+      "short_desc": "Réparation de fuites, rénovation complète, nettoyage et démoussage.",
+      "full_desc": "Couvreurs zingueurs pour tuiles, ardoises ou zinc. Étanchéité et traitement hydrofuge garantis.",
+      "seo_title": "Couvreur Zingueur à {city} : Rénovation de Toiture & Fuites",
+      "icon": "Hammer",
+      "payout_category": "High Ticket"
+    },
+    {
+      "id": "plomberie",
+      "slug": "plomberie-sanitaire",
+      "name": "Plomberie & Dépannage",
+      "short_desc": "Intervention rapide pour fuites, débouchage et installation sanitaire.",
+      "full_desc": "Plombiers qualifiés pour urgences, chauffe-eau, rénovation salle de bain et cuisine.",
+      "seo_title": "Plombier à {city} ({zip}) - Dépannage Urgence & Installation",
+      "icon": "Wrench",
+      "payout_category": "Volume"
+    }
+  ],
+  "usps": [
+    {
+      "title": "Artisans Vérifiés",
+      "description": "Nous sélectionnons uniquement des pros avec des avis clients vérifiés et assurances à jour.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Devis Gratuits",
+      "description": "Recevez jusqu'à 3 propositions chiffrées sans aucun engagement de votre part.",
+      "icon": "FileText"
+    },
+    {
+      "title": "Prix du Marché",
+      "description": "Mettez les artisans en concurrence pour obtenir le meilleur rapport qualité/prix.",
+      "icon": "Euro"
+    }
+  ],
+  "faq_common": [
+    {
+      "question": "Est-ce que la demande de devis est payante ?",
+      "answer": "Non, le service Le Coin des Artisans est 100% gratuit pour les particuliers."
+    },
+    {
+      "question": "Les artisans sont-ils assurés ?",
+      "answer": "Oui, nos partenaires doivent justifier d'une garantie décennale et d'une responsabilité civile pro."
+    },
+    {
+      "question": "Sous quel délai vais-je recevoir mes devis ?",
+      "answer": "Généralement, les artisans vous contactent sous 24h à 48h après validation de votre dossier."
+    }
+  ],
+  "blog_categories": [
+    {
+      "slug": "guides-travaux",
+      "name": "Guides & Conseils",
+      "description": "Tutos et astuces pour réussir vos chantiers."
+    },
+    {
+      "slug": "aides-etat",
+      "name": "Aides Financières",
+      "description": "MaPrimeRénov, CEE, Éco-PTZ : tout comprendre."
+    }
+  ],
+  "sample_cities": [
+    {"name": "Paris", "slug": "paris", "zip": "75000", "region": "Île-de-France"},
+    {"name": "Marseille", "slug": "marseille", "zip": "13000", "region": "PACA"},
+    {"name": "Lyon", "slug": "lyon", "zip": "69000", "region": "Auvergne-Rhône-Alpes"},
+    {"name": "Toulouse", "slug": "toulouse", "zip": "31000", "region": "Occitanie"},
+    {"name": "Nice", "slug": "nice", "zip": "06000", "region": "PACA"},
+    {"name": "Nantes", "slug": "nantes", "zip": "44000", "region": "Pays de la Loire"},
+    {"name": "Montpellier", "slug": "montpellier", "zip": "34000", "region": "Occitanie"},
+    {"name": "Strasbourg", "slug": "strasbourg", "zip": "67000", "region": "Grand Est"},
+    {"name": "Bordeaux", "slug": "bordeaux", "zip": "33000", "region": "Nouvelle-Aquitaine"},
+    {"name": "Lille", "slug": "lille", "zip": "59000", "region": "Hauts-de-France"}
+  ]
+}
