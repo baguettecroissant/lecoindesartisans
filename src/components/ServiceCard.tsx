@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LucideIcon, Sun, ThermometerSun, Home, AppWindow, Hammer, Wrench } from "lucide-react";
+import { LucideIcon, Sun, ThermometerSun, Home, AppWindow, Hammer, Wrench, ArrowRight } from "lucide-react";
 import { Service } from "@/types";
 
 // Icon mapping from JSON icon names to Lucide components
@@ -23,37 +23,41 @@ export default function ServiceCard({ service, citySlug = "paris" }: ServiceCard
     return (
         <Link
             href={`/service/${service.slug}/${citySlug}`}
-            className="group bg-white rounded-xl border border-gray-100 p-6 shadow-sm hover:shadow-lg hover:border-amber-200 transition-all duration-300"
+            className="group relative bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-500 overflow-hidden"
         >
-            <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-amber-50 rounded-lg flex items-center justify-center group-hover:bg-amber-100 transition-colors">
-                    <IconComponent className="w-6 h-6 text-amber-600" />
+            {/* Background decoration */}
+            <div className="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-amber-500/5 rounded-full blur-3xl group-hover:bg-amber-500/10 transition-colors duration-500" />
+
+            <div className="relative z-10">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-amber-50 to-amber-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:from-amber-500 group-hover:to-amber-600 transition-all duration-500 shadow-inner">
+                    <IconComponent className="w-7 h-7 text-amber-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <div className="flex-1 min-w-0">
-                    <h3 className="text-lg font-semibold text-navy-900 group-hover:text-amber-600 transition-colors">
+
+                <div className="space-y-3">
+                    <h3 className="text-xl font-bold text-navy-900 group-hover:text-amber-600 transition-colors duration-300">
                         {service.name}
                     </h3>
-                    <p className="text-gray-600 text-sm mt-1 line-clamp-2">
+                    <p className="text-gray-500 leading-relaxed line-clamp-2">
                         {service.short_desc}
                     </p>
                 </div>
-            </div>
 
-            {/* Payout indicator */}
-            <div className="mt-4 flex items-center justify-between">
-                <span className={`text-xs font-medium px-2 py-1 rounded-full ${service.payout_category === "High Ticket"
-                        ? "bg-green-50 text-green-700"
+                <div className="mt-8 pt-6 border-t border-gray-50 flex items-center justify-between">
+                    <span className={`text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full ${service.payout_category === "High Ticket"
+                        ? "bg-green-50 text-green-700 border border-green-100"
                         : service.payout_category === "Medium Ticket"
-                            ? "bg-blue-50 text-blue-700"
-                            : "bg-gray-50 text-gray-700"
-                    }`}>
-                    {service.payout_category === "High Ticket" && "💰 Aides importantes"}
-                    {service.payout_category === "Medium Ticket" && "📋 Aides disponibles"}
-                    {service.payout_category === "Volume" && "🔧 Intervention rapide"}
-                </span>
-                <span className="text-amber-600 text-sm font-medium group-hover:underline">
-                    Voir devis →
-                </span>
+                            ? "bg-blue-50 text-blue-700 border border-blue-100"
+                            : "bg-gray-50 text-gray-700 border border-gray-100"
+                        }`}>
+                        {service.payout_category === "High Ticket" && "Aides maximales"}
+                        {service.payout_category === "Medium Ticket" && "Aides disponibles"}
+                        {service.payout_category === "Volume" && "Intervention rapide"}
+                    </span>
+                    <div className="flex items-center text-amber-600 font-bold text-sm">
+                        <span>Devis gratuit</span>
+                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </div>
+                </div>
             </div>
         </Link>
     );

@@ -13,11 +13,12 @@ const inter = Inter({
 const settings = getSiteSettings();
 
 export const metadata: Metadata = {
-  title: {
-    default: `${settings.name} - ${settings.tagline}`,
-    template: `%s | ${settings.name}`,
+  title: "Le Coin des Artisans | Trouvez les meilleurs pros du bâtiment",
+  description:
+    "L'annuaire de confiance pour vos travaux et rénovations. Comparez 3 devis gratuits d'artisans vérifiés près de chez vous.",
+  icons: {
+    icon: "/favicon-custom.png",
   },
-  description: settings.tagline,
   keywords: [
     "devis travaux",
     "artisan",

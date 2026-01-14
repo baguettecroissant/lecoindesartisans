@@ -62,7 +62,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     return (
         <>
             {/* Header */}
-            <section className="bg-gray-50 py-8 border-b border-gray-100">
+            <section className="bg-gray-50 pt-28 pb-12 md:pt-36 md:pb-16 border-b border-gray-100">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <Link
                         href="/blog"

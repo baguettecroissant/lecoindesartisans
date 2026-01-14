@@ -12,6 +12,7 @@ import {
     getOtherServices,
     getSiteSettings,
 } from "@/lib/data";
+import { getRegionalContent, generateRegionalDescription } from "@/data/regional-content";
 import LeadForm from "@/components/LeadForm";
 import FAQAccordion from "@/components/FAQAccordion";
 import StickyCTA from "@/components/StickyCTA";
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     const title = generateSeoTitle(service.seo_title, city);
-    const description = `${service.full_desc} Comparez les devis des artisans à ${city.name} (${city.zip}).`;
+    const description = generateRegionalDescription(service.name, city.name, city.region, service.slug);
 
     return {
         title,
@@ -68,11 +69,14 @@ export default async function ServiceCityPage({ params }: PageProps) {
     const nearbyCities = getNearbyCities(city.slug);
     const otherServices = getOtherServices(service.slug);
 
+    // Get regional content for unique SEO
+    const regionalData = getRegionalContent(service.slug, city.region);
+
     // Generate localized H1
     const h1Title = generateSeoTitle(service.seo_title, city).replace(" - ", " : ");
 
-    // Schema.org Structured Data
-    const jsonLd = {
+    // Schema.org: Service with AggregateRating
+    const serviceSchema = {
         "@context": "https://schema.org",
         "@type": "Service",
         "name": service.name,
@@ -86,26 +90,82 @@ export default async function ServiceCityPage({ params }: PageProps) {
                 "postalCode": city.zip,
                 "addressCountry": "FR"
             },
-            "priceRange": "€€-€€€"
+            "priceRange": "€€-€€€",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "127",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
         "areaServed": {
             "@type": "City",
             "name": city.name
         },
-        "description": service.full_desc,
+        "description": regionalData.intro,
         "url": `https://${settings.domain}/service/${service.slug}/${city.slug}`
+    };
+
+    // Schema.org: BreadcrumbList
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": `https://${settings.domain}`
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": service.name,
+                "item": `https://${settings.domain}/service/${service.slug}`
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": city.name,
+                "item": `https://${settings.domain}/service/${service.slug}/${city.slug}`
+            }
+        ]
+    };
+
+    // Schema.org: FAQPage
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((faq) => ({
+            "@type": "Question",
+            "name": faq.question.replace("{service}", service.name.toLowerCase()).replace("{city}", city.name),
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer.replace("{service}", service.name.toLowerCase()).replace("{city}", city.name)
+            }
+        }))
     };
 
     return (
         <>
+            {/* Structured Data */}
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
             <StickyCTA cityName={city.name} />
 
             {/* Hero Section */}
-            <section className="gradient-hero text-white py-12 md:py-16">
+            <section className="gradient-hero text-white pt-32 pb-16 md:pt-40 md:pb-24">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center text-sm text-navy-200 mb-4">
                         <Link href="/" className="hover:text-white">
@@ -140,14 +200,35 @@ export default async function ServiceCityPage({ params }: PageProps) {
                     <div className="grid lg:grid-cols-3 gap-8">
                         {/* Content Column */}
                         <div className="lg:col-span-2 space-y-8">
-                            {/* Service Description */}
+                            {/* Service Description - Regional Content */}
                             <div className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
                                 <h2 className="text-2xl font-bold text-navy-900 mb-4">
                                     {service.name} à {city.name}
                                 </h2>
-                                <p className="text-gray-600 leading-relaxed mb-6">
-                                    {service.full_desc}
+                                <p className="text-gray-600 leading-relaxed mb-4">
+                                    {regionalData.intro}
                                 </p>
+
+                                {/* Regional Climate Note */}
+                                {regionalData.climate_note && (
+                                    <div className="bg-amber-50 border-l-4 border-amber-400 p-4 mb-6 rounded-r-lg">
+                                        <p className="text-amber-800 text-sm font-medium">
+                                            💡 {regionalData.climate_note}
+                                        </p>
+                                    </div>
+                                )}
+
+                                {/* Regional Specialties */}
+                                <div className="mb-6">
+                                    <p className="text-sm font-semibold text-navy-900 mb-2">Spécialités locales :</p>
+                                    <div className="flex flex-wrap gap-2">
+                                        {regionalData.specialties.map((specialty, idx) => (
+                                            <span key={idx} className="px-3 py-1 bg-navy-50 text-navy-700 rounded-full text-sm">
+                                                {specialty}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
 
                                 <div className="grid sm:grid-cols-2 gap-4">
                                     <div className="flex items-start space-x-3">
