@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, Phone, Home } from "lucide-react";
 import { getSiteSettings, getAllServices } from "@/lib/data";
 
@@ -9,9 +10,13 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isServicesOpen, setIsServicesOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname();
 
     const settings = getSiteSettings();
     const services = getAllServices();
+
+    // Only allow transparent navbar on homepage and service pages (which have dark hero)
+    const allowTransparent = pathname === "/" || pathname.startsWith("/service/");
 
     useEffect(() => {
         const handleScroll = () => {
@@ -29,10 +34,13 @@ export default function Navbar() {
         }
     }, [isMenuOpen]);
 
+    // Use scrolled styling if actually scrolled OR if on a page without dark hero
+    const useScrolledStyle = isScrolled || !allowTransparent;
+
     return (
         <>
             <nav
-                className={`fixed w-full z-50 transition-all duration-500 ${isScrolled
+                className={`fixed w-full z-50 transition-all duration-500 ${useScrolledStyle
                     ? "bg-white/95 backdrop-blur-md shadow-lg py-3"
                     : "bg-transparent py-5"
                     }`}
@@ -41,13 +49,13 @@ export default function Navbar() {
                     <div className="flex justify-between items-center">
                         {/* Stylized Text Logo */}
                         <Link href="/" className="flex items-center space-x-2 group">
-                            <div className={`p-1.5 rounded-lg transition-colors duration-300 ${isScrolled ? "bg-navy-900 text-white" : "bg-amber-500 text-navy-900"
+                            <div className={`p-1.5 rounded-lg transition-colors duration-300 ${useScrolledStyle ? "bg-navy-900 text-white" : "bg-amber-500 text-navy-900"
                                 }`}>
                                 <Home className="w-6 h-6" />
                             </div>
-                            <span className={`text-2xl font-extrabold tracking-tight transition-colors duration-300 ${isScrolled ? "text-navy-900" : "text-white"
+                            <span className={`text-2xl font-extrabold tracking-tight transition-colors duration-300 ${useScrolledStyle ? "text-navy-900" : "text-white"
                                 }`}>
-                                Le Coin des <span className={isScrolled ? "text-amber-600" : "text-amber-400"}>Artisans</span>
+                                Le Coin des <span className={useScrolledStyle ? "text-amber-600" : "text-amber-400"}>Artisans</span>
                             </span>
                         </Link>
 
@@ -58,7 +66,7 @@ export default function Navbar() {
                                 <button
                                     onMouseEnter={() => setIsServicesOpen(true)}
                                     onMouseLeave={() => setIsServicesOpen(false)}
-                                    className={`flex items-center space-x-1 font-semibold transition-colors duration-300 ${isScrolled ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
+                                    className={`flex items-center space-x-1 font-semibold transition-colors duration-300 ${useScrolledStyle ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
                                         }`}
                                 >
                                     <span>Services</span>
@@ -86,7 +94,7 @@ export default function Navbar() {
 
                             <Link
                                 href="/blog"
-                                className={`font-semibold transition-colors duration-300 ${isScrolled ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
+                                className={`font-semibold transition-colors duration-300 ${useScrolledStyle ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
                                     }`}
                             >
                                 Blog
@@ -95,7 +103,7 @@ export default function Navbar() {
                             {/* CTA Button */}
                             <Link
                                 href="/#services"
-                                className={`inline-flex items-center px-6 py-3 font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 ${isScrolled
+                                className={`inline-flex items-center px-6 py-3 font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 ${useScrolledStyle
                                     ? "bg-amber-500 text-white hover:bg-amber-600"
                                     : "bg-white text-navy-900 hover:bg-amber-400"
                                     }`}
@@ -108,7 +116,7 @@ export default function Navbar() {
                         {/* Mobile menu button */}
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            className={`md:hidden p-2 rounded-lg transition-colors z-[70] relative ${isScrolled || isMenuOpen ? "text-gray-900 hover:bg-gray-100" : "text-white hover:bg-white/10"
+                            className={`md:hidden p-2 rounded-lg transition-colors z-[70] relative ${useScrolledStyle || isMenuOpen ? "text-gray-900 hover:bg-gray-100" : "text-white hover:bg-white/10"
                                 }`}
                         >
                             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
