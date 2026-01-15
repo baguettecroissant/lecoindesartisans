@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Search, CheckCircle } from "lucide-react";
 import { getSiteSettings, getAllServices, getUSPs } from "@/lib/data";
 import { getAllBlogPosts } from "@/data/blog-posts";
@@ -20,10 +21,12 @@ export default function HomePage() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy-900/90 to-navy-900/40 z-10" />
-          <img
+          <Image
             src="/hero-bg.png"
             alt="Rénovation intérieur moderne"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            className="object-cover"
           />
         </div>
 
@@ -147,9 +150,11 @@ export default function HomePage() {
               {/* Decorative element */}
               <div className="absolute -inset-4 bg-amber-100 rounded-[2rem] -rotate-2 scale-95" />
               <div className="relative bg-white p-4 rounded-[2rem] shadow-2xl border border-gray-100">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800"
                   alt="Artisan au travail"
+                  width={800}
+                  height={500}
                   className="rounded-[1.5rem] w-full h-[500px] object-cover"
                 />
                 <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100 hidden md:block animate-bounce-slow">
