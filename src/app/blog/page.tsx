@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     title: "Blog - Conseils & Guides Travaux",
     description:
         "Guides pratiques, conseils d'experts et actualités pour réussir vos projets de rénovation. MaPrimeRénov, isolation, chauffage et plus.",
+    alternates: {
+        canonical: "/blog",
+    },
+    openGraph: {
+        title: "Blog - Conseils & Guides Travaux",
+        description: "Guides pratiques, conseils d'experts et actualités pour réussir vos projets de rénovation.",
+        type: "website",
+    },
 };
 
 export default function BlogPage() {

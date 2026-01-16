@@ -104,6 +104,9 @@ export default function Footer() {
 
                             <ul className="space-y-4 pt-4 border-t border-white/5">
                                 <li>
+                                    <Link href="/qui-sommes-nous" className="text-navy-200/60 hover:text-white transition-colors text-sm">Qui sommes-nous ?</Link>
+                                </li>
+                                <li>
                                     <Link href="/blog" className="text-navy-200/60 hover:text-white transition-colors text-sm">Blog & Conseils</Link>
                                 </li>
                                 <li>

@@ -1468,6 +1468,264 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2025-12-28",
     readingTime: "7 min",
     image: "/images/blog/isolation-exterieure.jpg"
+  },
+  {
+    slug: "pompe-a-chaleur-air-eau-vs-air-air-comparatif-2026",
+    title: "Pompe à Chaleur Air-Eau vs Air-Air : Le Comparatif Complet 2026",
+    excerpt: "PAC air-eau ou air-air ? Découvrez les différences de prix, performance et aides pour choisir la pompe à chaleur adaptée à votre logement en 2026.",
+    content: `
+      <p><strong>Vous hésitez entre une pompe à chaleur air-eau et une PAC air-air ?</strong> C'est LA question que se posent des milliers de propriétaires chaque année. Et pour cause : le choix impacte directement votre confort, vos économies d'énergie et le montant des aides auxquelles vous avez droit.</p>
+      
+      <p>Dans ce comparatif complet mis à jour pour 2026, nous analysons <strong>point par point</strong> ces deux technologies pour vous aider à faire le bon choix. Prix, performances, aides financières, cas d'usage : tout ce que vous devez savoir avant d'investir.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs qualifiés près de chez vous.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#differences">Quelle différence entre PAC air-eau et air-air ?</a></li>
+        <li><a href="#comparatif-prix">Comparatif des prix en 2026</a></li>
+        <li><a href="#performances">Performances et rendement (COP)</a></li>
+        <li><a href="#avantages-inconvenients">Avantages et inconvénients</a></li>
+        <li><a href="#aides">Aides MaPrimeRénov' 2026 : grosse différence</a></li>
+        <li><a href="#choisir">Comment choisir ? Les critères décisifs</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="differences">Quelle différence entre PAC air-eau et air-air ?</h2>
+      
+      <p>Les deux types de pompes à chaleur captent les calories de l'air extérieur, mais elles les restituent différemment :</p>
+      
+      <h3>🌊 PAC Air-Eau : chaleur via l'eau</h3>
+      <p>La pompe à chaleur <strong>air-eau</strong> transfère la chaleur vers un circuit d'eau chaude. Elle peut alimenter :</p>
+      <ul>
+        <li>Des <strong>radiateurs</strong> (haute température) ou radiateurs basse température</li>
+        <li>Un <strong>plancher chauffant hydraulique</strong></li>
+        <li>La production d'<strong>eau chaude sanitaire</strong> (ballon intégré ou séparé)</li>
+      </ul>
+      <p>C'est la solution idéale quand vous avez déjà un système de chauffage central (chaudière gaz, fioul) car elle réutilise votre réseau existant.</p>
+      
+      <h3>💨 PAC Air-Air : chaleur via l'air</h3>
+      <p>La pompe à chaleur <strong>air-air</strong> souffle directement de l'air chaud (ou froid) dans vos pièces via des unités murales ou gainables. Avantage clé : elle est <strong>réversible</strong> et fait climatisation en été.</p>
+      <ul>
+        <li>Chauffage par soufflage d'air chaud</li>
+        <li><strong>Climatisation</strong> intégrée en été</li>
+        <li>Installation rapide (pas de circuit d'eau)</li>
+      </ul>
+
+      <h2 id="comparatif-prix">Comparatif des prix en 2026</h2>
+      
+      <p>Voici les <strong>prix moyens constatés</strong> pour l'installation d'une pompe à chaleur dans une maison de 100-120m² :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de PAC</th>
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: left;">Prix installation</th>
+            <th style="padding: 12px; text-align: left;">Coût annuel moyen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Eau</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">8-12 kW</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>10 000€ - 18 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">800€ - 1 200€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Air</strong> (multisplit)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">6-10 kW</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>5 000€ - 10 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">600€ - 1 000€</td>
+          </tr>
+          <tr style="background: #f0f9ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Air</strong> (gainable)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">8-14 kW</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>8 000€ - 15 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">700€ - 1 100€</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p style="background: #f0f9ff; padding: 12px; border-radius: 8px;">💡 <strong>Bon à savoir :</strong> La PAC air-air est moins chère à l'achat, mais la PAC air-eau permet de plus grosses économies sur le long terme grâce aux aides (jusqu'à 5 000€ de MaPrimeRénov').</p>
+
+      <blockquote style="background: #ecfdf5; border-left: 4px solid #10b981; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées.<br/>
+        <a href="/#services" style="color: #10b981; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="performances">Performances et rendement (COP)</h2>
+      
+      <p>Le <strong>COP (Coefficient de Performance)</strong> indique l'efficacité de la PAC : un COP de 4 signifie que pour 1 kWh d'électricité consommé, la PAC produit 4 kWh de chaleur.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: left;">PAC Air-Eau</th>
+            <th style="padding: 12px; text-align: left;">PAC Air-Air</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">COP moyen</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3,5 à 4,5</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 à 4</strong></td>
+          </tr>
+          <tr style="background: #f9fafb;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Performance par -7°C</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Correcte (COP 2,5-3)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Réduite (COP 2-2,5)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fonction climatisation</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">❌ Non (sauf modèles réversibles rares)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">✅ Oui, native</td>
+          </tr>
+          <tr style="background: #f9fafb;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Production eau chaude</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">❌ Non</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="avantages-inconvenients">Avantages et inconvénients</h2>
+      
+      <h3>✅ PAC Air-Eau : les plus et les moins</h3>
+      
+      <p><strong>Avantages :</strong></p>
+      <ul>
+        <li>Éligible à <strong>MaPrimeRénov'</strong> (jusqu'à 5 000€)</li>
+        <li>Remplace votre chaudière existante</li>
+        <li>Produit le chauffage ET l'eau chaude</li>
+        <li>Compatible plancher chauffant (confort optimal)</li>
+        <li>Pas de soufflerie visible dans les pièces</li>
+      </ul>
+      
+      <p><strong>Inconvénients :</strong></p>
+      <ul>
+        <li>Prix d'installation plus élevé</li>
+        <li>Nécessite un circuit hydraulique existant ou à créer</li>
+        <li>Pas de climatisation (sauf modèles spécifiques)</li>
+      </ul>
+      
+      <h3>✅ PAC Air-Air : les plus et les moins</h3>
+      
+      <p><strong>Avantages :</strong></p>
+      <ul>
+        <li>Prix d'achat plus accessible</li>
+        <li><strong>Climatisation incluse</strong> (parfait pour le Sud)</li>
+        <li>Installation rapide (1-2 jours)</li>
+        <li>Idéale en complément d'un chauffage existant</li>
+      </ul>
+      
+      <p><strong>Inconvénients :</strong></p>
+      <ul>
+        <li><strong>NON éligible à MaPrimeRénov'</strong> (seulement CEE)</li>
+        <li>Ne produit pas l'eau chaude sanitaire</li>
+        <li>Unités intérieures visibles (splits muraux)</li>
+        <li>Bruit de soufflerie dans les pièces</li>
+      </ul>
+
+      <h2 id="aides">Aides MaPrimeRénov' 2026 : grosse différence !</h2>
+      
+      <p>C'est LE point crucial : <strong>seule la PAC air-eau est éligible à MaPrimeRénov'</strong>. La PAC air-air ne donne droit qu'aux CEE (primes énergie), beaucoup moins importantes.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil revenus</th>
+            <th style="padding: 12px; text-align: left;">MaPrimeRénov' PAC Air-Eau</th>
+            <th style="padding: 12px; text-align: left;">Aides PAC Air-Air</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🔵 Bleu (très modeste)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>5 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">~500€ (CEE)</td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟡 Jaune (modeste)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>4 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">~400€ (CEE)</td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟣 Violet (intermédiaire)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">~300€ (CEE)</td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🩷 Rose (aisé)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">0€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">~200€ (CEE)</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p style="background: #fef2f2; padding: 12px; border-radius: 8px;">⚠️ <strong>Attention :</strong> Avec MaPrimeRénov', le reste à charge d'une PAC air-eau peut être inférieur à celui d'une air-air malgré un prix de base plus élevé !</p>
+
+      <h2 id="choisir">Comment choisir ? Les critères décisifs</h2>
+      
+      <h3>👉 Choisissez la PAC Air-Eau si :</h3>
+      <ul>
+        <li>Vous avez une <strong>chaudière à remplacer</strong> (gaz, fioul)</li>
+        <li>Vous êtes éligible à <strong>MaPrimeRénov'</strong></li>
+        <li>Vous souhaitez aussi produire votre <strong>eau chaude</strong></li>
+        <li>Vous avez un <strong>plancher chauffant</strong> ou des radiateurs</li>
+        <li>Vous n'avez pas besoin de climatisation</li>
+      </ul>
+      
+      <h3>👉 Choisissez la PAC Air-Air si :</h3>
+      <ul>
+        <li>Vous voulez la <strong>climatisation en été</strong> (région chaude)</li>
+        <li>Vous avez un <strong>chauffage principal déjà satisfaisant</strong></li>
+        <li>Vous êtes dans le profil "Rose" (<strong>pas d'aides MaPrimeRénov'</strong>)</li>
+        <li>Vous avez un <strong>budget serré</strong></li>
+        <li>Vous construisez du neuf (pas besoin de remplacer une chaudière)</li>
+      </ul>
+      
+      <p>Consultez aussi notre guide <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov' 2026</a> pour connaître votre profil de revenus.</p>
+
+      <blockquote style="background: #ecfdf5; border-left: 4px solid #10b981; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet ?</strong><br/>
+        Nos artisans RGE sont disponibles dans votre ville pour vous conseiller.<br/>
+        <a href="/#services" style="color: #10b981; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions sur PAC air-eau vs air-air</h2>
+      
+      <h3>Quelle PAC consomme le moins d'électricité ?</h3>
+      <p>La PAC <strong>air-eau</strong> a généralement un meilleur COP (3,5-4,5 contre 3-4 pour l'air-air), donc consomme légèrement moins à performance égale. La différence est toutefois faible (10-15%) et dépend surtout du dimensionnement et de l'isolation du logement.</p>
+      
+      <h3>Peut-on combiner PAC air-eau et PAC air-air ?</h3>
+      <p>Oui, c'est même une excellente solution ! La PAC air-eau assure le chauffage principal et l'eau chaude, tandis que des splits air-air apportent la <strong>climatisation l'été</strong> dans les pièces clés (chambre, salon). Budget supplémentaire : 2 000€-4 000€.</p>
+      
+      <h3>Une PAC air-air suffit-elle comme chauffage unique ?</h3>
+      <p>Dans le <strong>Sud de la France</strong>, oui, une PAC air-air multisplit peut chauffer toute la maison efficacement. Dans le Nord ou les régions montagneuses, elle sera moins performante par grand froid et nécessitera un appoint.</p>
+      
+      <h3>Quelle est la durée de vie moyenne ?</h3>
+      <p>Les deux types ont une durée de vie similaire de <strong>15 à 20 ans</strong> avec un entretien régulier (visite annuelle recommandée à ~150€/an).</p>
+      
+      <h3>Laquelle est la plus silencieuse ?</h3>
+      <p>La PAC <strong>air-eau</strong> est plus silencieuse à l'intérieur car seul le circuit d'eau circule (pas de soufflerie). L'unité extérieure produit un bruit équivalent pour les deux types (40-50 dB selon les modèles).</p>
+
+      <h2>Conclusion : quel choix faire en 2026 ?</h2>
+      
+      <p>En résumé, si vous remplacez une chaudière et que vous êtes éligible aux aides, la <strong>PAC air-eau</strong> est généralement le meilleur investissement. Si vous privilégiez la climatisation ou avez un budget plus serré sans accès aux aides, la <strong>PAC air-air</strong> reste une solution efficace.</p>
+      
+      <p>Dans tous les cas, <strong>faites établir plusieurs devis</strong> par des installateurs RGE pour comparer les solutions adaptées à VOTRE logement. Les professionnels de notre réseau sont là pour vous conseiller gratuitement.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-16",
+    readingTime: "10 min",
+    image: "/images/blog/pac-air-eau-vs-air-air-comparatif.png"
   }
 ];
 

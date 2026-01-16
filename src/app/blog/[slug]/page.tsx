@@ -25,6 +25,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const resolvedParams = await params;
     const post = getBlogPostBySlug(resolvedParams.slug);
+    const settings = getSiteSettings();
 
     if (!post) {
         return {
@@ -32,14 +33,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         };
     }
 
+    const canonicalUrl = `/blog/${post.slug}`;
+
     return {
         title: post.title,
         description: post.excerpt,
+        alternates: {
+            canonical: canonicalUrl,
+        },
         openGraph: {
             title: post.title,
             description: post.excerpt,
             type: "article",
             publishedTime: post.publishedAt,
+            url: `https://${settings.domain}${canonicalUrl}`,
+            images: post.image ? [{ url: post.image }] : undefined,
         },
     };
 }

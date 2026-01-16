@@ -6,6 +6,12 @@ export interface RegionalContent {
     specialties: string[];
     climate_note?: string;
     local_tip?: string;
+    price_range?: {
+        min: number;
+        max: number;
+        unit: string;
+        note?: string;
+    };
 }
 
 export interface ServiceRegionalContent {
@@ -22,13 +28,25 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "En région parisienne, l'ensoleillement moyen de 1 650 heures par an permet une excellente rentabilité solaire. Nos installateurs certifiés QualiPV maîtrisent les contraintes des copropriétés et toitures parisiennes.",
             specialties: ["Toitures plates urbaines", "Copropriétés", "Surimposition ardoise"],
             climate_note: "Avec 4,2 kWh/m²/jour en moyenne, votre installation peut couvrir jusqu'à 50% de vos besoins.",
-            local_tip: "Les aides de la Région Île-de-France s'ajoutent aux primes nationales."
+            local_tip: "Les aides de la Région Île-de-France s'ajoutent aux primes nationales.",
+            price_range: {
+                min: 8500,
+                max: 16000,
+                unit: "installation 3-6 kWc",
+                note: "Prix légèrement supérieurs en zone dense (contraintes accès, copropriétés)"
+            }
         },
         "PACA": {
             intro: "Avec plus de 2 800 heures d'ensoleillement annuel, la région PACA est idéale pour le photovoltaïque. Nos artisans locaux optimisent l'orientation de vos panneaux face au soleil méditerranéen.",
             specialties: ["Tuiles canal", "Intégration au bâti", "Résistance mistral"],
             climate_note: "Le Sud bénéficie de 5,2 kWh/m²/jour, maximisant votre autoconsommation.",
-            local_tip: "Les toitures en tuiles romanes nécessitent des systèmes d'intégration spécifiques."
+            local_tip: "Les toitures en tuiles romanes nécessitent des systèmes d'intégration spécifiques.",
+            price_range: {
+                min: 7500,
+                max: 14500,
+                unit: "installation 3-6 kWc",
+                note: "Rentabilité excellente grâce à l'ensoleillement record"
+            }
         },
         "Auvergne-Rhône-Alpes": {
             intro: "Entre Lyon et les Alpes, l'ensoleillement varie mais reste favorable au solaire. Nos installateurs connaissent les spécificités alpines et les contraintes de neige en altitude.",
@@ -46,7 +64,13 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "Nos installateurs certifiés RGE interviennent dans votre ville pour vous proposer une solution photovoltaïque adaptée à votre toiture et vos besoins énergétiques.",
             specialties: ["Surimposition", "Intégration au bâti", "Autoconsommation"],
             climate_note: "La France bénéficie d'un ensoleillement suffisant pour rentabiliser une installation en 8-12 ans.",
-            local_tip: "Vérifiez les aides locales qui peuvent s'ajouter à MaPrimeRénov'."
+            local_tip: "Vérifiez les aides locales qui peuvent s'ajouter à MaPrimeRénov'.",
+            price_range: {
+                min: 7000,
+                max: 15000,
+                unit: "installation 3-6 kWc",
+                note: "Prix moyens constatés en 2026, avant aides"
+            }
         }
     },
     "pompe-a-chaleur": {
@@ -54,13 +78,25 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "En Île-de-France, les hivers modérés (moyenne 5°C) sont parfaits pour les PAC air-eau. Nos artisans parisiens gèrent les contraintes acoustiques imposées en zone urbaine dense.",
             specialties: ["PAC split silencieuses", "Copropriétés", "Remplacement fioul"],
             climate_note: "Le climat francilien offre un COP moyen de 4, soit 4 kWh produits pour 1 consommé.",
-            local_tip: "Paris et petite couronne imposent des normes acoustiques strictes."
+            local_tip: "Paris et petite couronne imposent des normes acoustiques strictes.",
+            price_range: {
+                min: 10000,
+                max: 18000,
+                unit: "PAC air-eau 8-12 kW",
+                note: "Surcoût de 10-15% en zone dense (contraintes pose)"
+            }
         },
         "PACA": {
             intro: "Sous le soleil méditerranéen, les PAC réversibles offrent chauffage ET climatisation. Nos installateurs locaux dimensionnent votre système pour les étés chauds.",
             specialties: ["PAC réversibles", "Climatisation", "Chauffage piscine"],
             climate_note: "Le besoin en chauffage est réduit, maximisant les économies.",
-            local_tip: "Optez pour une PAC air-air réversible pour rafraîchir en été."
+            local_tip: "Optez pour une PAC air-air réversible pour rafraîchir en été.",
+            price_range: {
+                min: 8000,
+                max: 15000,
+                unit: "PAC réversible 6-10 kW",
+                note: "Investissement rentabilisé par la clim en été"
+            }
         },
         "Hauts-de-France": {
             intro: "Dans les Hauts-de-France, les hivers plus rigoureux nécessitent un dimensionnement adapté. Nos artisans lillois et amiénois maîtrisent les installations haute performance.",
@@ -72,7 +108,13 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "Nos installateurs certifiés RGE vous accompagnent dans le choix et l'installation de votre pompe à chaleur. Air-eau ou air-air, nous trouvons la solution adaptée à votre logement.",
             specialties: ["PAC air-eau", "PAC air-air", "Remplacement chaudière"],
             climate_note: "Une PAC permet de diviser par 3 votre facture de chauffage.",
-            local_tip: "Profitez des aides MaPrimeRénov' et CEE pour financer votre projet."
+            local_tip: "Profitez des aides MaPrimeRénov' et CEE pour financer votre projet.",
+            price_range: {
+                min: 8000,
+                max: 16000,
+                unit: "PAC air-eau 8-12 kW",
+                note: "Prix moyens 2026, avant déduction des aides"
+            }
         }
     },
     "isolation-exterieure": {

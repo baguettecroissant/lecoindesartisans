@@ -62,32 +62,32 @@ export default function Navbar() {
                         {/* Desktop Navigation */}
                         <div className="hidden md:flex items-center space-x-8">
                             {/* Services Dropdown */}
-                            <div className="relative">
+                            <div
+                                className="relative"
+                                onMouseEnter={() => setIsServicesOpen(true)}
+                                onMouseLeave={() => setIsServicesOpen(false)}
+                            >
                                 <button
-                                    onMouseEnter={() => setIsServicesOpen(true)}
-                                    onMouseLeave={() => setIsServicesOpen(false)}
                                     className={`flex items-center space-x-1 font-semibold transition-colors duration-300 ${useScrolledStyle ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
                                         }`}
                                 >
                                     <span>Services</span>
-                                    <ChevronDown className="w-4 h-4" />
+                                    <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""}`} />
                                 </button>
 
                                 {isServicesOpen && (
-                                    <div
-                                        onMouseEnter={() => setIsServicesOpen(true)}
-                                        onMouseLeave={() => setIsServicesOpen(false)}
-                                        className="absolute top-full left-1/2 -translate-x-1/2 w-64 bg-white shadow-xl rounded-xl py-3 mt-2 border border-gray-100 overflow-hidden"
-                                    >
-                                        {services.map((service) => (
-                                            <Link
-                                                key={service.id}
-                                                href={`/service/${service.slug}/paris`}
-                                                className="block px-6 py-2.5 text-gray-700 hover:bg-amber-50 hover:text-navy-900 transition-colors"
-                                            >
-                                                {service.name}
-                                            </Link>
-                                        ))}
+                                    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2">
+                                        <div className="w-64 bg-white shadow-xl rounded-xl py-3 border border-gray-100 overflow-hidden">
+                                            {services.map((service) => (
+                                                <Link
+                                                    key={service.id}
+                                                    href={`/service/${service.slug}/paris`}
+                                                    className="block px-6 py-2.5 text-gray-700 hover:bg-amber-50 hover:text-navy-900 transition-colors"
+                                                >
+                                                    {service.name}
+                                                </Link>
+                                            ))}
+                                        </div>
                                     </div>
                                 )}
                             </div>

@@ -151,8 +151,8 @@ export default function HomePage() {
               <div className="absolute -inset-4 bg-amber-100 rounded-[2rem] -rotate-2 scale-95" />
               <div className="relative bg-white p-4 rounded-[2rem] shadow-2xl border border-gray-100">
                 <Image
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800"
-                  alt="Artisan au travail"
+                  src="/images/how-it-works.png"
+                  alt="Couple de propriétaires discutant de leur projet de rénovation avec un artisan"
                   width={800}
                   height={500}
                   className="rounded-[1.5rem] w-full h-[500px] object-cover"

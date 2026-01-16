@@ -13,11 +13,15 @@ const inter = Inter({
 const settings = getSiteSettings();
 
 export const metadata: Metadata = {
+  metadataBase: new URL(`https://${settings.domain}`),
   title: "Le Coin des Artisans | Trouvez les meilleurs pros du bâtiment",
   description:
     "L'annuaire de confiance pour vos travaux et rénovations. Comparez 3 devis gratuits d'artisans vérifiés près de chez vous.",
   icons: {
     icon: "/favicon-custom.png",
+  },
+  alternates: {
+    canonical: "/",
   },
   keywords: [
     "devis travaux",
@@ -31,7 +35,6 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: settings.name }],
   creator: settings.name,
-  metadataBase: new URL(`https://${settings.domain}`),
   openGraph: {
     type: "website",
     locale: "fr_FR",
