@@ -35,16 +35,58 @@ export function getBlogCategories(): BlogCategory[] {
     return data.blog_categories;
 }
 
+const RELATED_SERVICES: Record<string, string[]> = {
+    "panneaux-solaires": ["pompe-a-chaleur", "isolation-exterieure", "toiture-couverture"],
+    "pompe-a-chaleur": ["panneaux-solaires", "isolation-exterieure", "plomberie-sanitaire"],
+    "isolation-exterieure": ["fenetres-menuiserie", "pompe-a-chaleur", "toiture-couverture"],
+    "fenetres-menuiserie": ["isolation-exterieure", "pompe-a-chaleur", "toiture-couverture"],
+    "toiture-couverture": ["isolation-exterieure", "panneaux-solaires", "fenetres-menuiserie"],
+    "plomberie-sanitaire": ["pompe-a-chaleur", "isolation-exterieure", "toiture-couverture"]
+};
+
 export function getNearbyCities(currentSlug: string, limit: number = 4): City[] {
-    const cities = data.sample_cities.filter((city) => city.slug !== currentSlug);
-    // Shuffle and return a subset to simulate nearby cities
-    const shuffled = cities.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, limit);
+    const currentCity = getCityBySlug(currentSlug);
+    const allCities = data.sample_cities.filter((city) => city.slug !== currentSlug);
+
+    if (!currentCity) {
+        // Fallback if current city not found (should not happen)
+        return allCities.sort(() => 0.5 - Math.random()).slice(0, limit);
+    }
+
+    // 1. Prioritize cities in the same region
+    const regionalCities = allCities.filter(c => c.region === currentCity.region);
+
+    // 2. If we stand have enough, return them
+    if (regionalCities.length >= limit) {
+        return regionalCities.sort(() => 0.5 - Math.random()).slice(0, limit);
+    }
+
+    // 3. Else, fill with other cities (prioritizing big hubs if possible, or random)
+    // Here we just take random others to fill the gap
+    const otherCities = allCities.filter(c => c.region !== currentCity.region);
+    const fillCount = limit - regionalCities.length;
+    const filler = otherCities.sort(() => 0.5 - Math.random()).slice(0, fillCount);
+
+    return [...regionalCities, ...filler];
 }
 
 export function getOtherServices(currentSlug: string, limit: number = 3): Service[] {
-    const services = data.services.filter((service) => service.slug !== currentSlug);
-    return services.slice(0, limit);
+    const relatedSlugs = RELATED_SERVICES[currentSlug] || [];
+
+    // Get the actual service objects for the related slugs
+    const relatedServices = data.services.filter(s => relatedSlugs.includes(s.slug));
+
+    // If we have enough related services, return them
+    if (relatedServices.length >= limit) {
+        return relatedServices.slice(0, limit);
+    }
+
+    // Otherwise fill with others (excluding current)
+    const otherServices = data.services.filter(
+        s => s.slug !== currentSlug && !relatedSlugs.includes(s.slug)
+    );
+
+    return [...relatedServices, ...otherServices].slice(0, limit);
 }
 
 // Generate SEO title by replacing {city} and {zip} placeholders

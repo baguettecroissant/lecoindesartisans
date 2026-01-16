@@ -967,6 +967,187 @@ En 2026, l'installation de menuiseries performantes par un artisan RGE vous ouvr
 
         ctaTitle: "Changez vos fenêtres au meilleur prix",
         ctaDescription: "Comparez 3 devis d'artisans menuisiers RGE de votre secteur. Qualibat et Garantie Décennale vérifiés."
+    },
+    "plomberie-sanitaire": {
+        slug: "plomberie-sanitaire",
+        tagline: "Dépannage d'urgence 24/7 et rénovation salle de bain : réactivité et qualité",
+
+        introduction: `La plomberie couvre deux besoins essentiels : le dépannage d'urgence (fuite d'eau, canalisation bouchée, chauffe-eau en panne) qui exige une réactivité immédiate, et les travaux de rénovation (création de salle de bain, installation de cuisine) qui demandent expertise et conseil.
+        
+En 2026, nos artisans plombiers partenaires s'engagent sur des tarifs transparents et des interventions rapides. Qu'il s'agisse de stopper un dégât des eaux ou de concevoir la salle de bain de vos rêves, vous bénéficiez du savoir-faire de professionnels qualifiés et assurés.`,
+
+        processTitle: "Comment se déroule une intervention ?",
+        processSteps: [
+            {
+                title: "Prise de contact rapide",
+                description: "Pour les urgences, nos artisans vous répondent 24/7. Pour les projets, nous convenons d'un rendez-vous sous 24h.",
+                duration: "Immédiat"
+            },
+            {
+                title: "Diagnostic sur place",
+                description: "Le plombier identifie l'origine précise de la fuite ou de la panne, ou étudie la faisabilité de votre projet de rénovation.",
+                duration: "30 min - 1h"
+            },
+            {
+                title: "Devis immédiat et transparent",
+                description: "Avant toute intervention, un devis clair est établi. Pas de mauvaise surprise sur le prix final.",
+                duration: "Sur place"
+            },
+            {
+                title: "Intervention et réparation",
+                description: "Réalisation des travaux avec des matériaux professionnels (cuivre, multicouche, marques reconnues) et respect des normes.",
+                duration: "Variable"
+            },
+            {
+                title: "Contrôle et nettoyage",
+                description: "Vérification de l'étanchéité, mise en eau et nettoyage de la zone de travail avant le départ.",
+                duration: "30 min"
+            }
+        ],
+
+        benefitsTitle: "Pourquoi nous faire confiance ?",
+        benefits: [
+            {
+                title: "Intervention < 2h",
+                description: "Pour les urgences fuites et débouchages, nos partenaires interviennent en priorité.",
+                icon: "⚡"
+            },
+            {
+                title: "Tarifs transparents",
+                description: "Fini les arnaques. Les prix sont annoncés avant travaux et respectent les grilles tarifaires.",
+                icon: "💰"
+            },
+            {
+                title: "Matériel Pro",
+                description: "Nous installons des marques reconnues pour leur fiabilité (Grohe, Geberit, Atlantic, Thermor).",
+                icon: "🔧"
+            },
+            {
+                title: "Garantie Décennale",
+                description: "Vos installations (douche, chauffe-eau, réseaux) sont couvertes par l'assurance de l'artisan.",
+                icon: "🛡️"
+            },
+            {
+                title: "Agrément Assurance",
+                description: "Nos devis détaillés facilitent vos démarches de remboursement en cas de sinistre.",
+                icon: "📝"
+            },
+            {
+                title: "Polyvalence",
+                description: "Un seul interlocuteur pour le dépannage, l'entretien annuel et vos projets de rénovation.",
+                icon: "🛠️"
+            }
+        ],
+
+        priceTableTitle: "Tarifs plomberie 2026 (Moyens constatés)",
+        priceTableNote: "Prix TTC hors pièces onéreuses. Majorations possibles soirs et weekends (50% à 100%).",
+        priceTable: [
+            {
+                option: "Recherche de fuite",
+                priceRange: "100€ - 250€",
+                details: "Inclus déplacement et diagnostic (souvent remboursé par assurance).",
+                recommended: true
+            },
+            {
+                option: "Débouchage canalisation",
+                priceRange: "90€ - 150€",
+                details: "Débouchage manuel ou furet électrique. Curage haute pression sur devis.",
+                recommended: false
+            },
+            {
+                option: "Remplacement Chauffe-eau",
+                priceRange: "800€ - 1500€",
+                details: "Fourniture et pose d'un ballon 150-200L (Atlantic/Thermor).",
+                recommended: false
+            },
+            {
+                option: "Remplacement Robinetterie",
+                priceRange: "120€ - 250€",
+                details: "Fourniture et pose d'un mitigeur évier ou lavabo standard.",
+                recommended: false
+            },
+            {
+                option: "Rénovation SDB complète",
+                priceRange: "3 000€ - 8 000€",
+                details: "Douche italienne, carrelage, meuble vasque (hors fournitures luxe).",
+                recommended: false
+            }
+        ],
+
+        comparisonTitle: "Urgence vs Rénovation",
+        comparisonOptions: ["Dépannage Urgence", "Rénovation Programmée"],
+        comparisonTable: [
+            {
+                criteria: "Délai intervention",
+                options: {
+                    "Dépannage Urgence": "Dans l'heure / < 4h ⚡",
+                    "Rénovation Programmée": "2 à 4 semaines"
+                }
+            },
+            {
+                criteria: "Tarification",
+                options: {
+                    "Dépannage Urgence": "Forfait déplacement + MO",
+                    "Rénovation Programmée": "Devis global forfaitaire"
+                }
+            },
+            {
+                criteria: "Majoration",
+                options: {
+                    "Dépannage Urgence": "Oui (Soir/WE) ⚠️",
+                    "Rénovation Programmée": "Non"
+                }
+            },
+            {
+                criteria: "Objectif",
+                options: {
+                    "Dépannage Urgence": "Réparation provisoire ou définitive",
+                    "Rénovation Programmée": "Amélioration durable & Esthétique"
+                }
+            },
+            {
+                criteria: "Prise en charge",
+                options: {
+                    "Dépannage Urgence": "Possible (Assurance Habitation)",
+                    "Rénovation Programmée": "A la charge du propriétaire"
+                }
+            }
+        ],
+
+        faqTitle: "Questions fréquentes plomberie",
+        faqs: [
+            {
+                question: "Quels sont les tarifs de nuit ou weekend ?",
+                answer: "En dehors des horaires classiques (8h-18h), les tarifs de main d'œuvre et déplacement sont généralement majorés de 50% à 100%. Demandez toujours le prix avant le déplacement."
+            },
+            {
+                question: "Mon assurance couvre-t-elle la recherche de fuite ?",
+                answer: "Oui, la plupart des contrats Multirisque Habitation (MRH) couvrent les frais de recherche de fuite destructive ou non. Contactez votre assureur dès la constatation du dégât des eaux."
+            },
+            {
+                question: "Comment lutter contre le calcaire ?",
+                answer: "Si votre eau est très dure (TH > 25°f), l'installation d'un adoucisseur d'eau est recommandée pour protéger vos appareils électroménagers, votre chauffe-eau et votre robinetterie, et pour le confort de votre peau."
+            },
+            {
+                question: "Quand faut-il faire détartrer son chauffe-eau ?",
+                answer: "Il est conseillé de faire vérifier et détartrer son chauffe-eau électrique tous les 2 à 3 ans (surtout en zone calcaire) pour maintenir son rendement et éviter la surconsommation électrique."
+            },
+            {
+                question: "Que faire en cas de fuite d'eau importante ?",
+                answer: "1. Coupez l'arrivée d'eau générale (souvent avant le compteur). 2. Coupez l'électricité si l'eau est proche de prises. 3. Épongez pour limiter les dégâts. 4. Appelez un plombier pour le dépannage."
+            },
+            {
+                question: "Réparez-vous les sanibroyeurs ?",
+                answer: "Oui, nos plombiers interviennent sur les WC classiques et les broyeurs. Attention, ne jetez jamais de lingettes ou produits hygiéniques dans un sanibroyeur, c'est la cause n°1 des pannes."
+            },
+            {
+                question: "Faites-vous la recherche de fuite non destructive ?",
+                answer: "Oui, nos partenaires sont équipés de caméras thermiques, gaz traceur ou écoute électro-acoustique pour localiser une fuite encastrée sans tout casser."
+            }
+        ],
+
+        ctaTitle: "Urgence ou projet plomberie ?",
+        ctaDescription: "Trouvez un plombier disponible immédiatement ou obtenez 3 devis pour votre rénovation de salle de bain."
     }
 };
 
