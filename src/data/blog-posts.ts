@@ -2,6 +2,380 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prix-panneaux-solaires-3kwc-6kwc-9kwc",
+    title: "Prix Installation Panneaux Solaires 3kWc, 6kWc et 9kWc : Devis Types 2026",
+    excerpt: "Découvrez le prix réel des panneaux solaires en 2026 : de 7 000€ à 20 000€ selon la puissance. Comparatif 3kWc, 6kWc et 9kWc, aides, rentabilité et conseils pour votre projet.",
+    content: `
+      <p><strong>Vous envisagez d'installer des panneaux solaires en 2026 ?</strong> Avec la hausse continue des prix de l'électricité et les aides toujours disponibles, c'est le moment idéal pour passer au photovoltaïque. Mais quel budget prévoir ? Quelle puissance choisir entre 3kWc, 6kWc et 9kWc ?</p>
+      
+      <p>Dans ce guide complet, nous vous révélons les <strong>prix réels constatés en 2026</strong> pour chaque puissance, les aides disponibles, et comment calculer la rentabilité de votre projet. Toutes nos données proviennent des devis collectés auprès de nos artisans partenaires certifiés RGE.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs certifiés près de chez vous.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-par-puissance">Prix des panneaux solaires par puissance</a></li>
+        <li><a href="#quelle-puissance-choisir">Quelle puissance choisir pour votre maison ?</a></li>
+        <li><a href="#composition-prix">Ce qui est inclus dans le prix</a></li>
+        <li><a href="#aides-2026">Les aides financières en 2026</a></li>
+        <li><a href="#rentabilite">Calcul de rentabilité par puissance</a></li>
+        <li><a href="#facteurs-prix">Ce qui fait varier le prix</a></li>
+        <li><a href="#erreurs">Les erreurs à éviter</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-par-puissance">Prix des panneaux solaires par puissance en 2026</h2>
+      
+      <p>Voici les <strong>fourchettes de prix réelles</strong> constatées pour une installation photovoltaïque complète en autoconsommation avec vente du surplus :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: left;">Nombre de panneaux</th>
+            <th style="padding: 12px; text-align: left;">Surface toiture</th>
+            <th style="padding: 12px; text-align: left;">Prix pose comprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 kWc</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">8 panneaux</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">16-18 m²</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>7 000€ - 10 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>6 kWc</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">15-16 panneaux</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">30-35 m²</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>12 000€ - 17 000€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>9 kWc</strong></td>
+            <td style="padding: 12px;">22-24 panneaux</td>
+            <td style="padding: 12px;">45-50 m²</td>
+            <td style="padding: 12px;"><strong>17 000€ - 23 000€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces prix incluent tout : panneaux, onduleur, pose, raccordement Enedis et mise en service. Si on vous propose un tarif au kWc inférieur à 2 000€, méfiez-vous : il manque probablement des éléments essentiels.</p>
+      </blockquote>
+
+      <h2 id="quelle-puissance-choisir">Quelle puissance choisir pour votre maison ?</h2>
+      
+      <p>Le choix de la puissance dépend de votre <strong>consommation électrique annuelle</strong> et de votre objectif (autoconsommation ou revente) :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Votre profil</th>
+            <th style="padding: 12px; text-align: left;">Consommation/an</th>
+            <th style="padding: 12px; text-align: left;">Puissance recommandée</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Couple sans enfant, petit logement</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">3 000 - 5 000 kWh</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 kWc</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Famille 4 personnes, maison 100-120m²</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">6 000 - 10 000 kWh</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>6 kWc</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">Grande famille, maison >130m², véhicule électrique</td>
+            <td style="padding: 12px;">> 10 000 kWh</td>
+            <td style="padding: 12px;"><strong>9 kWc</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Installation 3 kWc : l'essentiel pour démarrer</h3>
+      <ul>
+        <li>Idéale pour les <strong>petits consommateurs</strong> ou budgets serrés</li>
+        <li>Production moyenne : <strong>3 200 à 3 800 kWh/an</strong> selon la région</li>
+        <li>Couvre environ 50% des besoins d'un foyer moyen</li>
+        <li>Investissement limité avec retour rapide</li>
+      </ul>
+
+      <h3>Installation 6 kWc : le meilleur rapport qualité-prix</h3>
+      <ul>
+        <li><strong>La puissance la plus installée en France</strong></li>
+        <li>Production moyenne : <strong>6 500 à 7 500 kWh/an</strong></li>
+        <li>Couvre 70-90% des besoins d'une famille standard</li>
+        <li>Revente du surplus intéressante (200-400€/an)</li>
+      </ul>
+
+      <h3>Installation 9 kWc : pour maximiser l'autonomie</h3>
+      <ul>
+        <li>Adaptée aux <strong>grosses consommations</strong> ou projets futurs (voiture électrique)</li>
+        <li>Production moyenne : <strong>9 500 à 11 000 kWh/an</strong></li>
+        <li>Possibilité de revente importante du surplus</li>
+        <li>Amortissement sur le long terme très avantageux</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre consommation en 2 min et recevez des estimations personnalisées.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="composition-prix">Ce qui est inclus dans le prix d'une installation</h2>
+      
+      <p>Un devis de panneaux solaires complet doit inclure :</p>
+      
+      <ul>
+        <li><strong>Les panneaux photovoltaïques</strong> : 40-50% du budget total</li>
+        <li><strong>L'onduleur ou micro-onduleurs</strong> : 15-20% du budget</li>
+        <li><strong>Le système de montage</strong> (rails, fixations) : 5-10%</li>
+        <li><strong>Le câblage et protections électriques</strong> : 5%</li>
+        <li><strong>La main-d'œuvre et pose</strong> : 20-30%</li>
+        <li><strong>Les démarches administratives</strong> : raccordement Enedis, déclaration préalable</li>
+        <li><strong>La mise en service et garanties</strong></li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention aux devis incomplets</strong><br/>
+        Certains installateurs affichent des prix attractifs mais oublient le raccordement (1 500€) ou les démarches Enedis. Exigez toujours un devis "clé en main" tout inclus.</p>
+      </blockquote>
+
+      <h2 id="aides-2026">Les aides financières pour les panneaux solaires en 2026</h2>
+      
+      <p>Bonne nouvelle : les panneaux solaires bénéficient encore de plusieurs aides cumulables. Voici ce que vous pouvez obtenir selon votre installation :</p>
+      
+      <h3>Prime à l'autoconsommation</h3>
+      <p>Versée sur 5 ans par EDF Obligation d'Achat :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: left;">Prime totale</th>
+            <th style="padding: 12px; text-align: left;">Versement/an</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">≤ 3 kWc</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>1 140€</strong> (380€/kWc)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">228€</td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">3 - 9 kWc</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>1 710€ - 2 565€</strong> (285€/kWc)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">342€ - 513€</td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px;">9 - 36 kWc</td>
+            <td style="padding: 12px;"><strong>Selon puissance</strong> (200€/kWc)</td>
+            <td style="padding: 12px;">Variable</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Tarif de rachat du surplus</h3>
+      <p>EDF OA vous rachète l'électricité que vous ne consommez pas :</p>
+      <ul>
+        <li>Installation ≤ 9 kWc : <strong>0,1276€/kWh</strong> (tarif 2026)</li>
+        <li>Contrat garanti sur <strong>20 ans</strong></li>
+      </ul>
+
+      <h3>TVA à taux réduit</h3>
+      <ul>
+        <li>Installation ≤ 3 kWc : <strong>TVA à 10%</strong> au lieu de 20%</li>
+        <li>Installation > 3 kWc : TVA à 20% standard</li>
+      </ul>
+
+      <h3>Exonération fiscale</h3>
+      <p>Les revenus de la vente d'électricité sont <strong>exonérés d'impôt</strong> pour les installations ≤ 3 kWc raccordées au réseau.</p>
+
+      <p>Pour connaître toutes les aides disponibles, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet des aides 2026</a>.</p>
+
+      <h2 id="rentabilite">Calcul de rentabilité par puissance</h2>
+      
+      <p>Voici des simulations réalistes pour une maison en région parisienne (orientation sud, inclinaison 30°) :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">3 kWc</th>
+            <th style="padding: 12px; text-align: center;">6 kWc</th>
+            <th style="padding: 12px; text-align: center;">9 kWc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prix moyen TTC</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prime autoconsommation</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">- 1 140€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">- 1 710€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">- 2 565€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Coût net</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>7 360€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>12 790€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>17 435€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Production/an</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 400 kWh</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 800 kWh</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 200 kWh</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Économies/an (70% autoconso)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">550€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">950€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 300€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Revente surplus/an</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">130€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">260€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">390€</td>
+          </tr>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gain total/an</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>680€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1 210€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1 690€</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px;"><strong>Retour sur investissement</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>11 ans</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>10-11 ans</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>10-11 ans</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Le saviez-vous ?</strong><br/>
+        Avec la hausse du prix de l'électricité (+15% en 2024, +10% prévu en 2025), le retour sur investissement s'accélère chaque année. Une installation à 6 kWc financée en 2026 sera rentabilisée avant 2036.</p>
+      </blockquote>
+
+      <h2 id="facteurs-prix">Ce qui fait varier le prix de votre installation</h2>
+      
+      <p>Pourquoi les devis peuvent varier du simple au double ? Plusieurs facteurs influencent le tarif :</p>
+      
+      <h3>1. Le type de panneau</h3>
+      <ul>
+        <li><strong>Monocristallin standard</strong> (18-20% rendement) : prix marché</li>
+        <li><strong>Monocristallin haute performance</strong> (21-23%) : +10-15%</li>
+        <li><strong>Panneaux bi-faciaux</strong> : +15-20%</li>
+      </ul>
+
+      <h3>2. Le type d'onduleur</h3>
+      <ul>
+        <li><strong>Onduleur string</strong> (centralisé) : moins cher, sensible aux ombrages</li>
+        <li><strong>Micro-onduleurs</strong> (un par panneau) : +500€ à +1 500€, meilleur rendement</li>
+        <li><strong>Optimiseurs de puissance</strong> : solution intermédiaire</li>
+      </ul>
+
+      <h3>3. La complexité de la toiture</h3>
+      <ul>
+        <li>Toiture simple (tuiles plates, 1 pan) : prix standard</li>
+        <li>Toiture complexe (ardoises, multi-pans) : +10-20%</li>
+        <li>Toiture difficile d'accès : +500€ à +1 500€</li>
+      </ul>
+
+      <h3>4. La marque des équipements</h3>
+      <ul>
+        <li><strong>Entrée de gamme</strong> (Longi, Trina Solar) : prix compétitif</li>
+        <li><strong>Milieu de gamme</strong> (JA Solar, Canadian Solar) : bon rapport qualité-prix</li>
+        <li><strong>Premium</strong> (SunPower, LG, REC) : +20-30%, garanties étendues</li>
+      </ul>
+
+      <h2 id="erreurs">Les erreurs à éviter pour votre projet solaire</h2>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">🚩 Erreur fréquente</th>
+            <th style="padding: 12px; text-align: left;">💡 Notre conseil</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Surdimensionner l'installation</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Adapter la puissance à votre consommation réelle</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Choisir sur le prix seul</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Vérifier garanties, SAV et réputation</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Oublier la visite technique</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Exiger une étude de faisabilité sur place</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Négliger l'orientation</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Sud idéal, Est/Ouest acceptable (-15%)</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px;"><strong>Ignorer les ombrages</strong></td>
+            <td style="padding: 12px;">Un ombrage partiel peut réduire de 20-30% la production</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusion : quel budget prévoir pour vos panneaux solaires ?</h2>
+      
+      <p><strong>En 2026, les panneaux solaires représentent un investissement rentable</strong> avec un retour sur investissement de 10 à 12 ans et une durée de vie de 30 ans minimum. Le choix de la puissance dépend de votre consommation :</p>
+      
+      <ul>
+        <li><strong>3 kWc (7 000€ - 10 000€)</strong> : idéal pour débuter ou petits consommateurs</li>
+        <li><strong>6 kWc (12 000€ - 17 000€)</strong> : le meilleur compromis pour la majorité des foyers</li>
+        <li><strong>9 kWc (17 000€ - 23 000€)</strong> : pour les grosses consommations et l'anticipation (voiture électrique)</li>
+      </ul>
+      
+      <p>Notre conseil : demandez plusieurs devis pour comparer les offres et vérifiez toujours la certification RGE de l'installateur (obligatoire pour les primes) et sa réputation locale.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet solaire ?</strong><br/>
+        Comparez les devis d'installateurs certifiés RGE dans votre ville.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Prix des panneaux solaires</h2>
+      
+      <h3>Quel est le prix des panneaux solaires 6kWc en 2026 ?</h3>
+      <p>Le prix d'une installation photovoltaïque de <strong>6 kWc coûte entre 12 000€ et 17 000€</strong> pose comprise en 2026. Ce tarif inclut les panneaux, l'onduleur, la pose et le raccordement. Après déduction de la prime à l'autoconsommation (environ 1 710€), le coût net est de 10 300€ à 15 300€.</p>
+      
+      <h3>Combien rapporte une installation de 6 kWc par an ?</h3>
+      <p>Une installation de 6 kWc en autoconsommation avec revente du surplus rapporte environ <strong>1 000€ à 1 300€ par an</strong> : économies sur la facture (700-900€) + revente du surplus (200-400€). Le retour sur investissement est atteint en 10-12 ans.</p>
+      
+      <h3>Vaut-il mieux 3kWc ou 6kWc ?</h3>
+      <p>Cela dépend de votre consommation. Pour un foyer consommant moins de 5 000 kWh/an, <strong>3 kWc suffit</strong>. Au-delà, le <strong>6 kWc offre un meilleur rapport qualité-prix</strong> et permet d'anticiper une augmentation des besoins (véhicule électrique, climatisation).</p>
+      
+      <h3>Quelle surface de toiture faut-il pour 6kWc ?</h3>
+      <p>Il faut compter environ <strong>30 à 35 m² de toiture orientée sud</strong> pour une installation de 6 kWc (15-16 panneaux de ~2m² chacun). Une orientation Est-Ouest est possible mais réduit la production de 10-15%.</p>
+      
+      <h3>Les panneaux solaires sont-ils rentables dans le Nord de la France ?</h3>
+      <p>Oui, mais avec <strong>15-20% de production en moins</strong> qu'au sud. Une installation à Lille produit environ 5 500 kWh/an (vs 7 000 kWh à Nice) pour 6 kWc. L'investissement reste rentable sous 12-14 ans. La différence de prix d'achat de l'électricité compense partiellement.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-16",
+    readingTime: "14 min",
+    image: "/images/blog/prix-panneaux-solaires.png"
+  },
+  {
     slug: "pompe-a-chaleur-1-euro-arnaque-2026",
     title: "Pompe à Chaleur 1€ : Est-ce encore possible en 2026 ou est-ce une arnaque ?",
     excerpt: "La PAC à 1€ n'existe plus depuis 2021. Découvrez pourquoi cette offre était une arnaque, quelles sont les vraies aides disponibles en 2026 et comment éviter les pièges du démarchage.",
