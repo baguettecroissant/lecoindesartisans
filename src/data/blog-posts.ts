@@ -2,6 +2,475 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prix-refection-toiture-100m2-tuiles-ardoise-zinc",
+    title: "Prix Réfection Toiture 100m² : Tuiles, Ardoise, Zinc (Exemples de Devis 2026)",
+    excerpt: "Découvrez le budget réel pour refaire une toiture de 100m² en 2026 : de 8 000€ à 25 000€ selon le matériau. Comparatif tuiles, ardoise et zinc avec exemples de devis détaillés.",
+    content: `
+      <p><strong>Votre toiture montre des signes de fatigue ?</strong> Fuites, tuiles cassées, mousse envahissante... Après 25-30 ans, une réfection complète devient inévitable. Mais quel budget prévoir pour refaire une toiture de 100m² ? Tuiles, ardoise ou zinc : quel matériau choisir ?</p>
+      
+      <p>Dans ce guide complet, nous vous révélons les <strong>prix réels constatés en 2026</strong> pour chaque type de couverture, avec des exemples de devis détaillés et les aides disponibles. Toutes nos données proviennent des chantiers réalisés par nos artisans couvreurs partenaires.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions de couvreurs qualifiés près de chez vous.<br/>
+        <a href="/service/toiture-couverture/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-materiaux">Prix réfection toiture 100m² par matériau</a></li>
+        <li><a href="#exemple-devis-tuiles">Exemple de devis : toiture tuiles 100m²</a></li>
+        <li><a href="#exemple-devis-ardoise">Exemple de devis : toiture ardoise 100m²</a></li>
+        <li><a href="#exemple-devis-zinc">Exemple de devis : toiture zinc 100m²</a></li>
+        <li><a href="#composition-prix">Ce qui est compris dans le prix</a></li>
+        <li><a href="#facteurs-prix">Ce qui fait varier le prix</a></li>
+        <li><a href="#aides-2026">Les aides disponibles en 2026</a></li>
+        <li><a href="#quand-refaire">Quand refaire sa toiture ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-materiaux">Prix réfection toiture 100m² par matériau en 2026</h2>
+      
+      <p>Voici les <strong>fourchettes de prix réelles</strong> constatées pour une réfection complète de toiture de 100m² (dépose ancienne couverture + fourniture + pose) :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Matériau</th>
+            <th style="padding: 12px; text-align: left;">Prix au m²</th>
+            <th style="padding: 12px; text-align: left;">Prix pour 100m²</th>
+            <th style="padding: 12px; text-align: left;">Durée de vie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Tuiles terre cuite</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">80€ - 120€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>8 000€ - 12 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">50-70 ans</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Tuiles béton</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">60€ - 90€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>6 000€ - 9 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">30-40 ans</td>
+          </tr>
+          <tr style="background: #e0e7ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Ardoise naturelle</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">140€ - 200€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>14 000€ - 20 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">80-100 ans</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Ardoise synthétique</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">90€ - 130€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>9 000€ - 13 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">30-50 ans</td>
+          </tr>
+          <tr style="background: #d1d5db;">
+            <td style="padding: 12px;"><strong>Zinc</strong></td>
+            <td style="padding: 12px;">180€ - 250€</td>
+            <td style="padding: 12px;"><strong>18 000€ - 25 000€</strong></td>
+            <td style="padding: 12px;">80-100 ans</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces prix incluent la dépose de l'ancienne couverture, l'écran sous-toiture, la fourniture et la pose des nouveaux matériaux. La charpente est supposée saine. Si des réparations sont nécessaires, comptez 30€ à 100€/m² supplémentaires.</p>
+      </blockquote>
+
+      <h2 id="exemple-devis-tuiles">Exemple de devis : réfection toiture tuiles 100m²</h2>
+      
+      <p>Voici un <strong>exemple de devis réel</strong> pour une réfection complète de toiture en tuiles terre cuite sur une maison de plain-pied en Île-de-France :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste</th>
+            <th style="padding: 12px; text-align: left;">Détail</th>
+            <th style="padding: 12px; text-align: right;">Prix HT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Installation chantier</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Échafaudage + protection</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">850€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Dépose ancienne couverture</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">100m² tuiles + évacuation</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 200€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Écran sous-toiture HPV</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Membrane respirante + liteaux</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 800€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Tuiles terre cuite</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Tuiles canal romane (fourniture)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">3 500€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pose tuiles</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Main-d'œuvre pose complète</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">2 800€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Faîtage + arêtiers</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Tuiles faîtières + scellement</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">650€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Zinguerie</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Gouttières + descentes</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 100€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Total HT</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"></td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>11 900€</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px;"><strong>Total TTC (TVA 10%)</strong></td>
+            <td style="padding: 12px;"></td>
+            <td style="padding: 12px; text-align: right;"><strong>13 090€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="exemple-devis-ardoise">Exemple de devis : réfection toiture ardoise 100m²</h2>
+      
+      <p>Voici un exemple pour une toiture en <strong>ardoise naturelle d'Espagne</strong> sur une maison en Bretagne :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste</th>
+            <th style="padding: 12px; text-align: left;">Détail</th>
+            <th style="padding: 12px; text-align: right;">Prix HT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Installation chantier</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Échafaudage + protection</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">950€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Dépose ancienne couverture</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">100m² ardoises + évacuation</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 500€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Écran sous-toiture HPV</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Membrane respirante + voligeage</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">2 200€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ardoises naturelles</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ardoise Espagne 32x22 (fourniture)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">5 500€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pose ardoises</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pose au crochet inox</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">4 200€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Faîtage zinc</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Faîtière zinc + closoirs</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">850€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Zinguerie complète</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Gouttières zinc + noues + raccords</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 800€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Total HT</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"></td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>17 000€</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px;"><strong>Total TTC (TVA 10%)</strong></td>
+            <td style="padding: 12px;"></td>
+            <td style="padding: 12px; text-align: right;"><strong>18 700€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre toiture ?</strong><br/>
+        Décrivez votre projet et recevez des estimations personnalisées de couvreurs locaux.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="exemple-devis-zinc">Exemple de devis : réfection toiture zinc 100m²</h2>
+      
+      <p>Le zinc est le matériau le plus haut de gamme. Voici un exemple pour une <strong>toiture zinc à joint debout</strong> sur un pavillon parisien :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste</th>
+            <th style="padding: 12px; text-align: left;">Détail</th>
+            <th style="padding: 12px; text-align: right;">Prix HT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Installation chantier</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Échafaudage + bâchage</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 100€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Dépose ancienne couverture</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">100m² + évacuation déchets</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 400€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Voligeage + pare-vapeur</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Support bois + membrane</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">2 800€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Zinc VM Quartz</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Zinc prépatiné 0.7mm (fourniture)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">7 500€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pose joint debout</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pose technique traditionnelle</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">6 500€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Faîtage + rives</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Finitions zinc</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 200€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Évacuation eaux pluviales</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Gouttières + descentes zinc</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">2 000€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Total HT</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"></td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>22 500€</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px;"><strong>Total TTC (TVA 10%)</strong></td>
+            <td style="padding: 12px;"></td>
+            <td style="padding: 12px; text-align: right;"><strong>24 750€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="composition-prix">Ce qui est compris dans le prix d'une réfection</h2>
+      
+      <p>Un devis de réfection de toiture complet doit inclure :</p>
+      
+      <ul>
+        <li><strong>L'installation de chantier</strong> : échafaudage, protections, signalisation</li>
+        <li><strong>La dépose de l'ancienne couverture</strong> : démontage + évacuation en déchetterie</li>
+        <li><strong>L'écran sous-toiture</strong> : membrane HPV obligatoire depuis les DTU</li>
+        <li><strong>Le lattage/voligeage</strong> : support de la nouvelle couverture</li>
+        <li><strong>La fourniture des matériaux</strong> : tuiles, ardoises ou zinc</li>
+        <li><strong>La pose complète</strong> : main-d'œuvre qualifiée</li>
+        <li><strong>Les finitions</strong> : faîtage, rives, arêtiers, noues</li>
+        <li><strong>La zinguerie</strong> : gouttières, descentes, raccords</li>
+        <li><strong>Le nettoyage</strong> : chantier rendu propre</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention aux devis incomplets</strong><br/>
+        Méfiez-vous des devis anormalement bas qui oublient l'échafaudage (800-1 500€), l'écran sous-toiture (1 500-2 500€) ou l'évacuation des déchets (500-1 000€). Exigez toujours un devis détaillé poste par poste.</p>
+      </blockquote>
+
+      <h2 id="facteurs-prix">Ce qui fait varier le prix de votre toiture</h2>
+      
+      <p>Pourquoi les devis peuvent varier de 30 à 50% pour la même surface ? Voici les facteurs clés :</p>
+      
+      <h3>1. Le type de matériau</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Matériau</th>
+            <th style="padding: 12px; text-align: left;">Avantages</th>
+            <th style="padding: 12px; text-align: left;">Inconvénients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Tuiles terre cuite</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Rapport qualité/prix, esthétique, 50-70 ans</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Poids (charpente solide)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Ardoise naturelle</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Durée de vie 100 ans, élégance, résistance</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prix élevé, pose technique</td>
+          </tr>
+          <tr style="background: #d1d5db;">
+            <td style="padding: 12px;"><strong>Zinc</strong></td>
+            <td style="padding: 12px;">Étanchéité parfaite, 100 ans, légèreté</td>
+            <td style="padding: 12px;">Prix très élevé, artisan spécialisé</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2. L'état de la charpente</h3>
+      <ul>
+        <li><strong>Charpente saine</strong> : pas de surcoût</li>
+        <li><strong>Traitement préventif</strong> : +500€ à +1 500€</li>
+        <li><strong>Remplacement partiel</strong> : +2 000€ à +5 000€</li>
+        <li><strong>Charpente à refaire</strong> : +8 000€ à +15 000€</li>
+      </ul>
+
+      <h3>3. La complexité du toit</h3>
+      <ul>
+        <li><strong>Toit simple 2 pans</strong> : prix standard</li>
+        <li><strong>Toit 4 pans ou plus</strong> : +15-25%</li>
+        <li><strong>Présence de lucarnes</strong> : +1 000€ à +3 000€ par lucarne</li>
+        <li><strong>Velux à intégrer</strong> : +500€ à +1 500€ par fenêtre</li>
+      </ul>
+
+      <h3>4. L'accessibilité</h3>
+      <ul>
+        <li><strong>Maison plain-pied</strong> : prix standard</li>
+        <li><strong>Maison à étage</strong> : +10-15% (échafaudage plus haut)</li>
+        <li><strong>Accès difficile</strong> : +500€ à +2 000€</li>
+      </ul>
+
+      <h2 id="aides-2026">Les aides disponibles pour refaire sa toiture en 2026</h2>
+      
+      <p>La réfection de toiture seule n'est pas éligible à MaPrimeRénov'. Cependant, vous pouvez bénéficier d'aides si vous <strong>profitez des travaux pour isoler</strong> :</p>
+      
+      <h3>MaPrimeRénov' (avec isolation)</h3>
+      <p>Si vous isolez sous rampants ou par l'extérieur lors de la réfection :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil</th>
+            <th style="padding: 12px; text-align: left;">Aide isolation toiture</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🔵 Très modeste</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>25€/m²</strong></td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟡 Modeste</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>20€/m²</strong></td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟣 Intermédiaire</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>15€/m²</strong></td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;">🌸 Aisé</td>
+            <td style="padding: 12px;"><strong>7€/m²</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Autres aides cumulables</h3>
+      <ul>
+        <li><strong>CEE (Certificats d'Économies d'Énergie)</strong> : 10€ à 25€/m² pour l'isolation</li>
+        <li><strong>TVA réduite à 10%</strong> : applicable sur la réfection (logement > 2 ans)</li>
+        <li><strong>Éco-PTZ</strong> : jusqu'à 30 000€ à taux zéro si isolation incluse</li>
+        <li><strong>Aides locales</strong> : certaines régions aident la rénovation du bâti ancien</li>
+      </ul>
+
+      <p>Pour en savoir plus, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet des aides 2026</a>.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Astuce budget</strong><br/>
+        Profitez de la réfection pour ajouter une isolation sous toiture. Le surcoût de 50€ à 80€/m² sera en grande partie couvert par les aides, et vous ferez des économies d'énergie durables.</p>
+      </blockquote>
+
+      <h2 id="quand-refaire">Quand faut-il refaire sa toiture ?</h2>
+      
+      <p>Voici les <strong>signes qui doivent vous alerter</strong> :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">🚩 Signe d'alerte</th>
+            <th style="padding: 12px; text-align: left;">💡 Action recommandée</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fuites récurrentes</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Réfection urgente</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Tuiles/ardoises cassées (>20%)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Réfection à prévoir sous 1-2 ans</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mousse/lichen envahissant</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Démoussage ou réfection si trop ancien</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Toiture > 30 ans (tuiles)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Faire diagnostiquer par un pro</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px;"><strong>Traces d'humidité dans les combles</strong></td>
+            <td style="padding: 12px;">Inspection urgente</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusion : quel budget prévoir pour refaire votre toiture ?</h2>
+      
+      <p>En 2026, le budget pour <strong>refaire une toiture de 100m²</strong> varie significativement selon le matériau choisi :</p>
+      
+      <ul>
+        <li><strong>Tuiles terre cuite</strong> : 8 000€ à 12 000€ – Le meilleur rapport qualité-prix</li>
+        <li><strong>Ardoise naturelle</strong> : 14 000€ à 20 000€ – Durabilité exceptionnelle</li>
+        <li><strong>Zinc</strong> : 18 000€ à 25 000€ – Haut de gamme, étanchéité parfaite</li>
+      </ul>
+      
+      <p>Notre conseil : demandez <strong>au minimum 3 devis détaillés</strong> à des couvreurs locaux pour comparer les offres. Vérifiez leur assurance décennale et leurs références sur des chantiers similaires.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet de toiture ?</strong><br/>
+        Comparez les devis de couvreurs qualifiés dans votre ville.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Prix réfection toiture</h2>
+      
+      <h3>Quel est le prix pour refaire une toiture de 100m² en tuiles ?</h3>
+      <p>Le prix pour refaire une toiture de 100m² en <strong>tuiles terre cuite coûte entre 8 000€ et 12 000€ TTC</strong> en 2026, soit 80€ à 120€/m² pose comprise. Ce tarif inclut la dépose, l'écran sous-toiture, les tuiles neuves, la pose et la zinguerie.</p>
+      
+      <h3>Combien coûte une toiture en ardoise pour 100m² ?</h3>
+      <p>Une réfection de toiture de 100m² en <strong>ardoise naturelle coûte entre 14 000€ et 20 000€ TTC</strong>. L'ardoise d'Espagne est moins chère (140€/m²) que l'ardoise d'Angers (180-200€/m²). La durée de vie de 80-100 ans justifie cet investissement.</p>
+      
+      <h3>Quelle est la durée des travaux pour refaire une toiture ?</h3>
+      <p>Comptez <strong>1 à 2 semaines</strong> pour une toiture de 100m² en conditions normales. Les tuiles se posent plus vite (5-7 jours) que l'ardoise (8-10 jours) ou le zinc (10-14 jours). La météo peut prolonger le chantier.</p>
+      
+      <h3>La réfection de toiture est-elle éligible aux aides ?</h3>
+      <p>La réfection seule n'est pas aidée. En revanche, si vous <strong>ajoutez une isolation</strong> lors des travaux, vous pouvez bénéficier de MaPrimeRénov' (15-25€/m²), des CEE et de l'éco-PTZ. C'est le moment idéal pour isoler à moindre coût.</p>
+      
+      <h3>Faut-il un permis de construire pour refaire sa toiture ?</h3>
+      <p>Non, une <strong>déclaration préalable de travaux</strong> suffit dans la plupart des cas. Un permis n'est nécessaire que si vous modifiez la structure (surélévation) ou l'aspect extérieur (changement de matériau en zone protégée).</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-16",
+    readingTime: "15 min",
+    image: "/images/blog/prix-refection-toiture.png"
+  },
+  {
     slug: "prix-panneaux-solaires-3kwc-6kwc-9kwc",
     title: "Prix Installation Panneaux Solaires 3kWc, 6kWc et 9kWc : Devis Types 2026",
     excerpt: "Découvrez le prix réel des panneaux solaires en 2026 : de 7 000€ à 20 000€ selon la puissance. Comparatif 3kWc, 6kWc et 9kWc, aides, rentabilité et conseils pour votre projet.",
