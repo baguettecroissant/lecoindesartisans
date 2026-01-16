@@ -595,6 +595,378 @@ En 2026, l'ITE bénéficie d'aides massives (MaPrimeRénov', CEE) et permet d'am
 
         ctaTitle: "Isolez votre maison par l'extérieur",
         ctaDescription: "Recevez jusqu'à 3 devis gratuits d'artisans RGE qualifiés. Diagnostic thermique et simulation des aides inclus."
+    },
+    "toiture-couverture": {
+        slug: "toiture-couverture",
+        tagline: "Rénovation, étanchéité et zinguerie : protégez votre maison pour 30 ans",
+
+        introduction: `Votre toiture est le premier rempart de votre maison contre les intempéries. Une couverture en bon état garantit l'étanchéité, l'isolation et la valeur de votre patrimoine.
+        
+En 2026, les normes d'isolation et d'étanchéité se sont renforcées. Nos couvreurs-zingueurs certifiés interviennent pour tout type de travaux : du simple démoussage à la rénovation complète, en passant par la pose de fenêtres de toit et les travaux de zinguerie (gouttières, abergements).`,
+
+        processTitle: "Déroulement de votre chantier toiture",
+        processSteps: [
+            {
+                title: "Diagnostic toiture gratuit",
+                description: "Inspection complète : état des tuiles/ardoises, étanchéité, charpente, zinguerie et isolation. Photos par drone si nécessaire.",
+                duration: "1h sur place"
+            },
+            {
+                title: "Devis et choix des matériaux",
+                description: "Conseils sur les matériaux (terre cuite, ardoise, zinc) adaptés à votre PLU (Plan Local d'Urbanisme) et votre budget.",
+                duration: "48h"
+            },
+            {
+                title: "Sécurisation et échafaudage",
+                description: "Installation des protections collectives, lignes de vie et échafaudages pour un chantier en toute sécurité.",
+                duration: "1 jour"
+            },
+            {
+                title: "Travaux de couverture",
+                description: "Dépose de l'ancienne couverture, vérification des liteaux, pose du nouvel écran sous-toiture et des matériaux de couverture.",
+                duration: "1-3 semaines"
+            },
+            {
+                title: "Zinguerie et finitions",
+                description: "Pose des gouttières, solins, faîtages et abergements de cheminée pour une étanchéité parfaite. Nettoyage du chantier.",
+                duration: "2-3 jours"
+            }
+        ],
+
+        benefitsTitle: "Pourquoi rénover votre toiture ?",
+        benefits: [
+            {
+                title: "Étanchéité parfaite",
+                description: "Fini les infiltrations et les dégâts des eaux. Votre maison est saine et protégée.",
+                icon: "💧"
+            },
+            {
+                title: "Meilleure isolation",
+                description: "30% de la chaleur s'échappe par le toit. Une rénovation améliore votre confort thermique.",
+                icon: "thermometer"
+            },
+            {
+                title: "Valorisation immobilière",
+                description: "Une toiture neuve est un argument de vente majeur qui rassure les acheteurs.",
+                icon: "🏠"
+            },
+            {
+                title: "Esthétique retrouvée",
+                description: "Redonnez du cachet à votre maison avec des matériaux neufs et modernes.",
+                icon: "✨"
+            },
+            {
+                title: "Longévité accrue",
+                description: "Des matériaux de qualité (tuiles, zinc) durent 30 à 50 ans, voire 100 ans pour l'ardoise.",
+                icon: "⏳"
+            },
+            {
+                title: "Sécurité",
+                description: "Évitez les chutes de tuiles et les risques liés à une charpente fragilisée.",
+                icon: "🛡️"
+            }
+        ],
+
+        priceTableTitle: "Prix couverture et toiture en 2026",
+        priceTableNote: "Prix moyens TTC au m², pose et fourniture comprises. Variable selon la complexité du toit.",
+        priceTable: [
+            {
+                option: "Tuiles mécaniques",
+                priceRange: "60€ - 100€ / m²",
+                details: "Le plus courant. Large choix de couleurs et formes.",
+                recommended: true
+            },
+            {
+                option: "Ardoise naturelle",
+                priceRange: "100€ - 160€ / m²",
+                details: "Esthétique premium, durée de vie exceptionnelle (100 ans).",
+                recommended: false
+            },
+            {
+                option: "Zinc (joint debout)",
+                priceRange: "120€ - 180€ / m²",
+                details: "Moderne, léger, adapté aux faibles pentes.",
+                recommended: false
+            },
+            {
+                option: "Bac acier",
+                priceRange: "40€ - 70€ / m²",
+                details: "Économique, idéal pour annexes ou garages.",
+                recommended: false
+            },
+            {
+                option: "Nettoyage / Démoussage",
+                priceRange: "15€ - 35€ / m²",
+                details: "Entretien indispensable tous les 5-10 ans.",
+                recommended: false
+            }
+        ],
+
+        comparisonTitle: "Comparatif des matériaux de couverture",
+        comparisonOptions: ["Tuile TC", "Ardoise", "Zinc"],
+        comparisonTable: [
+            {
+                criteria: "Durée de vie",
+                options: {
+                    "Tuile TC": "30-50 ans",
+                    "Ardoise": "80-100 ans ⭐⭐⭐",
+                    "Zinc": "50-80 ans ⭐⭐"
+                }
+            },
+            {
+                criteria: "Prix unitaire",
+                options: {
+                    "Tuile TC": "€€ (Abordable) ⭐3",
+                    "Ardoise": "€€€€ (Élevé)",
+                    "Zinc": "€€€ (Moyen)"
+                }
+            },
+            {
+                criteria: "Entretien",
+                options: {
+                    "Tuile TC": "Démoussage régulier",
+                    "Ardoise": "Très peu (naturel)",
+                    "Zinc": "Aucun (patine)"
+                }
+            },
+            {
+                criteria: "Pente min.",
+                options: {
+                    "Tuile TC": "20° à 45°",
+                    "Ardoise": "20°",
+                    "Zinc": "5° (très faible) ⭐"
+                }
+            },
+            {
+                criteria: "Résistance",
+                options: {
+                    "Tuile TC": "Bonne",
+                    "Ardoise": "Excellente (feu/gel)",
+                    "Zinc": "Excellente (étanche)"
+                }
+            }
+        ],
+
+        faqTitle: "Questions fréquentes toiture",
+        faqs: [
+            {
+                question: "Quand faut-il refaire sa toiture ?",
+                answer: "Signes d'alerte : tuiles cassées ou poreuses, infiltrations, mousses abondantes, lumière visible depuis les combles, affaissement de la charpente. Une toiture a une durée de vie moyenne de 30 à 50 ans selon les matériaux."
+            },
+            {
+                question: "Faut-il une autorisation pour refaire son toit ?",
+                answer: "Oui, une déclaration préalable de travaux (DP) en mairie est obligatoire si vous modifiez l'aspect extérieur (changement de couleur ou de matériau). Si vous refaites à l'identique, ce n'est généralement pas nécessaire, mais vérifiez auprès du service urbanisme."
+            },
+            {
+                question: "Combien coûte un démoussage de toiture ?",
+                answer: "Comptez entre 15€ et 35€ par m² pour un nettoyage complet avec traitement hydrofuge. Attention aux prix trop bas (<10€/m²) qui cachent souvent l'utilisation de produits agressifs (Javel) qui endommagent les tuiles."
+            },
+            {
+                question: "Peut-on poser des panneaux solaires sur un vieux toit ?",
+                answer: "Il est recommandé d'avoir une toiture saine avant de poser des panneaux, car ils sont installés pour 25 ans. Si votre toit doit être rénové dans les 5-10 ans, faites-le AVANT ou PENDANT l'installation solaire."
+            },
+            {
+                question: "L'amiante : que faire si j'ai des plaques fibrociment ?",
+                answer: "Si les plaques sont en bon état, vous pouvez les laisser ou les recouvrir (surtoiture). Si vous devez les enlever, l'intervention d'une entreprise certifiée désamiantage est obligatoire pour l'évacuation en déchetterie spécialisée."
+            },
+            {
+                question: "Qu'est-ce qu'un écran sous-toiture ?",
+                answer: "C'est une membrane posée entre la charpente et les tuiles. Elle protège des infiltrations de neige poudreuse, de poussière et évacue la condensation. Indispensable pour une toiture durable."
+            },
+            {
+                question: "Intervenez-vous pour les fuites urgentes ?",
+                answer: "Oui, nos artisans proposent un service de bâchage d'urgence pour sécuriser votre habitat en cas de fuite ou de sinistre tempête, en attendant la réparation définitive."
+            }
+        ],
+
+        ctaTitle: "Besoin d'un couvreur fiable ?",
+        ctaDescription: "Comparez les devis de couvreurs-zingueurs certifiés de votre région. Garantie décennale incluse."
+    },
+    "fenetres-menuiserie": {
+        slug: "fenetres-menuiserie",
+        tagline: "Isolation, sécurité et design : changez votre regard sur l'extérieur",
+
+        introduction: `Vos fenêtres sont responsables de 15% des déperditions thermiques de votre logement. Les remplacer par du double ou triple vitrage performant est l'un des travaux les plus efficaces pour améliorer votre confort thermique et acoustique.
+        
+En 2026, l'installation de menuiseries performantes par un artisan RGE vous ouvre droit à des aides financières (MaPrimeRénov', CEE). Que vous choisissiez le PVC pour son rapport qualité/prix, l'Aluminium pour sa finesse ou le Bois pour son authenticité, nos partenaires garantissent une pose dans les règles de l'art.`,
+
+        processTitle: "Votre projet menuiserie étape par étape",
+        processSteps: [
+            {
+                title: "Métré technique précis",
+                description: "Un technicien expert vient prendre les cotes au millimètre près pour commander vos menuiseries sur-mesure.",
+                duration: "1h sur place"
+            },
+            {
+                title: "Fabrication sur-mesure",
+                description: "Vos fenêtres sont fabriquées selon vos spécifications (dimensions, couleur, vitrage). Délais variables selon le matériau.",
+                duration: "4-8 semaines"
+            },
+            {
+                title: "Protection du chantier",
+                description: "Le jour J, nous protégeons soigneusement vos sols et votre mobilier. La zone d'intervention est sécurisée.",
+                duration: "15 min"
+            },
+            {
+                title: "Dépose et installation",
+                description: "Dépose de l'ancien bâti (rénovation ou dépose totale), pose de la nouvelle fenêtre, réglages et étanchéité.",
+                duration: "1/2 journée / fenêtre"
+            },
+            {
+                title: "Finitions et nettoyage",
+                description: "Pose des habillages intérieurs/extérieurs, joints de finition. Nettoyage complet et évacuation des anciennes menuiseries.",
+                duration: "1h"
+            }
+        ],
+
+        benefitsTitle: "Pourquoi changer vos fenêtres ?",
+        benefits: [
+            {
+                title: "Isolation thermique",
+                description: "Supprimez la sensation de paroi froide. Réduisez votre chauffage jusqu'à 15%.",
+                icon: "thermometer"
+            },
+            {
+                title: "Silence absolu",
+                description: "Un vitrage acoustique divise le bruit extérieur par 4. Retrouvez le calme.",
+                icon: "volume-x"
+            },
+            {
+                title: "Sécurité renforcée",
+                description: "Retardateurs d'effraction et volets roulants motorisés protègent votre habitat.",
+                icon: "shield"
+            },
+            {
+                title: "Esthétique moderne",
+                description: "Lignes fines, couleurs variées (bicoloration possible). Valorisez votre façade.",
+                icon: "✨"
+            },
+            {
+                title: "Entretien facile",
+                description: "PVC et Aluminium se nettoient d'un simple coup d'éponge. Fini les corvées de peinture.",
+                icon: "sparkles"
+            },
+            {
+                title: "Valorisation DPE",
+                description: "Améliorez la classe énergétique de votre logement pour la vente ou la location.",
+                icon: "📈"
+            }
+        ],
+
+        priceTableTitle: "Prix fenêtres et volets en 2026",
+        priceTableNote: "Prix moyens TTC, pose et fourniture comprises. Pour des dimensions standard (120x130cm).",
+        priceTable: [
+            {
+                option: "Fenêtre PVC (Double vitrage)",
+                priceRange: "400€ - 600€",
+                details: "Le meilleur rapport performance/prix. Isolant et économique.",
+                recommended: true
+            },
+            {
+                option: "Fenêtre Aluminium",
+                priceRange: "600€ - 900€",
+                details: "Finesse des profils, clarté maximale, grand choix de couleurs.",
+                recommended: false
+            },
+            {
+                option: "Fenêtre Bois",
+                priceRange: "700€ - 1000€",
+                details: "Authenticité, chaleur et performance thermique naturelle.",
+                recommended: false
+            },
+            {
+                option: "Baie vitrée Alu (215x240)",
+                priceRange: "1500€ - 2500€",
+                details: "Lumière et ouverture sur l'extérieur. Indispensable au salon.",
+                recommended: false
+            },
+            {
+                option: "Volet Roulant Solaire",
+                priceRange: "400€ - 700€",
+                details: "Installation sans fil, motorisation autonome. Idéal rénovation.",
+                recommended: true
+            }
+        ],
+
+        comparisonTitle: "Quel matériau choisir ?",
+        comparisonOptions: ["PVC", "Aluminium", "Bois"],
+        comparisonTable: [
+            {
+                criteria: "Prix",
+                options: {
+                    "PVC": "€ (Éco) ⭐⭐⭐",
+                    "Aluminium": "€€ (Moyen)",
+                    "Bois": "€€€ (Premium)"
+                }
+            },
+            {
+                criteria: "Isolation thermique",
+                options: {
+                    "PVC": "Excellente ⭐⭐⭐",
+                    "Aluminium": "Bonne (Rupture pont th.)",
+                    "Bois": "Excellente"
+                }
+            },
+            {
+                criteria: "Esthétique",
+                options: {
+                    "PVC": "Classique (Blancs épais)",
+                    "Aluminium": "Moderne et Fin ⭐⭐⭐",
+                    "Bois": "Chaleureux et Noble"
+                }
+            },
+            {
+                criteria: "Entretien",
+                options: {
+                    "PVC": "Très facile ⭐⭐⭐",
+                    "Aluminium": "Très facile ⭐⭐⭐",
+                    "Bois": "Régulier (Lasure/Peinture)"
+                }
+            },
+            {
+                criteria: "Grandes dimensions",
+                options: {
+                    "PVC": "Limité (Renforts néc.)",
+                    "Aluminium": "Idéal (Rigide) ⭐⭐⭐",
+                    "Bois": "Bon"
+                }
+            }
+        ],
+
+        faqTitle: "Questions fréquentes fenêtres",
+        faqs: [
+            {
+                question: "Double ou triple vitrage ?",
+                answer: "Le double vitrage suffit pour la majorité des climats en France. Le triple vitrage est recommandé pour les façades exposées au nord dans les régions très froides, ou pour les maisons passives."
+            },
+            {
+                question: "Rénovation ou dépose totale ?",
+                answer: "La 'pose en rénovation' conserve le cadre existant (plus rapide, moins de dégâts). La 'dépose totale' enlève tout (meilleure isolation, plus de lumière), mais nécessite des reprises de maçonnerie/peinture."
+            },
+            {
+                question: "Quelle TVA pour changer ses fenêtres ?",
+                answer: "TVA à 5,5% si vous passez par un artisan RGE et que le logement a plus de 2 ans. Sinon TVA 10% ou 20%."
+            },
+            {
+                question: "Les aides MaPrimeRénov' en 2026 ?",
+                answer: "Oui, le remplacement de fenêtres est éligible (forfait par fenêtre) à condition de réaliser un geste d'isolation supplémentaire (chauffage ou isolation murs/toit) ou de faire une rénovation globale."
+            },
+            {
+                question: "Aluminium ou PVC ?",
+                answer: "PVC = isolation et prix. Alu = lumière, design et couleurs. Souvent, on mixe : PVC pour les chambres/cuisine, Alu pour les grandes baies du salon."
+            },
+            {
+                question: "Combien de temps pour installer une fenêtre ?",
+                answer: "Comptez environ une demi-journée par fenêtre pour une pose soignée. Pour une maison complète (10 fenêtres), prévoyez 3 à 5 jours de travaux."
+            },
+            {
+                question: "Qu'est-ce que le coeff Uw ?",
+                answer: "C'est la performance thermique de la fenêtre. Plus il est bas, plus elle isole. Visez un Uw ≤ 1.3 W/m².K pour une bonne performance."
+            }
+        ],
+
+        ctaTitle: "Changez vos fenêtres au meilleur prix",
+        ctaDescription: "Comparez 3 devis d'artisans menuisiers RGE de votre secteur. Qualibat et Garantie Décennale vérifiés."
     }
 };
 
