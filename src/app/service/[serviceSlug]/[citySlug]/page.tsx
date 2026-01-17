@@ -144,10 +144,16 @@ export default async function ServiceCityPage({ params }: PageProps) {
     };
 
     // Schema.org: FAQPage
+    // Merge specific service FAQs with generic FAQs
+    const allFaqs = [
+        ...(serviceContentData?.faqs || []),
+        ...faqs
+    ];
+
     const faqSchema = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": faqs.map((faq) => ({
+        "mainEntity": allFaqs.map((faq) => ({
             "@type": "Question",
             "name": faq.question.replace("{service}", service.name.toLowerCase()).replace("{city}", city.name),
             "acceptedAnswer": {
@@ -157,19 +163,17 @@ export default async function ServiceCityPage({ params }: PageProps) {
         }))
     };
 
-    // Schema.org: HowTo - Process to get quotes
-    const howToSchema = {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": `Comment obtenir des devis pour ${service.name.toLowerCase()} à ${city.name}`,
-        "description": `Guide étape par étape pour trouver un artisan qualifié en ${service.name.toLowerCase()} à ${city.name} et obtenir des devis gratuits.`,
-        "totalTime": "PT5M",
-        "estimatedCost": {
-            "@type": "MonetaryAmount",
-            "currency": "EUR",
-            "value": "0"
-        },
-        "step": [
+    // Schema.org: HowTo
+    // Use specific process steps if available, otherwise generic
+    const howToSteps = serviceContentData?.processSteps
+        ? serviceContentData.processSteps.map((step, index) => ({
+            "@type": "HowToStep",
+            "position": index + 1,
+            "name": step.title,
+            "text": step.description,
+            "url": `https://${settings.domain}/service/${service.slug}/${city.slug}#process`
+        }))
+        : [
             {
                 "@type": "HowToStep",
                 "position": 1,
@@ -195,7 +199,20 @@ export default async function ServiceCityPage({ params }: PageProps) {
                 "name": "Lancez vos travaux",
                 "text": `Votre artisan intervient à ${city.name} pour réaliser vos travaux avec garantie décennale.`
             }
-        ]
+        ];
+
+    const howToSchema = {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": serviceContentData?.processTitle || `Comment obtenir des devis pour ${service.name.toLowerCase()} à ${city.name}`,
+        "description": `Guide étape par étape pour ${service.name.toLowerCase()} à ${city.name}.`,
+        "totalTime": serviceContentData ? "P21D" : "PT5M", // 21 days real process vs 5 mins quote
+        "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "EUR",
+            "value": "0"
+        },
+        "step": howToSteps
     };
 
     return (
