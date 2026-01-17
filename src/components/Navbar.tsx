@@ -107,7 +107,6 @@ export default function Navbar() {
                             >
                                 Blog
                             </Link>
-/* Mobile part handled by separate chunk below */
 
                             {/* CTA Button */}
                             <Link
