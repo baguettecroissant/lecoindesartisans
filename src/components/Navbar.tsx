@@ -93,12 +93,21 @@ export default function Navbar() {
                             </div>
 
                             <Link
+                                href="/simulateur"
+                                className={`font-semibold transition-colors duration-300 ${useScrolledStyle ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
+                                    }`}
+                            >
+                                Simulateurs
+                            </Link>
+
+                            <Link
                                 href="/blog"
                                 className={`font-semibold transition-colors duration-300 ${useScrolledStyle ? "text-gray-700 hover:text-navy-900" : "text-white/90 hover:text-white"
                                     }`}
                             >
                                 Blog
                             </Link>
+/* Mobile part handled by separate chunk below */
 
                             {/* CTA Button */}
                             <Link
@@ -169,6 +178,13 @@ export default function Navbar() {
 
                             {/* Other Links */}
                             <div className="space-y-4">
+                                <Link
+                                    href="/simulateur"
+                                    onClick={() => setIsMenuOpen(false)}
+                                    className="block text-xl font-bold text-navy-900 hover:text-amber-600 transition-colors"
+                                >
+                                    Simulateurs
+                                </Link>
                                 <Link
                                     href="/blog"
                                     onClick={() => setIsMenuOpen(false)}
