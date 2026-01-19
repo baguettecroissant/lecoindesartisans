@@ -1726,6 +1726,303 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-01-16",
     readingTime: "10 min",
     image: "/images/blog/pac-air-eau-vs-air-air-comparatif.png"
+  },
+  {
+    slug: "rentabilite-panneaux-solaires-2026",
+    title: "Rentabilité Panneaux Solaires 2026 : Combien gagne-t-on vraiment ?",
+    excerpt: "Est-il encore rentable d'installer des panneaux solaires en 2026 ? Analyse complète du retour sur investissement, gains réels, aides de l'État et pièges à éviter.",
+    content: `
+      <p><strong>C'est la question que tout le monde se pose en 2026 :</strong> avec la hausse continue de l'électricité (+10% encore cette année) et la baisse du coût des matériaux, est-ce (enfin) le bon moment pour passer au solaire ? La réponse courte est OUI, mais pas n'importe comment.</p>
+      
+      <p>Oubliez les promesses d'autonomie totale utopiques. Dans ce guide, nous analysons la <strong>rentabilité réelle</strong> d'une installation photovoltaïque en 2026, chiffres à l'appui. Combien coûte l'installation ? Combien rapporte-t-elle vraiment ? Et surtout, en combien de temps est-elle amortie ?</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs certifiés RGE près de chez vous pour une étude de rentabilité personnalisée.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#rentabilite-2026">Rentabilité : les chiffres clés 2026</a></li>
+        <li><a href="#cout-vs-gain">Coût installation vs Gains réels</a></li>
+        <li><a href="#aides-2026">Les aides qui boostent le ROI</a></li>
+        <li><a href="#facteurs-rentabilite">3 facteurs qui font varier votre rentabilité</a></li>
+        <li><a href="#autoconsommation-vente">Autoconsommation ou vente totale ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="rentabilite-2026">Rentabilité panneaux solaires : les chiffres clés 2026</h2>
+      
+      <p>En 2026, le retour sur investissement (ROI) des panneaux solaires s'est considérablement accéléré. Voici pourquoi :</p>
+      <ul>
+        <li><strong>Hausse de l'électricité :</strong> Le prix du kWh réseau a dépassé les 0,28€, rendant chaque kWh autoproduit très précieux.</li>
+        <li><strong>Baisse du matériel :</strong> Le prix des panneaux a baissé de 15% par rapport à 2024.</li>
+        <li><strong>Rendement amélioré :</strong> Les panneaux standards atteignent désormais 450-500Wc.</li>
+      </ul>
+
+      <h2 id="cout-vs-gain">Coût installation vs Gains réels : simulation 6 kWc</h2>
+      
+      <p>Prenons l'exemple le plus courant : une maison de 100m² avec une famille de 4 personnes et une installation de <strong>6 kWc</strong> (environ 14 panneaux).</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste</th>
+            <th style="padding: 12px; text-align: right;">Montant</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Coût installation (pose comprise)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">14 500 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prime à l'autoconsommation (aide)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">- 1 710 €</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Investissement Net</strong></td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>12 790 €</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Vos gains annuels estimés</h3>
+      <ul>
+        <li><strong>Économie sur factures (Autoconsommation 40%) :</strong> ~ 850 € / an</li>
+        <li><strong>Vente du surplus (à EDF OA) :</strong> ~ 350 € / an</li>
+        <li><strong>Gain total annuel :</strong> ~ 1 200 € / an</li>
+      </ul>
+
+      <p><strong>Résultat :</strong> Votre installation est rentabilisée en <strong>10 à 11 ans</strong>. Après cette période, vous produisez de l'électricité "gratuite" pendant encore 20 ans (durée de vie > 30 ans).</p>
+      
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre toit en 2 min et recevez une simulation de rentabilité précise.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer ma rentabilité →</a></p>
+      </blockquote>
+
+      <h2 id="aides-2026">Les aides qui boostent la rentabilité en 2026</h2>
+      
+      <p>Pour accélérer votre ROI, ne passez pas à côté des aides de l'État :</p>
+      
+      <ul>
+        <li><strong>Prime à l'autoconsommation :</strong> Versée en une fois ou sur 5 ans selon les cas.
+          <ul>
+            <li>≤ 3 kWc : 380 € / kWc</li>
+            <li>3 à 9 kWc : 285 € / kWc</li>
+          </ul>
+        </li>
+        <li><strong>TVA réduite (10%) :</strong> Pour les installations ≤ 3 kWc.</li>
+        <li><strong>Obligation d'Achat (EDF OA) :</strong> Tarif de rachat garanti sur 20 ans pour votre surplus (0,1276 €/kWh).</li>
+        <li><strong>Aides locales :</strong> Certaines régions (Occitanie, Grand Est...) proposent des bonus supplémentaires.</li>
+      </ul>
+
+      <h2 id="facteurs-rentabilite">3 facteurs qui font varier votre rentabilité</h2>
+      
+      <h3>1. Le taux d'autoconsommation</h3>
+      <p>C'est la clé. Plus vous consommez votre propre électricité (lancer les machines en journée, chauffer l'eau à midi), plus vous économisez (0,28€/kWh économisé vs 0,13€/kWh vendu).</p>
+      
+      <h3>2. L'orientation et l'inclinaison</h3>
+      <p>L'idéal : Plein Sud, inclinaison 30-35°. Mais une orientation Est-Ouest est aussi très rentable (production étalée sur la journée), avec seulement 10-15% de perte par rapport au Sud.</p>
+      
+      <h3>3. La fiabilité du matériel</h3>
+      <p>Choisir des marques premium (SunPower, DualSun) coûte 20% plus cher mais garantit une production stable sur 30 ans. Les panneaux "low cost" peuvent voir leur rendement chuter après 10 ans.</p>
+
+      <h2 id="autoconsommation-vente">Autoconsommation avec vente du surplus ou Vente totale ?</h2>
+      
+      <p>En 2026, le match est plié : <strong>l'autoconsommation avec vente du surplus</strong> est la formule gagnante pour 95% des particuliers.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Mode</th>
+            <th style="padding: 12px; text-align: left;">Avantage</th>
+            <th style="padding: 12px; text-align: left;">Inconvénient</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Autoconsommation + Vente surplus</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Protection contre hausse prix élec + revenus passifs</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Nécessite de changer ses habitudes (conso en journée)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Vente totale</strong></td>
+            <td style="padding: 12px;">Revenus fixes garantis</td>
+            <td style="padding: 12px;">Aucune protection contre la hausse des factures</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Conclusion : est-ce rentable ?</h3>
+      <p>Oui, avec un ROI de 10 ans et une durée de vie de 30 ans, les panneaux solaires sont un placement financier qui rapporte <strong>3 à 4 fois plus qu'un Livret A</strong>, tout en valorisant votre bien immobilier (Value Verte).</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à investir ?</strong><br/>
+        Ne signez rien sans comparer. Les écarts de prix peuvent être énormes.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Rentabilité Solaire</h2>
+      
+      <h3>Quelle est la durée de vie réelle des panneaux ?</h3>
+      <p>Les panneaux modernes sont garantis 25 ans mais fonctionnent souvent au-delà de <strong>30 à 40 ans</strong>. Seul l'onduleur (pièce centrale) doit être changé tous les 10-12 ans (coût ~1000-1500€).</p>
+      
+      <h3>Les panneaux sont-ils rentables dans le Nord ?</h3>
+      <p>Oui ! L'Allemagne, bien moins ensoleillée que la France, est leader du solaire. Le froid favorise même le rendement des panneaux (la chaleur excessive nuit à la performance). La rentabilité est juste décalée de 1 à 2 ans par rapport au Sud.</p>
+      
+      <h3>Faut-il installer une batterie ?</h3>
+      <p>En 2026, les batteries restent chères (~600-800€/kWh). Elles ne sont généralement <strong>pas rentables</strong> économiquement pour un particulier raccordé au réseau, sauf en cas de coupures fréquentes ou pour des sites isolés.</p>
+      
+      <h3>Dois-je déclarer mes revenus solaires aux impôts ?</h3>
+      <p>Si votre installation fait ≤ 3 kWc, les revenus sont <strong>exonérés d'impôt</strong>. Au-delà, ils sont imposables mais bénéficient d'un abattement de 71% (régime micro-BIC).</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-19",
+    readingTime: "8 min",
+    image: "/images/blog/rentabilite-panneaux-solaires-2026.png"
+  },
+  {
+    slug: "prix-piscine-enterree-8x4-coque-beton-kit",
+    title: "Prix Piscine Enterrée 8x4m : Coque vs Béton vs Kit (Devis 2026)",
+    excerpt: "Quel budget pour une piscine 8x4m en 2026 ? Comparatif complet des prix : coque polyester, béton maçonné ou kit. Détail des coûts de terrassement et filtration.",
+    content: `
+      <p><strong>C'est la taille standard préférée des Français.</strong> La piscine 8x4m offre le compromis idéal : assez grande pour nager et s'amuser, mais assez compacte pour s'intégrer dans la plupart des jardins modernes. Mais quel est le vrai budget à prévoir en 2026 ?</p>
+      
+      <p>Entre une piscine en kit à monter soi-même et un bassin maçonné sur-mesure, les prix peuvent varier du simple au triple. Dans ce guide comparatif, nous décortiquons les <strong>prix réels du marché</strong> pour vous aider à choisir la meilleure option selon votre budget et votre terrain.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💦 Votre projet piscine démarre ici</strong><br/>
+        Recevez jusqu'à 3 devis de piscinistes qualifiés dans votre région pour comparer les prix.<br/>
+        <a href="/service/amenagement-exterieur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comparatif-prix">Prix piscine 8x4m : Le comparatif rapide</a></li>
+        <li><a href="#prix-coque">Prix piscine coque 8x4m</a></li>
+        <li><a href="#prix-beton">Prix piscine béton 8x4m</a></li>
+        <li><a href="#prix-kit">Prix piscine kit 8x4m</a></li>
+        <li><a href="#couts-annexes">Les coûts cachés à ne pas oublier</a></li>
+        <li><a href="#impots">Fiscalité et Démarches</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="comparatif-prix">Prix piscine 8x4m : Le comparatif 2026</h2>
+      
+      <p>Voici les fourchettes de prix moyennes constatées pour une piscine enterrée 8x4m (fourniture + pose par un professionnel, sauf kit) :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de piscine</th>
+            <th style="padding: 12px; text-align: left;">Budget moyen</th>
+            <th style="padding: 12px; text-align: left;">Durée chantier</th>
+            <th style="padding: 12px; text-align: left;">Durée de vie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Piscine en Kit (blocs polystyrène)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">8 000€ - 15 000€ (montage soi-même)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">2-4 semaines</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">20-30 ans</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Coque Polyester</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">18 000€ - 28 000€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">3-5 jours</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">15-20 ans (gelcoat)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Béton Maçonné</strong></td>
+            <td style="padding: 12px;">25 000€ - 45 000€</td>
+            <td style="padding: 12px;">4-8 semaines</td>
+            <td style="padding: 12px;">50+ ans</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="prix-coque">1. Prix Piscine Coque 8x4m : La rapidité</h2>
+      <p>C'est la solution la plus populaire. La coque est livrée en un seul bloc par camion-grue.</p>
+      
+      <ul>
+        <li><strong>Prix "Prête à plonger" :</strong> 20 000€ à 28 000€ tout compris.</li>
+        <li><strong>Avantages :</strong> Installation ultra-rapide (3-4 jours), étanchéité garantie par l'usine, formes douces.</li>
+        <li><strong>Inconvénients :</strong> Accès camion obligatoire, osmose possible après 15 ans.</li>
+      </ul>
+
+      <h2 id="prix-beton">2. Prix Piscine Béton 8x4m : Le sur-mesure</h2>
+      <p>La piscine traditionnelle en parpaings ou béton banché, avec un liner ou un carrelage.</p>
+      
+      <ul>
+        <li><strong>Prix "Prête à plonger" :</strong> 30 000€ à 45 000€.</li>
+        <li><strong>Avantages :</strong> Solidité à toute épreuve, choix du revêtement (carrelage, mosaïque), toutes formes possibles.</li>
+        <li><strong>Inconvénients :</strong> Chantier long et salissant, prix élevé.</li>
+      </ul>
+
+      <h2 id="prix-kit">3. Prix Piscine Kit 8x4m : Pour les bricoleurs</h2>
+      <p>Souvent des blocs polystyrènes à emboîter et à ferrailler, puis à remplir de béton.</p>
+      
+      <ul>
+        <li><strong>Prix Kit seul :</strong> 6 000€ à 9 000€.</li>
+        <li><strong>Budget total (avec béton + liner) :</strong> 10 000€ à 14 000€.</li>
+        <li><strong>Avantages :</strong> Économie de 50% sur la main d'œuvre, isolation thermique (blocs polystyrène).</li>
+        <li><strong>Inconvénients :</strong> Demande un excellent niveau de bricolage et beaucoup de temps.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Le conseil de l'expert</strong><br/>
+        Pour une piscine béton, vérifiez toujours l'assurance décennale du maçon. C'est votre seule garantie en cas de fissures de la structure.</p>
+      </blockquote>
+
+      <h2 id="couts-annexes">Les coûts cachés à ne pas oublier</h2>
+      <p>Le prix du bassin n'est que la partie visible de l'iceberg. Ajoutez ces postes au budget :</p>
+      
+      <ul>
+        <li><strong>Terrassement :</strong> 1 500€ à 3 000€ (selon nature du sol et évacuation des terres).</li>
+        <li><strong>Sécurité (Obligatoire) :</strong> Alarme (300€), Barrière (1 000€), Bâche à barres (1 500€) ou Volet roulant (4 000€).</li>
+        <li><strong>Margelles et Plages :</strong> Comptez 50€ à 150€/m² pour une terrasse bois ou carrelage autour.</li>
+        <li><strong>Chauffage (PAC) :</strong> 2 000€ à 3 500€ pour prolonger la saison.</li>
+      </ul>
+
+      <h2 id="impots">Fiscalité et Démarches</h2>
+      <p>Une piscine 8x4m fait 32m².</p>
+      <ul>
+        <li><strong>Permis de construire ?</strong> Non, une simple <strong>Déclaration Préalable</strong> de travaux en mairie suffit (pour les bassins < 100m²).</li>
+        <li><strong>Taxe d'aménagement :</strong> À payer une seule fois (~300€ à 800€ selon commune).</li>
+        <li><strong>Taxe foncière :</strong> Augmentation moyenne de 100€ à 200€ par an.</li>
+      </ul>
+
+      <h3>Conclusion : quel budget valider ?</h3>
+      <p>Pour une piscine 8x4m <strong>prête à plonger</strong> de qualité, prévoyez une enveloppe globale de <strong>25 000€</strong>. Cela inclut une coque polyester, le terrassement, la sécurité et une petite plage autour.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏊‍♂️ Envie de plonger cet été ?</strong><br/>
+        Les agendas des piscinistes se remplissent 6 mois à l'avance. Comparez les devis maintenant.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Recevoir 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Prix Piscine 8x4</h2>
+      
+      <h3>Quelle est la profondeur idéale ?</h3>
+      <p>Le fond plat à 1m50 est le standard actuel. Il permet d'avoir pied partout (idéal pour jouer/aquagym) tout en pouvant nager confortablement. C'est aussi moins cher à chauffer qu'une fosse à plonger.</p>
+      
+      <h3>Quel est le coût d'entretien annuel ?</h3>
+      <p>Comptez environ <strong>300€ à 500€ par an</strong> pour une piscine 8x4m (produits chlore/sel, électricité pompe, hivernage). Ajoutez 150€ si vous chauffez avec une PAC.</p>
+      
+      <h3>Coque ou Liner : que choisir ?</h3>
+      <p>Le liner (sur béton) se change tous les 10-12 ans (~2000€). La coque polyester est plus durable mais peut ternir. En cas de fissure sur une coque, la réparation est complexe (fibre de verre).</p>
+
+      <h3>Peut-on construire en limite de propriété ?</h3>
+      <p>Oui, le PLU (Plan Local d'Urbanisme) autorise souvent la construction soit en limite séparative (0m), soit à 3m de distance. Renseignez-vous absolument en mairie avant de creuser !</p>
+    `,
+    category: "amenagement-exterieur",
+    publishedAt: "2026-01-19",
+    readingTime: "9 min",
+    image: "/images/blog/prix-piscine-enterree-8x4-coque-beton-kit.png"
   }
 ];
 
