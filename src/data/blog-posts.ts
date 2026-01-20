@@ -2023,6 +2023,869 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-01-19",
     readingTime: "9 min",
     image: "/images/blog/prix-piscine-enterree-8x4-coque-beton-kit.png"
+  },
+  {
+    slug: "avis-pompe-chaleur-marque-daikin-atlantic-mitsubishi",
+    title: "Avis Pompe à Chaleur : Les 7 marques les plus fiables (Daikin, Atlantic, Mitsubishi...)",
+    excerpt: "Découvrez notre comparatif 2026 des meilleures marques de PAC. Fiabilité, SAV, rapport qualité-prix : Daikin, Atlantic, Mitsubishi et 4 autres passées au crible.",
+    content: `
+      <p><strong>Vous envisagez l'installation d'une pompe à chaleur mais vous hésitez sur la marque ?</strong> Normal : avec plus de 30 fabricants sur le marché français, difficile de s'y retrouver entre les promesses marketing et la réalité du terrain.</p>
+      
+      <p>Dans ce comparatif détaillé, nous avons analysé les <strong>7 marques de PAC les plus fiables en 2026</strong> en nous basant sur les retours de nos artisans partenaires, les avis clients vérifiés et les données SAV. Daikin, Atlantic, Mitsubishi Electric, mais aussi des alternatives comme Panasonic ou De Dietrich : découvrez quelle marque correspond vraiment à votre projet.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs qualifiés RGE près de chez vous.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#classement">Classement des 7 meilleures marques de PAC</a></li>
+        <li><a href="#daikin">1. Daikin : la référence japonaise</a></li>
+        <li><a href="#atlantic">2. Atlantic : le champion français</a></li>
+        <li><a href="#mitsubishi">3. Mitsubishi Electric : fiabilité légendaire</a></li>
+        <li><a href="#panasonic">4. Panasonic : le meilleur rapport qualité-prix</a></li>
+        <li><a href="#dedietrich">5. De Dietrich : le haut de gamme français</a></li>
+        <li><a href="#saunier">6. Saunier Duval : l'option économique fiable</a></li>
+        <li><a href="#viessmann">7. Viessmann : l'excellence allemande</a></li>
+        <li><a href="#comparatif">Tableau comparatif complet</a></li>
+        <li><a href="#criteres">Comment choisir sa marque de PAC ?</a></li>
+        <li><a href="#erreurs">Les marques à éviter</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="classement">Classement des 7 meilleures marques de PAC en 2026</h2>
+      
+      <p>Voici notre <strong>classement basé sur 4 critères essentiels</strong> : fiabilité technique, qualité du SAV en France, rapport qualité-prix et performance énergétique (COP).</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Rang</th>
+            <th style="padding: 12px; text-align: left;">Marque</th>
+            <th style="padding: 12px; text-align: left;">Origine</th>
+            <th style="padding: 12px; text-align: left;">Note globale</th>
+            <th style="padding: 12px; text-align: left;">Point fort</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🥇 1</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Daikin</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Japon</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>9.2/10</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fiabilité + SAV</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🥈 2</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Atlantic</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">France</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>9.0/10</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">SAV local + Prix</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🥉 3</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mitsubishi Electric</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Japon</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>8.9/10</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Performance froid extrême</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">4</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Panasonic</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Japon</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>8.6/10</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Rapport qualité-prix</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">5</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>De Dietrich</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">France</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>8.5/10</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Haut de gamme</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">6</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Saunier Duval</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">France</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>8.3/10</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prix compétitif</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">7</td>
+            <td style="padding: 12px;"><strong>Viessmann</strong></td>
+            <td style="padding: 12px;">Allemagne</td>
+            <td style="padding: 12px;"><strong>8.2/10</strong></td>
+            <td style="padding: 12px;">Durabilité premium</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="daikin">1. Daikin : la référence mondiale des pompes à chaleur</h2>
+      
+      <p><strong>Daikin</strong>, géant japonais fondé en 1924, domine le marché mondial de la climatisation et des PAC. Présent en France depuis 40 ans avec une usine de production à Ostende (Belgique), c'est LA marque que recommandent le plus souvent nos installateurs partenaires.</p>
+      
+      <h3>Points forts de Daikin</h3>
+      <ul>
+        <li><strong>Fiabilité exceptionnelle</strong> : taux de panne inférieur à 2% sur 10 ans</li>
+        <li><strong>SAV réactif</strong> : réseau de 3 000 techniciens agréés en France</li>
+        <li><strong>Technologie avancée</strong> : compresseur Inverter breveté, refrigérant R-32</li>
+        <li><strong>Silence</strong> : parmi les PAC les plus silencieuses (38-45 dB)</li>
+        <li><strong>Garantie</strong> : 5 ans pièces et main-d'œuvre (extensible à 10 ans)</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Prix 10-15% plus élevé que la moyenne</li>
+        <li>Interface utilisateur parfois jugée complexe</li>
+      </ul>
+      
+      <h3>Prix indicatifs Daikin (pose comprise)</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Modèle</th>
+            <th style="padding: 12px; text-align: left;">Type</th>
+            <th style="padding: 12px; text-align: left;">Prix TTC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Altherma 3H HT</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Air-Eau Haute température</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>14 000€ - 18 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Altherma 3M</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Air-Eau Monobloc</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>12 000€ - 16 000€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">Stylish / Perfera</td>
+            <td style="padding: 12px;">Air-Air Multisplit</td>
+            <td style="padding: 12px;"><strong>5 000€ - 9 000€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 L'avis de nos installateurs</strong><br/>
+        "Daikin, c'est comme Toyota dans l'automobile : c'est fiable, ça dure, et quand il y a un souci, les pièces sont disponibles. On sait ce qu'on vend." – Jean-Marc, installateur RGE à Lyon depuis 15 ans.</p>
+      </blockquote>
+
+      <h2 id="atlantic">2. Atlantic : le fabricant français qui monte</h2>
+      
+      <p><strong>Atlantic</strong> est le leader français des solutions de chauffage. Avec ses 5 usines en France (La Roche-sur-Yon, Billy-Berclau...), la marque offre un avantage majeur : <strong>un SAV de proximité incomparable</strong> et des pièces disponibles pendant 15 ans minimum.</p>
+      
+      <h3>Points forts d'Atlantic</h3>
+      <ul>
+        <li><strong>Fabrication française</strong> : 100% conçu et assemblé en France</li>
+        <li><strong>SAV local</strong> : 45 agences régionales, intervention sous 48h</li>
+        <li><strong>Gamme complète</strong> : du premier prix au premium (Alfea Excellia)</li>
+        <li><strong>Connectivité</strong> : application Cozytouch performante</li>
+        <li><strong>Prix compétitifs</strong> : 15-20% moins cher que Daikin à performance égale</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Compresseurs japonais (Mitsubishi) sur certains modèles</li>
+        <li>Notoriété moindre que les marques japonaises</li>
+      </ul>
+      
+      <h3>Prix indicatifs Atlantic (pose comprise)</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Modèle</th>
+            <th style="padding: 12px; text-align: left;">Type</th>
+            <th style="padding: 12px; text-align: left;">Prix TTC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Alfea Excellia Duo AI</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Air-Eau + ECS</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>13 000€ - 17 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Alfea Extensa Duo AI</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Air-Eau Entrée de gamme</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>10 000€ - 14 000€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">Fujitsu Atlantic</td>
+            <td style="padding: 12px;">Air-Air Multisplit</td>
+            <td style="padding: 12px;"><strong>4 500€ - 8 000€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre PAC ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées de professionnels.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="mitsubishi">3. Mitsubishi Electric : la performance par grand froid</h2>
+      
+      <p><strong>Mitsubishi Electric</strong> se distingue par ses PAC conçues pour fonctionner efficacement même par températures très basses (-25°C). Un choix privilégié dans les régions froides (Alpes, Vosges, Jura) et pour les maisons anciennes mal isolées.</p>
+      
+      <h3>Points forts de Mitsubishi Electric</h3>
+      <ul>
+        <li><strong>Performance extrême</strong> : technologie Zubadan garantie à -25°C</li>
+        <li><strong>COP élevé</strong> : jusqu'à 5.2 en conditions optimales</li>
+        <li><strong>Durabilité</strong> : compresseurs garantis 7 ans</li>
+        <li><strong>Silence</strong> : unités parmi les plus discrètes (35-42 dB)</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Prix premium (parmi les plus chères)</li>
+        <li>SAV moins dense que Atlantic ou Daikin en zone rurale</li>
+      </ul>
+      
+      <h3>Prix indicatifs Mitsubishi Electric (pose comprise)</h3>
+      <ul>
+        <li><strong>Ecodan Zubadan</strong> (Air-Eau grand froid) : 15 000€ - 20 000€</li>
+        <li><strong>Ecodan Power</strong> (Air-Eau standard) : 13 000€ - 17 000€</li>
+        <li><strong>MSZ-LN</strong> (Air-Air premium) : 5 500€ - 10 000€</li>
+      </ul>
+
+      <h2 id="panasonic">4. Panasonic : le challenger au meilleur rapport qualité-prix</h2>
+      
+      <p><strong>Panasonic</strong> propose des PAC air-eau de grande qualité à des prix plus accessibles. Moins connue du grand public que Daikin, la marque japonaise offre pourtant un excellent COP et une fiabilité prouvée.</p>
+      
+      <h3>Points forts de Panasonic</h3>
+      <ul>
+        <li><strong>Rapport qualité-prix</strong> : 15-25% moins cher que Daikin</li>
+        <li><strong>Technologie Aquarea</strong> : gamme complète air-eau très performante</li>
+        <li><strong>COP jusqu'à 5.08</strong> : parmi les meilleurs du marché</li>
+        <li><strong>Compacité</strong> : unités extérieures parmi les plus petites</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Réseau SAV moins développé que les leaders</li>
+        <li>Moins de choix sur les hautes puissances</li>
+      </ul>
+      
+      <h3>Prix indicatifs Panasonic (pose comprise)</h3>
+      <ul>
+        <li><strong>Aquarea T-CAP</strong> (grand froid) : 12 000€ - 16 000€</li>
+        <li><strong>Aquarea Bi-Bloc</strong> (standard) : 10 000€ - 14 000€</li>
+        <li><strong>Aquarea Monobloc</strong> (compact) : 9 000€ - 12 000€</li>
+      </ul>
+
+      <h2 id="dedietrich">5. De Dietrich : le haut de gamme à la française</h2>
+      
+      <p><strong>De Dietrich</strong>, marque centenaire française, positionne ses PAC sur le segment premium. Ses produits séduisent une clientèle exigeante qui privilégie la qualité de fabrication et la durabilité.</p>
+      
+      <h3>Points forts de De Dietrich</h3>
+      <ul>
+        <li><strong>Qualité de fabrication premium</strong> : matériaux nobles, finitions soignées</li>
+        <li><strong>SAV historique</strong> : réseau d'installateurs fidélisés depuis des décennies</li>
+        <li><strong>Intégration système</strong> : excellente compatibilité avec chaudières existantes</li>
+        <li><strong>Garantie étendue</strong> : jusqu'à 7 ans sur les composants clés</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Prix 20-30% supérieur à la moyenne</li>
+        <li>Image parfois jugée "vieillissante"</li>
+      </ul>
+      
+      <h3>Prix indicatifs De Dietrich (pose comprise)</h3>
+      <ul>
+        <li><strong>Alezio S V200</strong> (Air-Eau hybride) : 14 000€ - 19 000€</li>
+        <li><strong>Alezio M V200</strong> (Air-Eau standard) : 12 000€ - 16 000€</li>
+      </ul>
+
+      <h2 id="saunier">6. Saunier Duval : l'option économique fiable</h2>
+      
+      <p><strong>Saunier Duval</strong>, filiale du groupe Vaillant, propose des PAC abordables sans sacrifier la fiabilité. Une marque appréciée des installateurs pour son bon rapport qualité-prix et son SAV efficace.</p>
+      
+      <h3>Points forts de Saunier Duval</h3>
+      <ul>
+        <li><strong>Prix attractif</strong> : parmi les moins chères à performance comparable</li>
+        <li><strong>Groupe Vaillant</strong> : solidité financière et disponibilité pièces</li>
+        <li><strong>Simplicité</strong> : installation et utilisation faciles</li>
+        <li><strong>SAV accessible</strong> : réseau dense en France</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Gamme moins large que les concurrents</li>
+        <li>COP légèrement inférieur aux leaders japonais</li>
+      </ul>
+      
+      <h3>Prix indicatifs Saunier Duval (pose comprise)</h3>
+      <ul>
+        <li><strong>GeniaSet Split</strong> (Air-Eau) : 10 000€ - 14 000€</li>
+        <li><strong>GeniaAir Max</strong> (Air-Air) : 4 000€ - 7 000€</li>
+      </ul>
+
+      <h2 id="viessmann">7. Viessmann : l'excellence allemande</h2>
+      
+      <p><strong>Viessmann</strong>, géant allemand du chauffage, fabrique des PAC reconnues pour leur durabilité exceptionnelle. Un investissement sur le long terme pour ceux qui ne veulent pas changer d'équipement avant 20 ans.</p>
+      
+      <h3>Points forts de Viessmann</h3>
+      <ul>
+        <li><strong>Durabilité légendaire</strong> : conçu pour durer 20-25 ans</li>
+        <li><strong>Qualité allemande</strong> : finitions et composants premium</li>
+        <li><strong>Technologie avancée</strong> : réfrigérant naturel R290 (propane)</li>
+        <li><strong>Design soigné</strong> : unités extérieures esthétiques</li>
+      </ul>
+      
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Prix parmi les plus élevés du marché</li>
+        <li>SAV plus coûteux que la moyenne</li>
+      </ul>
+      
+      <h3>Prix indicatifs Viessmann (pose comprise)</h3>
+      <ul>
+        <li><strong>Vitocal 250-A</strong> (Air-Eau R290) : 16 000€ - 22 000€</li>
+        <li><strong>Vitocal 150-A</strong> (Air-Eau standard) : 14 000€ - 18 000€</li>
+      </ul>
+
+      <h2 id="comparatif">Tableau comparatif complet des marques de PAC</h2>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Marque</th>
+            <th style="padding: 12px; text-align: center;">Fiabilité</th>
+            <th style="padding: 12px; text-align: center;">SAV France</th>
+            <th style="padding: 12px; text-align: center;">Prix</th>
+            <th style="padding: 12px; text-align: center;">COP moyen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Daikin</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4.5-5.0</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Atlantic</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4.3-4.8</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mitsubishi Electric</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€€€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4.6-5.2</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Panasonic</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4.5-5.1</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>De Dietrich</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4.2-4.6</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Saunier Duval</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4.0-4.5</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Viessmann</strong></td>
+            <td style="padding: 12px; text-align: center;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center;">⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center;">€€€€€</td>
+            <td style="padding: 12px; text-align: center;">4.4-4.9</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="criteres">Comment choisir sa marque de PAC ? Les 5 critères essentiels</h2>
+      
+      <h3>1. Vérifiez la disponibilité du SAV dans votre région</h3>
+      <p>Une PAC nécessite un entretien annuel et peut tomber en panne. Avant de choisir, assurez-vous qu'il existe <strong>au moins 2-3 techniciens agréés à moins de 50 km</strong> de chez vous.</p>
+      
+      <h3>2. Comparez les garanties réelles</h3>
+      <ul>
+        <li><strong>Garantie compresseur</strong> : 5 à 7 ans selon les marques (c'est le cœur de la PAC)</li>
+        <li><strong>Garantie pièces</strong> : 2 à 5 ans standard</li>
+        <li><strong>Extensions possibles</strong> : jusqu'à 10 ans chez Daikin et Atlantic</li>
+      </ul>
+      
+      <h3>3. Adaptez le choix à votre climat</h3>
+      <ul>
+        <li><strong>Climat doux</strong> (Sud, Atlantique) : toutes les marques conviennent</li>
+        <li><strong>Climat froid</strong> (Alpes, Est) : privilégiez Mitsubishi Zubadan ou Panasonic T-CAP</li>
+      </ul>
+      
+      <h3>4. Vérifiez le niveau sonore</h3>
+      <p>L'unité extérieure peut être gênante pour vous ou vos voisins. Exigez une <strong>puissance acoustique inférieure à 55 dB</strong> (équivalent d'une conversation).</p>
+      
+      <h3>5. Consultez les avis des installateurs locaux</h3>
+      <p>Les professionnels connaissent les marques qui posent problème dans votre région. Demandez-leur leur avis honnête sur les retours SAV.</p>
+      
+      <p>Pour comparer les différents types de PAC (air-eau vs air-air), consultez notre <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">guide complet air-eau vs air-air</a>.</p>
+
+      <h2 id="erreurs">Les marques de PAC à éviter</h2>
+      
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention aux arnaques</strong><br/>
+        Méfiez-vous des marques inconnues vendues par démarchage téléphonique. Ces produits, souvent rebrandés, n'ont pas de SAV fiable en France et les pièces deviennent introuvables après quelques années.</p>
+      </blockquote>
+      
+      <p><strong>Les signaux d'alerte :</strong></p>
+      <ul>
+        <li>Marque introuvable sur Google ou sans site officiel</li>
+        <li>Vendeur qui ne peut pas citer d'installateurs agréés</li>
+        <li>Prix anormalement bas (50% de la moyenne)</li>
+        <li>Garantie assurée par l'installateur et non le fabricant</li>
+        <li>Démarchage agressif promettant la "PAC à 1€"</li>
+      </ul>
+      
+      <p>Pour éviter les arnaques, lisez notre article sur <a href="/blog/pac-1-euro-arnaque">les arnaques à la PAC à 1 euro</a>.</p>
+
+      <h2>Conclusion : quelle marque de PAC choisir ?</h2>
+      
+      <p>En 2026, le choix de la marque de votre pompe à chaleur dépend de vos priorités :</p>
+      
+      <ul>
+        <li><strong>Fiabilité maximale</strong> → Daikin ou Mitsubishi Electric</li>
+        <li><strong>SAV français rapide</strong> → Atlantic (le meilleur choix pour la tranquillité)</li>
+        <li><strong>Meilleur rapport qualité-prix</strong> → Panasonic ou Saunier Duval</li>
+        <li><strong>Performance par grand froid</strong> → Mitsubishi Electric Zubadan</li>
+        <li><strong>Durabilité premium</strong> → Viessmann ou De Dietrich</li>
+      </ul>
+      
+      <p>Notre conseil : <strong>demandez 3 devis</strong> à des installateurs RGE locaux en précisant les marques qui vous intéressent. Comparez non seulement les prix, mais aussi les retours d'expérience sur le SAV dans votre département.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet PAC ?</strong><br/>
+        Les artisans de notre réseau instalent les meilleures marques (Daikin, Atlantic, Mitsubishi...).<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Avis marques pompe à chaleur</h2>
+      
+      <h3>Quelle est la meilleure marque de pompe à chaleur en 2026 ?</h3>
+      <p><strong>Daikin</strong> est considérée comme la référence mondiale grâce à sa fiabilité exceptionnelle et son SAV dense en France. Cependant, <strong>Atlantic</strong> offre un excellent rapport qualité-prix avec l'avantage d'une fabrication 100% française et d'un SAV de proximité incomparable.</p>
+      
+      <h3>Quelle marque de PAC a le meilleur SAV en France ?</h3>
+      <p><strong>Atlantic</strong> possède le réseau SAV le plus dense avec 45 agences régionales et une garantie d'intervention sous 48h en semaine. Daikin arrive en second avec plus de 3 000 techniciens agréés sur le territoire.</p>
+      
+      <h3>Daikin ou Atlantic : laquelle choisir ?</h3>
+      <p><strong>Daikin</strong> pour une fiabilité technique légendaire et une technologie de pointe. <strong>Atlantic</strong> si vous privilégiez le made in France, un SAV local ultra-réactif, et un budget légèrement inférieur. Les deux sont d'excellents choix.</p>
+      
+      <h3>Quelle marque de PAC fonctionne par grand froid ?</h3>
+      <p>La <strong>Mitsubishi Electric Zubadan</strong> est la référence pour les climats rigoureux, garantie à -25°C. La <strong>Panasonic Aquarea T-CAP</strong> offre également d'excellentes performances par températures négatives, à un prix plus accessible.</p>
+      
+      <h3>Les PAC chinoises sont-elles fiables ?</h3>
+      <p>Certaines marques chinoises gagnent en qualité, mais le problème majeur reste le <strong>SAV quasi inexistant en France</strong>. En cas de panne, les délais de pièces peuvent atteindre plusieurs mois. Nous recommandons de rester sur des marques avec un réseau français établi.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-20",
+    readingTime: "14 min",
+    image: "/images/blog/avis-pac-marques.png"
+  },
+  {
+    slug: "autoconsommation-ou-vente-totale-panneaux-solaires",
+    title: "Autoconsommation avec Vente du Surplus vs Vente Totale : Que Choisir en 2026 ?",
+    excerpt: "Autoconsommation ou vente totale de votre production solaire ? Découvrez notre comparatif chiffré 2026 pour faire le bon choix selon votre profil.",
+    content: `
+      <p><strong>Vous installez des panneaux solaires et vous hésitez entre autoconsommation et vente totale ?</strong> C'est LA question cruciale qui déterminera la rentabilité de votre installation sur les 20 prochaines années.</p>
+      
+      <p>Dans ce guide comparatif, nous analysons <strong>les deux options en profondeur</strong> avec des simulations chiffrées sur des cas concrets. Autoconsommation avec vente du surplus ou vente totale : découvrez quelle solution correspond vraiment à votre situation en 2026.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs certifiés près de chez vous.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#definitions">Autoconsommation vs Vente totale : définitions</a></li>
+        <li><a href="#tarifs-2026">Les tarifs de rachat EDF OA en 2026</a></li>
+        <li><a href="#simulation">Simulation comparative chiffrée</a></li>
+        <li><a href="#avantages-autoconso">Avantages et inconvénients de l'autoconsommation</a></li>
+        <li><a href="#avantages-vente">Avantages et inconvénients de la vente totale</a></li>
+        <li><a href="#quel-profil">Quel choix selon votre profil ?</a></li>
+        <li><a href="#changer">Peut-on changer de formule en cours de contrat ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="definitions">Autoconsommation vs Vente totale : quelle différence ?</h2>
+      
+      <h3>L'autoconsommation avec vente du surplus</h3>
+      <p>Vous <strong>consommez en priorité l'électricité que vous produisez</strong>. L'excédent non consommé (le "surplus") est injecté sur le réseau et racheté par EDF OA à un tarif fixe garanti 20 ans.</p>
+      
+      <ul>
+        <li>✅ Vous réduisez votre facture d'électricité</li>
+        <li>✅ Vous touchez un revenu pour le surplus</li>
+        <li>✅ Vous bénéficiez de la prime à l'autoconsommation</li>
+        <li>⚠️ Rentabilité dépend de votre taux d'autoconsommation</li>
+      </ul>
+      
+      <h3>La vente totale</h3>
+      <p>Vous <strong>vendez 100% de votre production à EDF OA</strong>. Toute l'électricité produite est injectée sur le réseau et rachetée à un tarif fixe garanti 20 ans. Vous continuez d'acheter toute votre électricité à votre fournisseur habituel.</p>
+      
+      <ul>
+        <li>✅ Revenus prévisibles et stables</li>
+        <li>✅ Aucun changement d'habitudes de consommation</li>
+        <li>❌ Pas de prime à l'autoconsommation</li>
+        <li>❌ Pas de réduction de facture électrique</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces deux options sont réservées aux installations ≤ 500 kWc raccordées au réseau. Une troisième option existe : l'<strong>autoconsommation totale</strong> (sans revente), mais elle est rarement rentable car vous perdez l'excédent produit.</p>
+      </blockquote>
+
+      <h2 id="tarifs-2026">Les tarifs de rachat EDF OA en 2026</h2>
+      
+      <p>Les tarifs sont fixés par arrêté et révisés chaque trimestre. Voici les <strong>tarifs applicables au 1er trimestre 2026</strong> :</p>
+      
+      <h3>Tarifs autoconsommation avec vente du surplus</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: left;">Tarif rachat surplus</th>
+            <th style="padding: 12px; text-align: left;">Prime autoconsommation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>≤ 3 kWc</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>0,1276 €/kWh</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>1 140€</strong> (380€/kWc)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 - 9 kWc</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>0,1276 €/kWh</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>285€/kWc</strong> (ex: 1 710€ pour 6 kWc)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>9 - 36 kWc</strong></td>
+            <td style="padding: 12px;"><strong>0,1276 €/kWh</strong></td>
+            <td style="padding: 12px;"><strong>200€/kWc</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Tarifs vente totale</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: left;">Tarif rachat total</th>
+            <th style="padding: 12px; text-align: left;">Prime</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>≤ 3 kWc</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>0,1657 €/kWh</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Aucune</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 - 9 kWc</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>0,1409 €/kWh</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Aucune</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>9 - 36 kWc</strong></td>
+            <td style="padding: 12px;"><strong>0,1312 €/kWh</strong></td>
+            <td style="padding: 12px;">Aucune</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre consommation en 2 min et recevez des estimations personnalisées.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="simulation">Simulation comparative : autoconsommation vs vente totale</h2>
+      
+      <p>Prenons un <strong>cas concret</strong> : une maison en Île-de-France avec une installation de <strong>6 kWc</strong> produisant 6 800 kWh/an.</p>
+      
+      <h3>Hypothèses de calcul</h3>
+      <ul>
+        <li>Prix d'achat électricité : 0,23 €/kWh (tarif réglementé 2026)</li>
+        <li>Taux d'autoconsommation : 35% (moyenne française sans batterie)</li>
+        <li>Coût installation 6 kWc : 14 500€ TTC</li>
+        <li>Production annuelle : 6 800 kWh</li>
+      </ul>
+      
+      <h3>Scénario 1 : Autoconsommation avec vente du surplus</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #22c55e; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste</th>
+            <th style="padding: 12px; text-align: right;">Calcul</th>
+            <th style="padding: 12px; text-align: right;">Montant/an</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Électricité autoconsommée (35%)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">2 380 kWh × 0,23€</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>+ 547€</strong> (économie)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Surplus vendu (65%)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">4 420 kWh × 0,1276€</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>+ 564€</strong></td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prime autoconsommation (sur 5 ans)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">1 710€ ÷ 5</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>+ 342€</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px;"><strong>TOTAL GAIN ANNUEL</strong></td>
+            <td style="padding: 12px; text-align: right;"></td>
+            <td style="padding: 12px; text-align: right;"><strong>1 453€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><strong>Retour sur investissement :</strong> 14 500€ ÷ 1 453€ = <strong>10 ans</strong> (avec la prime sur 5 ans)</p>
+      
+      <h3>Scénario 2 : Vente totale</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #f59e0b; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste</th>
+            <th style="padding: 12px; text-align: right;">Calcul</th>
+            <th style="padding: 12px; text-align: right;">Montant/an</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Production vendue (100%)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">6 800 kWh × 0,1409€</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>+ 958€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Facture électricité inchangée</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">-</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prime</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">-</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px;"><strong>TOTAL GAIN ANNUEL</strong></td>
+            <td style="padding: 12px; text-align: right;"></td>
+            <td style="padding: 12px; text-align: right;"><strong>958€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><strong>Retour sur investissement :</strong> 14 500€ ÷ 958€ = <strong>15 ans</strong></p>
+
+      <h3>Tableau récapitulatif</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Autoconsommation + surplus</th>
+            <th style="padding: 12px; text-align: center;">Vente totale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gain annuel</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;"><strong>1 453€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">958€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Retour sur investissement</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;"><strong>10 ans</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15 ans</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gain sur 20 ans</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;"><strong>≈ 22 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≈ 19 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Protection hausse électricité</strong></td>
+            <td style="padding: 12px; text-align: center; background: #dcfce7;"><strong>Oui</strong></td>
+            <td style="padding: 12px; text-align: center;">Non</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Le verdict</strong><br/>
+        Dans 90% des cas, l'autoconsommation avec vente du surplus est plus rentable. L'écart se creuse encore si le prix de l'électricité continue d'augmenter (+10-15% par an ces dernières années).</p>
+      </blockquote>
+
+      <h2 id="avantages-autoconso">Avantages et inconvénients de l'autoconsommation</h2>
+      
+      <h3>✅ Les avantages</h3>
+      <ul>
+        <li><strong>Rentabilité supérieure</strong> : économie + revenu du surplus + prime</li>
+        <li><strong>Protection contre la hausse des prix</strong> : chaque kWh autoconsommé prend de la valeur</li>
+        <li><strong>Prime à l'autoconsommation</strong> : jusqu'à 2 565€ pour 9 kWc</li>
+        <li><strong>Indépendance énergétique</strong> : vous consommez votre propre production</li>
+        <li><strong>TVA réduite à 10%</strong> pour les installations ≤ 3 kWc</li>
+      </ul>
+      
+      <h3>❌ Les inconvénients</h3>
+      <ul>
+        <li><strong>Optimisation nécessaire</strong> : il faut adapter ses habitudes (lancer le lave-linge en journée)</li>
+        <li><strong>Revenus variables</strong> : dépendent de votre taux d'autoconsommation</li>
+        <li><strong>Tarif de rachat plus bas</strong> que la vente totale</li>
+      </ul>
+
+      <h2 id="avantages-vente">Avantages et inconvénients de la vente totale</h2>
+      
+      <h3>✅ Les avantages</h3>
+      <ul>
+        <li><strong>Simplicité</strong> : pas de changement d'habitudes</li>
+        <li><strong>Revenus prévisibles</strong> : 100% de la production vendue au même tarif</li>
+        <li><strong>Tarif de rachat plus élevé</strong> (0,1657€ vs 0,1276€ en ≤ 3 kWc)</li>
+        <li><strong>Idéal pour résidences secondaires</strong> : maison inoccupée en journée</li>
+      </ul>
+      
+      <h3>❌ Les inconvénients</h3>
+      <ul>
+        <li><strong>Pas de prime</strong> : vous perdez jusqu'à 2 565€</li>
+        <li><strong>Pas de protection</strong> : vous payez toujours votre électricité au prix fort</li>
+        <li><strong>Rentabilité moindre</strong> : ROI 15 ans vs 10 ans</li>
+        <li><strong>Gain sur 20 ans inférieur</strong> de 3 000€ à 5 000€</li>
+      </ul>
+
+      <h2 id="quel-profil">Quel choix selon votre profil ?</h2>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Votre situation</th>
+            <th style="padding: 12px; text-align: center;">Notre recommandation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Vous êtes présent en journée (télétravail, retraité)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ <strong>Autoconsommation</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Vous pouvez décaler vos consommations (lave-linge, sèche-linge)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ <strong>Autoconsommation</strong></td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Vous avez une piscine ou un véhicule électrique</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ <strong>Autoconsommation</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Vous avez ou prévoyez une batterie domestique</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ <strong>Autoconsommation</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Résidence secondaire (maison vide en journée)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚡ <strong>Vente totale</strong></td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Locatif (vous ne consommez pas l'électricité)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚡ <strong>Vente totale</strong></td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px;">Très faible consommation diurne et impossibilité de décaler</td>
+            <td style="padding: 12px; text-align: center;">⚡ <strong>Vente totale</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Comment augmenter votre taux d'autoconsommation ?</h3>
+      <p>Plus vous autoconsommez, plus l'autoconsommation est rentable. Voici comment passer de 35% à 60-70% :</p>
+      
+      <ul>
+        <li><strong>Programmez vos appareils</strong> : lave-linge, lave-vaisselle, sèche-linge entre 11h et 15h</li>
+        <li><strong>Chauffe-eau thermodynamique</strong> : programmez-le pour chauffer en journée</li>
+        <li><strong>Recharge véhicule électrique</strong> : branchez-le en journée quand vous le pouvez</li>
+        <li><strong>Batterie domestique</strong> : stockez le surplus pour le soir (mais le coût est encore élevé : 5 000€ - 10 000€)</li>
+        <li><strong>Domotique solaire</strong> : systèmes qui déclenchent automatiquement les appareils quand il y a surplus</li>
+      </ul>
+      
+      <p>Pour en savoir plus sur les prix et la rentabilité, consultez notre <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">guide complet des prix panneaux solaires 2026</a>.</p>
+
+      <h2 id="changer">Peut-on changer de formule en cours de contrat ?</h2>
+      
+      <p><strong>Non</strong>, le choix est définitif pour toute la durée du contrat (20 ans). C'est pourquoi il est crucial de bien réfléchir avant de signer.</p>
+      
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention</strong><br/>
+        Si vous optez pour la vente totale et que le prix de l'électricité double dans 10 ans (ce qui est probable), vous regretterez de ne pas avoir choisi l'autoconsommation. Chaque kWh que vous auriez pu autoconsommer vaudra alors 0,40-0,50€ au lieu de 0,14€ de revente.</p>
+      </blockquote>
+      
+      <p>Cependant, à la fin du contrat de 20 ans, vous pourrez :</p>
+      <ul>
+        <li>Renégocier un nouveau contrat (les conditions futures sont inconnues)</li>
+        <li>Passer en autoconsommation totale sans revente</li>
+        <li>Chercher un autre acheteur que EDF OA</li>
+      </ul>
+
+      <h2>Conclusion : autoconsommation ou vente totale ?</h2>
+      
+      <p>En 2026, <strong>l'autoconsommation avec vente du surplus est le choix le plus rentable</strong> pour la grande majorité des particuliers. Voici pourquoi :</p>
+      
+      <ul>
+        <li><strong>Retour sur investissement 30-50% plus rapide</strong> (10 ans vs 15 ans)</li>
+        <li><strong>Prime à l'autoconsommation</strong> allant jusqu'à 2 565€</li>
+        <li><strong>Protection contre la hausse des prix de l'électricité</strong></li>
+        <li><strong>Gain supérieur sur 20 ans</strong> de 3 000€ à 5 000€</li>
+      </ul>
+      
+      <p>La vente totale ne reste intéressante que pour les <strong>résidences secondaires</strong> ou les <strong>installations sur bâtiments locatifs</strong> où vous ne consommez pas l'électricité produite.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet solaire ?</strong><br/>
+        Nos installateurs vous conseillent sur la meilleure option selon votre situation.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Autoconsommation ou vente totale</h2>
+      
+      <h3>Quel est le tarif de rachat en autoconsommation en 2026 ?</h3>
+      <p>Le tarif de rachat du surplus en autoconsommation est de <strong>0,1276 €/kWh</strong> pour les installations ≤ 9 kWc au 1er trimestre 2026. Ce tarif est garanti pendant 20 ans à compter de la signature du contrat avec EDF OA.</p>
+      
+      <h3>Peut-on passer de vente totale à autoconsommation ?</h3>
+      <p><strong>Non</strong>, le choix entre autoconsommation et vente totale est définitif pour toute la durée du contrat (20 ans). C'est pourquoi il est essentiel de bien réfléchir avant de signer avec EDF Obligation d'Achat.</p>
+      
+      <h3>La vente totale est-elle rentable en 2026 ?</h3>
+      <p>La vente totale reste rentable mais <strong>moins que l'autoconsommation</strong> pour une résidence principale. Le retour sur investissement est d'environ 15 ans contre 10 ans en autoconsommation. Elle reste pertinente pour les résidences secondaires ou les bâtiments locatifs.</p>
+      
+      <h3>Qu'est-ce que la prime à l'autoconsommation ?</h3>
+      <p>C'est une aide versée par EDF OA uniquement si vous choisissez l'autoconsommation avec vente du surplus. Elle s'élève à <strong>380€/kWc pour les installations ≤ 3 kWc</strong> et <strong>285€/kWc entre 3 et 9 kWc</strong>. Elle est versée en 5 fois sur les 5 premières années.</p>
+      
+      <h3>Quel taux d'autoconsommation peut-on atteindre ?</h3>
+      <p>Sans batterie, le taux moyen est de <strong>30-40%</strong>. En optimisant vos habitudes (appareils programmés en journée), vous pouvez atteindre <strong>50-60%</strong>. Avec une batterie domestique, on peut dépasser <strong>70-80%</strong>, mais le surcoût (5 000-10 000€) rallonge le retour sur investissement.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-20",
+    readingTime: "12 min",
+    image: "/images/blog/autoconsommation-vente-totale.png"
   }
 ];
 
