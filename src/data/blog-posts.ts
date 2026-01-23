@@ -2,6 +2,515 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "isolation-exterieure-prix-m2",
+    title: "Isolation par l'Extérieur (ITE) : Prix au m² selon l'isolant (Polystyrène vs Laine de Roche)",
+    excerpt: "Découvrez le prix réel de l'isolation extérieure en 2026 : 120€ à 250€/m². Comparatif polystyrène vs laine de roche, aides MaPrimeRénov', et devis gratuits.",
+    content: `
+      <p><strong>Combien coûte l'isolation par l'extérieur (ITE) en 2026 ?</strong> Le prix varie considérablement selon l'isolant choisi : polystyrène expansé (PSE), laine de roche ou fibre de bois. Entre 120€ et 250€/m² pose comprise, le budget représente un investissement conséquent... mais rentable grâce aux aides et aux économies d'énergie.</p>
+      
+      <p>Dans ce guide complet, nous détaillons les <strong>prix au m² selon chaque isolant</strong>, comparons leurs performances, et vous aidons à choisir la meilleure solution pour votre maison.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans RGE pour votre projet d'ITE.<br/>
+        <a href="/service/isolation-exterieure/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-ite-2026">Prix de l'ITE en 2026 : fourchettes par isolant</a></li>
+        <li><a href="#polystyrene">Prix ITE polystyrène (PSE) : le moins cher</a></li>
+        <li><a href="#laine-roche">Prix ITE laine de roche : le meilleur rapport qualité-prix</a></li>
+        <li><a href="#fibre-bois">Prix ITE fibre de bois : l'option écologique</a></li>
+        <li><a href="#comparatif">Comparatif des isolants : tableau récapitulatif</a></li>
+        <li><a href="#facteurs-prix">Ce qui fait varier le prix de l'ITE</a></li>
+        <li><a href="#aides">Aides financières pour l'ITE en 2026</a></li>
+        <li><a href="#rentabilite">Rentabilité : combien d'années pour amortir ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-ite-2026">Prix de l'ITE en 2026 : fourchettes par isolant</h2>
+      
+      <p>Voici les <strong>prix moyens constatés en 2026</strong> pour une isolation par l'extérieur, pose et finition comprises :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Isolant</th>
+            <th style="padding: 12px; text-align: center;">Prix au m² (pose comprise)</th>
+            <th style="padding: 12px; text-align: center;">Épaisseur standard</th>
+            <th style="padding: 12px; text-align: center;">Maison 100 m²</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Polystyrène expansé (PSE)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>120€ - 180€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14-16 cm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15 000€ - 22 500€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Laine de roche</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>140€ - 200€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14-18 cm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">17 500€ - 25 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fibre de bois</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>180€ - 250€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14-20 cm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">22 500€ - 31 250€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Polystyrène graphité (PSE gris)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>130€ - 190€/m²</strong></td>
+            <td style="padding: 12px; text-align: center;">12-14 cm</td>
+            <td style="padding: 12px; text-align: center;">16 250€ - 23 750€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces prix incluent : l'isolant, les fixations, l'armature, l'enduit de finition et la main-d'œuvre. La surface à isoler représente généralement <strong>1,2 à 1,5 fois</strong> la surface habitable de votre maison (murs extérieurs uniquement).</p>
+      </blockquote>
+
+      <h2 id="polystyrene">Prix ITE polystyrène (PSE) : le moins cher</h2>
+      
+      <p>Le <strong>polystyrène expansé (PSE)</strong>, aussi appelé "PSE blanc", est l'isolant le plus utilisé en ITE. Il représente plus de 70% des chantiers d'isolation extérieure en France.</p>
+      
+      <h3>Prix détaillé du polystyrène</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Composant</th>
+            <th style="padding: 12px; text-align: right;">Prix au m²</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Panneaux PSE (14 cm, R=3,7)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">15€ - 25€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fixations et rails de départ</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">8€ - 12€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Armature et sous-enduit</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">15€ - 20€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Enduit de finition</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">20€ - 35€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Main-d'œuvre</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">50€ - 80€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Total</strong></td>
+            <td style="padding: 12px; text-align: right;"><strong>120€ - 180€/m²</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Avantages du polystyrène</h3>
+      <ul>
+        <li><strong>Prix le plus bas</strong> du marché ITE</li>
+        <li><strong>Légèreté</strong> : facilite la pose et réduit les contraintes sur la structure</li>
+        <li><strong>Résistance à l'humidité</strong> : ne craint pas l'eau</li>
+        <li><strong>Durabilité</strong> : durée de vie supérieure à 50 ans</li>
+        <li><strong>Large choix</strong> de finitions (enduit taloché, gratté, ribbé)</li>
+      </ul>
+
+      <h3>Inconvénients du polystyrène</h3>
+      <ul>
+        <li><strong>Faible inertie thermique</strong> : moins efficace en été contre la chaleur</li>
+        <li><strong>Peu respirant</strong> : peut poser problème sur murs anciens humides</li>
+        <li><strong>Inflammable</strong> : nécessite un traitement ignifuge (classe E)</li>
+        <li><strong>Impact environnemental</strong> : dérivé du pétrole, non recyclable</li>
+      </ul>
+
+      <h2 id="laine-roche">Prix ITE laine de roche : le meilleur rapport qualité-prix</h2>
+      
+      <p>La <strong>laine de roche</strong> est le deuxième isolant le plus utilisé en ITE. Elle offre un excellent compromis entre performance, sécurité incendie et prix.</p>
+      
+      <h3>Prix détaillé de la laine de roche</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Composant</th>
+            <th style="padding: 12px; text-align: right;">Prix au m²</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Panneaux laine de roche (14 cm, R=3,7)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">25€ - 40€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fixations et rails de départ</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">10€ - 15€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Armature et sous-enduit</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">15€ - 20€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Enduit de finition</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">20€ - 35€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Main-d'œuvre</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">55€ - 85€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Total</strong></td>
+            <td style="padding: 12px; text-align: right;"><strong>140€ - 200€/m²</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Avantages de la laine de roche</h3>
+      <ul>
+        <li><strong>Ininflammable (classe A1)</strong> : excellente résistance au feu</li>
+        <li><strong>Bon confort d'été</strong> : meilleure inertie thermique que le PSE</li>
+        <li><strong>Perméable à la vapeur d'eau</strong> : laisse respirer les murs anciens</li>
+        <li><strong>Isolation phonique</strong> : excellentes performances acoustiques</li>
+        <li><strong>Durabilité</strong> : durée de vie 50+ ans, ne se tasse pas</li>
+      </ul>
+
+      <h3>Inconvénients de la laine de roche</h3>
+      <ul>
+        <li><strong>Prix plus élevé</strong> que le polystyrène (+15 à 20%)</li>
+        <li><strong>Plus lourde</strong> : peut nécessiter des fixations renforcées</li>
+        <li><strong>Sensible à l'eau</strong> : nécessite une mise en œuvre soignée</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel isolant choisir pour VOTRE maison ?</strong><br/>
+        Décrivez votre projet et recevez des conseils personnalisés d'artisans RGE locaux.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="fibre-bois">Prix ITE fibre de bois : l'option écologique</h2>
+      
+      <p>La <strong>fibre de bois</strong> est l'isolant biosourcé le plus performant pour l'ITE. Plus cher, il offre le meilleur confort thermique toute l'année, particulièrement en été.</p>
+      
+      <h3>Prix détaillé de la fibre de bois</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Composant</th>
+            <th style="padding: 12px; text-align: right;">Prix au m²</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Panneaux fibre de bois (14 cm, R=3,7)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">45€ - 70€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fixations et rails de départ</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">12€ - 18€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Armature et sous-enduit</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">18€ - 25€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Enduit de finition</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">25€ - 40€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Main-d'œuvre</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">65€ - 95€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Total</strong></td>
+            <td style="padding: 12px; text-align: right;"><strong>180€ - 250€/m²</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Avantages de la fibre de bois</h3>
+      <ul>
+        <li><strong>Excellent confort d'été</strong> : déphasage thermique de 10-12 heures</li>
+        <li><strong>100% écologique</strong> : biosourcé, recyclable, bilan carbone négatif</li>
+        <li><strong>Très perméable</strong> : idéale pour maisons anciennes en pierre</li>
+        <li><strong>Régulation hygrométrique</strong> : absorbe et restitue l'humidité</li>
+        <li><strong>Bonne isolation phonique</strong></li>
+      </ul>
+
+      <h3>Inconvénients de la fibre de bois</h3>
+      <ul>
+        <li><strong>Prix élevé</strong> : +50% par rapport au polystyrène</li>
+        <li><strong>Épaisseur requise</strong> : nécessite plus d'épaisseur pour même R</li>
+        <li><strong>Résistance au feu moindre</strong> (classe E)</li>
+        <li><strong>Moins de professionnels formés</strong></li>
+      </ul>
+
+      <h2 id="comparatif">Comparatif des isolants ITE : tableau récapitulatif</h2>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Polystyrène</th>
+            <th style="padding: 12px; text-align: center;">Laine de roche</th>
+            <th style="padding: 12px; text-align: center;">Fibre de bois</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prix au m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">120-180€ ⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">140-200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">180-250€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Conductivité λ</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0,032-0,038</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0,034-0,040</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0,038-0,042</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Confort d'été</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Résistance feu</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">E (traité)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">A1 ⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">E</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Perméabilité vapeur</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Faible</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Bonne</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Excellente ⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Impact écologique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Pétrochimie</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Minéral</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Biosourcé ⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Maisons anciennes</strong></td>
+            <td style="padding: 12px; text-align: center;">❌ Déconseillé</td>
+            <td style="padding: 12px; text-align: center;">✅ Adapté</td>
+            <td style="padding: 12px; text-align: center; background: #dcfce7;">✅ Idéal ⭐</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="facteurs-prix">Ce qui fait varier le prix de l'ITE</h2>
+      
+      <p>Le prix final de votre ITE dépend de plusieurs facteurs :</p>
+      
+      <h3>1. La surface à isoler</h3>
+      <p>Plus la surface est grande, plus le prix au m² diminue grâce aux économies d'échelle. Comptez une <strong>réduction de 10-15%</strong> au-delà de 150 m² de façade.</p>
+      
+      <h3>2. L'état des murs existants</h3>
+      <ul>
+        <li><strong>Murs sains</strong> : prix standard</li>
+        <li><strong>Murs fissurés</strong> : +10 à 20€/m² (traitement préalable)</li>
+        <li><strong>Murs humides</strong> : +15 à 30€/m² (drainage, traitement)</li>
+      </ul>
+      
+      <h3>3. La complexité architecturale</h3>
+      <ul>
+        <li><strong>Façade simple</strong> : prix normal</li>
+        <li><strong>Nombreuses ouvertures</strong> : +10-15% (découpes, tableaux)</li>
+        <li><strong>Balcons, loggias, corniches</strong> : +15-25% (traitement points singuliers)</li>
+        <li><strong>Hauteur > 12m</strong> : +20-30% (échafaudage spécial)</li>
+      </ul>
+      
+      <h3>4. Le type de finition</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Finition</th>
+            <th style="padding: 12px; text-align: right;">Supplément</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Enduit taloché (standard)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">Inclus</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Enduit gratté</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">+5€/m²</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Bardage bois</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">+40 à 80€/m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Bardage composite</td>
+            <td style="padding: 12px; text-align: right;">+50 à 100€/m²</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>5. La région géographique</h3>
+      <p>Les prix varient selon les régions :</p>
+      <ul>
+        <li><strong>Île-de-France</strong> : +15 à 25% vs moyenne nationale</li>
+        <li><strong>PACA, Rhône-Alpes</strong> : +5 à 10%</li>
+        <li><strong>Bretagne, Normandie</strong> : prix moyens</li>
+        <li><strong>Centre, Est</strong> : -5 à 10%</li>
+      </ul>
+
+      <h2 id="aides">Aides financières pour l'ITE en 2026</h2>
+      
+      <p>L'isolation extérieure bénéficie de nombreuses <strong>aides cumulables</strong> :</p>
+      
+      <h3>MaPrimeRénov' 2026</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil</th>
+            <th style="padding: 12px; text-align: center;">Aide au m²</th>
+            <th style="padding: 12px; text-align: center;">Pour 125 m² de façade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🔵 Bleu (très modeste)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>75€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>9 375€</strong></td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟡 Jaune (modeste)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>60€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>7 500€</strong></td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟣 Violet (intermédiaire)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>40€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>5 000€</strong></td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;">🌸 Rose (aisé)</td>
+            <td style="padding: 12px; text-align: center;"><strong>15€/m²</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>1 875€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour connaître tous les détails sur MaPrimeRénov', consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a>.</p>
+
+      <h3>Autres aides cumulables</h3>
+      <ul>
+        <li><strong>Prime CEE</strong> : 8€ à 15€/m² selon fournisseur d'énergie</li>
+        <li><strong>TVA réduite 5,5%</strong> : économie de ~2 000€ pour une maison 100 m²</li>
+        <li><strong>Éco-PTZ</strong> : jusqu'à 30 000€ à taux zéro sur 20 ans</li>
+        <li><strong>Aides locales</strong> : variables selon département/région</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret (profil Bleu)</strong><br/>
+        Maison 100 m² habitables = 125 m² de façade à isoler<br/>
+        <strong>Coût ITE polystyrène</strong> : 125 m² × 150€ = 18 750€<br/>
+        <strong>MaPrimeRénov'</strong> : 125 m² × 75€ = -9 375€<br/>
+        <strong>Prime CEE</strong> : 125 m² × 10€ = -1 250€<br/>
+        <strong>Reste à charge</strong> : <strong>8 125€</strong> (soit 65€/m²)</p>
+      </blockquote>
+
+      <h2 id="rentabilite">Rentabilité : combien d'années pour amortir ?</h2>
+      
+      <p>L'ITE permet de réduire votre facture de chauffage de <strong>25 à 40%</strong> selon l'état initial de votre maison.</p>
+      
+      <h3>Simulation de rentabilité</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil</th>
+            <th style="padding: 12px; text-align: center;">Reste à charge</th>
+            <th style="padding: 12px; text-align: center;">Économie/an</th>
+            <th style="padding: 12px; text-align: center;">Amortissement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🔵 Bleu</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~8 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">600€/an</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>13 ans</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟡 Jaune</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~10 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">600€/an</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>17 ans</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">🟣 Violet</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~12 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">600€/an</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>21 ans</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">🌸 Rose</td>
+            <td style="padding: 12px; text-align: center;">~15 500€</td>
+            <td style="padding: 12px; text-align: center;">600€/an</td>
+            <td style="padding: 12px; text-align: center;"><strong>26 ans</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 À noter</strong><br/>
+        Ces calculs ne prennent pas en compte la <strong>hausse des prix de l'énergie</strong> (~5-10%/an), qui accélère l'amortissement. Ils ne comptent pas non plus la <strong>plus-value immobilière</strong> apportée par l'ITE (gain d'une à deux classes DPE).</p>
+      </blockquote>
+
+      <h2>Conclusion : quel isolant choisir pour votre ITE ?</h2>
+      
+      <p>Le choix de l'isolant dépend de vos priorités :</p>
+      
+      <ul>
+        <li><strong>Budget serré → Polystyrène</strong> : 120-180€/m², le meilleur rapport isolation/prix</li>
+        <li><strong>Maison en pierre/ancienne → Laine de roche</strong> : 140-200€/m², respiration et sécurité incendie</li>
+        <li><strong>Confort d'été + écologie → Fibre de bois</strong> : 180-250€/m², l'option premium</li>
+      </ul>
+      
+      <p>Quelle que soit votre choix, l'ITE reste un <strong>investissement rentable</strong> grâce aux aides généreuses de 2026 et aux économies d'énergie durables.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet d'ITE ?</strong><br/>
+        Recevez 3 devis gratuits d'artisans RGE spécialisés en isolation extérieure.<br/>
+        <a href="/service/isolation-exterieure/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Prix de l'isolation extérieure</h2>
+      
+      <h3>Quel est le prix au m² de l'isolation extérieure en 2026 ?</h3>
+      <p>Le prix de l'ITE varie de <strong>120€ à 250€/m² pose comprise</strong> selon l'isolant choisi. Le polystyrène est le moins cher (120-180€/m²), suivi de la laine de roche (140-200€/m²) et de la fibre de bois (180-250€/m²). Ces prix incluent l'isolant, la pose, l'armature et l'enduit de finition.</p>
+      
+      <h3>Quelle est la différence de prix entre polystyrène et laine de roche ?</h3>
+      <p>La laine de roche coûte en moyenne <strong>15 à 20% plus cher</strong> que le polystyrène : environ 140-200€/m² contre 120-180€/m². Cette différence se justifie par une meilleure résistance au feu (classement A1), un meilleur confort d'été et une perméabilité à la vapeur d'eau supérieure.</p>
+      
+      <h3>Quelles aides pour l'isolation extérieure en 2026 ?</h3>
+      <p>L'ITE bénéficie de <strong>MaPrimeRénov'</strong> (15 à 75€/m² selon revenus), des <strong>primes CEE</strong> (8-15€/m²), de la <strong>TVA à 5,5%</strong> et de l'<strong>éco-PTZ</strong>. Pour un ménage modeste, les aides peuvent couvrir jusqu'à 60% du coût des travaux.</p>
+      
+      <h3>Combien coûte une ITE pour une maison de 100 m² ?</h3>
+      <p>Pour une maison de 100 m² habitables, comptez environ <strong>125 m² de façade à isoler</strong>. Le coût total sera de 15 000€ à 31 000€ selon l'isolant choisi, avant déduction des aides. Après aides MaPrimeRénov' et CEE, le reste à charge peut descendre à 6 000€-12 000€ pour les ménages modestes.</p>
+      
+      <h3>Quel est le meilleur isolant pour une maison ancienne ?</h3>
+      <p>Pour une maison ancienne en pierre ou en briques, privilégiez la <strong>laine de roche</strong> ou la <strong>fibre de bois</strong>. Ces isolants sont perméables à la vapeur d'eau et laissent "respirer" les murs anciens, évitant ainsi les problèmes d'humidité. Le polystyrène est déconseillé car il bloque la migration de vapeur.</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-01-23",
+    readingTime: "16 min",
+    image: "/images/blog/isolation-exterieure-prix-m2.jpg"
+  },
+  {
     slug: "maprimenov-2026-guide-complet",
     title: "MaPrimeRénov' 2026 : Le Guide Complet (Barèmes Bleu, Jaune, Violet, Rose)",
     excerpt: "Découvrez les montants MaPrimeRénov' 2026 par profil de revenus. Barèmes actualisés, travaux éligibles et démarches pour obtenir votre aide à la rénovation énergétique.",
