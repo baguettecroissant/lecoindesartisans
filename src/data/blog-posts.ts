@@ -2,6 +2,482 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "maprimenov-2026-guide-complet",
+    title: "MaPrimeRénov' 2026 : Le Guide Complet (Barèmes Bleu, Jaune, Violet, Rose)",
+    excerpt: "Découvrez les montants MaPrimeRénov' 2026 par profil de revenus. Barèmes actualisés, travaux éligibles et démarches pour obtenir votre aide à la rénovation énergétique.",
+    content: `
+      <p><strong>Combien pouvez-vous toucher avec MaPrimeRénov' en 2026 ?</strong> Cette aide de l'État pour la rénovation énergétique est devenue incontournable pour financer vos travaux : pompe à chaleur, isolation, panneaux solaires, fenêtres... Mais entre les 4 profils de revenus (Bleu, Jaune, Violet, Rose) et les différents montants selon les travaux, il est facile de s'y perdre.</p>
+      
+      <p>Dans ce guide complet, nous vous expliquons <strong>clairement et simplement</strong> comment fonctionne MaPrimeRénov' en 2026 : les plafonds de revenus, les montants par type de travaux, les conditions d'éligibilité et les démarches pour obtenir votre prime.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans RGE et estimez vos aides MaPrimeRénov'.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#quest-ce-que-maprimenov">Qu'est-ce que MaPrimeRénov' ?</a></li>
+        <li><a href="#profils-revenus">Les 4 profils de revenus : Bleu, Jaune, Violet, Rose</a></li>
+        <li><a href="#montants-travaux">Montants MaPrimeRénov' 2026 par type de travaux</a></li>
+        <li><a href="#conditions-eligibilite">Conditions d'éligibilité en 2026</a></li>
+        <li><a href="#cumul-aides">Cumul avec d'autres aides (CEE, Éco-PTZ)</a></li>
+        <li><a href="#demarches">Comment faire sa demande MaPrimeRénov' ?</a></li>
+        <li><a href="#nouveautes-2026">Nouveautés MaPrimeRénov' 2026</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="quest-ce-que-maprimenov">Qu'est-ce que MaPrimeRénov' ?</h2>
+      
+      <p><strong>MaPrimeRénov'</strong> est la principale aide de l'État français pour la rénovation énergétique des logements. Lancée en 2020, elle remplace l'ancien crédit d'impôt transition énergétique (CITE) et les aides de l'Anah "Habiter Mieux".</p>
+      
+      <h3>Objectifs de MaPrimeRénov'</h3>
+      <ul>
+        <li><strong>Améliorer la performance énergétique</strong> des logements français</li>
+        <li><strong>Réduire les émissions de CO2</strong> du parc immobilier</li>
+        <li><strong>Lutter contre la précarité énergétique</strong> en aidant les ménages modestes</li>
+        <li><strong>Éliminer les "passoires thermiques"</strong> (logements classés F ou G)</li>
+      </ul>
+      
+      <p>En 2026, <strong>plus de 2 milliards d'euros</strong> sont consacrés à ce dispositif, permettant à des centaines de milliers de ménages de rénover leur logement à moindre coût.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        MaPrimeRénov' est versée directement par l'Anah (Agence nationale de l'habitat) après réalisation des travaux. Elle n'est pas un crédit d'impôt : vous recevez un virement bancaire une fois le chantier terminé et les justificatifs transmis.</p>
+      </blockquote>
+
+      <h2 id="profils-revenus">Les 4 profils de revenus : Bleu, Jaune, Violet, Rose</h2>
+      
+      <p>Le montant de votre prime dépend de vos <strong>revenus fiscaux de référence</strong> (RFR) et de votre lieu de résidence (Île-de-France ou autres régions). Vous êtes classé dans l'un des 4 profils :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil</th>
+            <th style="padding: 12px; text-align: left;">Catégorie</th>
+            <th style="padding: 12px; text-align: left;">Plafond RFR (1 pers.)</th>
+            <th style="padding: 12px; text-align: left;">Niveau d'aide</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🔵 Bleu</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Très modeste</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">≤ 17 009€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maximum</strong></td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟡 Jaune</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Modeste</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">≤ 21 805€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Élevé</strong></td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟣 Violet</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Intermédiaire</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">≤ 30 549€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Modéré</strong></td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;"><strong>🌸 Rose</strong></td>
+            <td style="padding: 12px;">Aisé</td>
+            <td style="padding: 12px;">> 30 549€</td>
+            <td style="padding: 12px;"><strong>Limité</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>Plafonds de revenus 2026 par composition du foyer (hors Île-de-France)</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Nb personnes</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">1 personne</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 17 009€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 21 805€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 30 549€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">2 personnes</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 24 875€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 31 889€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 44 907€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">3 personnes</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 29 917€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 38 349€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 54 071€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">4 personnes</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 34 948€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 44 802€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 63 235€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">5 personnes</td>
+            <td style="padding: 12px; text-align: center;">≤ 40 002€</td>
+            <td style="padding: 12px; text-align: center;">≤ 51 281€</td>
+            <td style="padding: 12px; text-align: center;">≤ 72 400€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Important</strong><br/>
+        Les plafonds sont <strong>plus élevés en Île-de-France</strong> (environ +20%). Vérifiez votre éligibilité sur le site officiel maprimerenov.gouv.fr avec votre avis d'imposition.</p>
+      </blockquote>
+
+      <h2 id="montants-travaux">Montants MaPrimeRénov' 2026 par type de travaux</h2>
+      
+      <p>Voici les <strong>montants actualisés 2026</strong> pour les principaux travaux de rénovation énergétique :</p>
+      
+      <h3>🔥 Chauffage et eau chaude</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Équipement</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet</th>
+            <th style="padding: 12px; text-align: center;">🌸 Rose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pompe à chaleur air-eau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>5 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>4 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>3 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pompe à chaleur géothermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>11 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>9 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>6 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Chaudière biomasse</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Poêle à granulés</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Chauffe-eau thermodynamique</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">800€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">400€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Chauffe-eau solaire</td>
+            <td style="padding: 12px; text-align: center;">4 000€</td>
+            <td style="padding: 12px; text-align: center;">3 000€</td>
+            <td style="padding: 12px; text-align: center;">2 000€</td>
+            <td style="padding: 12px; text-align: center;">0€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour en savoir plus sur les pompes à chaleur, consultez notre <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">guide pour choisir entre PAC air-eau et air-air</a>.</p>
+
+      <h3>🧱 Isolation</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type d'isolation</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet</th>
+            <th style="padding: 12px; text-align: center;">🌸 Rose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation des murs par l'extérieur (ITE)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>75€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>60€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>40€/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15€/m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Isolation des murs par l'intérieur</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7€/m²</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Isolation des rampants de toiture</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7€/m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Isolation d'une toiture-terrasse</td>
+            <td style="padding: 12px; text-align: center;">75€/m²</td>
+            <td style="padding: 12px; text-align: center;">60€/m²</td>
+            <td style="padding: 12px; text-align: center;">40€/m²</td>
+            <td style="padding: 12px; text-align: center;">15€/m²</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Découvrez notre <a href="/blog/isolation-exterieure-avantages-inconvenients">guide complet sur l'isolation par l'extérieur</a> : avantages, prix et retour sur investissement.</p>
+
+      <h3>🪟 Menuiseries</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de menuiserie</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet</th>
+            <th style="padding: 12px; text-align: center;">🌸 Rose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fenêtres / portes-fenêtres</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">100€/équipement</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">80€/équipement</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">40€/équipement</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Volets isolants</td>
+            <td style="padding: 12px; text-align: center;">Supprimé en 2024</td>
+            <td style="padding: 12px; text-align: center;">-</td>
+            <td style="padding: 12px; text-align: center;">-</td>
+            <td style="padding: 12px; text-align: center;">-</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées avec calcul de vos aides.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h3>☀️ Énergie solaire</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Installation solaire</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet</th>
+            <th style="padding: 12px; text-align: center;">🌸 Rose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Système solaire combiné (chauffage + ECS)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>10 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>8 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>4 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Panneaux photovoltaïques</td>
+            <td style="padding: 12px; text-align: center;" colspan="4"><em>Prime autoconsommation (hors MaPrimeRénov')</em></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Les panneaux solaires photovoltaïques ne sont plus éligibles à MaPrimeRénov' depuis 2024, mais bénéficient de la <strong>prime à l'autoconsommation</strong> (jusqu'à 1 710€ pour 3 kWc). Pour en savoir plus, consultez notre <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc" style="color: #3b82f6;">guide des prix panneaux solaires 2026</a>.</p>
+      </blockquote>
+
+      <h2 id="conditions-eligibilite">Conditions d'éligibilité MaPrimeRénov' 2026</h2>
+      
+      <p>Pour bénéficier de MaPrimeRénov', vous devez respecter les <strong>conditions suivantes</strong> :</p>
+      
+      <h3>✅ Critères obligatoires</h3>
+      <ul>
+        <li><strong>Propriétaire</strong> du logement (occupant ou bailleur)</li>
+        <li>Logement construit <strong>depuis plus de 15 ans</strong> (ou 2 ans pour le changement de chaudière fioul/gaz)</li>
+        <li>Logement situé <strong>en France métropolitaine ou outre-mer</strong></li>
+        <li>Travaux réalisés par un <strong>artisan RGE</strong> (Reconnu Garant de l'Environnement)</li>
+        <li>Logement occupé à <strong>titre de résidence principale</strong> (au moins 8 mois/an)</li>
+      </ul>
+      
+      <h3>❌ Travaux non éligibles</h3>
+      <ul>
+        <li>Pompes à chaleur air-air (climatisation réversible)</li>
+        <li>Chaudières gaz (depuis 2023)</li>
+        <li>Résidences secondaires</li>
+        <li>Logements neufs (moins de 15 ans)</li>
+        <li>Travaux réalisés par des artisans non-RGE</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention : artisan RGE obligatoire</strong><br/>
+        Si vous faites appel à un artisan <strong>non-RGE</strong>, vous perdez le bénéfice de MaPrimeRénov', des CEE et de l'éco-PTZ. Vérifiez toujours la certification sur <a href="https://www.faire.gouv.fr" target="_blank" style="color: #ef4444;">faire.gouv.fr</a> avant de signer.</p>
+      </blockquote>
+
+      <h2 id="cumul-aides">Cumul avec d'autres aides : CEE, Éco-PTZ, TVA réduite</h2>
+      
+      <p>Bonne nouvelle : MaPrimeRénov' est <strong>cumulable</strong> avec la plupart des autres aides à la rénovation.</p>
+      
+      <h3>📊 Exemple de cumul pour une PAC air-eau (profil Bleu)</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Aide</th>
+            <th style="padding: 12px; text-align: right;">Montant</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">MaPrimeRénov' (profil Bleu)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>5 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prime CEE (Certificats d'Économie d'Énergie)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;"><strong>2 500€ à 4 000€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">TVA réduite 5,5%</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">~800€ d'économie</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Éco-PTZ (prêt à taux zéro)</td>
+            <td style="padding: 12px; text-align: right; border-bottom: 1px solid #e2e8f0;">Jusqu'à 50 000€ à 0%</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Total aides directes</strong></td>
+            <td style="padding: 12px; text-align: right;"><strong>7 500€ à 9 800€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Avec un coût moyen de <strong>12 000€ à 16 000€</strong> pour une <a href="/service/pompe-a-chaleur/paris">installation de pompe à chaleur air-eau</a>, le reste à charge peut descendre à <strong>3 000€ - 6 000€</strong> pour les ménages modestes !</p>
+
+      <h3>Plafond de cumul</h3>
+      <p>Le cumul de toutes les aides ne peut pas dépasser :</p>
+      <ul>
+        <li><strong>90%</strong> du coût total des travaux pour les profils Bleu et Jaune</li>
+        <li><strong>75%</strong> pour les profils Violet</li>
+        <li><strong>60%</strong> pour les profils Rose</li>
+      </ul>
+
+      <h2 id="demarches">Comment faire sa demande MaPrimeRénov' ?</h2>
+      
+      <p>Voici les <strong>étapes à suivre</strong> pour obtenir votre prime :</p>
+      
+      <h3>Étape 1 : Créer votre compte</h3>
+      <p>Rendez-vous sur <a href="https://www.maprimerenov.gouv.fr" target="_blank">maprimerenov.gouv.fr</a> et créez votre espace personnel avec vos informations fiscales.</p>
+      
+      <h3>Étape 2 : Demander des devis RGE</h3>
+      <p>Avant de déposer votre dossier, obtenez <strong>au moins 2-3 devis</strong> d'artisans certifiés RGE. Comparez les propositions et vérifiez les certifications.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Gagnez du temps</strong><br/>
+        Recevez jusqu'à 3 devis d'artisans RGE vérifiés, près de chez vous, en 48h.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+      
+      <h3>Étape 3 : Déposer votre dossier en ligne</h3>
+      <p>Une fois le devis accepté, déposez votre demande sur le site officiel. Vous recevrez un <strong>numéro de dossier</strong> qui prouve l'enregistrement de votre demande.</p>
+      
+      <h3>Étape 4 : Réaliser les travaux</h3>
+      <p>Faites réaliser les travaux par l'artisan RGE indiqué dans votre dossier. <strong>Ne changez pas d'artisan</strong> sans modifier votre demande.</p>
+      
+      <h3>Étape 5 : Transmettre la facture</h3>
+      <p>Après les travaux, téléchargez la facture sur votre espace. L'Anah vérifie les informations et valide votre dossier.</p>
+      
+      <h3>Étape 6 : Recevoir votre prime</h3>
+      <p>Le virement est effectué directement sur votre compte bancaire, généralement <strong>sous 2 à 4 semaines</strong> après validation.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Astuce</strong><br/>
+        Certains artisans proposent <strong>l'avance de la prime</strong> : ils déduisent directement le montant de MaPrimeRénov' de votre facture et se font rembourser par l'Anah. Demandez cette option lors de vos demandes de devis.</p>
+      </blockquote>
+
+      <h2 id="nouveautes-2026">Nouveautés MaPrimeRénov' 2026</h2>
+      
+      <p>Voici les <strong>principales évolutions</strong> du dispositif pour 2026 :</p>
+      
+      <h3>✅ Ce qui change</h3>
+      <ul>
+        <li><strong>Revalorisation des plafonds de revenus</strong> : +2% pour suivre l'inflation</li>
+        <li><strong>Renforcement de MaPrimeRénov' Parcours accompagné</strong> : bonus pour les rénovations globales (+10 à 20%)</li>
+        <li><strong>Audit énergétique obligatoire</strong> pour les rénovations dépassant 10 000€ d'aides</li>
+        <li><strong>Contrôles renforcés</strong> sur les artisans RGE et les travaux réalisés</li>
+      </ul>
+      
+      <h3>🔄 Ce qui ne change pas</h3>
+      <ul>
+        <li>Les montants des primes par équipement restent stables</li>
+        <li>Les PAC air-air restent non éligibles</li>
+        <li>Les chaudières gaz restent exclues</li>
+        <li>La procédure de demande demeure identique</li>
+      </ul>
+
+      <h2>Conclusion : profitez de MaPrimeRénov' en 2026</h2>
+      
+      <p>MaPrimeRénov' reste en 2026 la <strong>principale aide à la rénovation énergétique</strong> en France. Avec des montants pouvant atteindre <strong>11 000€ pour une PAC géothermique</strong> ou <strong>75€/m² pour l'isolation extérieure</strong>, elle permet de réduire significativement le coût de vos travaux.</p>
+      
+      <p>Notre conseil : <strong>ne tardez pas à lancer votre projet</strong>. Les aides peuvent évoluer d'une année à l'autre, et les artisans RGE qualifiés sont de plus en plus sollicités.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet ?</strong><br/>
+        Recevez 3 devis gratuits d'artisans RGE avec estimation de vos aides MaPrimeRénov'.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : MaPrimeRénov' 2026</h2>
+      
+      <h3>Qui peut bénéficier de MaPrimeRénov' en 2026 ?</h3>
+      <p>Tous les propriétaires (occupants ou bailleurs) peuvent bénéficier de MaPrimeRénov', <strong>sans condition de revenus</strong> pour l'accès au dispositif. En revanche, le montant de l'aide varie selon vos revenus (profils Bleu, Jaune, Violet ou Rose). Les locataires ne peuvent pas en bénéficier directement.</p>
+      
+      <h3>Quels sont les montants MaPrimeRénov' pour une pompe à chaleur ?</h3>
+      <p>Pour une <strong>PAC air-eau</strong> : 5 000€ (Bleu), 4 000€ (Jaune), 3 000€ (Violet), 0€ (Rose). Pour une <strong>PAC géothermique</strong> : 11 000€ (Bleu), 9 000€ (Jaune), 6 000€ (Violet), 0€ (Rose). Ces montants sont cumulables avec les primes CEE.</p>
+      
+      <h3>L'audit énergétique est-il obligatoire pour MaPrimeRénov' ?</h3>
+      <p>L'audit énergétique devient <strong>obligatoire en 2026</strong> pour les projets de rénovation globale ou dépassant 10 000€ d'aides cumulées. Pour les travaux simples (changement de chaudière, isolation partielle), il reste recommandé mais pas obligatoire.</p>
+      
+      <h3>Combien de temps faut-il pour recevoir MaPrimeRénov' ?</h3>
+      <p>Après envoi de la facture acquittée, comptez généralement <strong>2 à 4 semaines</strong> pour recevoir votre virement. Les délais peuvent s'allonger en période de forte demande (automne/hiver). Certains artisans proposent l'avance de l'aide pour éviter cette attente.</p>
+      
+      <h3>Peut-on cumuler MaPrimeRénov' avec d'autres aides ?</h3>
+      <p><strong>Oui</strong>, MaPrimeRénov' est cumulable avec les primes CEE, l'éco-PTZ, la TVA à 5,5% et les aides locales (région, département, commune). Le cumul total est plafonné à 90% du coût des travaux pour les ménages modestes. Utilisez le simulateur sur <a href="https://www.france-renov.gouv.fr" target="_blank">france-renov.gouv.fr</a> pour estimer vos aides.</p>
+    `,
+    category: "reglementation-aides",
+    publishedAt: "2026-01-23",
+    readingTime: "18 min",
+    image: "/images/blog/maprimenov-2026-guide-complet.jpg"
+  },
+  {
     slug: "batterie-panneau-solaire-rentabilite",
     title: "Batterie de Stockage Solaire : Est-ce Rentable d'Investir 5000€ de Plus ?",
     excerpt: "Faut-il ajouter une batterie à vos panneaux solaires ? Analyse complète de la rentabilité : prix, économies réelles, durée de vie et calcul du retour sur investissement en 2026.",
