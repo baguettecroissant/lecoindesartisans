@@ -4864,6 +4864,504 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-01-20",
     readingTime: "12 min",
     image: "/images/blog/autoconsommation-vente-totale.png"
+  },
+  {
+    slug: "lire-analyser-devis-artisan",
+    title: "Comment lire et analyser un devis artisan ? (Les mentions obligatoires)",
+    excerpt: "Savoir lire un devis travaux est indispensable pour éviter les arnaques. Découvrez les mentions obligatoires, les pièges à éviter et comment comparer efficacement les offres des artisans.",
+    content: `
+      <p><strong>Vous avez reçu plusieurs devis pour vos travaux et vous ne savez pas lequel choisir ?</strong> Le prix n'est pas le seul critère ! Un devis mal rédigé peut cacher de mauvaises surprises : facturation supplémentaire, absence d'assurance, délais non respectés ou pire, abandon de chantier.</p>
+      
+      <p>Dans ce guide complet, nous vous expliquons comment <strong>décrypter un devis artisan ligne par ligne</strong>. Mentions obligatoires, vérification des assurances, taux de TVA et pièges à éviter : voici tout ce qu'il faut savoir avant de signer "Bon pour accord".</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Besoin de point de comparaison ?</strong><br/>
+        Pour juger un devis, il faut en avoir plusieurs ! Obtenez 3 devis détaillés d'artisans certifiés près de chez vous.<br/>
+        <a href="/service/renovation-globale/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#mentions-obligatoires">1. Les mentions légales obligatoires</a></li>
+        <li><a href="#identite-entreprise">2. Vérifier l'identité de l'entreprise (SIRET, RGE)</a></li>
+        <li><a href="#details-travaux">3. Le descriptif des travaux : la précision avant tout</a></li>
+        <li><a href="#tva">4. Les taux de TVA : 5,5%, 10% ou 20% ?</a></li>
+        <li><a href="#assurances">5. Assurances : Décennale et RC Pro</a></li>
+        <li><a href="#pieges">6. Les pièges et arnaques à éviter</a></li>
+        <li><a href="#paiement">7. Acomptes et conditions de paiement</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="mentions-obligatoires">1. Les mentions légales obligatoires : ce que la loi impose</h2>
+      
+      <p>Le devis n'est pas un simple bout de papier informatif. C'est une <strong>offre de contrat</strong> qui engage le professionnel. Pour être valable juridiquement, il doit obligatoirement comporter certaines mentions. L'absence de l'une d'elles est un signal d'alarme immédiat sur le manque de sérieux (ou l'amateurisme) de l'artisan.</p>
+      
+      <p>Voici la check-list des éléments qui doivent figurer en haut du document :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Rubrique</th>
+            <th style="padding: 12px; text-align: left;">Détails obligatoires</th>
+            <th style="padding: 12px; text-align: left;">Pourquoi c'est important ?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Date et validité</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Date du devis et durée de validité de l'offre (souvent 30 à 90 jours).</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Les prix des matériaux fluctuent. Passé ce délai, l'artisan peut réviser ses tarifs.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mention "Devis"</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Le mot "Devis" ou "Proposition de prix" doit apparaître clairement.</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Distingue ce document d'une simple estimation indicative.</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Coordonnées Client</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Votre nom complet et l'adresse des travaux.</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Indispensable pour attester que le devis vous est bien destiné (notamment pour les assurances).</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Caractère payant/gratuit</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Si le devis est payant, cela doit être précisé AVANT.</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Evite les mauvaises surprises, bien que la majorité des devis travaux soient gratuits.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="identite-entreprise">2. Vérifier l'identité de l'entreprise (SIRET, RGE)</h2>
+      
+      <p>C'est l'étape que 80% des particuliers sautent, et pourtant c'est la plus cruciale. Un bel en-tête avec un logo ne prouve pas que l'entreprise existe légalement.</p>
+
+      <h3>Le numéro SIRET/SIREN</h3>
+      <p>L'entreprise doit afficher son numéro SIRET (14 chiffres) ainsi que son RCS (Registre du Commerce et des Sociétés) ou RM (Répertoire des Métiers).</p>
+      
+      <p><strong>🕵️‍♂️ L'astuce de pro :</strong> Copiez ce numéro et collez-le sur <a href="https://www.societe.com" target="_blank">societe.com</a> ou <a href="https://annuaire-entreprises.data.gouv.fr/" target="_blank">pappers.fr</a>. Vérifiez :</p>
+      <ul>
+        <li><strong>L'état de l'entreprise :</strong> Elle doit être "Active". Si vous voyez "Cessation d'activité", "Liquidation judiciaire" ou "Fermée", fuyez immédiatement !</li>
+        <li><strong>L'ancienneté :</strong> Une entreprise créée il y a 10 ans est statistiquement plus fiable qu'une entreprise créée il y a 2 mois.</li>
+        <li><strong>L'activité (Code NAF) :</strong> Vérifiez que le code correspond aux travaux. Si un boulanger vous propose de refaire votre toiture, méfiance...</li>
+      </ul>
+
+      <h3>La mention RGE (Reconnu Garant de l'Environnement)</h3>
+      <p>Si vous comptez demander des aides (MaPrimeRénov', CEE), l'artisan DOIT être certifié RGE pour les travaux concernés.</p>
+      
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention au logo RGE abusif</strong><br/>
+        Certains artisans affichent le logo RGE sur leur camion ou devis sans être certifiés, ou alors leur certification a expiré. Exigez toujours <strong>l'attestation de qualification RGE en cours de validité</strong> (elle doit dater de moins de 4 ans et être renouvelée chaque année). Vous pouvez vérifier la validité sur l'<a href="https://france-renov.gouv.fr/annuaire-rge" target="_blank">annuaire officiel France Rénov'</a>.</p>
+      </blockquote>
+
+      <h2 id="details-travaux">3. Le descriptif des travaux : la précision avant tout</h2>
+      
+      <p>C'est souvent là que les litiges naissent. Un devis flou ("Rénovation salle de bain : 5000€") n'a aucune valeur technique.</p>
+      
+      <p>Un devis sérieux doit détailler :</p>
+      <ul>
+        <li><strong>La dépose</strong> : Enlèvement de l'existant, évacuation des gravats (payant), protection du chantier.</li>
+        <li><strong>Les matériaux précis</strong> : Marque, référence, gamme.
+          <br/><em>Exemple : "Chauffe-eau Thermor Malicio 380L" et non "Chauffe-eau électrique".</em></li>
+        <li><strong>Les quantités</strong> : Surface en m², nombre de prises, métré linéaire de plinthes.</li>
+        <li><strong>Le temps de main d'œuvre</strong> : Soit en heures, soit forfaitaire, mais clairement séparé des fournitures.</li>
+      </ul>
+
+      <p><strong>Pourquoi c'est vital ?</strong> Si l'artisan installe une baignoire premier prix alors que vous attendiez du haut de gamme, vous ne pourrez rien contester si le devis indiquait juste "Baignoire". Si c'est écrit "Baignoire Jacob Delafon Rêve", il est obligé d'installer celle-ci.</p>
+
+      <h2 id="tva">4. Les taux de TVA : 5,5%, 10% ou 20% ?</h2>
+      
+      <p>Le bâtiment bénéficie de taux réduits sous conditions. Le devis doit ventiler la TVA ligne par ligne ou par lot.</p>
+      
+      <ul>
+        <li><strong>TVA 20% (Taux normal)</strong> : Pour le neuf, les extensions (surélévation, agrandissement > 10% surface), et les travaux n'améliorant pas l'habitat (ex: piscine, jardin).</li>
+        <li><strong>TVA 10% (Taux intermédiaire)</strong> : Pour les travaux d'amélioration, transformation, aménagement ou entretien sur un logement de plus de 2 ans. (Ex: peinture, cuisine, plomberie).</li>
+        <li><strong>TVA 5,5% (Taux réduit)</strong> : Exclusivement pour les <strong>travaux d'amélioration énergétique</strong> (isolation, chauffage performant) et les travaux induits (déplacement de radiateur, peinture après isolation).</li>
+      </ul>
+      
+      <p><strong>📝 Notez bien</strong> : Pour bénéficier des taux à 10% ou 5,5%, vous devrez signer une <strong>attestation simplifiée de TVA</strong> (Cerfa) à remettre à l'artisan avant la facturation.</p>
+
+      <h2 id="assurances">5. Assurances : Décennale et RC Pro</h2>
+      
+      <p>C'est votre parachute de secours. En France, les artisans du bâtiment ont des obligations d'assurance strictes.</p>
+
+      <h3>La Garantie Décennale (Obligatoire)</h3>
+      <p>Elle couvre les dommages qui compromettent la solidité de l'ouvrage ou le rendent impropre à sa destination, pendant <strong>10 ans</strong> après la réception des travaux.
+      <br/><em>Concerne : Gros œuvre, toiture, isolation, chauffage central, électricité encastrée...</em></p>
+      
+      <p><strong>Sur le devis, vous devez trouver :</strong></p>
+      <ul>
+        <li>Le nom de l'assureur</li>
+        <li>Le numéro du contrat</li>
+        <li>La couverture géographique (France métropolitaine)</li>
+      </ul>
+
+      <h3>La Responsabilité Civile Professionnelle (RC Pro)</h3>
+      <p>Elle couvre les dégâts causés pendant le chantier (ex: l'artisan casse un vase de valeur ou inonde le voisin).</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📞 Ne soyez pas timide !</strong><br/>
+        Avant de signer un gros devis (> 3000€), appelez l'assureur munis du numéro de contrat pour vérifier que l'artisan est bien à jour de ses cotisations. Une assurance non payée est une assurance non valide !</p>
+      </blockquote>
+
+      <h2 id="pieges">6. Les pièges et arnaques à éviter</h2>
+      
+      <p>Certains signes doivent vous faire fuir immédiatement. Voici le top 5 des techniques douteuses :</p>
+      
+      <h3>1. Le devis "à la louche" sur un coin de table</h3>
+      <p>Un pro a besoin de calculer ses matériaux et sa marge. Un prix donné à l'oral ou griffonné sans calcul est suspect.</p>
+      
+      <h3>2. La pression du "planning complet"</h3>
+      <p>"Si vous ne signez pas ce soir, je ne peux pas intervenir avant 6 mois". C'est une technique de vente agressive pour vous empêcher de comparer.</p>
+      
+      <h3>3. La demande d'acompte exorbitant</h3>
+      <p>Ne versez jamais plus de 30% ou 40% à la commande. Si on vous demande 60% ou 80% avant de commencer, c'est souvent pour couvrir la trésorerie douteuse d'un chantier précédent... ou pour disparaître.</p>
+      
+      <h3>4. Le "black" ou paiement en espèces sans facture</h3>
+      <p>Pas de facture = pas d'assurance = pas de recours. En cas de malfaçon ou d'incendie, vous perdez tout. De plus, c'est illégal.</p>
+      
+      <h3>5. L'entreprise "multi-casquettes" improbable</h3>
+      <p>Méfiez-vous de l'artisan qui est à la fois plombier, électricien, couvreur, carreleur et paysagiste. Hormis quelques entreprises générales très structurées, personne n'est expert en tout.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Estimez votre projet sereinement</strong><br/>
+        Ne vous laissez pas presser. Décrivez votre projet en ligne et recevez des offres comparatives sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="paiement">7. Acomptes, retenue de garantie et modalités de paiement</h2>
+      
+      <p>Le devis doit préciser l'échéancier des paiements. N'acceptez pas n'importe quoi.</p>
+      
+      <ul>
+        <li><strong>Acompte</strong> : 30% à la signature (pour réserver et acheter les matériaux).</li>
+        <li><strong>Situation intermédiaire</strong> : 30% ou 40% en cours de chantier (sur avancement réel).</li>
+        <li><strong>Solde</strong> : Le reste à la réception des travaux.</li>
+      </ul>
+      
+      <h3>La retenue de garantie de 5%</h3>
+      <p>Légalement, vous avez le droit de conserver <strong>5% du montant total TTC</strong> pendant un an (la période de garantie de parfait achèvement) pour couvrir d'éventuelles malfaçons qui apparaîtraient plus tard. Cette somme doit généralement être consignée.</p>
+
+      <h2>Conclusion : Prenez le temps de lire !</h2>
+      
+      <p>Signer un devis, c'est signer un contrat. Une fois votre signature apposée avec la mention "Bon pour accord", il est très difficile de faire machine arrière (sauf délai de rétractation de 14 jours si démarchage à domicile).</p>
+      
+      <p><strong>Notre conseil final :</strong> Ne regardez pas que le montant total en bas à droite. Un devis 15% plus cher mais ultra-détaillé, avec des matériaux de marque et des assurances vérifiées, vous coûtera souvent moins cher à la fin qu'un devis low-cost qui finira en malfaçons.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à comparer ?</strong><br/>
+        Nous sélectionnons pour vous des artisans qui respectent toutes ces règles. Recevez jusqu'à 3 devis conformes et vérifiés.<br/>
+        <a href="/service/renovation-globale/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Questions fréquentes sur les devis travaux</h2>
+      
+      <h3>Est-ce que je peux refuser un devis après l'avoir signé ?</h3>
+      <p>Si vous avez signé le devis, vous êtes engagé. Vous ne pouvez annuler que dans deux cas : 1) retard de livraison de plus de 7 jours non dû à un cas de force majeure, 2) dans les 14 jours si vous avez signé suite à un démarchage à domicile ou via un crédit affecté. Sinon, l'artisan est en droit de vous réclamer des dommages et intérêts.</p>
+      
+      <h3>Un devis par mail ou SMS est-il valable ?</h3>
+      <p>Un devis envoyé par mail (PDF) a la même valeur juridique qu'un devis papier s'il contient toutes les mentions obligatoires. En revanche, un simple prix envoyé par SMS ou griffonné sur un papier libre n'est pas un devis conforme et ne vous protège pas.</p>
+      
+      <h3>Que faire si la facture finale est plus élevée que le devis ?</h3>
+      <p>C'est interdit, sauf si vous avez signé un avenant (devis supplémentaire) pour des travaux non prévus au départ. L'artisan ne peut pas augmenter ses prix unilatéralement sous prétexte qu'il a passé plus de temps que prévu. Le prix du devis est ferme et définitif.</p>
+      
+      <h3>L'artisan me demande de payer les matériaux moi-même, est-ce normal ?</h3>
+      <p>Cela peut arriver pour de petits chantiers ou si vous souhaitez acheter une fourniture spécifique (ex: carrelage). Mais attention : si vous achetez les matériaux, l'artisan ne vous doit la garantie décennale QUE sur la pose, pas sur le produit. De plus, vous payerez la TVA à 20% en magasin au lieu de 10% ou 5,5% via l'artisan.</p>
+      
+      <h3>Quelle différence entre un devis et une estimation ?</h3>
+      <p>Une estimation est une fourchette de prix indicative souvent donnée oralement ou avant visite technique. Elle n'engage personne. Le devis est une offre de prix ferme et précise qui devient un contrat une fois signé.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-25",
+    readingTime: "8 min",
+    image: "/images/blog/lire-devis-artisan.jpg"
+  },
+  {
+    slug: "pompe-chaleur-vs-chaudiere-gaz-comparatif",
+    title: "Pompe à Chaleur vs Chaudière Gaz : Le comparatif de rentabilité sur 15 ans",
+    excerpt: "Faut-il choisir une pompe à chaleur ou une chaudière gaz en 2026 ? Analyse complète : prix d'achat, coût de fonctionnement, aides financières et seuil de rentabilité.",
+    content: `
+      <p><strong>C'est LE dilemme de la rénovation énergétique en 2026.</strong> D'un côté, la chaudière gaz, technologie éprouvée mais dépendante d'une énergie fossile dont le prix fluctue. De l'autre, la pompe à chaleur (PAC) air-eau, solution écologique en plein essor mais à l'investissement initial plus lourd.</p>
+      
+      <p>Laquelle choisir pour chauffer votre maison ? Est-il vraiment rentable de remplacer une chaudière gaz qui fonctionne encore ? Sur 15 ans, qui gagne le match du coût global ?</p>
+      
+      <p>Dans ce comparatif objectif, nous avons sorti la calculatrice. Nous analysons l'investissement initial, les aides 2026, la consommation annuelle et l'entretien pour déterminer le <strong>vrai coût complet</strong> de chaque solution.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis comparatifs</strong><br/>
+        Hésitant ? Faites chiffrer les deux solutions par des artisans RGE près de chez vous.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#fonctionnement">1. PAC vs Gaz : Comprendre les différences</a></li>
+        <li><a href="#investissement">2. Prix d'achat et installation : le Gaz gagne la manche</a></li>
+        <li><a href="#consommation">3. Coût annuel à l'usage : la PAC écrase le Gaz</a></li>
+        <li><a href="#aides">4. Aides financières 2026 : avantage PAC</a></li>
+        <li><a href="#rentabilite">5. Rentabilité sur 15 ans : le match chiffré</a></li>
+        <li><a href="#avantages-inconvenients">6. Tableau récapitulatif Avantages / Inconvénients</a></li>
+        <li><a href="#verdict">7. Verdict : laquelle choisir pour VOTRE maison ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="fonctionnement">1. PAC vs Gaz : Comprendre les différences</h2>
+      
+      <h3>La Chaudière Gaz à Condensation (THPE)</h3>
+      <p>C'est la version moderne de la chaudière traditionnelle. Elle brûle du gaz (naturel ou propane), mais récupère la chaleur contenue dans les fumées de combustion pour améliorer son rendement, qui dépasse souvent les 100%.</p>
+      <ul>
+        <li><strong>Source d'énergie</strong> : Gaz (fossile).</li>
+        <li><strong>Rendement</strong> : 90% à 105%.</li>
+        <li><strong>Émissions CO2</strong> : Élevées (environ 230g/kWh).</li>
+      </ul>
+
+      <h3>La Pompe à Chaleur Air-Eau (PAC)</h3>
+      <p>Elle capte les calories gratuites présentes dans l'air extérieur pour chauffer l'eau du circuit de chauffage central. Elle fonctionne à l'électricité, mais consomme peu : pour 1 kWh d'électricité consommé, elle restitue 3 à 4 kWh de chaleur (COP de 3 à 4).</p>
+      <ul>
+        <li><strong>Source d'énergie</strong> : Air (75%) + Électricité (25%).</li>
+        <li><strong>Rendement</strong> : 300% à 500% (COP).</li>
+        <li><strong>Émissions CO2</strong> : Faibles (environ 40g/kWh en France).</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Les deux systèmes sont compatibles avec vos radiateurs actuels à eau chaude. Attention toutefois pour la PAC : si vos radiateurs sont anciens (haute température), il faudra une PAC "Haute Température" ou les remplacer.</p>
+      </blockquote>
+
+      <h2 id="investissement">2. Prix d'achat et installation : le Gaz gagne la manche</h2>
+      
+      <p>À l'achat, il n'y a pas photo : la technologie gaz est beaucoup plus simple et donc moins chère.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Équipement (Fourniture + Pose)</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen TTC (2026)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chaudière Gaz Condensation</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>3 500€ à 6 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pompe à Chaleur Air-Eau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>10 000€ à 16 000€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>La PAC coûte donc <strong>2 à 3 fois plus cher</strong> à l'achat. C'est un frein majeur pour beaucoup de ménages, mais c'est sans compter les aides de l'État.</p>
+
+      <h2 id="consommation">3. Coût annuel à l'usage : la PAC écrase le Gaz</h2>
+      
+      <p>C'est ici que la PAC prend sa revanche. Grâce à son coefficient de performance (COP), elle produit de la chaleur à très bas coût.</p>
+      
+      <p>Prenons une maison moyenne de 120m² mal isolée (Classe E) consommant 20 000 kWh de chauffage par an.</p>
+      
+      <h3>Avec le Gaz</h3>
+      <ul>
+        <li>Prix du kWh gaz (2026) : ~0,11 €</li>
+        <li>Consommation : 20 000 kWh</li>
+        <li>Facture annuelle : <strong>2 200 €</strong></li>
+        <li>Abonnement + Entretien : ~250 €</li>
+        <li><strong>Total annuel : ~2 450 €</strong></li>
+      </ul>
+      
+      <h3>Avec la PAC (COP moyen de 3,5)</h3>
+      <ul>
+        <li>Prix du kWh élec (2026) : ~0,27 €</li>
+        <li>Consommation élec : 20 000 / 3,5 = 5 714 kWh</li>
+        <li>Facture annuelle : <strong>1 542 €</strong></li>
+        <li>Surcoût abonnement + Entretien : ~200 €</li>
+        <li><strong>Total annuel : ~1 742 €</strong></li>
+      </ul>
+      
+      <p><strong>💰 Gain annuel avec la PAC : environ 700€ à 800€.</strong><br/>
+      Sur 15 ans, cela représente plus de <strong>10 000€ d'économies</strong> sur les factures, sans même compter la hausse probable du prix du gaz (taxe carbone).</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre logement et obtenez une simulation précise des économies réalisables.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mes économies →</a></p>
+      </blockquote>
+
+      <h2 id="aides">4. Aides financières 2026 : avantage PAC</h2>
+      
+      <p>Pour encourager la sortie des énergies fossiles, l'État subventionne massivement la PAC et a quasiment stoppé les aides pour le gaz.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type d'aide</th>
+            <th style="padding: 12px; text-align: center;">Chaudière Gaz</th>
+            <th style="padding: 12px; text-align: center;">Pompe à Chaleur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov' (Ménages modestes)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ 0€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Jusqu'à 5 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prime CEE (Coup de pouce)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~400€ (selon fournisseur)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Jusqu'à 4 000€</strong></td>
+          </tr>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>TVA</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10% ou 5,5%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5,5%</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Éco-PTZ (Prêt taux zéro)</strong></td>
+            <td style="padding: 12px; text-align: center;">❌ Non</td>
+            <td style="padding: 12px; text-align: center;">✅ Oui</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>Au total, une PAC peut être subventionnée jusqu'à <strong>9 000€</strong> pour les ménages les plus modestes (profil Bleu), rendant son coût final très proche de celui d'une chaudière gaz.</p>
+      
+      <p>Pour connaître votre profil MaPrimeRénov' (Bleu, Jaune, Violet, Rose), consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet des aides 2026</a>.</p>
+
+      <h2 id="rentabilite">5. Rentabilité sur 15 ans : le match chiffré</h2>
+      
+      <p>Comparons le coût total sur 15 ans pour notre maison de 120m² (profil revenus intermédiaires "Violet").</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Poste de dépense</th>
+            <th style="padding: 12px; text-align: center;">Chaudière Gaz</th>
+            <th style="padding: 12px; text-align: center;">PAC Air-Eau</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Investissement initial</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">13 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Aides déduites (Profil Violet)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">- 400€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">- 4 500€ (3000 + 1500)</td>
+          </tr>
+          <tr style="background: #dcfce7; font-weight: bold;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Reste à charge initial</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 600€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 500€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Coût énergie cumulé (15 ans)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">36 750€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">26 130€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Entretien cumulé (15 ans)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 250€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€</td>
+          </tr>
+          <tr style="background: #1e3a5f; color: white; font-size: 1.1em;">
+            <td style="padding: 12px;"><strong>COÛT TOTAL 15 ANS</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>43 600€</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>37 630€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><strong>🏆 Verdict Rentabilité : La Pompe à Chaleur gagne.</strong><br/>
+      Malgré un investissement de départ presque double (8 500€ vs 4 600€), la PAC permet d'économiser près de <strong>6 000€</strong> sur 15 ans. Le "point de bascule" (moment où la PAC devient plus rentable que le gaz) se situe généralement autour de la <strong>6ème ou 7ème année</strong>.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention à l'isolation !</strong><br/>
+        Ces calculs valent pour une maison "standard". Si votre maison est une passoire thermique (G), la PAC devra forcer et consommera trop d'électricité, rendant l'opération moins rentable. Dans ce cas, <strong>isolez d'abord</strong> !</p>
+      </blockquote>
+
+      <h2 id="avantages-inconvenients">6. Tableau récapitulatif Avantages / Inconvénients</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left; width: 50%;">Pompe à Chaleur (PAC)</th>
+            <th style="padding: 12px; text-align: left; width: 50%;">Chaudière Gaz Condensation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; vertical-align: top;">
+              <strong>✅ Les PLUS :</strong>
+              <ul>
+                <li>Facture divisée par 2 ou 3</li>
+                <li>Énergie renouvelable (Air)</li>
+                <li>Aides financières importantes</li>
+                <li>Valorise la maison (meilleur DPE)</li>
+                <li>Climatisation possible (PAC réversible)</li>
+              </ul>
+              <strong>❌ Les MOINS :</strong>
+              <ul>
+                <li>Investissement lourd</li>
+                <li>Unité extérieure (bruit, esthétique)</li>
+                <li>Perte de puissance par grand froid (-10°C)</li>
+              </ul>
+            </td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; vertical-align: top; background: #f8fafc;">
+              <strong>✅ Les PLUS :</strong>
+              <ul>
+                <li>Investissement faible</li>
+                <li>Technologie simple et robuste</li>
+                <li>Chaleur très confortable immédiate</li>
+                <li>Silencieux et compact</li>
+              </ul>
+              <strong>❌ Les MOINS :</strong>
+              <ul>
+                <li>Énergie fossile polluante</li>
+                <li>Prix du gaz volatil et en hausse</li>
+                <li>Quasiment plus d'aides</li>
+                <li>Interdictions à venir (neuf, locatif)</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="verdict">7. Verdict : laquelle choisir pour VOTRE maison ?</h2>
+      
+      <p>Il n'y a pas de réponse unique, mais des cas de figure :</p>
+      
+      <ul>
+        <li><strong>Choisissez la PAC si :</strong> Vous avez une maison correctement isolée, que vous avez le budget (ou les aides) pour l'investissement initial, et que vous visez des économies long terme et une valorisation de votre bien. C'est le choix de l'avenir.</li>
+        <li><strong>Choisissez le Gaz si :</strong> Votre budget est très serré, que votre maison est très mal isolée (et que vous ne pouvez pas l'isoler tout de suite), ou que vous vivez dans une région au climat extrême (montagne) sans chauffage d'appoint.</li>
+        <li><strong>Le cas hybride :</strong> Vous pouvez aussi garder votre chaudière gaz en relève d'une PAC (PAC Hybride) pour le meilleur des deux mondes !</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à changer de chauffage ?</strong><br/>
+        Les artisans de notre réseau sont qualifiés pour installer les deux systèmes. Demandez-leur conseil !<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : PAC ou Gaz ?</h2>
+      
+      <h3>La PAC est-elle efficace par grand froid ?</h3>
+      <p>Oui, les PAC modernes fonctionnent jusqu'à -15°C ou -20°C. Cependant, leur rendement (COP) baisse quand il fait très froid, elles consomment donc plus d'électricité ponctuellement. En dessous de -10°C, une résistance électrique d'appoint prend parfois le relais.</p>
+      
+      <h3>Le gaz va-t-il être interdit ?</h3>
+      <p>L'installation de chaudières gaz est déjà interdite dans les maisons <strong>neuves</strong> (RE2020). Pour la rénovation, ce n'est pas encore interdit, mais l'État désincite fortement via la suppression des aides. Il est probable que le gaz devienne une énergie de plus en plus chère et taxée.</p>
+      
+      <h3>Quelle est la durée de vie des équipements ?</h3>
+      <p>Une chaudière gaz bien entretenue dure généralement <strong>20 ans</strong>. Une pompe à chaleur a une durée de vie moyenne un peu plus courte, estimée entre <strong>15 et 20 ans</strong>, avec parfois le compresseur à changer au bout de 15 ans.</p>
+      
+      <h3>Quel entretien pour chaque système ?</h3>
+      <p>L'entretien annuel est <strong>obligatoire</strong> pour les deux systèmes. Comptez environ 120€ à 150€/an pour une chaudière gaz, et 150€ à 200€/an pour une pompe à chaleur (contrôle d'étanchéité des fluides frigorigènes).</p>
+      
+      <h3>Peut-on installer une PAC en appartement ?</h3>
+      <p>C'est plus compliqué qu'en maison. Il faut l'accord de la copropriété pour percer la façade et installer l'unité extérieure (bruit, visuel). Souvent, la chaudière gaz individuelle ou le raccordement au chauffage urbain restent les solutions privilégiées en appartement.</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-01-26",
+    readingTime: "10 min",
+    image: "/images/blog/comparatif-pac-gaz.png"
   }
 ];
 
