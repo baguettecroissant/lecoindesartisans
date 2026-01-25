@@ -1148,6 +1148,343 @@ En 2026, nos artisans plombiers partenaires s'engagent sur des tarifs transparen
 
         ctaTitle: "Urgence ou projet plomberie ?",
         ctaDescription: "Trouvez un plombier disponible immédiatement ou obtenez 3 devis pour votre rénovation de salle de bain."
+    },
+    "climatisation-reversible": {
+        slug: "climatisation-reversible",
+        tagline: "Fraîcheur l'été, chaleur l'hiver : le confort 4 saisons économique",
+
+        introduction: `La climatisation réversible (ou pompe à chaleur Air/Air) est la solution idéale pour maintenir une température agréable toute l'année. En été, elle rafraîchit votre logement ; en hiver, elle le chauffe en consommant jusqu'à 3 fois moins d'énergie qu'un radiateur électrique.
+
+En 2026, avec les épisodes de canicule de plus en plus fréquents, s'équiper devient une nécessité pour le confort et la santé (surtout pour les personnes fragiles). Nos frigoristes qualifiés vous installent des systèmes silencieux, design et pilotables à distance.`,
+
+        processTitle: "Installation de votre climatisation",
+        processSteps: [
+            {
+                title: "Étude de dimensionnement",
+                description: "Calcul du volume à traiter et des apports calorifiques (fenêtres, isolation) pour choisir la bonne puissance (kW).",
+                duration: "1h sur place"
+            },
+            {
+                title: "Choix de l'emplacement",
+                description: "Validation de la position des unités intérieures (flux d'air, esthétique) et du groupe extérieur (bruit, voisinage).",
+                duration: "30 min"
+            },
+            {
+                title: "Installation technique",
+                description: "Perçage des murs, passage des liaisons frigorifiques et électriques, fixation des unités.",
+                duration: "1 jour (Mono) à 3 jours (Multi)"
+            },
+            {
+                title: "Mise en service",
+                description: "Tirage au vide, vérification de l'étanchéité, charge en gaz (si besoin) et tests de fonctionnement.",
+                duration: "2-3h"
+            },
+            {
+                title: "Explication fonctionnement",
+                description: "Démonstration de la télécommande/appli wifi et conseils d'entretien des filtres.",
+                duration: "30 min"
+            }
+        ],
+
+        benefitsTitle: "Les atouts de la clim réversible",
+        benefits: [
+            {
+                title: "2-en-1 Économique",
+                description: "Un seul appareil pour chauffer et climatiser. Le mode chauffage est très économique (COP > 3).",
+                icon: "💰"
+            },
+            {
+                title: "Confort immédiat",
+                description: "La température baisse ou monte en quelques minutes seulement. Idéal pour les retours de vacances.",
+                icon: "⚡"
+            },
+            {
+                title: "Qualité de l'air",
+                description: "Filtration des poussières, pollens et bactéries. L'air intérieur est assaini et déshumidifié.",
+                icon: "wind"
+            },
+            {
+                title: "Pilotage à distance",
+                description: "Activez la clim 15 min avant de rentrer chez vous via votre smartphone.",
+                icon: "smartphone"
+            },
+            {
+                title: "Silence",
+                description: "Les modèles modernes sont quasi inaudibles en mode 'nuit' (19-21 dB).",
+                icon: "volume-x"
+            },
+            {
+                title: "Installation rapide",
+                description: "Peu de gros travaux par rapport à un chauffage central. Idéal en rénovation.",
+                icon: "tools"
+            }
+        ],
+
+        priceTableTitle: "Prix climatisation réversible 2026",
+        priceTableNote: "Prix TTC posé (TVA 10% ou 20%). Variable selon la complexité et la marque (Daikin, Mitsubishi...).",
+        priceTable: [
+            {
+                option: "Mono-split (1 pièce)",
+                priceRange: "1 500€ - 2 500€",
+                details: "Idéal pour un salon ou une chambre parentale (20-35m²).",
+                recommended: true
+            },
+            {
+                option: "Bi-split (2 pièces)",
+                priceRange: "3 000€ - 4 500€",
+                details: "Un groupe extérieur pour deux unités intérieures.",
+                recommended: false
+            },
+            {
+                option: "Tri-split (3 pièces)",
+                priceRange: "4 500€ - 6 500€",
+                details: "Pour climatiser un étage complet ou un petit appartement.",
+                recommended: false
+            },
+            {
+                option: "Gainable (Toute la maison)",
+                priceRange: "8 000€ - 12 000€",
+                details: "Invisible (dans les combles). Diffusion par grilles discrètes. Le top du confort.",
+                recommended: false
+            }
+        ],
+
+        comparisonTitle: "Quel type d'unité choisir ?",
+        comparisonOptions: ["Murale", "Console", "Gainable"],
+        comparisonTable: [
+            {
+                criteria: "Esthétique",
+                options: {
+                    "Murale": "Visible (en haut du mur)",
+                    "Console": "Comme un radiateur",
+                    "Gainable": "Invisible (juste des grilles) ⭐⭐⭐"
+                }
+            },
+            {
+                criteria: "Prix",
+                options: {
+                    "Murale": "€ (Le moins cher) ⭐⭐⭐",
+                    "Console": "€€ (Moyen)",
+                    "Gainable": "€€€ (Premium)"
+                }
+            },
+            {
+                criteria: "Installation",
+                options: {
+                    "Murale": "Simple et rapide",
+                    "Console": "Simple",
+                    "Gainable": "Complexe (nécessite combles/faux-plafond)"
+                }
+            },
+            {
+                criteria: "Silence",
+                options: {
+                    "Murale": "Très bon",
+                    "Console": "Bon",
+                    "Gainable": "Excellent (moteur éloigné) ⭐⭐⭐"
+                }
+            }
+        ],
+
+        faqTitle: "Questions fréquentes climatisation",
+        faqs: [
+            {
+                question: "Une clim consomme-t-elle beaucoup d'électricité ?",
+                answer: "En mode froid, elle coûte environ 1€ par jour de canicule pour 30m². En mode chaud (hiver), elle est 3 fois plus économique qu'un radiateur électrique grâce à la pompe à chaleur. Sur l'année, le bilan est souvent positif."
+            },
+            {
+                question: "Le groupe extérieur est-il bruyant ?",
+                answer: "Les modèles de grandes marques (Daikin, Mitsubishi, Atlantic) sont très silencieux (45-50 dB), équivalent à un lave-vaisselle récent. Cependant, il faut respecter les règles de distance avec le voisinage."
+            },
+            {
+                question: "Faut-il une autorisation en copropriété ?",
+                answer: "OUI. L'installation du groupe extérieur modifie l'aspect de la façade ou est posée sur une partie commune (balcon). Il faut obligatoirement l'accord de l'assemblée générale (AG) des copropriétaires."
+            },
+            {
+                question: "Quel entretien est nécessaire ?",
+                answer: "L'utilisateur doit nettoyer les filtres (aspirateur/eau) 2 à 4 fois par an. Un contrôle d'étanchéité par un professionnel est obligatoire tous les ans pour les installations contenant plus de 2kg de fluide frigorigène."
+            },
+            {
+                question: "La clim réversible est-elle éligible aux aides ?",
+                answer: "Seules les primes CEE (Certificats d'Économies d'Énergie) sont accessibles pour les PAC Air/Air. MaPrimeRénov' ne finance pas ce type d'équipement (considéré comme du confort d'été), sauf dans le cadre d'une rénovation globale."
+            }
+        ],
+
+        ctaTitle: "Restez au frais cet été",
+        ctaDescription: "Installation rapide par des frigoristes qualifiés. Demandez votre devis gratuit dès maintenant."
+    },
+
+    "borne-recharge": {
+        slug: "borne-recharge",
+        tagline: "Rechargez votre voiture électrique 3x plus vite à domicile",
+
+        introduction: `Avec l'essor des véhicules électriques, la recharge à domicile devient un enjeu majeur. Fini la dépendance aux bornes publiques ! Installer une borne de recharge (Wallbox) chez soi, c'est l'assurance de partir chaque matin avec une batterie pleine ("le plein" pour quelques euros).
+
+L'installation doit être réalisée par un électricien qualifié IRVE (Infrastructure de Recharge de Véhicule Électrique) pour garantir la sécurité, respecter les normes et bénéficier des aides de l'État (Crédit d'impôt).`,
+
+        processTitle: "Installation de votre borne IRVE",
+        processSteps: [
+            {
+                title: "Vérification électrique",
+                description: "Contrôle de votre tableau électrique et de la puissance disponible (Mise à la terre, abonnement Linky).",
+                duration: "30 min"
+            },
+            {
+                title: "Installation de la ligne dédiée",
+                description: "Tirage d'un câble spécifique de grosse section depuis le tableau jusqu'à l'emplacement de la borne (garage/parking).",
+                duration: "2-4h"
+            },
+            {
+                title: "Pose des protections",
+                description: "Ajout d'un disjoncteur différentiel adapté (Type A ou B) et d'un disjoncteur courbe C dédiés à la borne.",
+                duration: "1h"
+            },
+            {
+                title: "Fixation et raccordement",
+                description: "Pose murale ou sur pied de la borne. Raccordement et paramétrage (délestage, heures creuses).",
+                duration: "1-2h"
+            },
+            {
+                title: "Remise du certificat",
+                description: "Essais de charge et remise du certificat de conformité IRVE/Qualifelec (obligatoire pour assurances).",
+                duration: "30 min"
+            }
+        ],
+
+        benefitsTitle: "Pourquoi installer une Wallbox ?",
+        benefits: [
+            {
+                title: "Charge 3x à 7x plus rapide",
+                description: "Récupérez 40 à 100km d'autonomie par heure de charge (contre 10-15km sur prise standard).",
+                icon: "zap"
+            },
+            {
+                title: "Sécurité maximale",
+                description: "Ligne dédiée et protections spécifiques. Aucun risque de surchauffe ou d'incendie sur votre installation domestique.",
+                icon: "shield"
+            },
+            {
+                title: "Économies Heures Creuses",
+                description: "Programmez la charge pour qu'elle se lance uniquement quand l'électricité est la moins chère.",
+                icon: "clock"
+            },
+            {
+                title: "Gestion dynamique (Délestage)",
+                description: "La borne adapte sa puissance en temps réel pour ne jamais faire sauter votre compteur, même si le four est allumé.",
+                icon: "activity"
+            },
+            {
+                title: "Crédit d'impôt 500€",
+                description: "Obtenez un crédit d'impôt de 500€ par système de charge (pilotable) installé par un pro IRVE.",
+                icon: "gift"
+            },
+            {
+                title: "Valorisation de la maison",
+                description: "Un équipement de plus en plus recherché par les futurs acquéreurs.",
+                icon: "home"
+            }
+        ],
+
+        priceTableTitle: "Prix installation borne recharge 2026",
+        priceTableNote: "Prix TTC posé (TVA 5.5% si logement > 2 ans). Déduction faite du crédit d'impôt de 500€.",
+        priceTable: [
+            {
+                option: "Prise Renforcée (3,7 kW)",
+                priceRange: "400€ - 600€",
+                details: "Alternative économique (Green'up). Charge lente mais sécurisée. Pour petits rouleurs.",
+                recommended: false
+            },
+            {
+                option: "Borne 7 kW (Monophasé)",
+                priceRange: "900€ - 1 500€",
+                details: "Le standard pour la maison. Charge complète en une nuit (6-8h).",
+                recommended: true
+            },
+            {
+                option: "Borne 22 kW (Triphasé)",
+                priceRange: "1 600€ - 2 500€",
+                details: "Charge ultra-rapide. Nécessite une installation électrique en triphasé (rare chez les particuliers).",
+                recommended: false
+            },
+            {
+                option: "Borne en Copropriété",
+                priceRange: "Devis sur mesure",
+                details: "Installation complexe avec comptage individuel. Droit à la prise garanti par la loi.",
+                recommended: false
+            }
+        ],
+
+        comparisonTitle: "Prise standard vs Wallbox",
+        comparisonOptions: ["Prise Domestique", "Prise Renforcée", "Borne Wallbox"],
+        comparisonTable: [
+            {
+                criteria: "Puissance",
+                options: {
+                    "Prise Domestique": "2.3 kW (10A) ⚠️",
+                    "Prise Renforcée": "3.7 kW (16A)",
+                    "Borne Wallbox": "7.4 kW (32A) ⭐⭐⭐"
+                }
+            },
+            {
+                criteria: "Temps plein (50kWh)",
+                options: {
+                    "Prise Domestique": "20h - 25h",
+                    "Prise Renforcée": "13h - 15h",
+                    "Borne Wallbox": "6h - 8h (Une nuit) ⭐⭐⭐"
+                }
+            },
+            {
+                criteria: "Sécurité",
+                options: {
+                    "Prise Domestique": "Risque surchauffe",
+                    "Prise Renforcée": "Sécurisée",
+                    "Borne Wallbox": "Optimale (Comm. véhicule)"
+                }
+            },
+            {
+                criteria: "Fonctions",
+                options: {
+                    "Prise Domestique": "Aucune",
+                    "Prise Renforcée": "Détection",
+                    "Borne Wallbox": "Programmation, Appli, Délestage"
+                }
+            },
+            {
+                criteria: "Prix install.",
+                options: {
+                    "Prise Domestique": "0€",
+                    "Prise Renforcée": "500€",
+                    "Borne Wallbox": "1500€ (avant aides)"
+                }
+            }
+        ],
+
+        faqTitle: "Questions fréquentes recharge électrique",
+        faqs: [
+            {
+                question: "Dois-je changer mon abonnement EDF ?",
+                answer: "C'est souvent inutile grâce à la fonction de 'délestage dynamique' de la borne. Elle réduit sa puissance si vous consommez trop ailleurs. Un abonnement 9kVA est généralement suffisant pour une borne 7kW."
+            },
+            {
+                question: "Quelle est la différence entre 7kW et 22kW ?",
+                answer: "7kW est une installation monophasée (standard des maisons). 22kW nécessite du triphasé (plus cher d'abonnement et d'installation). De plus, beaucoup de voitures chargent au max à 11kW en AC, rendant le 22kW inutile à la maison."
+            },
+            {
+                question: "J'habite en copropriété, est-ce possible ?",
+                answer: "Oui, la loi consacre le 'Droit à la Prise'. Vous pouvez demander l'installation à vos frais. Le syndic ne peut s'y opposer sans motif sérieux et légitime (qu'il doit saisir au tribunal). Il existe aussi des solutions collectives."
+            },
+            {
+                question: "Puis-je charger ma voiture avec mes panneaux solaires ?",
+                answer: "Oui ! Certaines bornes 'intelligentes' peuvent être couplées à votre onduleur solaire pour charger votre voiture uniquement avec le surplus d'énergie solaire produit. C'est la recharge 100% gratuite et verte."
+            },
+            {
+                question: "Qu'est-ce que la qualification IRVE ?",
+                answer: "IRVE (Infrastructure de Recharge Véhicule Électrique) est une certification obligatoire pour les électriciens installant des bornes > 3,7kW. Sans elle, pas de crédit d'impôt et risque de non-couverture par votre assurance en cas d'incendie."
+            }
+        ],
+
+        ctaTitle: "Passez à la vitesse supérieure",
+        ctaDescription: "Obtenez 3 devis d'électriciens certifiés IRVE près de chez vous. Installation sécurisée et audit électrique compris."
     }
 };
 

@@ -541,6 +541,12 @@ export const blogPosts: BlogPost[] = [
       
       <p><strong>MaPrimeRénov'</strong> est la principale aide de l'État français pour la rénovation énergétique des logements. Lancée en 2020, elle remplace l'ancien crédit d'impôt transition énergétique (CITE) et les aides de l'Anah "Habiter Mieux".</p>
       
+      <blockquote style="background: #eef2ff; border-left: 4px solid #6366f1; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🚀 SIMULATEUR GRATUIT 2026</strong><br/>
+        Calculez en 30 secondes votre profil couleur et le montant exact de vos aides avec notre nouvel outil.<br/>
+        <a href="/simulateur/aides-etat" style="color: #4f46e5; font-weight: bold;">Accéder au simulateur MaPrimeRénov' →</a></p>
+      </blockquote>
+      
       <h3>Objectifs de MaPrimeRénov'</h3>
       <ul>
         <li><strong>Améliorer la performance énergétique</strong> des logements français</li>

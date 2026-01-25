@@ -14,9 +14,11 @@ import {
 } from "@/lib/data";
 import { getRegionalContent, generateRegionalDescription } from "@/data/regional-content";
 import { getServiceContent } from "@/data/service-content";
+import { MARKET_DATA } from "@/data/market-prices";
 import LeadForm from "@/components/LeadForm";
 import FAQAccordion from "@/components/FAQAccordion";
 import StickyCTA from "@/components/StickyCTA";
+import { TrendingUp, TrendingDown, Minus } from "lucide-react";
 
 interface PageProps {
     params: Promise<{
@@ -84,6 +86,16 @@ export default async function ServiceCityPage({ params }: PageProps) {
 
     // Generate localized H1
     const h1Title = generateSeoTitle(service.seo_title, city).replace(" - ", " : ");
+
+    // Map service to market data category
+    const marketDataCategoryMap: Record<string, string> = {
+        "panneaux-solaires": "solaire",
+        "pompe-a-chaleur": "chauffage",
+        "isolation-exterieure": "isolation",
+        "fenetres-menuiserie": "menuiserie"
+    };
+    const marketCategoryId = marketDataCategoryMap[service.slug];
+    const marketData = marketCategoryId ? MARKET_DATA.find(c => c.id === marketCategoryId) : null;
 
     // Schema.org: Service with AggregateRating
     const serviceSchema = {
@@ -314,6 +326,47 @@ export default async function ServiceCityPage({ params }: PageProps) {
                                                 {regionalData.price_range.note}
                                             </p>
                                         )}
+                                    </div>
+                                )}
+
+                                {/* Dynamic Price Barometer (GEO Data Injection) */}
+                                {marketData && (
+                                    <div className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden mb-8">
+                                        <div className="bg-navy-900 px-6 py-4 flex justify-between items-center">
+                                            <h3 className="font-bold text-white flex items-center gap-2">
+                                                <TrendingUp className="w-5 h-5 text-amber-500" />
+                                                Baromètre Prix {city.name} {new Date().getFullYear()}
+                                            </h3>
+                                            <span className="text-[10px] font-bold uppercase tracking-wider text-navy-200 bg-white/10 px-2 py-1 rounded">
+                                                Moyenne Constatée
+                                            </span>
+                                        </div>
+                                        <div className="divide-y divide-gray-100">
+                                            {marketData.items.map((item, idx) => (
+                                                <div key={idx} className="p-4 flex items-center justify-between hover:bg-gray-50 transition-colors">
+                                                    <div>
+                                                        <p className="font-medium text-navy-900 text-sm">{item.label}</p>
+                                                        <div className="flex items-center text-xs text-gray-500 mt-1">
+                                                            <span className={item.trend < 0 ? "text-green-600 font-bold" : "text-gray-500"}>
+                                                                {item.trend > 0 ? "+" : ""}{item.trend}%
+                                                            </span>
+                                                            <span className="mx-1">•</span>
+                                                            <span>vs année précédente</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="text-right">
+                                                        <p className="font-bold text-amber-600 text-lg">
+                                                            {item.price.toLocaleString()} {item.unit}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                        <div className="bg-amber-50 px-6 py-3 border-t border-amber-100">
+                                            <Link href="/barometre-prix-renovation" className="text-xs font-bold text-amber-700 hover:text-amber-800 flex items-center justify-center">
+                                                Voir toutes les tendances nationales <ArrowRight className="w-3 h-3 ml-1" />
+                                            </Link>
+                                        </div>
                                     </div>
                                 )}
 

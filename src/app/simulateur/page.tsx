@@ -20,14 +20,44 @@ const TOOLS = [
         badge: "Populaire 🔥"
     },
     {
+        id: "maprimerenov",
+        title: "MaPrimeRénov' 2026",
+        description: "Testez votre éligibilité (Profil Couleur) et calculez le montant de vos aides de l'État.",
+        icon: Calculator,
+        color: "text-pink-500",
+        bg: "bg-pink-50 group-hover:bg-pink-100",
+        href: "/simulateur/aides-etat",
+        badge: "Indispensable 🇫🇷"
+    },
+    {
+        id: "isolation",
+        title: "Prix Isolation",
+        description: "Estimez le coût de vos travaux d'isolation (Murs, Combles, Toiture) et vos gains d'énergie.",
+        icon: Sun, // Keeping Sun or changing to Layers if available in imports
+        color: "text-green-500",
+        bg: "bg-green-50 group-hover:bg-green-100",
+        href: "/simulateur/isolation",
+        badge: null
+    },
+    {
         id: "chauffage",
-        title: "Dimensionnement Chauffage",
+        title: "Puissance PAC",
         description: "Calculez la puissance idéale (kW) de votre future Pompe à Chaleur pour éviter le surcoût.",
         icon: Flame,
         color: "text-blue-500",
         bg: "bg-blue-50 group-hover:bg-blue-100",
         href: "/simulateur/chauffage",
-        badge: "Nouveau ✨"
+        badge: "Technique ⚙️"
+    },
+    {
+        id: "devis",
+        title: "Comparateur Devis",
+        description: "Votre devis est-il trop cher ? Vérifiez les prix par rapport à la moyenne du marché.",
+        icon: MousePointerClick, // Using existing import
+        color: "text-purple-500",
+        bg: "bg-purple-50 group-hover:bg-purple-100",
+        href: "/simulateur/comparateur-devis",
+        badge: "Anti-Arnaque 🛡️"
     }
 ];
 

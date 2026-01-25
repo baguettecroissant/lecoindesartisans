@@ -36,12 +36,14 @@ export function getBlogCategories(): BlogCategory[] {
 }
 
 const RELATED_SERVICES: Record<string, string[]> = {
-    "panneaux-solaires": ["pompe-a-chaleur", "isolation-exterieure", "toiture-couverture"],
-    "pompe-a-chaleur": ["panneaux-solaires", "isolation-exterieure", "plomberie-sanitaire"],
+    "panneaux-solaires": ["pompe-a-chaleur", "borne-recharge", "isolation-exterieure"],
+    "pompe-a-chaleur": ["panneaux-solaires", "climatisation-reversible", "isolation-exterieure"],
     "isolation-exterieure": ["fenetres-menuiserie", "pompe-a-chaleur", "toiture-couverture"],
-    "fenetres-menuiserie": ["isolation-exterieure", "pompe-a-chaleur", "toiture-couverture"],
+    "fenetres-menuiserie": ["isolation-exterieure", "climatisation-reversible", "toiture-couverture"],
     "toiture-couverture": ["isolation-exterieure", "panneaux-solaires", "fenetres-menuiserie"],
-    "plomberie-sanitaire": ["pompe-a-chaleur", "isolation-exterieure", "toiture-couverture"]
+    "plomberie-sanitaire": ["pompe-a-chaleur", "isolation-exterieure", "ballon-thermodynamique"],
+    "climatisation-reversible": ["pompe-a-chaleur", "isolation-exterieure", "panneaux-solaires"],
+    "borne-recharge": ["panneaux-solaires", "climatisation-reversible", "pompe-a-chaleur"]
 };
 
 export function getNearbyCities(currentSlug: string, limit: number = 4): City[] {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LucideIcon, Sun, ThermometerSun, Home, AppWindow, Hammer, Wrench, ArrowRight } from "lucide-react";
+import { LucideIcon, Sun, ThermometerSun, Home, AppWindow, Hammer, Wrench, ArrowRight, Wind, Zap } from "lucide-react";
 import { Service } from "@/types";
 
 // Icon mapping from JSON icon names to Lucide components
@@ -10,6 +10,8 @@ const iconMap: Record<string, LucideIcon> = {
     AppWindow: AppWindow,
     Hammer: Hammer,
     Wrench: Wrench,
+    Wind: Wind,
+    Zap: Zap,
 };
 
 interface ServiceCardProps {

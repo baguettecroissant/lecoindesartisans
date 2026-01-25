@@ -62,6 +62,39 @@ export default function Footer() {
                                 </li>
                             ))}
                         </ul>
+
+                        <h4 className="text-white font-bold text-lg mt-12 mb-8 relative inline-block">
+                            Outils Gratuits
+                            <span className="absolute -bottom-2 left-0 w-8 h-1 bg-amber-500 rounded-full" />
+                        </h4>
+                        <ul className="space-y-4">
+                            <li>
+                                <Link href="/barometre-prix-renovation" className="text-navy-200/60 hover:text-amber-500 transition-colors text-sm flex items-center">
+                                    <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500 text-navy-900 mr-2">Nouveau</span>
+                                    Baromètre Prix 2026
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/simulateur/aides-etat" className="text-navy-200/60 hover:text-amber-500 transition-colors text-sm flex items-center">
+                                    Simulateur MaPrimeRénov'
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/simulateur/isolation" className="text-navy-200/60 hover:text-amber-500 transition-colors text-sm flex items-center">
+                                    Prix Isolation
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/simulateur/comparateur-devis" className="text-navy-200/60 hover:text-amber-500 transition-colors text-sm flex items-center">
+                                    Vérifier un Devis
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/simulateur" className="text-amber-500 font-bold text-sm flex items-center">
+                                    Tous les outils →
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
 
                     {/* Cities Column */}
