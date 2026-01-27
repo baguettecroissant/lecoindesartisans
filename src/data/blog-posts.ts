@@ -5368,6 +5368,183 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-01-26",
     readingTime: "10 min",
     image: "/images/blog/comparatif-pac-gaz.png"
+  },
+  {
+    slug: "isolation-combles-perdus-laine-verre-ouate-cellulose-roche",
+    title: "Isolation des Combles Perdus : Laine de verre, Ouate de cellulose ou Laine de roche ?",
+    excerpt: "Laine de verre, laine de roche ou ouate de cellulose ? Comparatif complet pour l'isolation de vos combles perdus : prix, performances thermique et phonique, et aides de l'État 2026.",
+    content: `
+      <p><strong>Par quel isolant remplacer votre vieille laine de verre ?</strong> L'isolation des combles perdus est l'opération la plus rentable pour réduire votre facture de chauffage (jusqu'à 30% d'économies). Mais face au choix entre laine de verre, laine de roche et ouate de cellulose, il est difficile de s'y retrouver. Prix, confort d'été, écologie... chaque matériau a ses atouts.</p>
+
+      <p>Dans ce comparatif 2026, nous analysons les <strong>3 meilleurs isolants du marché</strong> pour vous aider à faire le bon choix au meilleur prix.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Besoin d'un devis personnalisé ?</strong><br/>
+        Comparez 3 propositions d'artisans RGE de votre région pour l'isolation de vos combles.<br/>
+        <a href="/service/isolation-exterieure/paris" style="color: #d97706; font-weight: bold;">Comparez 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#laine-verre">Laine de verre : le standard économique</a></li>
+        <li><a href="#laine-roche">Laine de roche : le confort thermique</a></li>
+        <li><a href="#ouate-cellulose">Ouate de cellulose : le champion écologique</a></li>
+        <li><a href="#comparatif-prix">Tableau comparatif : Prix et Performances 2026</a></li>
+        <li><a href="#aides">Les aides financières disponibles</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="laine-verre">Laine de verre : le standard économique</h2>
+      
+      <p>La <strong>laine de verre</strong> reste l'isolant le plus posé en France (75% du marché). Soufflée en flocons dans les combles perdus, elle offre un rapport performance/prix imbattable.</p>
+
+      <h3>Avantages</h3>
+      <ul>
+        <li><strong>Prix très bas</strong> : 20 à 35€/m² pose comprise</li>
+        <li><strong>Légère</strong> : idéale pour les plafonds fragiles (plaques de plâtre)</li>
+        <li><strong>Incombustible</strong> (Classe A1)</li>
+        <li>Certifiée ACERMI et durable (durée de vie > 50 ans)</li>
+      </ul>
+
+      <h3>Inconvénients</h3>
+      <ul>
+        <li><strong>Confort d'été médiocre</strong> : se réchauffe vite (déphasage faible)</li>
+        <li><strong>Sensible à l'humidité</strong> : perd ses propriétés si mouillée</li>
+        <li>Irritante à la pose (fibres volatiles)</li>
+      </ul>
+
+      <h2 id="laine-roche">Laine de roche : le confort polyvalent</h2>
+      
+      <p>Issue de la pierre volcanique (basalte), la <strong>laine de roche</strong> est une alternative plus dense que la laine de verre. Elle est particulièrement recommandée si vous vivez dans une zone bruyante ou chaude.</p>
+
+      <h3>Avantages</h3>
+      <ul>
+        <li><strong>Excellent confort d'été</strong> : plus dense, elle freine mieux la chaleur</li>
+        <li><strong>Isolation phonique supérieure</strong></li>
+        <li><strong>Résistance au feu maximale</strong> (point de fusion > 1000°C)</li>
+        <li>Insensible à l'eau et aux rongeurs</li>
+      </ul>
+
+      <h3>Inconvénients</h3>
+      <ul>
+        <li>Plus lourde (vérifier la charge admissible du plafond)</li>
+        <li>Prix légèrement supérieur à la laine de verre (+15-20%)</li>
+      </ul>
+
+      <h2 id="ouate-cellulose">Ouate de cellulose : le champion écologique</h2>
+      
+      <p>Fabriquée à partir de papier journal recyclé, la <strong>ouate de cellulose</strong> est la star de l'éco-rénovation. Elle offre des performances exceptionnelles pour un surcoût raisonnable.</p>
+
+      <h3>Avantages</h3>
+      <ul>
+        <li><strong>Confort d'été imbattable</strong> : déphasage 2 à 3 fois supérieur aux laines minérales</li>
+        <li><strong>100% recyclée et biosourcée</strong></li>
+        <li>Régulation naturelle de l'humidité</li>
+        <li>Excellente protection contre les nuisibles (traitement sel de bore)</li>
+      </ul>
+
+      <h3>Inconvénients</h3>
+      <ul>
+        <li>Plus chère (30 à 50€/m²)</li>
+        <li>Poussiéreuse à l'application</li>
+        <li>Tassement naturel à anticiper (+20% d'épaisseur à l'installation)</li>
+      </ul>
+
+      <blockquote style="background: #eef2ff; border-left: 4px solid #6366f1; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre surface à isoler en 2 min et recevez des estimations personnalisées.<br/>
+        <a href="/#services" style="color: #4f46e5; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="comparatif-prix">Comparatif : Prix et Performances 2026</h2>
+
+      <p>Voici un tableau récapitulatif pour vous aider à trancher, pour une résistance thermique R=7 (norme RGE) :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Laine de Verre</th>
+            <th style="padding: 12px; text-align: center;">Laine de Roche</th>
+            <th style="padding: 12px; text-align: center;">Ouate de Cellulose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prix moyen (pose comprise)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>20 - 35 €/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>25 - 40 €/m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>30 - 50 €/m²</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Confort d'été (déphasage)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Isolation phonique</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Bonne</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Excellente</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Très bonne</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Bilan écologique</td>
+            <td style="padding: 12px; text-align: center;">Moyen</td>
+            <td style="padding: 12px; text-align: center;">Bon (naturel)</td>
+            <td style="padding: 12px; text-align: center;">Excellent (recyclé)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="aides">Les aides financières disponibles en 2026</h2>
+      
+      <p>L'isolation des combles est éligible aux aides à la rénovation énergétique, conditionnées à la pose par un <strong>artisan RGE</strong> :</p>
+      
+      <ul>
+        <li><strong>MaPrimeRénov'</strong> : selon vos revenus (voir notre <a href="/blog/maprimenov-2026-guide-complet">guide complet</a>)</li>
+        <li><strong>Primes CEE (Certificats d'Économies d'Énergie)</strong> : "Coupp de pouce isolation"</li>
+        <li><strong>TVA réduite à 5,5%</strong> : appliquée directement sur la facture</li>
+        <li><strong>Éco-PTZ</strong> : prêt à taux zéro pour financer le reste à charge</li>
+      </ul>
+
+      <p class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+        💡 <strong>Bon à savoir :</strong> Depuis 2022, l'isolation à 1€ n'existe plus sous cette forme, mais le cumul des aides permet encore de financer jusqu'à 90% des travaux pour les ménages les plus modestes.
+      </p>
+
+      <h2>Conclusion : Le verdict de l'expert</h2>
+
+      <p>Le choix dépend de votre propriété numéro 1 :</p>
+      <ul>
+        <li>Vous visez le <strong>prix le plus bas</strong> ? Foncez sur la <strong>laine de verre</strong>.</li>
+        <li>Vous souffrez de la <strong>chaleur en été</strong> ? La <strong>ouate de cellulose</strong> est indispensable.</li>
+        <li>Vous habitez une <strong>zone bruyante</strong> ou cherchez la durabilité maximale ? La <strong>laine de roche</strong> est le compromis parfait.</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet ?</strong><br/>
+        Les artisans de notre réseau sont disponibles dans votre ville.<br/>
+        <a href="/#services" style="color: #15803d; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Isolation des combles perdus</h2>
+
+      <h3>Quel est le prix moyen pour isoler 100m² de combles ?</h3>
+      <p>Pour 100m² de combles perdus, comptez entre <strong>2 000€ et 3 500€</strong> pour une isolation en laine de verre soufflée, et jusqu'à <strong>5 000€</strong> pour de la ouate de cellulose. Ces tarifs incluent la fourniture et la pose par un professionnel.</p>
+
+      <h3>Quelle épaisseur d'isolant pour bénéficier des aides ?</h3>
+      <p>Pour être éligible aux aides (MaPrimeRénov', CEE), l'isolant posé en combles perdus doit atteindre une résistance thermique <strong>R ≥ 7 m².K/W</strong>. Cela correspond environ à 30-35 cm de laine de verre ou 35-40 cm de ouate de cellulose.</p>
+      
+      <h3>La laine de verre est-elle dangereuse pour la santé ?</h3>
+      <p>Les laines minérales modernes sont certifiées non-cancérigènes (exonérées de classement cancérogène par le CIRC). Cependant, elles peuvent être irritantes lors de la pose : le port de masque et de gants est obligatoire pour l'installateur. Une fois posée et confinée, elle ne présente pas de risque pour les habitants.</p>
+
+      <h3>Peut-on isoler soi-même ses combles perdus ?</h3>
+      <p>Oui, c'est techniquement possible, mais <strong>déconseillé financièrement</strong>. En le faisant vous-même, vous payez la TVA à 20% sur les matériaux et vous ne bénéficiez d'aucune aide de l'État (ni prime ni CEE). Passer par un artisan RGE est souvent moins cher au final grâce aux subventions.</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-01-27",
+    readingTime: "10 min",
+    image: "/images/blog/isolation-combles-perdus.jpg"
   }
 ];
 

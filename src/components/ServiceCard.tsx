@@ -22,9 +22,14 @@ interface ServiceCardProps {
 export default function ServiceCard({ service, citySlug = "paris" }: ServiceCardProps) {
     const IconComponent = iconMap[service.icon] || Sun;
 
+    // Logic: Link to Hub by default. Link to city ONLY if it's a specific city (not Paris/Default)
+    const linkHref = citySlug && citySlug !== "paris"
+        ? `/service/${service.slug}/${citySlug}`
+        : `/service/${service.slug}`;
+
     return (
         <Link
-            href={`/service/${service.slug}/${citySlug}`}
+            href={linkHref}
             className="group relative bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-500 overflow-hidden"
         >
             {/* Background decoration */}

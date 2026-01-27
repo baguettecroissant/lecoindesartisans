@@ -14,6 +14,7 @@ import {
 } from "@/lib/data";
 import { getRegionalContent, generateRegionalDescription } from "@/data/regional-content";
 import { getServiceContent } from "@/data/service-content";
+import { getGeneratedLocalContent } from "@/lib/generated-data";
 import { MARKET_DATA } from "@/data/market-prices";
 import LeadForm from "@/components/LeadForm";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -38,6 +39,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const service = getServiceBySlug(resolvedParams.serviceSlug);
     const city = getCityBySlug(resolvedParams.citySlug);
     const settings = getSiteSettings();
+    const generatedLocalContent = getGeneratedLocalContent(resolvedParams.serviceSlug, resolvedParams.citySlug);
+
 
     if (!service || !city) {
         return {
@@ -46,7 +49,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     const title = generateSeoTitle(service.seo_title, city);
-    const description = generateRegionalDescription(service.name, city.name, city.region, service.slug);
+    const regionalDescription = generateRegionalDescription(service.name, city.name, city.region, service.slug);
+    const description = generatedLocalContent
+        ? `${generatedLocalContent.intro.substring(0, 150)}... ${generatedLocalContent.local_tip}`.substring(0, 160)
+        : regionalDescription;
     const canonicalUrl = `/service/${service.slug}/${city.slug}`;
 
     return {
@@ -78,14 +84,23 @@ export default async function ServiceCityPage({ params }: PageProps) {
     const nearbyCities = getNearbyCities(city.slug);
     const otherServices = getOtherServices(service.slug);
 
-    // Get regional content for unique SEO
+    // Get regional content for unique SEO (legacy/fallback)
     const regionalData = getRegionalContent(service.slug, city.region);
+
+    // Get AI generated local content (high priority unique)
+    const aiContent = getGeneratedLocalContent(service.slug, city.slug);
 
     // Get rich service content (if available)
     const serviceContentData = getServiceContent(service.slug);
 
-    // Generate localized H1
-    const h1Title = generateSeoTitle(service.seo_title, city).replace(" - ", " : ");
+    // Generate localized H1 with variants
+    const h1Variants = [
+        generateSeoTitle(service.seo_title, city).replace(" - ", " : "),
+        `${service.name} à ${city.name} (${city.zip}) : Devis Gratuits`,
+        `Trouver un expert en ${service.name} à ${city.name}`,
+    ];
+    // Deterministic variant based on city slug length to avoid flickering but provide variety
+    const h1Title = h1Variants[(city.slug.length + service.slug.length) % h1Variants.length];
 
     // Map service to market data category
     const marketDataCategoryMap: Record<string, string> = {
@@ -121,11 +136,19 @@ export default async function ServiceCityPage({ params }: PageProps) {
                 "worstRating": "1"
             }
         },
-        "areaServed": {
-            "@type": "City",
-            "name": city.name
-        },
-        "description": regionalData.intro,
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": city.name,
+                "url": `https://fr.wikipedia.org/wiki/${city.name.replace(/\s/g, '_')}`
+            },
+            {
+                "@type": "GeoShape",
+                "postalCode": city.zip,
+                "addressCountry": "FR"
+            }
+        ],
+        "description": aiContent?.intro || regionalData.intro,
         "url": `https://${settings.domain}/service/${service.slug}/${city.slug}`
     };
 
@@ -149,6 +172,12 @@ export default async function ServiceCityPage({ params }: PageProps) {
             {
                 "@type": "ListItem",
                 "position": 3,
+                "name": city.region,
+                "item": `https://${settings.domain}/service/${service.slug}?region=${encodeURIComponent(city.region)}`
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
                 "name": city.name,
                 "item": `https://${settings.domain}/service/${service.slug}/${city.slug}`
             }
@@ -158,6 +187,7 @@ export default async function ServiceCityPage({ params }: PageProps) {
     // Schema.org: FAQPage
     // Merge specific service FAQs with generic FAQs
     const allFaqs = [
+        ...(aiContent ? [{ question: aiContent.faq_local.question, answer: aiContent.faq_local.answer }] : []),
         ...(serviceContentData?.faqs || []),
         ...faqs
     ];
@@ -256,7 +286,11 @@ export default async function ServiceCityPage({ params }: PageProps) {
                             Accueil
                         </Link>
                         <span className="mx-2">/</span>
-                        <span>{service.name}</span>
+                        <Link href={`/service/${service.slug}`} className="hover:text-white">
+                            {service.name}
+                        </Link>
+                        <span className="mx-2">/</span>
+                        <span className="text-navy-100">{city.region}</span>
                         <span className="mx-2">/</span>
                         <span className="text-amber-400">{city.name}</span>
                     </div>
@@ -290,14 +324,21 @@ export default async function ServiceCityPage({ params }: PageProps) {
                                     {service.name} à {city.name}
                                 </h2>
                                 <p className="text-gray-600 leading-relaxed mb-4">
-                                    {regionalData.intro}
+                                    {aiContent?.intro || regionalData.intro}
                                 </p>
+
+                                {/* AI History Anecdote */}
+                                {aiContent?.history_anecdote && (
+                                    <p className="text-sm italic text-gray-500 mb-4">
+                                        💡 Le saviez-vous ? {aiContent.history_anecdote}
+                                    </p>
+                                )}
 
                                 {/* Regional Climate Note */}
                                 {regionalData.climate_note && (
                                     <div className="bg-amber-50 border-l-4 border-amber-400 p-4 mb-6 rounded-r-lg">
                                         <p className="text-amber-800 text-sm font-medium">
-                                            💡 {regionalData.climate_note}
+                                            ☀️ {aiContent?.local_tip || regionalData.local_tip || regionalData.climate_note}
                                         </p>
                                     </div>
                                 )}
@@ -404,192 +445,209 @@ export default async function ServiceCityPage({ params }: PageProps) {
                                             <p className="text-sm text-gray-600">Sans engagement de votre part</p>
                                         </div>
                                     </div>
-                                    <div className="flex items-start space-x-3">
-                                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                                        <div>
-                                            <p className="font-medium text-navy-900">Intervention à {city.name}</p>
-                                            <p className="text-sm text-gray-600">{city.region} et alentours</p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
-                            {/* Why Choose Us */}
-                            <div className="bg-amber-50 rounded-xl border border-amber-100 p-6 md:p-8">
-                                <h3 className="text-xl font-bold text-navy-900 mb-4">
-                                    Pourquoi passer par {settings.name} ?
-                                </h3>
-                                <ul className="space-y-3">
-                                    <li className="flex items-center text-gray-700">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
-                                        Comparez jusqu&apos;à 3 devis d&apos;artisans à {city.name}
-                                    </li>
-                                    <li className="flex items-center text-gray-700">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
-                                        Service 100% gratuit et sans engagement
-                                    </li>
-                                    <li className="flex items-center text-gray-700">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
-                                        Artisans vérifiés avec avis clients authentiques
-                                    </li>
-                                    <li className="flex items-center text-gray-700">
-                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
-                                        Réponse sous 24h à 48h maximum
-                                    </li>
-                                </ul>
-                            </div>
+                            {/* Section Randomization for SEO Uniqueness */}
+                            {(() => {
+                                // Deterministic seed for randomization based on URL slugs
+                                const seed = (city.slug.length + service.slug.length + city.name.charCodeAt(0));
 
-                            {/* Rich Service Content */}
-                            {serviceContentData && (
-                                <>
-                                    {/* Detailed Introduction */}
-                                    <div className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
-                                        <h2 className="text-xl md:text-2xl font-bold text-navy-900 mb-4">
-                                            Tout savoir sur : {service.name} à {city.name}
-                                        </h2>
-                                        <div className="prose max-w-none text-gray-600 leading-relaxed">
-                                            {serviceContentData.introduction.split('\n\n').map((paragraph, idx) => (
-                                                <p key={idx} className="mb-4 last:mb-0">{paragraph}</p>
-                                            ))}
-                                        </div>
-                                    </div>
-
-                                    {/* Process Steps */}
-                                    <div className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
-                                        <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-6">
-                                            {serviceContentData.processTitle}
-                                        </h3>
-                                        <div className="space-y-6">
-                                            {serviceContentData.processSteps.map((step, idx) => (
-                                                <div key={idx} className="flex gap-4">
-                                                    <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 bg-amber-500 text-white rounded-full flex items-center justify-center font-bold text-sm md:text-base">
-                                                        {idx + 1}
-                                                    </div>
-                                                    <div className="flex-1">
-                                                        <div className="flex flex-wrap items-center gap-2 mb-1">
-                                                            <h4 className="font-bold text-navy-900 text-sm md:text-base">{step.title}</h4>
-                                                            {step.duration && (
-                                                                <span className="inline-flex items-center text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded-full border border-gray-100 whitespace-nowrap">
-                                                                    <Clock className="w-3 h-3 mr-1" />
-                                                                    {step.duration}
-                                                                </span>
-                                                            )}
-                                                        </div>
-                                                        <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
-
-                                    {/* Benefits Grid */}
-                                    <div className="bg-navy-900 rounded-xl p-6 md:p-8 text-white">
-                                        <h3 className="text-xl md:text-2xl font-bold mb-6">
-                                            {serviceContentData.benefitsTitle}
-                                        </h3>
-                                        <div className="grid sm:grid-cols-2 gap-4">
-                                            {serviceContentData.benefits.map((benefit, idx) => (
-                                                <div key={idx} className="bg-white/5 border border-white/10 rounded-lg p-4">
-                                                    <div className="flex items-center gap-3 mb-2">
-                                                        <span className="text-2xl">{benefit.icon}</span>
-                                                        <h4 className="font-bold text-sm md:text-base">{benefit.title}</h4>
-                                                    </div>
-                                                    <p className="text-navy-100 text-sm leading-relaxed">{benefit.description}</p>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
-
-                                    {/* Price Table - Simplified for stability */}
-                                    <div className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
-                                        <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-2">
-                                            {serviceContentData.priceTableTitle}
-                                        </h3>
-                                        <p className="text-gray-500 text-sm mb-6">{serviceContentData.priceTableNote}</p>
-
-                                        {/* Mobile Cards */}
-                                        <div className="md:hidden space-y-3">
-                                            {serviceContentData.priceTable.map((row, idx) => (
-                                                <div key={idx} className={`p-4 rounded-lg border ${row.recommended ? 'border-amber-400 bg-amber-50' : 'border-gray-100 bg-gray-50'}`}>
-                                                    <div className="flex justify-between items-start mb-2">
-                                                        <div>
-                                                            <h4 className="font-bold text-navy-900 text-sm">{row.option}</h4>
-                                                            {row.recommended && (
-                                                                <span className="inline-block mt-1 text-[10px] uppercase font-bold text-amber-600 bg-amber-100 px-2 py-0.5 rounded-full">
-                                                                    Recommandé
-                                                                </span>
-                                                            )}
-                                                        </div>
-                                                        <span className="font-bold text-amber-600 text-sm">{row.priceRange}</span>
-                                                    </div>
-                                                    <p className="text-xs text-gray-600 leading-relaxed">{row.details}</p>
-                                                </div>
-                                            ))}
-                                        </div>
-
-                                        {/* Desktop Table */}
-                                        <div className="hidden md:block overflow-x-auto">
-                                            <table className="w-full">
-                                                <thead>
-                                                    <tr className="bg-gray-50 text-sm text-gray-500">
-                                                        <th className="px-4 py-3 text-left rounded-tl-lg font-semibold">Option</th>
-                                                        <th className="px-4 py-3 text-left font-semibold">Prix</th>
-                                                        <th className="px-4 py-3 text-left rounded-tr-lg font-semibold">Détails</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody className="divide-y divide-gray-100 text-sm">
-                                                    {serviceContentData.priceTable.map((row, idx) => (
-                                                        <tr key={idx} className={row.recommended ? 'bg-amber-50/50' : ''}>
-                                                            <td className="px-4 py-4 font-medium text-navy-900">
-                                                                {row.option}
-                                                                {row.recommended && (
-                                                                    <span className="ml-2 text-[10px] bg-amber-500 text-white px-2 py-0.5 rounded-full uppercase tracking-wide">
-                                                                        Recommandé
-                                                                    </span>
-                                                                )}
-                                                            </td>
-                                                            <td className="px-4 py-4 font-bold text-amber-600 whitespace-nowrap">{row.priceRange}</td>
-                                                            <td className="px-4 py-4 text-gray-600">{row.details}</td>
-                                                        </tr>
-                                                    ))}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-
-                                    {/* Comparison Table - Standard scroll, no sticky */}
-                                    {serviceContentData.comparisonTable && serviceContentData.comparisonOptions && (
-                                        <div className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
-                                            <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-6">
-                                                {serviceContentData.comparisonTitle}
-                                            </h3>
-                                            <div className="overflow-x-auto">
-                                                <table className="min-w-full divide-y divide-gray-200">
-                                                    <thead>
-                                                        <tr className="bg-gray-50">
-                                                            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Critère</th>
-                                                            {serviceContentData.comparisonOptions.map((option, idx) => (
-                                                                <th key={idx} className="px-4 py-3 text-left text-xs font-bold text-navy-900 uppercase tracking-wider whitespace-nowrap">{option}</th>
-                                                            ))}
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody className="bg-white divide-y divide-gray-200 text-sm">
-                                                        {serviceContentData.comparisonTable.map((row, idx) => (
-                                                            <tr key={idx}>
-                                                                <td className="px-4 py-3 font-medium text-navy-900 whitespace-nowrap bg-gray-50/50">{row.criteria}</td>
-                                                                {serviceContentData.comparisonOptions!.map((option, optIdx) => (
-                                                                    <td key={optIdx} className="px-4 py-3 text-gray-600 min-w-[140px]">
-                                                                        {row.options[option]}
-                                                                    </td>
-                                                                ))}
-                                                            </tr>
-                                                        ))}
-                                                    </tbody>
-                                                </table>
+                                // Define the optional/movable sections
+                                const dynamicSections = [
+                                    // Why Choose Us
+                                    {
+                                        id: 'why-us',
+                                        content: (
+                                            <div key="why-us" className="bg-amber-50 rounded-xl border border-amber-100 p-6 md:p-8">
+                                                <h3 className="text-xl font-bold text-navy-900 mb-4">
+                                                    Pourquoi passer par {settings.name} ?
+                                                </h3>
+                                                <ul className="space-y-3">
+                                                    <li className="flex items-center text-gray-700">
+                                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
+                                                        Comparez jusqu&apos;à 3 devis d&apos;artisans à {city.name}
+                                                    </li>
+                                                    <li className="flex items-center text-gray-700">
+                                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
+                                                        Service 100% gratuit et sans engagement
+                                                    </li>
+                                                    <li className="flex items-center text-gray-700">
+                                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
+                                                        Artisans vérifiés avec avis clients authentiques
+                                                    </li>
+                                                    <li className="flex items-center text-gray-700">
+                                                        <CheckCircle className="w-5 h-5 text-amber-600 mr-3" />
+                                                        Réponse sous 24h à 48h maximum
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </div>
-                                    )}
-                                </>
+                                        )
+                                    },
+                                    // Deep Content (Introduction)
+                                    ...(serviceContentData ? [
+                                        {
+                                            id: 'intro-deep',
+                                            content: (
+                                                <div key="intro-deep" className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
+                                                    <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-4">
+                                                        Tout savoir sur : {service.name} à {city.name}
+                                                    </h3>
+                                                    <div className="prose max-w-none text-gray-600 leading-relaxed">
+                                                        {serviceContentData.introduction.split('\n\n').map((paragraph, idx) => (
+                                                            <p key={idx} className="mb-4 last:mb-0">{paragraph}</p>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            )
+                                        },
+                                        // Process Steps
+                                        {
+                                            id: 'process',
+                                            content: (
+                                                <div id="process" key="process" className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
+                                                    <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-6">
+                                                        {serviceContentData.processTitle}
+                                                    </h3>
+                                                    <div className="space-y-6">
+                                                        {serviceContentData.processSteps.map((step, idx) => (
+                                                            <div key={idx} className="flex gap-4">
+                                                                <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 bg-amber-500 text-white rounded-full flex items-center justify-center font-bold text-sm md:text-base">
+                                                                    {idx + 1}
+                                                                </div>
+                                                                <div className="flex-1">
+                                                                    <div className="flex flex-wrap items-center gap-2 mb-1">
+                                                                        <h4 className="font-bold text-navy-900 text-sm md:text-base">{step.title}</h4>
+                                                                        {step.duration && (
+                                                                            <span className="inline-flex items-center text-xs text-gray-500 bg-gray-50 px-2 py-1 rounded-full border border-gray-100 whitespace-nowrap">
+                                                                                <Clock className="w-3 h-3 mr-1" />
+                                                                                {step.duration}
+                                                                            </span>
+                                                                        )}
+                                                                    </div>
+                                                                    <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
+                                                                </div>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            )
+                                        },
+                                        // Benefits
+                                        {
+                                            id: 'benefits',
+                                            content: (
+                                                <div key="benefits" className="bg-navy-900 rounded-xl p-6 md:p-8 text-white">
+                                                    <h3 className="text-xl md:text-2xl font-bold mb-6">
+                                                        {serviceContentData.benefitsTitle}
+                                                    </h3>
+                                                    <div className="grid sm:grid-cols-2 gap-4">
+                                                        {serviceContentData.benefits.map((benefit, idx) => (
+                                                            <div key={idx} className="bg-white/5 border border-white/10 rounded-lg p-4">
+                                                                <div className="flex items-center gap-3 mb-2">
+                                                                    <span className="text-2xl">{benefit.icon}</span>
+                                                                    <h4 className="font-bold text-sm md:text-base">{benefit.title}</h4>
+                                                                </div>
+                                                                <p className="text-navy-100 text-sm leading-relaxed">{benefit.description}</p>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            )
+                                        },
+                                        // Prices
+                                        {
+                                            id: 'prices',
+                                            content: (
+                                                <div key="prices" className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
+                                                    <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-2">
+                                                        {serviceContentData.priceTableTitle}
+                                                    </h3>
+                                                    <p className="text-gray-500 text-sm mb-6">{serviceContentData.priceTableNote}</p>
+                                                    <div className="md:hidden space-y-3">
+                                                        {serviceContentData.priceTable.map((row, idx) => (
+                                                            <div key={idx} className={`p-4 rounded-lg border ${row.recommended ? 'border-amber-400 bg-amber-50' : 'border-gray-100 bg-gray-50'}`}>
+                                                                <div className="flex justify-between items-start mb-2">
+                                                                    <div>
+                                                                        <h4 className="font-bold text-navy-900 text-sm">{row.option}</h4>
+                                                                        {row.recommended && <span className="inline-block mt-1 text-[10px] uppercase font-bold text-amber-600 bg-amber-100 px-2 py-0.5 rounded-full">Recommandé</span>}
+                                                                    </div>
+                                                                    <span className="font-bold text-amber-600 text-sm">{row.priceRange}</span>
+                                                                </div>
+                                                                <p className="text-xs text-gray-600 leading-relaxed">{row.details}</p>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                    <div className="hidden md:block overflow-x-auto">
+                                                        <table className="w-full">
+                                                            <thead>
+                                                                <tr className="bg-gray-50 text-sm text-gray-500">
+                                                                    <th className="px-4 py-3 text-left rounded-tl-lg font-semibold">Option</th>
+                                                                    <th className="px-4 py-3 text-left font-semibold">Prix</th>
+                                                                    <th className="px-4 py-3 text-left rounded-tr-lg font-semibold">Détails</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody className="divide-y divide-gray-100 text-sm">
+                                                                {serviceContentData.priceTable.map((row, idx) => (
+                                                                    <tr key={idx} className={row.recommended ? 'bg-amber-50/50' : ''}>
+                                                                        <td className="px-4 py-4 font-medium text-navy-900">
+                                                                            {row.option}
+                                                                            {row.recommended && <span className="ml-2 text-[10px] bg-amber-500 text-white px-2 py-0.5 rounded-full uppercase tracking-wide">Recommandé</span>}
+                                                                        </td>
+                                                                        <td className="px-4 py-4 font-bold text-amber-600 whitespace-nowrap">{row.priceRange}</td>
+                                                                        <td className="px-4 py-4 text-gray-600">{row.details}</td>
+                                                                    </tr>
+                                                                ))}
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            )
+                                        }
+                                    ] : [])
+                                ];
+
+                                // Simple Fisher-Yates shuffle with seed
+                                const shuffled = [...dynamicSections];
+                                for (let i = shuffled.length - 1; i > 0; i--) {
+                                    const j = seed % (i + 1);
+                                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                                }
+
+                                return shuffled.map(s => s.content);
+                            })()}
+
+                            {/* Comparison Table - Standard scroll, no sticky - Stays contextual */}
+                            {serviceContentData?.comparisonTable && serviceContentData.comparisonOptions && (
+                                <div className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
+                                    <h3 className="text-xl md:text-2xl font-bold text-navy-900 mb-6">
+                                        {serviceContentData.comparisonTitle}
+                                    </h3>
+                                    <div className="overflow-x-auto">
+                                        <table className="min-w-full divide-y divide-gray-200">
+                                            <thead>
+                                                <tr className="bg-gray-50">
+                                                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Critère</th>
+                                                    {serviceContentData.comparisonOptions.map((option, idx) => (
+                                                        <th key={idx} className="px-4 py-3 text-left text-xs font-bold text-navy-900 uppercase tracking-wider whitespace-nowrap">{option}</th>
+                                                    ))}
+                                                </tr>
+                                            </thead>
+                                            <tbody className="bg-white divide-y divide-gray-200 text-sm">
+                                                {serviceContentData.comparisonTable.map((row, idx) => (
+                                                    <tr key={idx}>
+                                                        <td className="px-4 py-3 font-medium text-navy-900 whitespace-nowrap bg-gray-50/50">{row.criteria}</td>
+                                                        {serviceContentData.comparisonOptions!.map((option, optIdx) => (
+                                                            <td key={optIdx} className="px-4 py-3 text-gray-600 min-w-[140px]">
+                                                                {row.options[option]}
+                                                            </td>
+                                                        ))}
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             )}
 
                             {/* FAQ Section (Merged) */}
@@ -598,7 +656,7 @@ export default async function ServiceCityPage({ params }: PageProps) {
                                     Questions fréquentes
                                 </h3>
                                 <FAQAccordion
-                                    faqs={serviceContentData ? [...serviceContentData.faqs, ...faqs] : faqs}
+                                    faqs={allFaqs}
                                     serviceName={service.name}
                                     cityName={city.name}
                                 />
@@ -607,7 +665,7 @@ export default async function ServiceCityPage({ params }: PageProps) {
                             {/* Internal Links - Other Cities */}
                             <div className="bg-white rounded-xl border border-gray-100 p-6">
                                 <h3 className="text-lg font-bold text-navy-900 mb-4">
-                                    {service.name} dans d&apos;autres villes
+                                    {service.name} en {city.region}
                                 </h3>
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                                     {nearbyCities.map((nearbyCity) => (
@@ -653,7 +711,7 @@ export default async function ServiceCityPage({ params }: PageProps) {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     );
 }

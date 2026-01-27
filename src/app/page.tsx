@@ -93,9 +93,16 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-extrabold text-navy-900 mb-6 tracking-tight">
               Nos <span className="text-amber-600">Expertises</span>
             </h2>
-            <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+            <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-8">
               Sélectionnez votre type de projet et accédez aux meilleurs artisans qualifiés de votre région.
             </p>
+            <Link
+              href="/service"
+              className="inline-flex items-center px-6 py-3 bg-white border-2 border-amber-600 text-amber-600 font-bold rounded-xl hover:bg-amber-600 hover:text-white transition-all duration-300"
+            >
+              Voir tous nos services
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Link>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

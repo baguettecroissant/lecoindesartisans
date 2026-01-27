@@ -58,16 +58,20 @@ export function getNearbyCities(currentSlug: string, limit: number = 4): City[] 
     // 1. Prioritize cities in the same region
     const regionalCities = allCities.filter(c => c.region === currentCity.region);
 
-    // 2. If we stand have enough, return them
+    // 2. If we have enough regional cities, return them deterministically
+    // We sort by name length or name itself to be stable
     if (regionalCities.length >= limit) {
-        return regionalCities.sort(() => 0.5 - Math.random()).slice(0, limit);
+        return regionalCities
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .slice(0, limit);
     }
 
-    // 3. Else, fill with other cities (prioritizing big hubs if possible, or random)
-    // Here we just take random others to fill the gap
+    // 3. Else, fill with other cities (stable sort)
     const otherCities = allCities.filter(c => c.region !== currentCity.region);
     const fillCount = limit - regionalCities.length;
-    const filler = otherCities.sort(() => 0.5 - Math.random()).slice(0, fillCount);
+    const filler = otherCities
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .slice(0, fillCount);
 
     return [...regionalCities, ...filler];
 }
