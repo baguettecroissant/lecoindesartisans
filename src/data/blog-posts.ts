@@ -5545,6 +5545,787 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-01-27",
     readingTime: "10 min",
     image: "/images/blog/isolation-combles-perdus.jpg"
+  },
+  {
+    slug: "devis-pompe-a-chaleur-arnaque",
+    title: "Les Pièges à Éviter Avant de Signer un Devis pour une Pompe à Chaleur",
+    excerpt: "Découvrez les 8 arnaques les plus courantes sur les devis PAC. Signaux d'alerte, vérifications essentielles et conseils pour éviter les installateurs malhonnêtes.",
+    content: `
+      <p><strong>En 2026, les arnaques aux pompes à chaleur restent un fléau majeur.</strong> Démarchage téléphonique agressif, "PAC à 1€" miraculeuse, artisans fantômes... Chaque année, des milliers de Français se font piéger par des devis trompeurs. Le préjudice moyen atteint <strong>8 000€ à 15 000€</strong> par victime, sans compter les installations défaillantes et dangereuses.</p>
+      
+      <p>Dans ce guide complet, nous vous révélons <strong>les 8 pièges les plus courants</strong> et les signaux d'alerte à identifier absolument avant de signer un devis pour une pompe à chaleur.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez des devis fiables et sécurisés</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans RGE vérifiés près de chez vous.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#arnaque-pac-1-euro">Arnaque n°1 : La PAC à 1€ (qui n'existe plus)</a></li>
+        <li><a href="#demarchage-telephonique">Arnaque n°2 : Le démarchage téléphonique agressif</a></li>
+        <li><a href="#devis-incomplet">Arnaque n°3 : Le devis volontairement incomplet</a></li>
+        <li><a href="#prix-gonfles">Arnaque n°4 : Les prix gonflés pour "absorber" les aides</a></li>
+        <li><a href="#faux-rge">Arnaque n°5 : Le faux label RGE</a></li>
+        <li><a href="#pac-surdimensionnee">Arnaque n°6 : La PAC surdimensionnée</a></li>
+        <li><a href="#paiement-avance">Arnaque n°7 : Le paiement d'avance total</a></li>
+        <li><a href="#signature-pression">Arnaque n°8 : La signature sous pression</a></li>
+        <li><a href="#verifications">Les vérifications indispensables avant de signer</a></li>
+        <li><a href="#prix-justes">Les prix justes d'une PAC en 2026</a></li>
+        <li><a href="#que-faire">Que faire si vous êtes victime ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="arnaque-pac-1-euro">Arnaque n°1 : La PAC à 1€ (qui n'existe plus)</h2>
+      
+      <p>C'est l'arnaque la plus répandue : des sociétés vous promettent une <strong>"pompe à chaleur à 1€"</strong> ou "100% prise en charge par l'État". <strong>Cette offre n'existe plus depuis 2021</strong> et n'a jamais vraiment existé sous cette forme.</p>
+      
+      <h3>Comment ça fonctionne ?</h3>
+      <ul>
+        <li>L'escroc annonce un "reste à charge de 1€" grâce aux aides</li>
+        <li>Il <strong>gonfle artificiellement le prix</strong> de la PAC (souvent 20 000€ pour un équipement valant 10 000€)</li>
+        <li>Les aides MaPrimeRénov' et CEE sont captées par l'installateur</li>
+        <li>Vous signez un <strong>crédit à la consommation</strong> sans vous en rendre compte</li>
+        <li>Résultat : vous payez des mensualités pendant 10-15 ans pour une PAC de mauvaise qualité</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Signaux d'alerte</strong><br/>
+        Toute promesse de "PAC à 1€", "0€ de reste à charge" ou "entièrement gratuite" est un <strong>mensonge</strong>. Fuyez immédiatement. Même les ménages les plus modestes ont un reste à charge d'au minimum 3 000€ à 5 000€.</p>
+      </blockquote>
+
+      <p>Pour comprendre les vrais montants des aides, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide MaPrimeRénov' 2026</a>.</p>
+
+      <h2 id="demarchage-telephonique">Arnaque n°2 : Le démarchage téléphonique agressif</h2>
+      
+      <p>Le démarchage téléphonique pour les travaux de rénovation énergétique est <strong>interdit depuis 2020</strong> (loi du 24 juillet 2020). Toute société qui vous appelle sans que vous l'ayez contactée est donc déjà dans l'illégalité.</p>
+      
+      <h3>Les techniques utilisées</h3>
+      <ul>
+        <li><strong>"Vous avez été sélectionné..."</strong> : fausse sélection aléatoire</li>
+        <li><strong>"Offre limitée dans le temps"</strong> : pression artificielle</li>
+        <li><strong>"Je vous appelle de la part de l'État/EDF/Engie"</strong> : usurpation d'identité</li>
+        <li><strong>"Nous avons vos coordonnées grâce à la mairie"</strong> : mensonge</li>
+        <li><strong>"Un technicien passe dans votre quartier demain"</strong> : création d'urgence</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Ce qu'il faut faire</strong><br/>
+        Raccrochez systématiquement. <strong>Ne donnez jamais vos coordonnées ni vos informations fiscales</strong> par téléphone. Les vrais artisans ne démarchent pas par téléphone.</p>
+      </blockquote>
+
+      <h2 id="devis-incomplet">Arnaque n°3 : Le devis volontairement incomplet</h2>
+      
+      <p>Un devis incomplet est le signe d'un professionnel malhonnête ou incompétent. Dans les deux cas, il faut fuir.</p>
+      
+      <h3>Ce qui doit obligatoirement figurer sur un devis PAC</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Élément</th>
+            <th style="padding: 12px; text-align: left;">Exemple</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Marque et modèle précis de la PAC</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Daikin Altherma 3 R 8kW</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>COP (coefficient de performance)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">COP = 4.5 (A7/W35)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Puissance en kW</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">8 kW nominale</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Détail des travaux</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Dépose chaudière, pose PAC, raccordements...</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prix HT + TVA détaillée</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fournitures / Main-d'œuvre séparées</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Délai de réalisation</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Installation prévue sous 4 semaines</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Numéro SIRET</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">123 456 789 00012</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Numéro RGE + date de validité</strong></td>
+            <td style="padding: 12px;">QualiPAC n°12345 valide jusqu'au 31/12/2026</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention</strong><br/>
+        Si le devis indique simplement "pompe à chaleur" sans marque ni modèle précis, <strong>refusez de signer</strong>. L'installateur pourrait vous livrer un équipement bas de gamme tout en facturant le prix fort.</p>
+      </blockquote>
+
+      <h2 id="prix-gonfles">Arnaque n°4 : Les prix gonflés pour "absorber" les aides</h2>
+      
+      <p>Certains installateurs gonflent leurs prix de 50% à 100% en sachant que les aides de l'État viendront "compenser". Résultat : vous payez le prix fort pour un équipement qui vaut moitié moins.</p>
+      
+      <h3>Comment le détecter ?</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Équipement</th>
+            <th style="padding: 12px; text-align: center;">Prix normal TTC</th>
+            <th style="padding: 12px; text-align: center;">Prix arnaque 🚩</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC air-eau 8-10 kW</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 000€ - 15 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">20 000€ - 25 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC air-eau 12-16 kW</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">12 000€ - 18 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">22 000€ - 30 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>PAC air-air (climatisation réversible)</strong></td>
+            <td style="padding: 12px; text-align: center;">3 000€ - 8 000€</td>
+            <td style="padding: 12px; text-align: center; background: #fee2e2;">10 000€ - 15 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Vous voulez comparer les prix ?</strong><br/>
+        Demandez 3 devis d'artisans RGE pour avoir une base de comparaison fiable.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="faux-rge">Arnaque n°5 : Le faux label RGE</h2>
+      
+      <p>Le label <strong>RGE (Reconnu Garant de l'Environnement)</strong> est obligatoire pour bénéficier des aides MaPrimeRénov'. Certains escrocs affichent un faux numéro RGE ou utilisent le numéro d'une autre entreprise.</p>
+      
+      <h3>Comment vérifier un label RGE ?</h3>
+      <ol>
+        <li>Relevez le numéro RGE indiqué sur le devis</li>
+        <li>Rendez-vous sur <strong>france-renov.gouv.fr/annuaire-rge</strong></li>
+        <li>Recherchez l'entreprise par nom ou numéro SIRET</li>
+        <li>Vérifiez que la qualification <strong>QualiPAC</strong> est active et non expirée</li>
+        <li>Confirmez que l'adresse correspond</li>
+      </ol>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Conseil d'expert</strong><br/>
+        Faites cette vérification <strong>AVANT</strong> de signer, pas après. Si l'installateur refuse de vous communiquer son numéro RGE ou est évasif, c'est un signal d'alarme majeur.</p>
+      </blockquote>
+
+      <h2 id="pac-surdimensionnee">Arnaque n°6 : La PAC surdimensionnée</h2>
+      
+      <p>Une PAC trop puissante pour votre logement est une double arnaque : vous payez plus cher à l'achat ET plus cher à l'usage (surconsommation électrique, usure prématurée).</p>
+      
+      <h3>Comment savoir si la puissance est adaptée ?</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Surface maison</th>
+            <th style="padding: 12px; text-align: center;">Puissance PAC adaptée</th>
+            <th style="padding: 12px; text-align: center;">Puissance suspecte 🚩</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">80 m² (bien isolé)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5-7 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">> 10 kW</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">100 m² (bien isolé)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6-9 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">> 12 kW</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">120 m² (bien isolé)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8-11 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">> 14 kW</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">150 m² (bien isolé)</td>
+            <td style="padding: 12px; text-align: center;">10-14 kW</td>
+            <td style="padding: 12px; text-align: center; background: #fee2e2;">> 18 kW</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Un artisan sérieux réalise toujours une <strong>étude thermique</strong> avant de proposer une puissance. S'il vous propose directement une PAC sans avoir vu votre logement ni analysé vos factures, méfiance !</p>
+      </blockquote>
+
+      <p>Pour bien choisir votre équipement, consultez notre <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">comparatif PAC air-eau vs air-air</a>.</p>
+
+      <h2 id="paiement-avance">Arnaque n°7 : Le paiement d'avance total</h2>
+      
+      <p>Un artisan honnête ne demande <strong>jamais le paiement intégral avant les travaux</strong>. Un acompte de 30% maximum à la signature est normal, le solde se paie à la fin du chantier.</p>
+      
+      <h3>Échéancier normal vs arnaque</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Étape</th>
+            <th style="padding: 12px; text-align: center;">Pratique normale ✅</th>
+            <th style="padding: 12px; text-align: center;">Arnaque 🚩</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Signature du devis</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0% à 30%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">50% ou plus</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Début des travaux</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0% à 30%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">Solde exigé</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">Fin des travaux + réception</td>
+            <td style="padding: 12px; text-align: center;">40% à 70% (solde)</td>
+            <td style="padding: 12px; text-align: center; background: #dcfce7;">Déjà payé !</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Danger</strong><br/>
+        Si on vous demande 100% du montant avant les travaux, <strong>c'est une arnaque quasi-certaine</strong>. Les escrocs encaissent l'argent et disparaissent, ou livrent un matériel bas de gamme sans finir les travaux.</p>
+      </blockquote>
+
+      <h2 id="signature-pression">Arnaque n°8 : La signature sous pression</h2>
+      
+      <p>Les escrocs utilisent des techniques de manipulation pour vous faire signer rapidement, sans vous laisser le temps de réfléchir ou comparer.</p>
+      
+      <h3>Phrases d'alerte typiques 🚩</h3>
+      <ul>
+        <li><strong>"L'offre expire ce soir"</strong> : fausse urgence</li>
+        <li><strong>"Les aides vont baisser le mois prochain"</strong> : manipulation par la peur</li>
+        <li><strong>"Je ne peux pas revenir, signez maintenant"</strong> : pression directe</li>
+        <li><strong>"Mon collègue dans le camion attend"</strong> : mise en scène</li>
+        <li><strong>"Vos voisins ont tous signé"</strong> : fausse preuve sociale</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ La bonne attitude</strong><br/>
+        Prenez TOUJOURS le temps de réfléchir. Demandez à garder le devis 48h-72h. Un artisan sérieux acceptera sans problème. Celui qui refuse cache quelque chose.</p>
+      </blockquote>
+
+      <h2 id="verifications">Les vérifications indispensables avant de signer</h2>
+      
+      <p>Voici la <strong>checklist de sécurité</strong> à suivre pour tout devis PAC :</p>
+      
+      <h3>✅ Checklist anti-arnaque</h3>
+      <ul>
+        <li>☐ L'artisan n'a <strong>pas démarché par téléphone</strong></li>
+        <li>☐ Le <strong>numéro RGE est vérifié</strong> sur france-renov.gouv.fr</li>
+        <li>☐ Le devis mentionne <strong>marque + modèle précis</strong> de la PAC</li>
+        <li>☐ Les <strong>prix correspondent aux fourchettes du marché</strong></li>
+        <li>☐ L'acompte demandé est <strong>inférieur à 30%</strong></li>
+        <li>☐ Vous avez <strong>au moins 3 devis comparables</strong></li>
+        <li>☐ Aucune <strong>pression pour signer immédiatement</strong></li>
+        <li>☐ L'<strong>étude thermique</strong> a été réalisée</li>
+        <li>☐ Les <strong>garanties</strong> (décennale, biennale) sont mentionnées</li>
+        <li>☐ Le délai de <strong>rétractation de 14 jours</strong> figure sur le devis</li>
+      </ul>
+
+      <h2 id="prix-justes">Les prix justes d'une PAC en 2026</h2>
+      
+      <p>Pour ne pas vous faire avoir, voici les <strong>fourchettes de prix réalistes</strong> pour une pompe à chaleur en 2026, installation comprise :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de PAC</th>
+            <th style="padding: 12px; text-align: center;">Prix pose comprise</th>
+            <th style="padding: 12px; text-align: center;">Aides MaPrimeRénov' (max)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC air-eau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>10 000€ - 18 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 000€ (profil Bleu)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC air-air</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>3 000€ - 8 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0€ (non éligible)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>PAC géothermique</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>15 000€ - 25 000€</strong></td>
+            <td style="padding: 12px; text-align: center;">11 000€ (profil Bleu)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        En plus de MaPrimeRénov', vous pouvez bénéficier des <strong>primes CEE</strong> (500€ à 4 000€ selon fournisseur), de la <strong>TVA à 5,5%</strong> et de l'<strong>éco-PTZ</strong>. Mais même cumulées, les aides ne permettent jamais un reste à charge nul.</p>
+      </blockquote>
+
+      <h2 id="que-faire">Que faire si vous êtes victime d'une arnaque ?</h2>
+      
+      <p>Si vous avez signé un devis suspect ou avez été victime d'une arnaque, voici les démarches à suivre :</p>
+      
+      <h3>Dans les 14 jours : Exercez votre droit de rétractation</h3>
+      <ul>
+        <li>Envoyez un courrier recommandé AR à l'entreprise</li>
+        <li>Citez l'article L221-18 du Code de la consommation</li>
+        <li>Aucune pénalité ne peut vous être appliquée</li>
+      </ul>
+
+      <h3>Si les travaux ont commencé mal</h3>
+      <ul>
+        <li><strong>Faire constater par huissier</strong> les malfaçons</li>
+        <li><strong>Signaler sur SignalConso</strong> (signal.conso.gouv.fr)</li>
+        <li><strong>Porter plainte au commissariat</strong> en cas d'escroquerie</li>
+        <li><strong>Contacter la DGCCRF</strong> de votre département</li>
+        <li><strong>Saisir un médiateur de la consommation</strong></li>
+      </ul>
+
+      <h3>Pour récupérer votre argent</h3>
+      <ul>
+        <li>Opposition sur votre carte bancaire (si paiement récent)</li>
+        <li>Action en justice (tribunal judiciaire)</li>
+        <li>Assurance protection juridique si vous en avez une</li>
+      </ul>
+
+      <h2>Conclusion : Comment se protéger des arnaques PAC</h2>
+      
+      <p>Les arnaques aux pompes à chaleur sont malheureusement courantes, mais elles sont <strong>évitables</strong> si vous restez vigilant :</p>
+      
+      <ul>
+        <li><strong>Refusez tout démarchage téléphonique</strong> : c'est interdit</li>
+        <li><strong>Méfiez-vous des promesses "0€"</strong> : elles sont fausses</li>
+        <li><strong>Vérifiez toujours le RGE</strong> sur le site officiel</li>
+        <li><strong>Comparez 3 devis minimum</strong> avant de signer</li>
+        <li><strong>Prenez le temps de réfléchir</strong> : jamais de signature sous pression</li>
+      </ul>
+      
+      <p>En choisissant des artisans sérieux et vérifiés, vous bénéficierez d'une installation de qualité, de vraies économies d'énergie, et d'une tranquillité d'esprit pour les 15-20 prochaines années.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet en toute sécurité ?</strong><br/>
+        Recevez 3 devis gratuits d'artisans RGE vérifiés, sans pression commerciale.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Arnaques devis pompe à chaleur</h2>
+      
+      <h3>Comment savoir si un devis PAC est une arnaque ?</h3>
+      <p>Un devis suspect présente souvent plusieurs signaux d'alerte : prix anormalement élevé (>20 000€ pour une PAC air-eau standard), absence de marque/modèle précis, numéro RGE non vérifiable, demande d'acompte supérieur à 30%, ou pression pour signer immédiatement. Comparez toujours avec 2-3 autres devis.</p>
+      
+      <h3>La PAC à 1€ existe-t-elle vraiment ?</h3>
+      <p>Non, la "PAC à 1€" n'existe plus depuis 2021 et n'a jamais réellement existé. Les aides MaPrimeRénov' et CEE peuvent financer jusqu'à 60% du coût pour les ménages modestes, mais il reste toujours un minimum de 3 000€ à 5 000€ à votre charge. Toute promesse de "0€" est une arnaque.</p>
+      
+      <h3>Peut-on se rétracter après avoir signé un devis PAC ?</h3>
+      <p>Oui, vous disposez d'un <strong>délai de rétractation de 14 jours</strong> après signature pour tout contrat conclu hors établissement (à domicile ou en ligne). Envoyez un courrier recommandé à l'entreprise en citant l'article L221-18 du Code de la consommation. Aucune pénalité ne peut vous être facturée.</p>
+      
+      <h3>Comment vérifier qu'un artisan est vraiment RGE ?</h3>
+      <p>Rendez-vous sur <strong>france-renov.gouv.fr/annuaire-rge</strong> et recherchez l'entreprise par son nom ou numéro SIRET. Vérifiez que la qualification <strong>QualiPAC</strong> est active et non expirée. Méfiez-vous si l'installateur refuse de communiquer son numéro RGE ou si les informations ne correspondent pas.</p>
+      
+      <h3>Quel est le prix normal d'une pompe à chaleur en 2026 ?</h3>
+      <p>Une PAC air-eau coûte entre <strong>10 000€ et 18 000€</strong> installation comprise. Les PAC air-air sont moins chères (3 000€ - 8 000€) mais ne bénéficient pas de MaPrimeRénov'. Si on vous propose une PAC air-eau à plus de 20 000€, demandez des justifications ou fuyez.</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-01-29",
+    readingTime: "14 min",
+    image: "/images/blog/devis-pac-arnaque.jpg"
+  },
+  {
+    slug: "acompte-travaux-pourcentage",
+    title: "Acompte Travaux : Combien Verser ? 10%, 30% ou 40% ?",
+    excerpt: "Découvrez le pourcentage d'acompte à verser pour vos travaux : règles légales, usages par type de chantier, et conseils pour vous protéger des arnaques.",
+    content: `
+      <p><strong>Quel pourcentage d'acompte faut-il verser avant de démarrer des travaux ?</strong> C'est l'une des questions les plus fréquentes des propriétaires qui se lancent dans un projet de rénovation. La réponse n'est pas unique : elle dépend du type de travaux, du montant total et des pratiques du secteur.</p>
+      
+      <p>Dans ce guide complet, nous vous expliquons <strong>les règles légales</strong>, les <strong>usages recommandés</strong> selon le type de chantier, et surtout <strong>comment vous protéger</strong> des artisans peu scrupuleux qui demandent des acomptes excessifs.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez des devis transparents</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans vérifiés avec des conditions de paiement claires.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#loi-acompte">Ce que dit la loi sur les acomptes travaux</a></li>
+        <li><a href="#pourcentages-recommandes">Pourcentages d'acompte recommandés par type de travaux</a></li>
+        <li><a href="#echelonnement">L'échelonnement des paiements : la bonne pratique</a></li>
+        <li><a href="#signaux-alerte">Signaux d'alerte : quand l'acompte demandé est suspect</a></li>
+        <li><a href="#negocier">Comment négocier les conditions de paiement</a></li>
+        <li><a href="#proteger">Se protéger juridiquement</a></li>
+        <li><a href="#recours">Recours en cas de problème</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="loi-acompte">Ce que dit la loi sur les acomptes travaux</h2>
+      
+      <p>Contrairement à une idée reçue, <strong>la loi française ne fixe pas de pourcentage maximum</strong> pour les acomptes travaux entre un particulier et un artisan. Cependant, plusieurs règles encadrent cette pratique :</p>
+      
+      <h3>Les règles légales à connaître</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Règle</th>
+            <th style="padding: 12px; text-align: left;">Ce que dit la loi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pas de plafond légal</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Aucune loi ne limite le % d'acompte demandé (contrairement aux marchés publics)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mention obligatoire sur le devis</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Le montant de l'acompte doit figurer sur le devis signé</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Délai de rétractation</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">14 jours pour les contrats conclus à domicile ou à distance</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Facture d'acompte obligatoire</strong></td>
+            <td style="padding: 12px;">L'artisan doit émettre une facture pour tout acompte versé</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Même si la loi n'impose pas de limite, les <strong>usages professionnels</strong> et le bon sens fixent des repères. Un artisan sérieux ne demande généralement pas plus de 30% à la signature du devis.</p>
+      </blockquote>
+
+      <h2 id="pourcentages-recommandes">Pourcentages d'acompte recommandés par type de travaux</h2>
+      
+      <p>Les pratiques varient selon la nature et l'ampleur des travaux. Voici les <strong>fourchettes recommandées</strong> :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de travaux</th>
+            <th style="padding: 12px; text-align: center;">Acompte signature</th>
+            <th style="padding: 12px; text-align: center;">Acompte début chantier</th>
+            <th style="padding: 12px; text-align: center;">Solde fin travaux</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Petits travaux (&lt; 1 500€)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>100%</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Travaux moyens (1 500€ - 10 000€)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10-20%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20-30%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>50-70%</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gros travaux (10 000€ - 50 000€)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10-15%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20-30%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>55-70%</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Rénovation complète (&gt; 50 000€)</strong></td>
+            <td style="padding: 12px; text-align: center;">5-10%</td>
+            <td style="padding: 12px; text-align: center;">Échelonnement mensuel</td>
+            <td style="padding: 12px; text-align: center;"><strong>5-10% retenue</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Cas particuliers par corps de métier</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Corps de métier</th>
+            <th style="padding: 12px; text-align: center;">Acompte courant</th>
+            <th style="padding: 12px; text-align: left;">Justification</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Menuisier (fenêtres sur-mesure)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30-40%</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fabrication sur-mesure, matériaux commandés</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Cuisiniste</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30-50%</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Commande des meubles et électroménager</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pompe à chaleur / Chauffagiste</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20-30%</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Commande du matériel (PAC coûteuse)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Électricien / Plombier</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10-20%</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Matériaux standards, faible avance</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Peintre</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0-10%</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Matériaux peu coûteux, main-d'œuvre prédominante</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Maçon / Gros œuvre</strong></td>
+            <td style="padding: 12px; text-align: center;">10-20%</td>
+            <td style="padding: 12px;">Matériaux commandés en gros</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Règle d'or</strong><br/>
+        Plus le montant des travaux est élevé, plus l'acompte en pourcentage devrait être <strong>faible</strong>. Un acompte de 40% sur 5 000€ (2 000€) est raisonnable. Un acompte de 40% sur 50 000€ (20 000€) est excessif.</p>
+      </blockquote>
+
+      <h2 id="echelonnement">L'échelonnement des paiements : la bonne pratique</h2>
+      
+      <p>La meilleure protection pour vous et l'artisan est un <strong>échéancier de paiement</strong> clairement défini et lié à l'avancement des travaux.</p>
+      
+      <h3>Exemple d'échelonnement type pour une rénovation de 15 000€</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Étape</th>
+            <th style="padding: 12px; text-align: center;">Pourcentage</th>
+            <th style="padding: 12px; text-align: center;">Montant</th>
+            <th style="padding: 12px; text-align: left;">Condition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Signature du devis</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>20%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Engagement des deux parties</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Livraison matériaux</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>20%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Après vérification des livraisons</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Mi-chantier (50% avancement)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>30%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 500€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Après constat d'avancement</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fin des travaux</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>25%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 750€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Réception sans réserves</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Retenue de garantie</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>5%</strong></td>
+            <td style="padding: 12px; text-align: center;">750€</td>
+            <td style="padding: 12px;">30 jours après levée des réserves</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Besoin de comparer les artisans ?</strong><br/>
+        Demandez 3 devis avec des conditions de paiement écrites pour pouvoir comparer.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="signaux-alerte">Signaux d'alerte : quand l'acompte demandé est suspect</h2>
+      
+      <p>Certains comportements doivent vous alerter et vous inciter à refuser ou à demander des garanties supplémentaires :</p>
+      
+      <h3>🚩 Signaux d'alerte majeurs</h3>
+      <ul>
+        <li><strong>Acompte supérieur à 50%</strong> à la signature (hors cuisine/menuiserie sur-mesure)</li>
+        <li><strong>Demande de paiement en espèces</strong> (pas de traçabilité)</li>
+        <li><strong>Aucun échéancier écrit</strong> sur le devis</li>
+        <li><strong>Pression pour payer immédiatement</strong> ("l'offre expire demain")</li>
+        <li><strong>Refus d'émettre une facture d'acompte</strong></li>
+        <li><strong>Demarchage téléphonique</strong> (interdit pour les travaux de rénovation énergétique)</li>
+        <li><strong>Acompte 100%</strong> avant le début du moindre travail</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Danger</strong><br/>
+        Un acompte de 100% avant travaux est le signe quasi-certain d'une arnaque. L'artisan encaisse l'argent et disparaît, ou réalise un travail bâclé en sachant que vous avez déjà payé.</p>
+      </blockquote>
+
+      <p>Pour en savoir plus sur les arnaques fréquentes, consultez notre <a href="/blog/devis-pompe-a-chaleur-arnaque">guide sur les pièges des devis PAC</a>.</p>
+
+      <h2 id="negocier">Comment négocier les conditions de paiement</h2>
+      
+      <p>Les conditions de paiement sont <strong>négociables</strong>. Voici comment aborder le sujet avec l'artisan :</p>
+      
+      <h3>Arguments pour négocier</h3>
+      <ul>
+        <li><strong>"Je préfère un échelonnement en 4 fois"</strong> : montre que vous êtes organisé</li>
+        <li><strong>"Je paierai le solde dès réception"</strong> : rassure l'artisan sur votre solvabilité</li>
+        <li><strong>"J'ai d'autres devis avec de meilleures conditions"</strong> : met en concurrence</li>
+        <li><strong>"Je peux payer par carte bancaire"</strong> : offre une garantie (opposition possible)</li>
+      </ul>
+
+      <h3>Ce que vous pouvez demander</h3>
+      <ul>
+        <li>Réduire l'acompte initial à 10-20%</li>
+        <li>Lier les paiements à des <strong>jalons précis</strong> du chantier</li>
+        <li>Prévoir une <strong>retenue de garantie de 5%</strong> (payée 30 jours après fin)</li>
+        <li>Obtenir une <strong>garantie de remboursement d'acompte</strong> (pour gros chantiers)</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Conseil d'expert</strong><br/>
+        Un artisan sérieux acceptera de négocier car il comprend votre besoin de sécurité. Celui qui refuse catégoriquement toute discussion sur les paiements cache peut-être un problème de trésorerie... ou pire.</p>
+      </blockquote>
+
+      <h2 id="proteger">Se protéger juridiquement</h2>
+      
+      <p>Pour sécuriser votre investissement, voici les <strong>éléments à faire figurer</strong> sur le devis :</p>
+      
+      <h3>Mentions obligatoires sur le devis</h3>
+      <ul>
+        <li>☐ <strong>Montant de l'acompte</strong> en € et en %</li>
+        <li>☐ <strong>Échéancier de paiement</strong> détaillé</li>
+        <li>☐ <strong>Conditions de versement</strong> (quel événement déclenche chaque paiement)</li>
+        <li>☐ <strong>Délai de rétractation</strong> de 14 jours mentionné</li>
+        <li>☐ <strong>Numéro SIRET</strong> et RGE si applicable</li>
+        <li>☐ <strong>Assurance décennale</strong> et responsabilité civile</li>
+      </ul>
+
+      <h3>Documents à demander avant de payer</h3>
+      <ul>
+        <li><strong>Attestation d'assurance décennale</strong> à jour</li>
+        <li><strong>Extrait Kbis</strong> ou inscription au registre des métiers</li>
+        <li>Pour les travaux éligibles aux aides : <strong>certificat RGE</strong> vérifié sur france-renov.gouv.fr</li>
+      </ul>
+
+      <h3>Mode de paiement recommandé</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Mode</th>
+            <th style="padding: 12px; text-align: center;">Recommandé ?</th>
+            <th style="padding: 12px; text-align: left;">Avantages / Inconvénients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Virement bancaire</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Traçable, preuve bancaire</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chèque</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Traçable, possibilité d'opposition</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Carte bancaire</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Opposition possible, mais frais pour l'artisan</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px;"><strong>Espèces</strong></td>
+            <td style="padding: 12px; text-align: center;">❌ Non</td>
+            <td style="padding: 12px;">Aucune traçabilité, risque de fraude fiscale</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="recours">Recours en cas de problème</h2>
+      
+      <p>Si l'artisan ne réalise pas les travaux après avoir encaissé l'acompte, voici vos recours :</p>
+      
+      <h3>Étape 1 : Mise en demeure</h3>
+      <p>Envoyez un <strong>courrier recommandé avec AR</strong> à l'artisan en lui demandant de commencer les travaux sous 15 jours ou de rembourser l'acompte. Citez l'article 1231-1 du Code civil.</p>
+
+      <h3>Étape 2 : Médiation</h3>
+      <p>Saisissez le <strong>médiateur de la consommation</strong> mentionné sur le devis (obligatoire). C'est gratuit et rapide.</p>
+
+      <h3>Étape 3 : Signalement</h3>
+      <ul>
+        <li><strong>SignalConso</strong> (signal.conso.gouv.fr) : signalement en ligne</li>
+        <li><strong>DGCCRF</strong> de votre département</li>
+      </ul>
+
+      <h3>Étape 4 : Action en justice</h3>
+      <ul>
+        <li><strong>Tribunal judiciaire</strong> pour les litiges > 5 000€</li>
+        <li><strong>Tribunal de proximité</strong> pour les litiges ≤ 5 000€</li>
+        <li><strong>Injonction de payer</strong> : procédure rapide et peu coûteuse</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Astuce</strong><br/>
+        Vérifiez si vous avez une <strong>assurance protection juridique</strong> (souvent incluse dans l'assurance habitation). Elle prendra en charge vos frais de justice.</p>
+      </blockquote>
+
+      <h2>Conclusion : les bonnes pratiques pour l'acompte travaux</h2>
+      
+      <p>Pour résumer, voici les <strong>règles à suivre</strong> concernant les acomptes :</p>
+      
+      <ul>
+        <li><strong>10 à 30%</strong> à la signature pour des travaux classiques</li>
+        <li><strong>Jusqu'à 40%</strong> acceptable pour des commandes sur-mesure (cuisine, fenêtres)</li>
+        <li><strong>Jamais plus de 50%</strong> avant le début effectif des travaux</li>
+        <li><strong>Échelonnement</strong> lié à l'avancement du chantier</li>
+        <li><strong>5% de retenue de garantie</strong> payée après levée des réserves</li>
+        <li><strong>Paiement traçable</strong> uniquement (virement, chèque, CB)</li>
+      </ul>
+      
+      <p>En suivant ces conseils, vous protégez votre investissement tout en maintenant une relation de confiance avec votre artisan.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer vos travaux en toute sécurité ?</strong><br/>
+        Recevez 3 devis gratuits d'artisans vérifiés avec des conditions de paiement transparentes.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Acompte travaux et pourcentage</h2>
+      
+      <h3>Quel est le pourcentage d'acompte normal pour des travaux ?</h3>
+      <p>Pour des travaux de rénovation classiques, un acompte de <strong>10 à 30%</strong> à la signature est considéré comme normal. Ce pourcentage peut monter à 40% pour des commandes sur-mesure (cuisine, menuiseries) qui nécessitent des commandes de matériaux spécifiques. Au-delà de 50%, soyez vigilant.</p>
+      
+      <h3>Un artisan peut-il demander 50% d'acompte ?</h3>
+      <p>Légalement oui, mais c'est <strong>déconseillé d'accepter</strong> sauf cas particulier (cuisine complète, menuiseries sur-mesure). Pour des travaux standards, un acompte de 50% est excessif et peut cacher un problème de trésorerie de l'artisan ou une arnaque potentielle. Négociez toujours un échelonnement.</p>
+      
+      <h3>Peut-on récupérer un acompte si l'artisan ne fait pas les travaux ?</h3>
+      <p>Oui, si l'artisan ne respecte pas ses engagements, vous pouvez exiger le <strong>remboursement intégral de l'acompte</strong>. Envoyez une mise en demeure par courrier recommandé, puis saisissez le médiateur de la consommation. En dernier recours, le tribunal peut ordonner le remboursement avec dommages et intérêts.</p>
+      
+      <h3>L'acompte est-il remboursable en cas d'annulation ?</h3>
+      <p>Si vous annulez <strong>dans les 14 jours</strong> suivant la signature (délai de rétractation pour les contrats conclus à domicile), l'acompte doit être remboursé intégralement. Passé ce délai, le remboursement dépend des conditions du contrat et des travaux déjà engagés par l'artisan.</p>
+      
+      <h3>Faut-il payer en espèces un acompte travaux ?</h3>
+      <p><strong>Non, jamais</strong>. Le paiement en espèces ne laisse aucune trace et vous prive de tout recours en cas de problème. Privilégiez toujours le virement bancaire ou le chèque. L'artisan doit vous remettre une facture d'acompte, ce qui est impossible sans traçabilité bancaire.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-01-29",
+    readingTime: "12 min",
+    image: "/images/blog/acompte-travaux-pourcentage.jpg"
   }
 ];
 
