@@ -102,12 +102,12 @@ export default async function BlogPostPage({ params }: PageProps) {
             </section>
 
             {/* Main Content */}
-            <section className="py-12">
+            <section className="py-12 overflow-x-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid lg:grid-cols-3 gap-8">
                         {/* Article Content */}
-                        <div className="lg:col-span-2">
-                            <article className="bg-white rounded-xl border border-gray-100 p-6 md:p-8">
+                        <div className="lg:col-span-2 overflow-hidden">
+                            <article className="bg-white rounded-xl border border-gray-100 p-6 md:p-8 overflow-hidden">
                                 {/* Featured Image */}
                                 <div className="aspect-video relative rounded-lg mb-8 overflow-hidden bg-gray-100">
                                     <Image
@@ -120,10 +120,12 @@ export default async function BlogPostPage({ params }: PageProps) {
                                 </div>
 
                                 {/* Article Body */}
-                                <div
-                                    className="prose max-w-none"
-                                    dangerouslySetInnerHTML={{ __html: post.content }}
-                                />
+                                <div className="overflow-x-auto">
+                                    <div
+                                        className="prose max-w-none"
+                                        dangerouslySetInnerHTML={{ __html: post.content }}
+                                    />
+                                </div>
 
                                 {/* CTA Box */}
                                 <div className="mt-10 p-6 bg-amber-50 rounded-xl border border-amber-100">
@@ -169,12 +171,17 @@ export default async function BlogPostPage({ params }: PageProps) {
                             )}
                         </div>
 
-                        {/* Sidebar */}
-                        <div className="lg:col-span-1">
+                        {/* Sidebar - Hidden on mobile, visible on desktop */}
+                        <div className="hidden lg:block lg:col-span-1">
                             <div className="sticky top-20">
-                                <LeadForm />
+                                <LeadForm instanceId="desktop" />
                             </div>
                         </div>
+                    </div>
+
+                    {/* Mobile CTA - Shown only on mobile */}
+                    <div className="lg:hidden mt-8">
+                        <LeadForm instanceId="mobile" />
                     </div>
                 </div>
             </section>

@@ -81,7 +81,7 @@ export default function Navbar() {
                                             {services.map((service) => (
                                                 <Link
                                                     key={service.id}
-                                                    href={`/service/${service.slug}/paris`}
+                                                    href={`/service/${service.slug}`}
                                                     className="block px-6 py-2.5 text-gray-700 hover:bg-amber-50 hover:text-navy-900 transition-colors"
                                                 >
                                                     {service.name}
@@ -164,7 +164,7 @@ export default function Navbar() {
                                     {services.map((service) => (
                                         <Link
                                             key={service.id}
-                                            href={`/service/${service.slug}/paris`}
+                                            href={`/service/${service.slug}`}
                                             onClick={() => setIsMenuOpen(false)}
                                             className="flex items-center justify-between p-3 rounded-xl bg-gray-50 hover:bg-amber-50 text-navy-900 font-medium transition-colors"
                                         >

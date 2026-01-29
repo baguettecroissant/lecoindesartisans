@@ -16,7 +16,20 @@ import {
     ArrowRight,
     Star,
     ShieldCheck,
-    Clock
+    Clock,
+    // Add missing icons for dynamic mapping
+    Thermometer,
+    VolumeX,
+    Shield,
+    Sparkles,
+    Zap,
+    Activity,
+    Gift,
+    Home,
+    Smartphone,
+    Wrench,
+    Wind,
+    TrendingUp
 } from "lucide-react";
 
 interface PageProps {
@@ -63,6 +76,33 @@ export default async function ServiceHubPage({ params }: PageProps) {
 
     // Sort regions alphabetically
     const sortedRegions = Object.keys(citiesByRegion).sort();
+
+    // Helper to render icons dynamically
+    const renderServiceIcon = (icon: string) => {
+        // Map string names to Lucide components
+        const iconMap: Record<string, any> = {
+            "thermometer": <Thermometer className="w-10 h-10 text-amber-500" />,
+            "volume-x": <VolumeX className="w-10 h-10 text-amber-500" />,
+            "shield": <Shield className="w-10 h-10 text-amber-500" />,
+            "sparkles": <Sparkles className="w-10 h-10 text-amber-500" />,
+            "zap": <Zap className="w-10 h-10 text-amber-500" />,
+            "clock": <Clock className="w-10 h-10 text-amber-500" />,
+            "activity": <Activity className="w-10 h-10 text-amber-500" />,
+            "gift": <Gift className="w-10 h-10 text-amber-500" />,
+            "home": <Home className="w-10 h-10 text-amber-500" />,
+            "smartphone": <Smartphone className="w-10 h-10 text-amber-500" />,
+            "tools": <Wrench className="w-10 h-10 text-amber-500" />,
+            "wind": <Wind className="w-10 h-10 text-amber-500" />,
+            "trending-up": <TrendingUp className="w-10 h-10 text-amber-500" />,
+        };
+
+        if (iconMap[icon]) {
+            return iconMap[icon];
+        }
+
+        // Return emoji or other text as is
+        return <span className="text-4xl">{icon}</span>;
+    };
 
     return (
         <div className="bg-white">
@@ -161,7 +201,7 @@ export default async function ServiceHubPage({ params }: PageProps) {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {serviceContent.benefits.map((benefit, idx) => (
                             <div key={idx} className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                                <div className="text-4xl mb-6">{benefit.icon}</div>
+                                <div className="mb-6">{renderServiceIcon(benefit.icon)}</div>
                                 <h3 className="text-xl font-bold text-navy-900 mb-3">{benefit.title}</h3>
                                 <p className="text-gray-600">{benefit.description}</p>
                             </div>

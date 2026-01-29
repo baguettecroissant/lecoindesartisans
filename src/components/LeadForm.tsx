@@ -1,105 +1,160 @@
 "use client";
 
-import { useState } from "react";
-import { Shield, CheckCircle, Clock, ArrowRight } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { Shield, CheckCircle, Clock } from "lucide-react";
 import { getSiteSettings } from "@/lib/data";
 
 interface LeadFormProps {
     serviceName?: string;
     cityName?: string;
+    instanceId?: string; // Unique ID pour éviter les conflits quand plusieurs formulaires sur la même page
 }
 
-export default function LeadForm({ serviceName, cityName }: LeadFormProps) {
+export default function LeadForm({ serviceName, cityName, instanceId = "main" }: LeadFormProps) {
     const settings = getSiteSettings();
-    const [step, setStep] = useState(1);
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const [isSuccess, setIsSuccess] = useState(false);
-    const [error, setError] = useState<string | null>(null);
+    const containerRef = useRef<HTMLDivElement>(null);
 
-    // Form states
-    const [formData, setFormData] = useState({
-        projectType: "",
-        zipCode: "",
-        firstName: "",
-        lastName: "",
-        phone: "",
-        email: "",
-    });
+    // États pour le rendu conditionnel (Mobile vs Desktop)
+    const [isVisible, setIsVisible] = useState(false);
+    const [isMounted, setIsMounted] = useState(false);
 
-    const handleChange = (
-        e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
-    ) => {
-        const { name, value } = e.target;
-        setFormData((prev) => ({ ...prev, [name]: value }));
-    };
+    // Détermine si on est sur une page spécifique (service) ou générale (accueil)
+    const isGenericPage = !serviceName;
 
-    const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setIsSubmitting(true);
-        setError(null);
+    // IDs uniques pour cette instance
+    const scriptId = `vud-widget-script-${instanceId}`;
+    const containerId = isGenericPage ? `v4c4175c0f5d-${instanceId}` : `v7fd1a16f1ad-${instanceId}`;
 
-        try {
-            const response = await fetch("https://formspree.io/f/mkoognya", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "Accept": "application/json",
-                },
-                body: JSON.stringify({
-                    ...formData,
-                    service: serviceName || "Général",
-                    city: cityName || "France",
-                    source: window.location.href,
-                }),
-            });
+    // 1. Logique de visibilité pour éviter les conflits d'ID
+    useEffect(() => {
+        setIsMounted(true);
 
-            if (response.ok) {
-                setIsSuccess(true);
-                setStep(3); // Move to success step/view
+        const checkVisibility = () => {
+            const width = window.innerWidth;
+            // Correspond aux breakpoints Tailwind 'lg' (1024px)
+            if (instanceId === 'desktop') {
+                setIsVisible(width >= 1024);
+            } else if (instanceId === 'mobile') {
+                setIsVisible(width < 1024);
             } else {
-                throw new Error("Erreur lors de l'envoi");
+                setIsVisible(true); // Toujours visible pour les autres instances (sidebar blog etc)
             }
-        } catch (err) {
-            setError("Une erreur est survenue. Veuillez réessayer.");
-            console.error(err);
-        } finally {
-            setIsSubmitting(false);
-        }
-    };
+        };
 
-    if (isSuccess) {
-        return (
-            <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden min-h-[400px] flex flex-col justify-center items-center text-center p-8">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                    <CheckCircle className="w-8 h-8 text-green-500" />
-                </div>
-                <h3 className="text-2xl font-bold text-navy-900 mb-2">
-                    Demande envoyée !
-                </h3>
-                <p className="text-gray-600 mb-6">
-                    Vos artisans partenaires ont bien reçu votre demande. Ils vous
-                    contacteront sous 24h pour étudier votre projet.
-                </p>
-                <button
-                    onClick={() => {
-                        setIsSuccess(false);
-                        setStep(1);
-                        setFormData({
-                            projectType: "",
-                            zipCode: "",
-                            firstName: "",
-                            lastName: "",
-                            phone: "",
-                            email: "",
-                        });
-                    }}
-                    className="px-6 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
-                >
-                    Faire une autre demande
-                </button>
-            </div>
-        );
-    }
+        checkVisibility();
+        window.addEventListener('resize', checkVisibility);
+        return () => window.removeEventListener('resize', checkVisibility);
+    }, [instanceId]);
+
+    // 2. Chargement du Widget
+    useEffect(() => {
+        // Ne rien faire si le composant n'est pas censé être visible
+        if (!isVisible || !isMounted) return;
+
+        const partnerId = '2353';
+
+        const loadWidget = () => {
+            // Vérifier si script pas déjà chargé pour cette instance
+            if (document.getElementById(scriptId)) return;
+
+            if (isGenericPage) {
+                // === PAGE D'ACCUEIL / GÉNÉRIQUE ===
+                const categoryId = '0';
+
+                (window as any)[`vud_partenaire_id_${instanceId}`] = partnerId;
+                (window as any)[`vud_categorie_id_${instanceId}`] = categoryId;
+
+                // Le widget ViteUnDevis cherche un container avec un ID spécifique hardcodé
+                // Comme on ne peut pas changer l'ID attendu par le script, on va créer 
+                // un container temporaire avec l'ID officiel DANS notre container personnalisé
+                const officialContainer = document.createElement('div');
+                officialContainer.id = 'v4c4175c0f5d';
+
+                const ourContainer = document.getElementById(containerId);
+                if (ourContainer) {
+                    ourContainer.innerHTML = '';
+                    ourContainer.appendChild(officialContainer);
+                }
+
+                const script = document.createElement('script');
+                script.id = scriptId;
+                script.type = 'text/javascript';
+                script.src = `//www.viteundevis.com/4c4175c0f5/${partnerId}/${categoryId}/`;
+
+                const firstScript = document.getElementsByTagName('script')[0];
+                if (firstScript?.parentNode) {
+                    firstScript.parentNode.insertBefore(script, firstScript);
+                } else {
+                    document.body.appendChild(script);
+                }
+            } else {
+                // === PAGE DE SERVICE SPÉCIFIQUE ===
+                const boxId = '7fd1a16f1a';
+
+                let keyword = serviceName;
+                if (cityName) {
+                    keyword += ` ${cityName}`;
+                }
+                const encodedKeyword = encodeURIComponent(keyword || '');
+
+                (window as any).vud_partenaire_id = partnerId;
+                (window as any).vud_keyword = keyword;
+                (window as any).vud_box_id = boxId;
+
+                const officialContainer = document.createElement('div');
+                officialContainer.id = 'v7fd1a16f1ad';
+
+                const ourContainer = document.getElementById(containerId);
+                if (ourContainer) {
+                    ourContainer.innerHTML = '';
+                    ourContainer.appendChild(officialContainer);
+                }
+
+                const script = document.createElement('script');
+                script.id = scriptId;
+                script.type = 'text/javascript';
+                script.src = `//www.viteundevis.com/marqueblanche/?b=${boxId}&p=${partnerId}&c=${encodedKeyword}`;
+
+                const firstScript = document.getElementsByTagName('script')[0];
+                if (firstScript?.parentNode) {
+                    firstScript.parentNode.insertBefore(script, firstScript);
+                } else {
+                    document.body.appendChild(script);
+                }
+            }
+        };
+
+        // Charger jQuery si pas présent (Essential)
+        if (!(window as any).jQuery) {
+            if (!document.getElementById('jquery-loader')) {
+                const jqueryScript = document.createElement('script');
+                jqueryScript.id = 'jquery-loader';
+                jqueryScript.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js";
+                jqueryScript.onload = loadWidget;
+                document.head.appendChild(jqueryScript);
+            } else {
+                const checkJQuery = setInterval(() => {
+                    if ((window as any).jQuery) {
+                        clearInterval(checkJQuery);
+                        loadWidget();
+                    }
+                }, 100);
+            }
+        } else {
+            loadWidget();
+        }
+
+        return () => {
+            try {
+                const widgetScript = document.getElementById(scriptId);
+                if (widgetScript) widgetScript.remove();
+            } catch (e) { }
+        };
+    }, [serviceName, cityName, isGenericPage, instanceId, scriptId, containerId, isVisible, isMounted]);
+
+    // Rendu conditionnel
+    if (!isMounted) return <div className="min-h-[400px] bg-white rounded-2xl animate-pulse"></div>;
+    if (!isVisible) return null;
 
     return (
         <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
@@ -113,142 +168,12 @@ export default function LeadForm({ serviceName, cityName }: LeadFormProps) {
                 <p className="text-navy-100 text-sm mt-1">{settings.cta_sub}</p>
             </div>
 
-            {/* Form Content */}
+            {/* Widget Container */}
             <div className="p-6">
-                {step === 1 && (
-                    <div className="space-y-4">
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-1">
-                                Type de projet
-                            </label>
-                            <select
-                                name="projectType"
-                                value={formData.projectType}
-                                onChange={handleChange}
-                                className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
-                            >
-                                <option value="">Sélectionnez votre projet</option>
-                                <option value="installation">Installation neuve</option>
-                                <option value="renovation">Rénovation / Remplacement</option>
-                                <option value="reparation">Réparation / Dépannage</option>
-                                <option value="conseil">Demande de conseil</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-1">
-                                Votre code postal
-                            </label>
-                            <input
-                                type="text"
-                                name="zipCode"
-                                value={formData.zipCode}
-                                onChange={handleChange}
-                                placeholder="Ex: 75001"
-                                className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
-                            />
-                        </div>
-
-                        <button
-                            onClick={() => {
-                                if (formData.projectType && formData.zipCode) {
-                                    setStep(2);
-                                } else {
-                                    alert("Veuillez remplir tous les champs");
-                                }
-                            }}
-                            className="w-full flex items-center justify-center px-6 py-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 group"
-                        >
-                            Recevoir mes devis gratuits
-                            <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                        </button>
-                    </div>
-                )}
-
-                {step === 2 && (
-                    <form onSubmit={handleSubmit} className="space-y-4">
-                        <div className="grid grid-cols-2 gap-4">
-                            <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-1">
-                                    Prénom
-                                </label>
-                                <input
-                                    type="text"
-                                    name="firstName"
-                                    value={formData.firstName}
-                                    onChange={handleChange}
-                                    required
-                                    placeholder="Jean"
-                                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-1">
-                                    Nom
-                                </label>
-                                <input
-                                    type="text"
-                                    name="lastName"
-                                    value={formData.lastName}
-                                    onChange={handleChange}
-                                    required
-                                    placeholder="Dupont"
-                                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
-                                />
-                            </div>
-                        </div>
-
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-1">
-                                Téléphone
-                            </label>
-                            <input
-                                type="tel"
-                                name="phone"
-                                value={formData.phone}
-                                onChange={handleChange}
-                                required
-                                placeholder="06 12 34 56 78"
-                                className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
-                            />
-                        </div>
-
-                        <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-1">
-                                Email
-                            </label>
-                            <input
-                                type="email"
-                                name="email"
-                                value={formData.email}
-                                onChange={handleChange}
-                                required
-                                placeholder="jean.dupont@email.fr"
-                                className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
-                            />
-                        </div>
-
-                        {error && (
-                            <div className="text-red-500 text-sm text-center">{error}</div>
-                        )}
-
-                        <button
-                            type="submit"
-                            disabled={isSubmitting}
-                            className="w-full flex items-center justify-center px-6 py-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 disabled:opacity-70 disabled:cursor-not-allowed"
-                        >
-                            {isSubmitting ? "Envoi en cours..." : "Envoyer ma demande"}
-                        </button>
-
-                        <button
-                            type="button"
-                            onClick={() => setStep(1)}
-                            className="w-full text-gray-500 text-sm hover:text-gray-700"
-                        >
-                            ← Retour
-                        </button>
-                    </form>
-                )}
+                <div ref={containerRef} className="min-h-[400px]">
+                    {/* Container avec ID unique pour cette instance */}
+                    <div id={containerId} className="w-full"></div>
+                </div>
 
                 {/* Trust Indicators */}
                 <div className="mt-6 pt-6 border-t border-gray-100">

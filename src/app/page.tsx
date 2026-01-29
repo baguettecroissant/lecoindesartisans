@@ -76,12 +76,20 @@ export default function HomePage() {
               {/* Glow effect */}
               <div className="absolute -inset-1 bg-gradient-to-r from-amber-500 to-amber-300 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200" />
               <div className="relative">
-                <LeadForm />
+                <LeadForm instanceId="desktop" />
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Mobile Lead Form - Placed high for conversion */}
+      <section className="lg:hidden -mt-8 pb-12 relative z-30 px-4">
+        <div className="max-w-md mx-auto">
+          <LeadForm instanceId="mobile" />
+        </div>
+      </section>
+
 
       {/* Services Grid Section */}
       <section id="services" className="py-24 md:py-32 bg-gray-50 relative overflow-hidden">
@@ -238,12 +246,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Mobile Lead Form */}
-      <section className="lg:hidden py-12 bg-white">
-        <div className="max-w-md mx-auto px-4">
-          <LeadForm />
-        </div>
-      </section>
+
     </>
   );
 }
