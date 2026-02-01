@@ -2,6 +2,379 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "comparatif-fenetres-pvc-alu-bois-prix-performance",
+    title: "Changer ses fenêtres : PVC, Alu ou Bois ? Le comparatif Prix/Performance (2026)",
+    excerpt: "PVC, Aluminium ou Bois : quel matériau choisir pour vos fenêtres en 2026 ? Comparatif complet des prix, performances thermiques et durabilité pour faire le bon choix.",
+    content: `
+      <p><strong>Quel est le meilleur matériau pour vos nouvelles fenêtres ?</strong> C'est la première question à se poser lors d'une rénovation. Si le <strong>PVC</strong> domine le marché grâce à son rapport qualité-prix imbattable, l'<strong>Aluminium</strong> séduit par sa finesse et le <strong>Bois</strong> reste la référence pour l'authenticité et l'isolation.</p>
+      
+      <p>Dans ce comparatif 2026, nous analysons les 3 matériaux sous toutes les coutures : prix, isolation thermique, entretien et esthétique, pour vous aider à prendre la bonne décision.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Comparez les prix des fenêtres</strong><br/>
+        Obtenez 3 devis gratuits d'artisans menuisiers près de chez vous pour du PVC, de l'Alu ou du Bois.<br/>
+        <a href="/service/fenetres-menuiserie/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comparatif-rapide">Tableau comparatif : PVC vs Alu vs Bois</a></li>
+        <li><a href="#fenetre-pvc">Fenêtre PVC : le roi du rapport qualité-prix</a></li>
+        <li><a href="#fenetre-alu">Fenêtre Aluminium : design et lumière</a></li>
+        <li><a href="#fenetre-bois">Fenêtre Bois : charme et isolation naturelle</a></li>
+        <li><a href="#fenetre-mixte">L'alternative haut de gamme : le Mixte Bois/Alu</a></li>
+        <li><a href="#prix-2026">Les prix moyens en 2026</a></li>
+        <li><a href="#aides">Quelles aides pour changer ses fenêtres ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="comparatif-rapide">Tableau comparatif : PVC vs Alu vs Bois</h2>
+      
+      <p>Voici une synthèse pour visualiser les forces et faiblesses de chaque matériau en un coup d'œil.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">PVC</th>
+            <th style="padding: 12px; text-align: center;">Aluminium</th>
+            <th style="padding: 12px; text-align: center;">Bois</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prix</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">€ (Le moins cher)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">€€ à €€€€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation thermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Excellente (uw ~1.3)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Bonne (avec rupture pont thermique)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Excellente naturellt.</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Entretien</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Nul (éponge)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Nul (éponge)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Contraignant (lasure tous les 5-10 ans)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Esthétique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Standard (profilés épais)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">Moderne & Fin (Max de lumière)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Chaleureux & Authentique</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Durée de vie</strong></td>
+            <td style="padding: 12px; text-align: center;">20-40 ans</td>
+            <td style="padding: 12px; text-align: center; background: #dcfce7;">50 ans et +</td>
+            <td style="padding: 12px; text-align: center;">50 ans et + (si entretenu)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="fenetre-pvc">Fenêtre PVC : le roi du rapport qualité-prix</h2>
+      
+      <p>Le <strong>PVC</strong> (Polychlorure de Vinyle) représente 60% du marché français. C'est le choix de la raison pour la plupart des rénovations.</p>
+      
+      <h3>✅ Les avantages du PVC</h3>
+      <ul>
+        <li><strong>Prix imbattable</strong> : C'est le matériau le moins cher du marché.</li>
+        <li><strong>Isolation au top</strong> : Le PVC est naturellement isolant, offrant souvent les meilleures performances thermiques.</li>
+        <li><strong>Sans entretien</strong> : Un coup d'éponge suffit, il ne rouille pas, ne pourrit pas.</li>
+      </ul>
+      
+      <h3>❌ Les inconvénients du PVC</h3>
+      <ul>
+        <li><strong>Esthétique</strong> : Profilés souvent plus épais (moins de clair de vue), aspect "plastique" (même si les imitations bois progressent).</li>
+        <li><strong>Rigidité</strong> : Moins adapté aux très grandes baies vitrées.</li>
+        <li><strong>Interdit dans certaines zones</strong> : Parfois refusé proche des monuments historiques ou dans certaines copropriétés.</li>
+      </ul>
+
+      <h2 id="fenetre-alu">Fenêtre Aluminium : design et lumière</h2>
+      
+      <p>L'<strong>Aluminium</strong> est le matériau préféré des architectes et des constructions neuves. Il apporte une touche contemporaine immédiate.</p>
+      
+      <h3>✅ Les avantages de l'Alu</h3>
+      <ul>
+        <li><strong>Finesse des profils</strong> : Les montants sont très fins, laissant entrer <strong>15 à 20% de lumière en plus</strong> que le PVC.</li>
+        <li><strong>Couleurs illimitées</strong> : Disponible dans toutes les teintes RAL, en bicoloration (intérieur blanc / extérieur couleur).</li>
+        <li><strong>Robustesse</strong> : Indéformable, inaltérable, idéal pour les (très) grandes baies vitrées coulissantes.</li>
+      </ul>
+      
+      <h3>❌ Les inconvénients de l'Alu</h3>
+      <ul>
+        <li><strong>Prix</strong> : 30% à 50% plus cher que le PVC.</li>
+        <li><strong>Isolation thermique</strong> : L'alu est conducteur. Il faut impérativement des modèles à <strong>rupture de pont thermique</strong> pour éviter la condensation et le froid.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Pour une rénovation moderne, l'alu est souvent privilégié pour les pièces de vie (salon, cuisine) afin de maximiser la lumière, tandis que le PVC est choisi pour les chambres et pièces d'eau pour optimiser le budget.</p>
+      </blockquote>
+
+      <h2 id="fenetre-bois">Fenêtre Bois : charme et isolation naturelle</h2>
+      
+      <p>Le <strong>Bois</strong> reste le matériau noble par excellence, indispensable pour conserver le cachet d'une maison ancienne ou respecter les exigences des Bâtiments de France.</p>
+      
+      <h3>✅ Les avantages du Bois</h3>
+      <ul>
+        <li><strong>Esthétique incomparable</strong> : Chaleur, authenticité, élégance.</li>
+        <li><strong>Isolant naturel</strong> : Excellent phoniquement et thermiquement.</li>
+        <li><strong>Écologique</strong> : Matériau renouvelable et stockeur de carbone (si certifié PEFC/FSC).</li>
+      </ul>
+      
+      <h3>❌ Les inconvénients du Bois</h3>
+      <ul>
+        <li><strong>Entretien obligatoire</strong> : Nécessite une lasure ou peinture tous les 7 à 10 ans (sauf peinture usine haute durabilité).</li>
+        <li><strong>Prix</strong> : Coût souvent élevé, surtout pour les essences nobles (Chêne) vs exotiques.</li>
+      </ul>
+
+      <h2 id="fenetre-mixte">L'alternative haut de gamme : le Mixte Bois/Alu</h2>
+      
+      <p>Le compromis parfait existe : la fenêtre mixte. <strong>Bois à l'intérieur</strong> pour la chaleur et l'isolation, <strong>Aluminium à l'extérieur</strong> pour la résistance aux intempéries et l'absence d'entretien. C'est la solution la plus chère, mais aussi la plus performante et durable.</p>
+
+      <h2 id="prix-2026">Les prix moyens en 2026</h2>
+      
+      <p>Voici les fourchettes de prix pour une fenêtre standard (120x130 cm, 2 vantaux), pose comprise :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Matériau</th>
+            <th style="padding: 12px; text-align: center;">Prix fourniture + pose TTC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PVC Blanc standard</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>450€ - 750€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PVC Couleur / Imitation bois</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">600€ - 900€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Aluminium</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>800€ - 1 300€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bois (Pin / Exotique)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">700€ - 1 100€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bois (Chêne)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 000€ - 1 500€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Mixte Bois / Alu</strong></td>
+            <td style="padding: 12px; text-align: center;">1 200€ - 1 800€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="aides">Quelles aides pour changer ses fenêtres en 2026 ?</h2>
+      
+      <p>Le remplacement de simples vitrages par du double vitrage est éligible aux aides de l'État :</p>
+      <ul>
+        <li><strong>MaPrimeRénov'</strong> : Jusqu'à 100€ / fenêtre (selon revenus).</li>
+        <li><strong>Prime CEE</strong> : Environ 40€ par fenêtre.</li>
+        <li><strong>TVA à 5,5%</strong> : Appliquée directement sur la facture (matériel + main d'œuvre) si vous passez par un artisan RGE.</li>
+        <li><strong>Éco-PTZ</strong> : Emprunt à taux zéro possible.</li>
+      </ul>
+      
+      <p>Attention : depuis 2024, MaPrimeRénov' Parcours par Geste pour les fenêtres seules n'est plus disponible pour les passoires thermiques (F et G) qui doivent entrer dans un parcours de rénovation globale.</p>
+
+      <h2>Conclusion : Quel est le verdict ?</h2>
+      
+      <ul>
+        <li><strong>Petit budget / Rénovation locative</strong> → Foncez sur le <strong>PVC</strong>.</li>
+        <li><strong>Maison moderne / Grande baie vitrée</strong> → L'<strong>Aluminium</strong> est incontournable.</li>
+        <li><strong>Maison de caractère / Isolation phonique</strong> → Le <strong>Bois</strong> reste le maître.</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à changer vos fenêtres ?</strong><br/>
+        Faites chiffrer votre projet par des menuisiers qualifiés RGE.<br/>
+        <a href="/service/fenetres-menuiserie/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis fenêtres →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Changer ses fenêtres</h2>
+      
+      <h3>Quelle est la différence de prix entre PVC et Alu ?</h3>
+      <p>L'aluminium est en moyenne <strong>30% à 50% plus cher</strong> que le PVC. Pour une fenêtre standard posée, comptez environ 600€ pour du PVC contre 900€ pour de l'Alu. Cet écart se justifie par la matière première plus coûteuse et le laquage.</p>
+      
+      <h3>Le PVC est-il moins isolant que le bois ?</h3>
+      <p>Non, au contraire. Les fenêtres PVC actuelles avec chambres d'isolation offrent souvent des <strong>performances thermiques équivalentes voire supérieures</strong> au bois standard, pour un coût bien moindre et sans risque de déformation.</p>
+      
+      <h3>Peut-on mettre de l'alu dans une vieille maison ?</h3>
+      <p>Oui, c'est même très tendance ("Rénovation style atelier"). Optez pour des profils alu de couleur sombre (gris anthracite ou noir) ou un laquage texturé pour un rendu chic qui tranche avec la pierre ancienne.</p>
+      
+      <h3>Quelle durée de vie pour une fenêtre PVC ?</h3>
+      <p>Une fenêtre PVC de bonne qualité a une durée de vie d'environ <strong>30 à 40 ans</strong>. L'aluminium peut durer plus de 50 ans car il est inaltérable. Le bois peut durer très longtemps... à condition d'être entretenu régulièrement !</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-02-01",
+    readingTime: "12 min",
+    image: "/images/blog/comparatif-fenetres-pvc-alu-bois.jpg" // Note: This is an estimated path, I will need to ensure the image is saved there.
+  },
+  {
+    slug: "entretien-pompe-a-chaleur-prix-frequence-obligatoire",
+    title: "Entretien Pompe à Chaleur : Obligatoire ? Prix et Fréquence (2026)",
+    excerpt: "Votre pompe à chaleur doit-elle être entretenue ? Découvrez le prix moyen (150€-300€), les obligations légales et la fréquence recommandée pour votre PAC.",
+    content: `
+      <p><strong>Devez-vous obligatoirement faire entretenir votre pompe à chaleur ?</strong> Oui, dans la majorité des cas. Depuis 2020, la loi impose un entretien régulier pour les appareils thermodynamiques dont la puissance est comprise entre 4 et 70 kW. Mais au-delà de l'obligation légale, c'est surtout le seul moyen de garantir la longévité de votre appareil et d'éviter les surconsommations d'énergie.</p>
+      
+      <p>Dans ce guide, nous détaillons le <strong>prix d'un entretien de pompe à chaleur</strong> en 2026, la fréquence des visites, et ce qui est inclus dans le contrat de maintenance.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Trouvez un chauffagiste qualifié</strong><br/>
+        Recevez jusqu'à 3 devis gratuits pour l'entretien de votre PAC par des professionnels RGE près de chez vous.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Comparer les prix d'entretien →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#obligation">L'entretien est-il obligatoire ? Que dit la loi ?</a></li>
+        <li><a href="#prix">Prix d'un entretien de pompe à chaleur en 2026</a></li>
+        <li><a href="#contrat-vs-ponctuel">Contrat d'entretien annuel ou visite ponctuelle ?</a></li>
+        <li><a href="#deroulement">Comment se déroule la visite d'entretien ?</a></li>
+        <li><a href="#pourquoi">Pourquoi l'entretien est indispensable (économies)</a></li>
+        <li><a href="#locataire-proprio">Locataire ou propriétaire : qui paie ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="obligation">L'entretien est-il obligatoire ? Que dit la loi ?</h2>
+      
+      <p>Depuis le décret n° 2020-912 du 28 juillet 2020, l'entretien des systèmes de chauffage thermodynamiques (pompes à chaleur) est <strong>obligatoire tous les deux ans</strong> pour les appareils dont la puissance nominale est comprise entre <strong>4 kW et 70 kW</strong>.</p>
+      
+      <p>Cette obligation concerne la quasi-totalité des pompes à chaleur installées chez les particuliers :</p>
+      <ul>
+        <li>Les pompes à chaleur air-eau</li>
+        <li>Les pompes à chaleur géothermiques</li>
+        <li>La plupart des pompes à chaleur air-air (climatisation réversible)</li>
+      </ul>
+      
+      <p>Pour les PAC contenant plus de 2 kg de fluide frigorigène (souvent les modèles plus anciens ou très puissants), une visite d'étanchéité annuelle reste obligatoire.</p>
+
+      <h2 id="prix">Prix d'un entretien de pompe à chaleur en 2026</h2>
+      
+      <p>Le coût de l'entretien varie selon le type de pompe à chaleur et la formule choisie (visite simple ou contrat incluant les dépannages).</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de PAC</th>
+            <th style="padding: 12px; text-align: center;">Visite ponctuelle</th>
+            <th style="padding: 12px; text-align: center;">Contrat annuel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Air</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">120€ - 180€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">150€ - 220€ / an</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Eau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">150€ - 220€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">180€ - 300€ / an</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>PAC Géothermique</strong></td>
+            <td style="padding: 12px; text-align: center;">180€ - 250€</td>
+            <td style="padding: 12px; text-align: center;">220€ - 350€ / an</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Ce qui fait varier le prix :</h3>
+      <ul>
+        <li><strong>La zone géographique</strong> : tarifs plus élevés à Paris et en Île-de-France (+15/20%).</li>
+        <li><strong>L'âge de l'installation</strong> : une vieille machine demande plus de temps de contrôle.</li>
+        <li><strong>Les options du contrat</strong> : inclusion des pièces de rechange, déplacement gratuit en cas de panne, délais d'intervention garantis...</li>
+      </ul>
+
+      <h2 id="contrat-vs-ponctuel">Contrat d'entretien ou visite ponctuelle : que choisir ?</h2>
+
+      <p>Vous avez le choix entre payer une intervention "à l'acte" tous les deux ans, ou souscrire un contrat annuel. Voici pourquoi le contrat est souvent préférable :</p>
+
+      <ul>
+        <li><strong>Sérénité totale</strong> : le chauffagiste vous rappelle quand l'entretien est dû. Vous n'oubliez pas et restez en conformité avec la loi.</li>
+        <li><strong>Dépannage prioritaire</strong> : en plein hiver, si votre PAC tombe en panne, les clients sous contrat passent avant les autres.</li>
+        <li><strong>Économies en cas de panne</strong> : la plupart des contrats incluent les frais de déplacement et la main-d'œuvre pour les dépannages.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget prévoir ?</strong><br/>
+        Demandez des devis pour un contrat d'entretien et comparez les prestations incluses.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Recevoir mes devis entretien →</a></p>
+      </blockquote>
+
+      <h2 id="deroulement">Comment se déroule la visite d'entretien ?</h2>
+      
+      <p>L'entretien d'une pompe à chaleur doit être réalisé par un professionnel qualifié (RGE QualiPAC de préférence). La visite dure entre 45 minutes et 1h30 et comprend :</p>
+      
+      <ol>
+        <li><strong>Nettoyage de l'unité extérieure</strong> : retrait des feuilles, poussières et obstructions qui gênent la circulation de l'air.</li>
+        <li><strong>Contrôle du circuit frigorifique</strong> : vérification de l'étanchéité, pression du fluide, températures. C'est le point crucial pour la performance.</li>
+        <li><strong>Vérification électrique</strong> : serrage des connexions, contrôle du compresseur.</li>
+        <li><strong>Contrôle des réglages</strong> : optimisation de la régulation pour adapter la chauffe à vos besoins réels.</li>
+        <li><strong>Remise de l'attestation</strong> : document obligatoire à conserver pour votre assurance.</li>
+      </ol>
+
+      <h2 id="pourquoi">Pourquoi l'entretien est indispensable (et rentable)</h2>
+      
+      <p>Au-delà de l'obligation légale, l'entretien est un calcul économique gagnant :</p>
+      
+      <ul>
+        <li><strong>Économies d'énergie</strong> : une PAC encrassée ou mal réglée peut consommer jusqu'à <strong>25% d'électricité en plus</strong> pour le même chauffage.</li>
+        <li><strong>Durée de vie prolongée</strong> : une maintenance régulière permet à votre appareil de durer jusqu'à 20 ans, contre 10-12 ans sans entretien.</li>
+        <li><strong>Qualité de l'air</strong> : pour les PAC air-air, le nettoyage des filtres élimine bactéries et moisissures envoyées dans votre air intérieur.</li>
+      </ul>
+
+      <h2 id="locataire-proprio">Locataire ou propriétaire : qui paie ?</h2>
+      
+      <p>C'est une question fréquente. La règle est simple :</p>
+      <ul>
+        <li><strong>L'entretien annuel est à la charge du locataire</strong> (considéré comme une charge locative, sauf mention contraire dans le bail).</li>
+        <li><strong>Les grosses réparations ou le remplacement de la PAC sont à la charge du propriétaire</strong>, sauf si la panne est due à un défaut d'entretien du locataire.</li>
+      </ul>
+      
+      <p>Si vous êtes locataire, pensez à transmettre l'attestation d'entretien à votre propriétaire chaque année.</p>
+
+      <h2>Conclusion : ne négligez pas votre PAC !</h2>
+      
+      <p>L'entretien de votre pompe à chaleur n'est pas une simple formalité administrative. C'est l'assurance de passer un hiver au chaud, sans panne, et sans voir votre facture d'électricité exploser. Pour environ 150€ à 200€ par an, vous protégez une installation qui en vaut plus de 10 000€.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à souscrire un contrat ?</strong><br/>
+        Trouvez un artisan de confiance près de chez vous pour l'entretien de votre pompe à chaleur.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Comparer 3 professionnels →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Entretien pompe à chaleur</h2>
+      
+      <h3>Peut-on faire l'entretien de sa pompe à chaleur soi-même ?</h3>
+      <p>Vous pouvez (et devez) effectuer un entretien <strong>superficiel</strong> régulier : dépoussiérer l'unité extérieure, nettoyer les filtres à air. En revanche, le contrôle du circuit frigorigène et des composants électriques doit être réalisé par un professionnel certifié, c'est une <strong>obligation légale</strong>.</p>
+      
+      <h3>Quel est le meilleur moment pour faire l'entretien ?</h3>
+      <p>L'idéal est de planifier l'entretien au <strong>printemps</strong> (après la saison de chauffe) ou à l'<strong>automne</strong> (avant de rallumer le chauffage). Évitez l'hiver, période où les chauffagistes sont débordés par les pannes.</p>
+      
+      <h3>Quels risques si je ne fais pas l'entretien ?</h3>
+      <p>Vous risquez une surconsommation électrique, une panne prématurée, et surtout, en cas de sinistre (incendie, fuite), votre <strong>assurance habitation peut refuser de vous indemniser</strong> si vous ne pouvez pas présenter d'attestation d'entretien valide.</p>
+
+      <h3>Combien de temps dure une pompe à chaleur bien entretenue ?</h3>
+      <p>Une pompe à chaleur air-eau ou air-air bien entretenue a une durée de vie moyenne de <strong>15 à 20 ans</strong>. Sans entretien, cette durée peut chuter à 10 ou 12 ans, rendant votre investissement beaucoup moins rentable.</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-02-01",
+    readingTime: "10 min",
+    image: "/images/blog/entretien-pompe-a-chaleur-prix.jpg"
+  },
+  {
     slug: "isolation-exterieure-prix-m2",
     title: "Isolation par l'Extérieur (ITE) : Prix au m² selon l'isolant (Polystyrène vs Laine de Roche)",
     excerpt: "Découvrez le prix réel de l'isolation extérieure en 2026 : 120€ à 250€/m². Comparatif polystyrène vs laine de roche, aides MaPrimeRénov', et devis gratuits.",
