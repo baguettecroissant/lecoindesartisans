@@ -7550,8 +7550,328 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-01-30",
     readingTime: "13 min",
     image: "/images/blog/isolation-1-euro-2026.jpg"
-  }
+  },
+  {
+    slug: "panneaux-solaires-sol-permis-construire",
+    title: "Installation de panneaux solaires au sol : Faut-il un permis de construire ?",
+    excerpt: "Découvrez les règles d'urbanisme 2026 pour les panneaux solaires au sol : permis de construire, déclaration préalable ou dispense complète ? Le guide.",
+    content: `
+      <p><strong>Vous envisagez d'installer des panneaux solaires dans votre jardin ?</strong> C'est une excellente alternative si votre toiture n'est pas adaptée ou mal orientée. Mais attention, contrairement aux idées reçues, "au sol" ne signifie pas "sans règles". Hauteur, puissance, zone protégée... la réglementation est stricte.</p>
+      
+      <p>Dans ce guide mis à jour pour 2026, nous détaillons exactement <strong>quand faut-il un permis de construire</strong>, une simple déclaration préalable, ou quand vous pouvez vous en passer.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Comparez les devis solaires</strong><br/>
+        Obtenez 3 études gratuites de rentabilité pour une installation au sol par des artisans RGE locaux.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Demander mes études gratuites →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#regles-generales">La règle des 1m80 et 3kWc</a></li>
+        <li><a href="#dispense">Quand n'avez-vous AUCUNE démarche à faire ?</a></li>
+        <li><a href="#declaration">Quand faut-il une Déclaration Préalable (DP) ?</a></li>
+        <li><a href="#permis">Quand faut-il un Permis de Construire ?</a></li>
+        <li><a href="#zones-protegees">Cas particulier : Zones protégées et ABF</a></li>
+        <li><a href="#avantages-inconvenients">Au sol vs Toiture : le match</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="regles-generales">La règle d'or : Hauteur et Puissance</h2>
+      
+      <p>Pour savoir quelle autorisation demander, vous devez connaître deux chiffres clés de votre projet :</p>
+      <ul>
+        <li><strong>La hauteur de l'installation par rapport au sol</strong> (généralement moins de 1m80 pour les particuliers).</li>
+        <li><strong>La puissance crête totale</strong> (en kWc).</li>
+      </ul>
+
+      <p>C'est le croisement de ces deux critères qui détermine vos obligations administratives.</p>
+
+      <h2 id="dispense">1. Aucune formalité : la liberté (sous conditions)</h2>
+      
+      <p>Bonne nouvelle : vous pouvez installer des panneaux solaires au sol <strong>sans aucune autorisation d'urbanisme</strong> si vous respectez TOUTES ces conditions :</p>
+      
+      <ul>
+        <li>La hauteur au-dessus du sol est <strong>inférieure à 1m80</strong>.</li>
+        <li>La puissance installée est <strong>inférieure à 3 kWc</strong> (environ 8 à 10 panneaux standards).</li>
+        <li>Vous n'êtes <strong>pas</strong> en zone protégée (site classé, aux abords d'un monument historique...).</li>
+      </ul>
+      
+      <p>C'est le cas typique des <strong>kits solaires "Plug & Play"</strong> à poser soi-même dans le jardin.</p>
+
+      <h2 id="declaration">2. La Déclaration Préalable de Travaux (DP)</h2>
+      
+      <p>C'est le cas le plus fréquent pour les installations domestiques plus puissantes. Vous devez déposer une DP en mairie (formulaire Cerfa n°13703*13) si :</p>
+      
+      <ul>
+        <li>Votre installation dépasse <strong>1m80 de hauteur</strong> (peu importe la puissance).</li>
+        <li>OU votre puissance est comprise <strong>entre 3 kWc et 1000 kWc</strong> (tout en restant sous 1m80).</li>
+        <li>OU vous êtes en <strong>zone protégée</strong> (même pour une petite installation).</li>
+      </ul>
+      
+      <p>Le délai d'instruction est généralement d'<strong>un mois</strong>.</p>
+
+      <h2 id="permis">3. Le Permis de Construire</h2>
+      
+      <p>Le permis de construire est rarement nécessaire pour les particuliers, car il concerne les très très grosses installations.</p>
+      
+      <p>Il est obligatoire uniquement si :</p>
+      <ul>
+        <li>La puissance est <strong>supérieure à 1000 kWc</strong> (immense !).</li>
+        <li>OU l'installation dépasse <strong>1m80 de haut</strong> ET une puissance de plus de <strong>3 kWc</strong> (cas rare de trackers solaires géants ou carports solaires très hauts considérés comme au sol).</li>
+      </ul>
+
+      <h2 id="zones-protegees">⚠️ Cas particulier : Les zones protégées</h2>
+      
+      <p>Si vous habitez aux abords d'un monument historique, dans un site patrimonial remarquable ou un site classé, <strong>TOUTES les règles changent</strong>.</p>
+      
+      <ul>
+        <li>Une autorisation est <strong>toujours</strong> requise, même pour un petit kit de moins de 3kWc.</li>
+        <li>L'avis de l'<strong>Architecte des Bâtiments de France (ABF)</strong> est requis.</li>
+        <li>Les délais d'instruction passent souvent à 2 mois.</li>
+        <li>L'ABF peut refuser l'installation si elle porte atteinte à la qualité visuelle des lieux (les panneaux au sol sont souvent plus visibles que sur un toit).</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Consultez toujours le PLU (Plan Local d'Urbanisme) de votre mairie avant de commencer. Il peut imposer des règles spécifiques (recul par rapport aux voisins, aspect paysager...).</p>
+      </blockquote>
+
+      <h2 id="avantages-inconvenients">Panneaux au sol : Est-ce une bonne idée ?</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Avantages</th>
+            <th style="padding: 12px; text-align: left;">Inconvénients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; vertical-align: top;">
+              ✅ <strong>Orientation parfaite</strong> : Vous choisissez l'angle et l'orientation (Plein Sud à 30-35°) pour maximiser la production.<br/><br/>
+              ✅ <strong>Entretien facile</strong> : Accès direct pour nettoyer les panneaux ou déneiger.<br/><br/>
+              ✅ <strong>Aération</strong> : Les panneaux chauffent moins car l'air circule mieux dessous = meilleur rendement.
+            </td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0; vertical-align: top;">
+              ❌ <strong>Emprise au sol</strong> : Vous perdez de la place dans le jardin.<br/><br/>
+              ❌ <strong>Ombres portées</strong> : Attention aux arbres, murs des voisins ou végétation qui poussent vite.<br/><br/>
+              ❌ <strong>Pas d'aides (souvent)</strong> : La prime à l'autoconsommation et le tarif de rachat EDF OA sont généralement <strong>réservés aux installations sur toiture</strong> (critère d'intégration au bâti).
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="aides">Quid des aides financières en 2026 ?</h2>
+      
+      <p>C'est le point noir du solaire au sol. En 2026, la plupart des aides d'État (Prime à l'autoconsommation, Obligation d'Achat EDF à tarif garanti) sont conditionnées au fait que les panneaux soient installés <strong>"sur, parallèlement ou dans le plan de la toiture"</strong>.</p>
+      
+      <p>Pour une installation au sol, vous devrez souvent opter pour de l'<strong>autoconsommation totale</strong> (sans vente du surplus) ou passer par des "batteries virtuelles" ou des acheteurs alternatifs hors obligation d'achat.</p>
+
+      <h2>Conclusion : Foncez, mais vérifiez les règles locales</h2>
+      
+      <p>L'installation au sol est techniquement idéale pour la production, mais administrativement moins aidée. Si vous avez de la place et que vous visez l'autonomie sans dépendre des aides de l'État, c'est un excellent choix.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à produire votre électricité ?</strong><br/>
+        Faites chiffrer votre projet "au sol" vs "toiture" pour voir ce qui est le plus rentable.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis solaires →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Panneaux solaires et Permis</h2>
+      
+      <h3>Peut-on installer des panneaux solaires sur un terrain non constructible ?</h3>
+      <p>C'est compliqué. En zone agricole (A) ou naturelle (N), les installations solaires au sol sont souvent interdites ou très restreintes, sauf si elles sont nécessaires à l'exploitation agricole (hangar solaire). Consultez impérativement le PLU.</p>
+      
+      <h3>Quelle distance respecter avec le voisin ?</h3>
+      <p>Le Code de l'Urbanisme impose généralement une distance de <strong>3 mètres</strong> entre l'installation et la limite séparative de propriété. Le PLU local peut imposer des distances plus grandes.</p>
+      
+      <h3>Les panneaux au sol sont-ils imposables ?</h3>
+      <p>Oui, si l'installation demande une autorisation d'urbanisme (DP ou Permis) et qu'elle a une hauteur > 1m80, elle peut être soumise à la <strong>Taxe d'Aménagement</strong>. En dessous de 1m80, généralement non.</p>
+      
+      <h3>Faut-il assurer ses panneaux au sol ?</h3>
+      <p>Oui ! Prévenez votre assureur habitation. Ils sont plus exposés aux chocs (ballons, tondeuse...) et au vol que ceux sur le toit. Une extension de garantie est souvent nécessaire.</p>
+    `,
+    category: "solaire-photovoltaique",
+    publishedAt: "2026-02-02",
+    readingTime: "8 min",
+    image: "/images/blog/panneaux-solaires-sol-permis.jpg"
+  },
+
+  {
+    slug: "meilleure-perceuse-visseuse-sans-fil-comparatif",
+    title: "Top 5 des Meilleures Perceuses Visseuses sans fil 2026 (Makita, DeWalt, Bosch)",
+    excerpt: "Quelle perceuse sans fil choisir en 2026 ? Comparatif complet des meilleurs modèles Makita, DeWalt et Bosch pour les bricoleurs et les pros.",
+    content: `
+      <p><strong>Vous cherchez la meilleure perceuse visseuse pour vos travaux ?</strong> Que vous soyez un bricoleur du dimanche ou un artisan exigeant, le choix est vaste et il est facile de s'y perdre entre les voltages, les ampérages et les marques.</p>
+      
+      <p>Pour vous faire gagner du temps, nous avons sélectionné et comparé le <strong>Top 5 des meilleures perceuses sans fil de 2026</strong>, en se concentrant sur les trois marques leaders : <strong>Makita, DeWalt et Bosch Professional</strong>.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Besoin d'un artisan pour vos gros travaux ?</strong><br/>
+        Si votre projet dépasse le simple bricolage, faites appel à un pro.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Trouver un artisan qualifié →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comparatif">Tableau comparatif du Top 5</a></li>
+        <li><a href="#makita">Le choix Makita : Polyvalence et Ergonomie</a></li>
+        <li><a href="#dewalt">Le choix DeWalt : Puissance et Robustesse</a></li>
+        <li><a href="#bosch">Le choix Bosch Pro : Performance et Endurance</a></li>
+        <li><a href="#guide-achat">Guide d'achat : Comment choisir ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="comparatif">🏆 Tableau comparatif : Le Top 5 2026</h2>
+      
+      <p>Voici notre sélection des modèles les plus performants du moment.</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Modèle</th>
+            <th style="padding: 12px; text-align: center;">Voltage</th>
+            <th style="padding: 12px; text-align: center;">Couple (Nm)</th>
+            <th style="padding: 12px; text-align: center;">Poids</th>
+            <th style="padding: 12px; text-align: center;">Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong><a href="https://amzn.to/3ZKpgyt" target="_blank" rel="nofollow noopener" style="color: #2563eb; text-decoration: underline;">1. Makita DDF484</a></strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18V</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">54 Nm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1.5 kg</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Polyvalent (Le Top)</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong><a href="https://amzn.to/4qRurbM" target="_blank" rel="nofollow noopener" style="color: #2563eb; text-decoration: underline;">2. DeWalt DCD791</a></strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18V</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">70 Nm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1.6 kg</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Puissance brute</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong><a href="https://amzn.to/3Zc2dww" target="_blank" rel="nofollow noopener" style="color: #2563eb; text-decoration: underline;">3. Bosch GSB 18V-55</a></strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18V</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">55 Nm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1.4 kg</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Rapport Qualité/Prix</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong><a href="https://amzn.to/4qRuDYy" target="_blank" rel="nofollow noopener" style="color: #2563eb; text-decoration: underline;">4. Makita HP457D</a></strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18V</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">42 Nm</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1.7 kg</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Débutant / Occasionnel</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong><a href="https://amzn.to/4apY7Hk" target="_blank" rel="nofollow noopener" style="color: #2563eb; text-decoration: underline;">5. DeWalt DCD996</a></strong></td>
+            <td style="padding: 12px; text-align: center;">18V</td>
+            <td style="padding: 12px; text-align: center;">95 Nm</td>
+            <td style="padding: 12px; text-align: center;">2.1 kg</td>
+            <td style="padding: 12px; text-align: center;"><strong>Pro / Chantier Lourd</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="makita">1. Makita DDF484 : L'équilibre parfait</h2>
+      
+      <p>La <strong>Makita DDF484</strong> est sans doute la meilleure perceuse 18V pour 80% des utilisateurs. </p>
+      
+      <ul>
+        <li><strong>✅ Avantages</strong> : Moteur Brushless (sans charbon) increvable, extrêmement compacte, charge ultra-rapide (20-30 min).</li>
+        <li><strong>❌ Inconvénients</strong> : Le mandrin peut parfois manquer de "mordant" sur les forets ronds si mal serré.</li>
+        <li><strong>Pour qui ?</strong> : L'artisan menuisier ou le bricoleur averti qui veut une machine fiable pour visser et percer toute la journée.</li>
+      </ul>
+
+      <p style="text-align: center; margin-top: 20px;">
+        <a href="https://amzn.to/3ZKpgyt" target="_blank" rel="nofollow noopener" style="background-color: #f59e0b; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">Voir le prix sur Amazon →</a>
+      </p>
+
+      <h2 id="dewalt">2. DeWalt DCD791 : La puissance américaine</h2>
+      
+      <p>Si vous aimez sentir la puissance sous la gâchette, la <strong>DeWalt DCD791</strong> est faite pour vous. Avec 70 Nm, elle enfonce de grosses vis dans le bois dur sans broncher.</p>
+      
+      <ul>
+        <li><strong>✅ Avantages</strong> : Couple impressionnant, éclairage LED très puissant (3 modes), excellente prise en main (grip).</li>
+        <li><strong>❌ Inconvénients</strong> : Un peu plus bruyante que la Makita.</li>
+        <li><strong>Pour qui ?</strong> : Charpentiers, constructeurs ossature bois, ou si vous avez des chevilles molly à poser par centaines.</li>
+      </ul>
+
+      <p style="text-align: center; margin-top: 20px;">
+        <a href="https://amzn.to/4qRurbM" target="_blank" rel="nofollow noopener" style="background-color: #f59e0b; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">Voir le prix sur Amazon →</a>
+      </p>
+
+      <h2 id="bosch">3. Bosch Professional GSB 18V-55 : L'entrée dans la cour des grands</h2>
+      
+      <p>La gamme "Bleue" de Bosch est légendaire. Le modèle <strong>GSB 18V-55</strong> est le ticket d'entrée idéal pour s'équiper en matériel pro sans se ruiner.</p>
+      
+      <ul>
+        <li><strong>✅ Avantages</strong> : Prix très compétitif (souvent < 200€ avec batteries), fonction percussion pour la brique, mandrin métallique Rohm (rare à ce prix).</li>
+        <li><strong>❌ Inconvénients</strong> : Un peu moins "nerveuse" que la DeWalt.</li>
+        <li><strong>Pour qui ?</strong> : Le bricoleur qui veut du "Bosch Bleu" pour tout faire à la maison.</li>
+      </ul>
+
+      <p style="text-align: center; margin-top: 20px;">
+        <a href="https://amzn.to/3Zc2dww" target="_blank" rel="nofollow noopener" style="background-color: #f59e0b; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">Voir le prix sur Amazon →</a>
+      </p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Optez toujours pour des batteries de <strong>4.0 Ah ou 5.0 Ah</strong> si vous le pouvez. Les batteries 1.5 Ah ou 2.0 Ah sont légères mais se vident trop vite sur des travaux intensifs.</p>
+      </blockquote>
+
+
+      <h2 id="guide-achat">Guide d'achat : Les critères pour ne pas se tromper</h2>
+      
+      <h3>1. Le moteur : Brushless sinon rien</h3>
+      <p>En 2026, n'achetez plus de moteur à charbons. Les moteurs <strong>Brushless</strong> (sans charbon) sont plus puissants, consomment moins de batterie et ne s'usent pas (pas d'étincelles).</p>
+      
+      <h3>2. Le couple (Newton-mètre)</h3>
+      <p>C'est la force de serrage.</p>
+      <ul>
+        <li><strong>< 40 Nm</strong> : Montage de meubles, petits trous.</li>
+        <li><strong>40 à 70 Nm</strong> : Usage polyvalent, travaux de rénovation.</li>
+        <li><strong>> 80 Nm</strong> : Gros travaux de charpente, scies cloches.</li>
+      </ul>
+      
+      <h3>3. Percussion ou pas ?</h3>
+      <p>Une perceuse "à percussion" permet de percer la <strong>brique</strong> ou le parpaing tendre. Pour le <strong>béton vibré</strong>, oubliez : il vous faut un perforateur burineur (un autre outil !).</p>
+
+      <h2>Conclusion : Laquelle choisir ?</h2>
+      
+      <p>Si vous voulez la machine la plus agréable à utiliser au quotidien, foncez sur la <strong>Makita DDF484</strong>. Si vous avez besoin de "brutalité" pour de la charpente, la <strong>DeWalt DCD791</strong> est reine. Enfin, pour un budget serré mais une qualité pro, la <strong>Bosch GSB 18V-55</strong> est imbattable.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à attaquer vos travaux ?</strong><br/>
+        N'oubliez pas que les bons outils font les bons ouvriers !<br/>
+        <a href="/service/fenetres-menuiserie/paris" style="color: #d97706; font-weight: bold;">Besoin d'aide pour vos menuiseries ? →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Perceuses sans fil</h2>
+      
+      <h3>Quelle est la meilleure marque de perceuse pro ?</h3>
+      <p>Le trio de tête reste <strong>Makita, DeWalt et Milwaukee</strong> (plus haut de gamme). Bosch Professional (Bleu) est excellent. Hilti et Festool sont hors catégorie (très haut de gamme/spécialisé).</p>
+      
+      <h3>12V ou 18V ?</h3>
+      <p>Le <strong>18V</strong> est le standard universel. Le 12V est réservé aux agenceurs ou cuisinistes qui ont besoin d'outils minuscules pour aller dans les placards.</p>
+      
+      <h3>Peut-on percer du béton avec une perceuse à percussion ?</h3>
+      <p>Des petits trous (6-8mm) dans du béton tendre, oui. Mais pour le béton armé, vous allez brûler votre mèche et la machine. Utilisez un perforateur SDS-Plus.</p>
+      
+      <h3>Les batteries sont-elles compatibles entre marques ?</h3>
+      <p>Non, sauf rares alliances (CAS avec Metabo). Mais chez Makita, une batterie 18V LXT va sur plus de 300 outils (tondeuse, scie, visseuse...). C'est pour ça qu'on choisit souvent une marque pour la vie !</p>
+    `,
+    category: "outillage-bricolage",
+    publishedAt: "2026-02-02",
+    readingTime: "10 min",
+    image: "/images/blog/meilleure-perceuse-visseuse-sans-fil.jpg"
+  },
 ];
+
+
 
 export function getAllBlogPosts(): BlogPost[] {
   return blogPosts;
