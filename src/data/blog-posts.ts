@@ -2,6 +2,689 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prime-cee-comment-ca-marche-cumul",
+    title: "CEE (Certificats d'Économies d'Énergie) : Comment cumuler les primes ?",
+    excerpt: "Prime CEE : comment ça marche ? Découvrez le fonctionnement des Certificats d'Économies d'Énergie, les montants par travaux et comment cumuler avec MaPrimeRénov'.",
+    content: `
+      <p><strong>Vous avez entendu parler de la "prime énergie" ou des "CEE" sans vraiment comprendre ce que c'est ?</strong> Vous n'êtes pas seul. Les Certificats d'Économies d'Énergie (CEE) représentent pourtant une aide financière considérable pour vos travaux de rénovation énergétique. En 2026, elle peut atteindre <strong>plusieurs milliers d'euros</strong> et se cumule avec MaPrimeRénov'.</p>
+      
+      <p>Dans ce guide complet, nous vous expliquons le fonctionnement de la <strong>prime CEE</strong>, les montants auxquels vous avez droit, et surtout comment <strong>cumuler les aides</strong> pour réduire au maximum votre reste à charge.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Estimez vos primes en 2 minutes</strong><br/>
+        Recevez une estimation personnalisée de vos aides (CEE + MaPrimeRénov') pour votre projet.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mes aides gratuitement →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#cest-quoi">C'est quoi les CEE (Certificats d'Économies d'Énergie) ?</a></li>
+        <li><a href="#comment-ca-marche">Comment fonctionne la prime CEE ?</a></li>
+        <li><a href="#montants">Montants de la prime CEE par type de travaux</a></li>
+        <li><a href="#eligibilite">Qui peut bénéficier de la prime CEE ?</a></li>
+        <li><a href="#cumul">Comment cumuler la prime CEE avec les autres aides ?</a></li>
+        <li><a href="#obtenir">Comment obtenir sa prime CEE ? Les étapes</a></li>
+        <li><a href="#comparatif">Comparatif des principaux distributeurs de primes CEE</a></li>
+        <li><a href="#pieges">Les pièges à éviter</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="cest-quoi">C'est quoi les CEE (Certificats d'Économies d'Énergie) ?</h2>
+      
+      <p>Les <strong>Certificats d'Économies d'Énergie</strong> (CEE) sont un dispositif créé par l'État en 2006 pour financer la transition énergétique. Le principe est simple :</p>
+      
+      <ul>
+        <li>L'État oblige les <strong>fournisseurs d'énergie</strong> (EDF, Engie, TotalEnergies, les distributeurs de carburant...) à réaliser des économies d'énergie</li>
+        <li>Pour remplir cette obligation, ces "obligés" financent des travaux chez les particuliers</li>
+        <li>En échange, ils obtiennent des certificats qui prouvent qu'ils ont contribué aux économies d'énergie</li>
+      </ul>
+      
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 En résumé</strong><br/>
+        Ce sont les <strong>pollueurs qui paient</strong> pour financer vos travaux d'économie d'énergie. La prime CEE ne coûte rien à l'État : elle est financée par les grandes entreprises énergétiques.</p>
+      </blockquote>
+      
+      <h3>Pourquoi ça s'appelle "prime énergie" ?</h3>
+      <p>Le terme "CEE" est technique. Les fournisseurs d'énergie ont donc créé des noms commerciaux plus accrocheurs pour leurs programmes : <strong>Prime Énergie</strong>, <strong>Coup de Pouce</strong>, <strong>Prime Éco-Énergie</strong>, <strong>Prime Eco-Travaux</strong>... Mais c'est toujours le même dispositif CEE !</p>
+
+      <h2 id="comment-ca-marche">Comment fonctionne la prime CEE ?</h2>
+      
+      <p>Le mécanisme est le suivant :</p>
+      
+      <ol>
+        <li><strong>Avant vos travaux</strong>, vous vous inscrivez auprès d'un distributeur de primes CEE</li>
+        <li>Vous faites réaliser vos travaux par un <strong>artisan RGE</strong> (Reconnu Garant de l'Environnement)</li>
+        <li><strong>Après les travaux</strong>, vous envoyez les justificatifs (facture, attestation sur l'honneur)</li>
+        <li>Vous recevez votre prime par <strong>virement, chèque ou bon d'achat</strong></li>
+      </ol>
+      
+      <h3>Les formes de versement possibles</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de versement</th>
+            <th style="padding: 12px; text-align: left;">Avantages</th>
+            <th style="padding: 12px; text-align: left;">Inconvénients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Virement bancaire</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Liberté totale d'utilisation</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Délai de 2 à 4 semaines</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chèque</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Simple, pas besoin de RIB</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Délai postal supplémentaire</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bon d'achat</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Montant parfois majoré (+5%)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Utilisable uniquement dans certaines enseignes</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Déduction sur facture</strong></td>
+            <td style="padding: 12px;">Plus simple, pas d'avance</td>
+            <td style="padding: 12px;">Uniquement avec certains artisans partenaires</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="montants">Montants de la prime CEE par type de travaux (2026)</h2>
+      
+      <p>Les montants varient selon plusieurs critères : le type de travaux, votre zone géographique (H1, H2, H3), la surface, et surtout votre <strong>niveau de revenus</strong>. Les ménages modestes bénéficient de primes bonifiées ("Coup de Pouce").</p>
+      
+      <h3>Isolation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Travaux</th>
+            <th style="padding: 12px; text-align: center;">Ménages modestes</th>
+            <th style="padding: 12px; text-align: center;">Autres ménages</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation des combles perdus</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">12€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€/m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation des murs (ITE)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€ à 15€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8€ à 12€/m²</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation des planchers bas</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">12€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€/m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Fenêtres (remplacement simple → double vitrage)</strong></td>
+            <td style="padding: 12px; text-align: center;">50€ à 80€/fenêtre</td>
+            <td style="padding: 12px; text-align: center;">30€ à 50€/fenêtre</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>Chauffage</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Travaux</th>
+            <th style="padding: 12px; text-align: center;">Ménages modestes</th>
+            <th style="padding: 12px; text-align: center;">Autres ménages</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pompe à chaleur air-eau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>4 000€ à 5 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500€ à 4 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pompe à chaleur géothermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>5 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chaudière biomasse</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>4 000€ à 5 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500€ à 4 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chauffe-eau thermodynamique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">150€ à 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">100€ à 150€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Thermostat programmable</strong></td>
+            <td style="padding: 12px; text-align: center;">150€</td>
+            <td style="padding: 12px; text-align: center;">100€</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces montants sont indicatifs et varient selon les distributeurs. <strong>Comparez toujours plusieurs offres</strong> avant de vous engager, car les écarts peuvent atteindre 30% pour les mêmes travaux !</p>
+      </blockquote>
+
+      <h2 id="eligibilite">Qui peut bénéficier de la prime CEE ?</h2>
+      
+      <p><strong>Bonne nouvelle : tout le monde peut en bénéficier !</strong> Contrairement à MaPrimeRénov', la prime CEE n'est pas soumise à conditions de revenus. Cependant, les ménages modestes touchent des montants bonifiés.</p>
+      
+      <h3>Conditions à respecter</h3>
+      <ul>
+        <li><strong>Logement</strong> : maison ou appartement de plus de 2 ans</li>
+        <li><strong>Statut</strong> : propriétaire occupant, bailleur, ou locataire (avec accord du propriétaire)</li>
+        <li><strong>Artisan RGE</strong> : les travaux doivent être réalisés par un professionnel certifié</li>
+        <li><strong>Inscription préalable</strong> : vous devez vous inscrire au programme CEE AVANT de signer le devis</li>
+      </ul>
+      
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Point critique</strong><br/>
+        Si vous signez le devis AVANT de vous être inscrit au programme CEE, vous perdez votre droit à la prime. C'est la règle la plus importante à retenir !</p>
+      </blockquote>
+      
+      <h3>Plafonds de revenus pour les primes bonifiées (2026)</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Nombre de personnes</th>
+            <th style="padding: 12px; text-align: center;">Île-de-France</th>
+            <th style="padding: 12px; text-align: center;">Autres régions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">1</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">28 657€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">21 805€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">2</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">42 058€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">31 889€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">3</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">50 513€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">38 349€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">4</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">58 981€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">44 802€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">5</td>
+            <td style="padding: 12px; text-align: center;">67 473€</td>
+            <td style="padding: 12px; text-align: center;">51 281€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Calculez vos aides personnalisées</strong><br/>
+        Décrivez votre projet en 2 minutes et recevez une estimation de vos primes CEE + MaPrimeRénov'.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="cumul">Comment cumuler la prime CEE avec les autres aides ?</h2>
+      
+      <p>C'est l'un des grands avantages de la prime CEE : elle est <strong>cumulable avec la plupart des autres aides</strong>. Voici comment maximiser vos financements :</p>
+      
+      <h3>Aides cumulables avec les CEE</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Aide</th>
+            <th style="padding: 12px; text-align: center;">Cumulable ?</th>
+            <th style="padding: 12px; text-align: left;">Détails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov'</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ OUI</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Le combo le plus intéressant</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Éco-PTZ</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ OUI</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Prêt à taux zéro jusqu'à 50 000€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>TVA réduite 5,5%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ OUI</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Appliquée directement sur la facture</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Aides locales</strong> (région, département)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ OUI</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Variables selon les territoires</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px;"><strong>Autre prime CEE</strong></td>
+            <td style="padding: 12px; text-align: center;">❌ NON</td>
+            <td style="padding: 12px;">Un seul distributeur par opération</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>📊 Exemple de cumul concret : Installation PAC Air-Eau</h3>
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>Ménage modeste (profil Jaune) – PAC Air-Eau 12 000€</strong><br/><br/>
+        <strong>Prime CEE (Coup de Pouce)</strong> : 4 000€<br/>
+        <strong>MaPrimeRénov'</strong> : 4 000€<br/>
+        <strong>Économie TVA 5,5%</strong> : ~1 200€ vs TVA 20%<br/><br/>
+        <strong>Total des aides</strong> : 9 200€<br/>
+        <strong>Reste à charge</strong> : <strong>2 800€</strong> (au lieu de 12 000€ !)</p>
+      </blockquote>
+      
+      <p>Pour tout savoir sur MaPrimeRénov', consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a>.</p>
+
+      <h2 id="obtenir">Comment obtenir sa prime CEE ? Les étapes</h2>
+      
+      <p>Voici le processus complet pour obtenir votre prime sans erreur :</p>
+      
+      <h3>Étape 1 : Comparez les offres CEE</h3>
+      <p>Les montants varient d'un distributeur à l'autre. Consultez plusieurs sites (voir comparatif ci-dessous) et notez les montants proposés pour vos travaux.</p>
+      
+      <h3>Étape 2 : Inscrivez-vous AVANT de signer le devis</h3>
+      <p>C'est la règle d'or. Créez votre compte sur le site du distributeur choisi et validez votre éligibilité <strong>avant toute signature</strong>.</p>
+      
+      <h3>Étape 3 : Faites réaliser vos travaux par un artisan RGE</h3>
+      <p>Vérifiez la certification de l'artisan sur <a href="https://france-renov.gouv.fr/annuaire-rge" target="_blank" rel="noopener">france-renov.gouv.fr</a>. Sans RGE = pas de prime.</p>
+      
+      <h3>Étape 4 : Envoyez vos justificatifs</h3>
+      <p>Après les travaux, vous avez généralement <strong>6 mois</strong> pour transmettre :</p>
+      <ul>
+        <li>La facture acquittée</li>
+        <li>L'attestation sur l'honneur signée</li>
+        <li>Un justificatif de revenus (pour les primes bonifiées)</li>
+      </ul>
+      
+      <h3>Étape 5 : Recevez votre prime</h3>
+      <p>Le versement intervient sous <strong>4 à 8 semaines</strong> après validation du dossier.</p>
+
+      <h2 id="comparatif">Comparatif des principaux distributeurs de primes CEE</h2>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Distributeur</th>
+            <th style="padding: 12px; text-align: center;">Type</th>
+            <th style="padding: 12px; text-align: center;">Points forts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Effy (Prime Effy)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Indépendant</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Offres souvent compétitives, accompagnement</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>TotalEnergies</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Obligé</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Bonus si client, large réseau</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>EDF</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Obligé</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fiabilité, déduction sur facture possible</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Engie</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Obligé</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Offres groupées avec contrat énergie</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Leroy Merlin, Castorama</strong></td>
+            <td style="padding: 12px; text-align: center;">Partenaires</td>
+            <td style="padding: 12px;">Bons d'achat utilisables en magasin</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Notre conseil</strong><br/>
+        Comparez au moins 3 distributeurs avant de vous engager. Les écarts peuvent dépasser <strong>500€</strong> pour une PAC ou une ITE. Et ne vous limitez pas à votre fournisseur d'énergie actuel : vous pouvez choisir n'importe quel distributeur, même si vous n'êtes pas client.</p>
+      </blockquote>
+
+      <h2 id="pieges">Les pièges à éviter avec les primes CEE</h2>
+      
+      <h3>❌ Signer le devis avant l'inscription</h3>
+      <p>C'est l'erreur n°1. Si vous signez le devis avant d'être inscrit au programme CEE, vous perdez votre droit à la prime. Aucune dérogation possible.</p>
+      
+      <h3>❌ Choisir un artisan non RGE</h3>
+      <p>Même si son devis est moins cher, un artisan sans certification RGE vous fait perdre toutes les aides (CEE ET MaPrimeRénov').</p>
+      
+      <h3>❌ Oublier d'envoyer les justificatifs dans les délais</h3>
+      <p>Vous avez généralement 6 mois après les travaux pour envoyer votre dossier complet. Passé ce délai, la prime est perdue.</p>
+      
+      <h3>❌ Cumuler deux primes CEE pour les mêmes travaux</h3>
+      <p>Vous ne pouvez pas recevoir une prime de TotalEnergies ET une prime EDF pour la même PAC. Un seul distributeur par opération.</p>
+      
+      <h3>❌ Confondre "devis signé" et "acceptation de l'offre CEE"</h3>
+      <p>L'inscription au programme CEE et l'acceptation de l'offre doivent être faites AVANT de signer le devis artisan. Ce sont deux choses différentes.</p>
+
+      <h2>Conclusion : ne passez pas à côté de vos primes CEE</h2>
+      
+      <p>La prime CEE est une aide précieuse, <strong>accessible à tous</strong>, et surtout <strong>cumulable</strong> avec les autres dispositifs. Pour une pompe à chaleur ou une isolation extérieure, elle peut représenter plusieurs milliers d'euros. La clé : <strong>s'inscrire AVANT de signer le devis</strong> et <strong>comparer les offres</strong>.</p>
+      
+      <p>Associée à MaPrimeRénov' et à la TVA réduite, la prime CEE permet de réduire considérablement le reste à charge de vos travaux de rénovation énergétique.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet ?</strong><br/>
+        Recevez des devis d'artisans RGE et une estimation de vos aides (CEE + MaPrimeRénov').<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Prime CEE</h2>
+      
+      <h3>Quelle est la différence entre prime CEE et MaPrimeRénov' ?</h3>
+      <p><strong>MaPrimeRénov'</strong> est une aide de l'État versée par l'ANAH, soumise à conditions de revenus. La <strong>prime CEE</strong> est financée par les fournisseurs d'énergie, accessible à tous sans condition de revenus. Les deux sont <strong>cumulables</strong> pour les mêmes travaux.</p>
+      
+      <h3>Puis-je choisir n'importe quel distributeur de prime CEE ?</h3>
+      <p>Oui ! Vous n'êtes pas obligé de passer par votre fournisseur d'énergie. Vous pouvez demander la prime à Effy même si vous êtes chez EDF, ou à TotalEnergies même si vous êtes chez Engie. <strong>Comparez les offres</strong> car les montants varient significativement.</p>
+      
+      <h3>Combien de temps pour recevoir la prime CEE ?</h3>
+      <p>Après validation de votre dossier complet (facture + attestation), comptez <strong>4 à 8 semaines</strong> pour recevoir le virement ou le chèque. Certains distributeurs proposent des bons d'achat disponibles plus rapidement.</p>
+      
+      <h3>Les travaux d'isolation à 1€ existent-ils encore ?</h3>
+      <p>Non, l'offre "isolation à 1€" a été supprimée en juillet 2021 suite à de nombreuses fraudes. Aujourd'hui, les primes CEE réduisent le coût mais ne couvrent pas la totalité des travaux. Méfiez-vous de toute entreprise qui vous promet encore des travaux pour 1€.</p>
+      
+      <h3>Que se passe-t-il si je signe le devis avant de m'inscrire ?</h3>
+      <p>Vous perdez définitivement le droit à la prime CEE pour ces travaux. <strong>Aucune rétroactivité n'est possible.</strong> C'est pourquoi il est crucial de créer votre dossier CEE avant toute signature de devis.</p>
+    `,
+    category: "aides-financieres",
+    publishedAt: "2026-02-04",
+    readingTime: "15 min",
+    image: "/images/blog/prime-cee-guide-cumul.jpg"
+  },
+  {
+    slug: "arnaque-panneau-solaire-5-signes-alerter",
+    title: "Arnaques aux panneaux solaires : Les 5 signes qui doivent vous alerter",
+    excerpt: "Comment éviter les arnaques aux panneaux solaires ? Découvrez les 5 signaux d'alerte pour identifier les installateurs frauduleux et protéger votre investissement.",
+    content: `
+      <p><strong>Les arnaques aux panneaux solaires explosent en France.</strong> Avec la hausse des prix de l'électricité et les aides de l'État, le marché du photovoltaïque attire de nombreux escrocs. En 2024, la DGCCRF a relevé des <strong>anomalies dans 35% des contrôles</strong> effectués chez les installateurs solaires. Comment distinguer un professionnel sérieux d'un arnaqueur ? Voici les <strong>5 signes qui doivent immédiatement vous alerter</strong>.</p>
+      
+      <p>Dans ce guide, nous décryptons les techniques des escrocs du solaire, les recours possibles en cas d'arnaque, et surtout comment choisir un installateur fiable pour votre projet photovoltaïque.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Protégez-vous avec des devis fiables</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans RGE vérifiés près de chez vous.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#signe-1">Signe n°1 : Le démarchage téléphonique agressif</a></li>
+        <li><a href="#signe-2">Signe n°2 : Les promesses de "panneaux gratuits" ou "rentabilité immédiate"</a></li>
+        <li><a href="#signe-3">Signe n°3 : La pression pour signer immédiatement</a></li>
+        <li><a href="#signe-4">Signe n°4 : L'absence de certification RGE ou de mentions légales</a></li>
+        <li><a href="#signe-5">Signe n°5 : Le financement "tout compris" avec crédit intégré</a></li>
+        <li><a href="#prix-reels">Les vrais prix des panneaux solaires en 2026</a></li>
+        <li><a href="#recours">Que faire si vous êtes victime d'une arnaque ?</a></li>
+        <li><a href="#choisir-installateur">Comment choisir un installateur fiable</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="signe-1">🚨 Signe n°1 : Le démarchage téléphonique agressif</h2>
+      
+      <p>C'est souvent le point de départ de l'arnaque. Un commercial vous appelle sans que vous ayez rien demandé, en prétextant une "étude gratuite", une "opération spéciale dans votre quartier" ou une "prime exceptionnelle qui se termine demain".</p>
+      
+      <h3>Pourquoi c'est suspect ?</h3>
+      <ul>
+        <li><strong>Les vrais professionnels ne démarchent pas</strong> : les installateurs sérieux ont suffisamment de demandes entrantes</li>
+        <li><strong>Le démarchage téléphonique pour la rénovation énergétique est interdit</strong> depuis la loi de 2020 contre les fraudes au CPF (applicable aux travaux de rénovation)</li>
+        <li>Les call centers utilisent des scripts émotionnels pour vous faire réagir ("c'est maintenant ou jamais")</li>
+      </ul>
+      
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ À retenir</strong><br/>
+        Si on vous appelle pour vous proposer des panneaux solaires, raccrochez. 99% du temps, c'est une arnaque ou au mieux une entreprise aux pratiques douteuses.</p>
+      </blockquote>
+
+      <h2 id="signe-2">🚨 Signe n°2 : Les promesses de "panneaux gratuits" ou "rentabilité immédiate"</h2>
+      
+      <p>Les escrocs promettent souvent que vos panneaux seront <strong>"entièrement payés par les aides"</strong> ou qu'ils se <strong>"rentabiliseront dès la première année"</strong>. Ces affirmations sont systématiquement fausses.</p>
+      
+      <h3>La réalité des chiffres :</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Affirmation de l'escroc</th>
+            <th style="padding: 12px; text-align: left;">Réalité</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">"Panneaux 100% gratuits grâce aux aides"</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>FAUX</strong> : les aides couvrent 10-30% max du coût</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">"Rentabilité en 2-3 ans"</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>FAUX</strong> : comptez 8-12 ans en moyenne</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">"Vous allez revendre pour 2 000€/an"</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>EXAGÉRÉ</strong> : 300-800€/an pour une installation 3kWc</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">"Prime de 10 000€ de l'État"</td>
+            <td style="padding: 12px;"><strong>FAUX</strong> : la prime à l'autoconsommation est de ~1 100-1 500€ pour 3kWc</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>Pour connaître les vraies aides disponibles, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide MaPrimeRénov' 2026</a>.</p>
+
+      <h2 id="signe-3">🚨 Signe n°3 : La pression pour signer immédiatement</h2>
+      
+      <p>L'arnaqueur crée un <strong>faux sentiment d'urgence</strong> pour vous empêcher de réfléchir, de comparer ou de demander conseil. Les phrases typiques :</p>
+      
+      <ul>
+        <li>"Cette offre est valable uniquement aujourd'hui"</li>
+        <li>"Les aides se terminent à la fin du mois"</li>
+        <li>"On a un créneau d'installation qui se libère, sinon c'est dans 6 mois"</li>
+        <li>"Je dois remonter le dossier ce soir à mon directeur"</li>
+      </ul>
+      
+      <h3>Ce que dit la loi :</h3>
+      <p>Vous disposez d'un <strong>délai de rétractation de 14 jours</strong> après signature pour tout contrat conclu hors établissement (à domicile ou par téléphone). Ce délai est <strong>non négociable</strong>. Un professionnel sérieux vous le rappellera, un arnaqueur essaiera de le contourner.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Conseil d'expert</strong><br/>
+        Prenez TOUJOURS le temps de comparer au moins 3 devis avant de vous engager. Un projet solaire représente 8 000€ à 15 000€ : cela vaut bien quelques jours de réflexion.</p>
+      </blockquote>
+
+      <h2 id="signe-4">🚨 Signe n°4 : L'absence de certification RGE ou de mentions légales</h2>
+      
+      <p>Tout installateur de panneaux solaires doit posséder la certification <strong>RGE QualiPV</strong> (ou équivalent) pour que vous puissiez bénéficier des aides publiques. L'absence de cette certification est un signal d'alarme majeur.</p>
+      
+      <h3>Vérifiez ces points AVANT de signer :</h3>
+      <ul>
+        <li><strong>Numéro RGE</strong> : vérifiable sur <a href="https://france-renov.gouv.fr/annuaire-rge" target="_blank" rel="noopener">france-renov.gouv.fr</a></li>
+        <li><strong>SIRET de l'entreprise</strong> : vérifiable sur societe.com ou infogreffe.fr</li>
+        <li><strong>Assurance décennale</strong> : demandez l'attestation à jour</li>
+        <li><strong>Adresse physique réelle</strong> : méfiez-vous des boîtes postales ou domiciliations</li>
+        <li><strong>Avis clients vérifiés</strong> : Google, TrustPilot, avis locaux</li>
+      </ul>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">À vérifier</th>
+            <th style="padding: 12px; text-align: center;">Professionnel sérieux</th>
+            <th style="padding: 12px; text-align: center;">Arnaqueur probable</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Certification RGE</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">✅ Numéro vérifiable</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">❌ "En cours" ou absent</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Ancienneté</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">✅ > 3 ans d'activité</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">❌ Entreprise récente (< 1 an)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Siège social</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #dcfce7;">✅ Locaux identifiables</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; background: #fee2e2;">❌ Domiciliation ou boîte postale</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Avis clients</strong></td>
+            <td style="padding: 12px; text-align: center; background: #dcfce7;">✅ Avis variés et détaillés</td>
+            <td style="padding: 12px; text-align: center; background: #fee2e2;">❌ 0 avis ou uniquement 5 étoiles</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="signe-5">🚨 Signe n°5 : Le financement "tout compris" avec crédit intégré</h2>
+      
+      <p>C'est le piège le plus dangereux. L'arnaqueur vous fait signer un <strong>crédit affecté</strong> en même temps que le bon de commande, souvent présenté comme une "simple formalité" ou un "paiement en douceur".</p>
+      
+      <h3>Pourquoi c'est un piège ?</h3>
+      <ul>
+        <li>Le <strong>coût réel est gonflé</strong> de 30 à 50% pour intégrer les intérêts</li>
+        <li>Les mensualités sont calculées pour paraître "indolores" mais le total est exorbitant</li>
+        <li>Vous vous retrouvez avec un <strong>crédit de 15 000€ à 25 000€</strong> pour une installation qui en vaut 8 000€</li>
+        <li>En cas de faillite de l'installateur, vous continuez à payer... sans panneaux !</li>
+      </ul>
+      
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Exemple réel d'arnaque</strong><br/>
+        Un couple de retraités a signé pour une installation de 3kWc "à 89€/mois pendant 15 ans". Résultat : <strong>16 020€ payés</strong> pour des panneaux qui valaient 7 500€, avec une production 40% inférieure aux promesses.</p>
+      </blockquote>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Besoin de vrais devis fiables ?</strong><br/>
+        Comparez des installateurs certifiés RGE et sans crédit intégré suspect.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet solaire →</a></p>
+      </blockquote>
+
+      <h2 id="prix-reels">Les vrais prix des panneaux solaires en 2026</h2>
+      
+      <p>Pour détecter une arnaque, il faut connaître les <strong>prix réels du marché</strong>. Voici les fourchettes constatées en 2026, pose comprise par un installateur RGE :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: center;">Prix TTC (pose comprise)</th>
+            <th style="padding: 12px; text-align: center;">Prime autoconsommation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 kWc</strong> (8-10 panneaux)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>7 000€ - 10 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~1 140€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>6 kWc</strong> (15-18 panneaux)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>12 000€ - 17 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~1 710€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>9 kWc</strong> (22-26 panneaux)</td>
+            <td style="padding: 12px; text-align: center;"><strong>16 000€ - 23 000€</strong></td>
+            <td style="padding: 12px; text-align: center;">~2 280€</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>Si on vous propose un prix <strong>très inférieur</strong> (panneaux "gratuits") ou <strong>très supérieur</strong> (via un crédit déguisé), c'est un signal d'alerte. Pour une estimation personnalisée, consultez notre article <a href="/blog/rentabilite-panneaux-solaires-2026">Rentabilité des panneaux solaires en 2026</a>.</p>
+
+      <h2 id="recours">Que faire si vous êtes victime d'une arnaque ?</h2>
+      
+      <p>Si vous avez signé et que vous réalisez que quelque chose cloche, agissez vite :</p>
+      
+      <h3>Dans les 14 jours : exercez votre droit de rétractation</h3>
+      <ol>
+        <li>Envoyez une <strong>lettre recommandée avec AR</strong> à l'entreprise</li>
+        <li>Utilisez le formulaire de rétractation du contrat (obligatoire)</li>
+        <li>Envoyez une copie à l'organisme de crédit si un prêt a été signé</li>
+      </ol>
+      
+      <h3>Après 14 jours : les recours possibles</h3>
+      <ul>
+        <li><strong>Saisir la DGCCRF</strong> via SignalConso.gouv.fr</li>
+        <li><strong>Contacter une association de consommateurs</strong> (UFC-Que Choisir, CLCV)</li>
+        <li><strong>Contestation du crédit</strong> si le contrat est nul (vice de consentement)</li>
+        <li><strong>Action en justice</strong> pour pratiques commerciales trompeuses</li>
+      </ul>
+      
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Si l'installateur a menti sur les performances, les aides ou la rentabilité, le contrat peut être annulé pour dol (tromperie). Vous pouvez alors récupérer vos versements ET demander des dommages et intérêts.</p>
+      </blockquote>
+
+      <h2 id="choisir-installateur">Comment choisir un installateur fiable</h2>
+      
+      <p>Voici les <strong>bonnes pratiques</strong> pour un projet solaire serein :</p>
+      
+      <h3>✅ La check-list avant de signer</h3>
+      <ul>
+        <li><strong>Jamais de démarchage</strong> : vous devez être à l'origine de la demande</li>
+        <li><strong>3 devis minimum</strong> : comparez les prestations et les prix</li>
+        <li><strong>Visite technique obligatoire</strong> : l'installateur doit voir votre toiture avant de chiffrer</li>
+        <li><strong>Certification RGE QualiPV vérifiée</strong> sur le site officiel</li>
+        <li><strong>Pas de crédit intégré</strong> : financez séparément si besoin</li>
+        <li><strong>Étude de productible</strong> : simulation personnalisée de votre production</li>
+        <li><strong>Garanties claires</strong> : panneaux (25 ans), onduleur (10-15 ans), pose (décennale)</li>
+      </ul>
+      
+      <h3>Les labels de confiance</h3>
+      <ul>
+        <li><strong>RGE QualiPV</strong> : certification obligatoire pour les aides</li>
+        <li><strong>QualiSol</strong> : pour le solaire thermique</li>
+        <li><strong>Qualibat</strong> : capacité technique reconnue</li>
+        <li><strong>Artisan local</strong> : privilégiez les entreprises proches pour le SAV</li>
+      </ul>
+
+      <h2>Conclusion : méfiez-vous, mais n'ayez pas peur du solaire !</h2>
+      
+      <p>Les arnaques aux panneaux solaires sont réelles et peuvent coûter cher, mais cela ne doit pas vous faire renoncer. Le photovoltaïque reste un <strong>excellent investissement</strong> à condition de choisir le bon partenaire. En évitant le démarchage, en vérifiant les certifications et en comparant plusieurs devis, vous éliminez 99% des risques.</p>
+      
+      <p>N'oubliez pas : les vrais professionnels n'ont pas besoin de vous appeler ni de vous mettre la pression. Ce sont eux que vous devez solliciter.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet solaire en toute sécurité ?</strong><br/>
+        Recevez gratuitement jusqu'à 3 devis d'installateurs RGE vérifiés.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Arnaques panneaux solaires</h2>
+      
+      <h3>Comment savoir si un installateur solaire est fiable ?</h3>
+      <p>Vérifiez sa certification <strong>RGE QualiPV</strong> sur france-renov.gouv.fr, son SIRET et son ancienneté sur societe.com, et demandez son attestation d'assurance décennale. Consultez également les avis Google et demandez des références de chantiers réalisés dans votre région.</p>
+      
+      <h3>Les panneaux solaires gratuits, ça existe vraiment ?</h3>
+      <p>Non, les <strong>panneaux solaires gratuits n'existent pas</strong>. Les aides de l'État (prime autoconsommation, MaPrimeRénov' si éligible) couvrent 10 à 20% du coût maximum. Toute promesse de gratuité totale cache une arnaque au crédit ou une installation sous-dimensionnée.</p>
+      
+      <h3>J'ai signé sous pression, puis-je annuler ?</h3>
+      <p>Oui, vous disposez d'un <strong>délai de rétractation de 14 jours</strong> pour tout contrat signé à domicile ou par téléphone. Ce délai court à partir de la réception du contrat complet. Envoyez une lettre recommandée avec AR en utilisant le formulaire de rétractation.</p>
+      
+      <h3>Quelle est la vraie rentabilité des panneaux solaires ?</h3>
+      <p>En moyenne, une installation photovoltaïque de 3kWc (coûtant ~8 000€) génère une économie de <strong>600 à 800€/an</strong> en autoconsommation + revente de surplus. La rentabilité intervient après <strong>8 à 12 ans</strong>, avec une durée de vie des panneaux de 30 ans minimum.</p>
+      
+      <h3>Où signaler une arnaque aux panneaux solaires ?</h3>
+      <p>Signalez l'entreprise sur <strong>SignalConso.gouv.fr</strong> (plateforme officielle de la DGCCRF). Vous pouvez également contacter une association de consommateurs (UFC-Que Choisir, CLCV) ou déposer une plainte à la gendarmerie en cas de pratiques frauduleuses avérées.</p>
+    `,
+    category: "solaire-photovoltaique",
+    publishedAt: "2026-02-04",
+    readingTime: "14 min",
+    image: "/images/blog/arnaque-panneaux-solaires.jpg"
+  },
+  {
     slug: "comparatif-fenetres-pvc-alu-bois-prix-performance",
     title: "Changer ses fenêtres : PVC, Alu ou Bois ? Le comparatif Prix/Performance (2026)",
     excerpt: "PVC, Aluminium ou Bois : quel matériau choisir pour vos fenêtres en 2026 ? Comparatif complet des prix, performances thermiques et durabilité pour faire le bon choix.",
