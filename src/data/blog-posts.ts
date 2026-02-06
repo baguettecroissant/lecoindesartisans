@@ -8552,6 +8552,165 @@ export const blogPosts: BlogPost[] = [
     readingTime: "10 min",
     image: "/images/blog/meilleure-perceuse-visseuse-sans-fil.jpg"
   },
+  {
+    slug: "prix-pompe-chaleur-air-air-100m2-clim-reversible",
+    title: "Pompe à Chaleur Air-Air (Clim réversible) : Prix d'une installation pour 100m²",
+    excerpt: "Combien coûte l'installation d'une pompe à chaleur air-air pour une maison de 100m² en 2026 ? Prix, avantages, économies et aides financières : notre guide complet.",
+    content: `
+      <p><strong>Vous souhaitez chauffer votre maison de 100m² tout en profitant de la climatisation l'été ?</strong> La pompe à chaleur air-air (ou climatisation réversible) est la solution idéale. Mais quel budget faut-il prévoir pour équiper une telle surface en 2026 ? Entre 3 000€ et 8 000€ selon la configuration, le prix peut varier du simple au double.</p>
+      
+      <p>Dans ce guide, nous détaillons le <strong>prix réel d'une installation complète</strong> pour une maison de 100m², les avantages de ce système 2-en-1, et les aides financières disponibles (CEE) pour réduire votre facture.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans qualifiés près de chez vous pour votre PAC Air-Air.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-100m2">Quel prix pour équiper 100m² ?</a></li>
+        <li><a href="#mono-multi-gainable">Mono-split, Multi-split ou Gainable ?</a></li>
+        <li><a href="#avantages-inconvenients">Avantages et Inconvénients</a></li>
+        <li><a href="#aides">Aides financières disponibles en 2026</a></li>
+        <li><a href="#rentabilite">Quelle rentabilité espérer ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-100m2">Quel prix pour une pompe à chaleur air-air pour 100m² ?</h2>
+      
+      <p>Pour chauffer (et climatiser) une maison de 100m², le budget moyen se situe généralement entre <strong>6 000€ et 12 000€ TTC</strong>, pose comprise, selon la technologie choisie. Le coût dépend principalement du nombre de pièces à équiper.</p>
+      
+      <h3>Les prix moyens par configuration (2026) :</h3>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Système</th>
+            <th style="padding: 12px; text-align: center;">Description</th>
+            <th style="padding: 12px; text-align: center;">Prix estimé (posé)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Multi-split (3-4 unités)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Unité extérieure + splits muraux dans les pièces</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>6 000€ - 9 000€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gainable</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Invisible (dans les combles), grilles discrètes</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>9 000€ - 14 000€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Mono-split (Grand séjour)</strong></td>
+            <td style="padding: 12px;">Une seule unité puissante pour la pièce de vie</td>
+            <td style="padding: 12px; text-align: center;"><strong>2 500€ - 4 000€</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>Le <strong>coût au m²</strong> oscille donc entre <strong>60€ et 120€/m²</strong>.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Le système <strong>gainable</strong> est plus cher à l'achat mais augmente la valeur de votre bien (plus esthétique, plus silencieux). C'est le choix "premium" pour une rénovation complète.</p>
+      </blockquote>
+
+      <h2 id="mono-multi-gainable">Mono-split, Multi-split ou Gainable : que choisir ?</h2>
+      
+      <h3>1. Le Multi-split : la solution flexible</h3>
+      <p>C'est la configuration la plus courante en rénovation. Vous avez un groupe extérieur et plusieurs unités intérieures (murales ou consoles) réparties dans les chambres et le salon. Chaque pièce peut régler sa propre température.</p>
+      
+      <h3>2. Le Gainable : la solution invisible</h3>
+      <p>Tout passe par des gaines installées dans les combles ou un faux-plafond. Seules des grilles de diffusion sont visibles. C'est le top du confort acoustique et visuel, mais l'installation nécessite des travaux plus lourds.</p>
+      
+      <h3>3. Le Mono-split : l'appoint économique</h3>
+      <p>Si votre budget est serré, vous pouvez installer une seule unité puissante dans le salon pour chauffer l'espace principal, et garder des radiateurs électriques dans les chambres.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre logement en 2 min et recevez des estimations personnalisées.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="avantages-inconvenients">Avantages et Inconvénients de la PAC Air-Air</h2>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Avantages ✅</th>
+            <th style="padding: 12px; text-align: left;">Inconvénients ❌</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Confort 4 Saisons</strong> : Chauffage l'hiver et Climatisation l'été.</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Aides limitées</strong> : Pas éligible à MaPrimeRénov' (sauf exception).</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Économies</strong> : Pour 1kWh consommé, elle restitue 3 à 4 kWh de chaleur (COP > 3).</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bruit</strong> : L'unité extérieure peut être audible (bien choisir l'emplacement).</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Réactivité</strong> : Monte en température très rapidement.</td>
+            <td style="padding: 12px;"><strong>Confort</strong> : Chaleur par air pulsé (moins doux qu'un radiateur à eau).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="aides">Quelles aides financières pour une PAC Air-Air en 2026 ?</h2>
+      
+      <p>Contrairement à la <a href="/blog/prix-pompe-chaleur-air-eau-2026">pompe à chaleur air-eau</a>, la PAC air-air est considérée comme un équipement de confort d'été par l'État, ce qui limite les aides.</p>
+      
+      <h3>✅ Prime CEE (Certificats d'Économies d'Énergie)</h3>
+      <p>C'est l'aide principale. Elle est accessible à tous (propriétaires et locataires), sans condition de revenus. Son montant varie selon la surface et la zone géographique, généralement entre <strong>300€ et 900€</strong>.</p>
+      
+      <h3>✅ TVA réduite (Cas particulier)</h3>
+      <p>Attention, la PAC Air-Air est soumise à la TVA à <strong>20%</strong> sur le matériel. Seule la main d'œuvre peut bénéficier de la TVA à 10% si le logement a plus de 2 ans.</p>
+      
+      <h3>❌ MaPrimeRénov'</h3>
+      <p>La PAC Air-Air n'est généralement <strong>pas éligible</strong> à MaPrimeRénov', sauf dans le cadre d'une rénovation globale performante (Parcours Accompagné) permettant un gain énergétique significatif.</p>
+
+      <p>Pour tout comprendre sur les aides, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a>.</p>
+
+      <h2 id="rentabilite">Quelle rentabilité espérer ?</h2>
+      
+      <p>Malgré un investissement initial de 6 000€ à 10 000€, la PAC Air-Air reste rentable. En remplaçant des radiateurs électriques (convecteurs), vous pouvez diviser votre facture de chauffage par 3.</p>
+      
+      <ul>
+        <li>Facture chauffage électrique classique (100m²) : ~1 800€/an</li>
+        <li>Facture chauffage PAC Air-Air : ~600€/an</li>
+        <li><strong>Économie annuelle : ~1 200€</strong></li>
+      </ul>
+      
+      <p>Le retour sur investissement se fait généralement en <strong>6 à 8 ans</strong>, sans compter le confort de la climatisation l'été qui valorise votre bien immobilier.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à lancer votre projet ?</strong><br/>
+        Les artisans de notre réseau sont disponibles dans votre ville.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Prix PAC Air-Air</h2>
+      
+      <h3>Quel est le prix d'une clim réversible pour 100m² ?</h3>
+      <p>Comptez entre <strong>6 000€ et 12 000€</strong> installation comprise pour équiper 100m². Le prix varie selon le nombre d'unités intérieures (splits) ou le choix du gainable (plus cher).</p>
+      
+      <h3>Est-ce que la PAC Air-Air consomme beaucoup d'électricité ?</h3>
+      <p>Non, c'est l'un des systèmes les plus économes. Avec un COP (Coefficient de Performance) de 3 ou 4, elle consomme 1kWh pour produire 3 à 4kWh de chaleur. Elle est bien moins gourmande que des radiateurs électriques.</p>
+      
+      <h3>Peut-on installer une PAC Air-Air soi-même ?</h3>
+      <p>Non, la mise en service nécessite la manipulation de froids frigorigènes, strictement réglementée. Vous devez obligatoirement passer par un professionnel certifié RGE QualiPAC.</p>
+      
+      <h3>Quelle puissance pour 100m² ?</h3>
+      <p>Pour 100m² bien isolés, une puissance de <strong>8 à 10 kW</strong> est généralement recommandée. Un sous-dimensionnement entraînera une surconsommation, un sur-dimensionnement usera prématurément le compresseur (cycles courts).</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-02-06",
+    readingTime: "12 min",
+    image: "/images/blog/prix-pac-air-air-100m2.png"
+  }
 ];
 
 
