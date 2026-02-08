@@ -2,6 +2,156 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "recherche-fuite-toiture-prix",
+    title: "Recherche de fuite toiture : Prix d'une intervention d'urgence et prise en charge assurance",
+    excerpt: "Fuite de toiture : quel est le prix d'une recherche de fuite ? Découvrez les tarifs d'intervention d'urgence, la prise en charge par l'assurance et comment se faire rembourser.",
+    content: `
+      <p><strong>Une tache d'humidité au plafond, une peinture qui s'écaille ou pire, de l'eau qui goutte dans votre salon ?</strong> Pas de panique, mais réagissez vite. Une fuite de toiture peut causer des dégâts structurels majeurs si elle n'est pas traitée immédiatement.</p>
+      
+      <p>Mais combien coûte une recherche de fuite ? Est-ce pris en charge par votre assurance habitation ? Dans ce guide complet, nous détaillons les <strong>prix 2026</strong>, les méthodes de détection et les démarches pour vous faire rembourser.</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Trouvez un couvreur en urgence</strong><br/>
+        Comparez jusqu'à 3 devis d'artisans qualifiés près de chez vous pour une intervention rapide.<br/>
+        <a href="/service/toiture-couverture/paris" style="color: #d97706; font-weight: bold;">Demander une intervention d'urgence →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix">Prix d'une recherche de fuite toiture (2026)</a></li>
+        <li><a href="#assurance">Prise en charge assurance : comment ça marche ?</a></li>
+        <li><a href="#methodes">Les méthodes de détection de fuite</a></li>
+        <li><a href="#responsable">Qui doit payer la recherche de fuite ?</a></li>
+        <li><a href="#urgence">Urgence toiture : les bons réflexes</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix">Prix d'une recherche de fuite toiture (2026)</h2>
+      
+      <p>Le coût d'une recherche de fuite varie selon la méthode utilisée et l'accessibilité de votre toit. Voici les tarifs moyens constatés en France :</p>
+      
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type d'intervention</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen TTC</th>
+            <th style="padding: 12px; text-align: left;">Détails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Inspection visuelle</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>150€ - 300€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Contrôle des tuiles, solins et gouttières.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fumigation / Gaz traceur</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>300€ - 500€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pour toits-terrasses et fuites invisibles.</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Caméra thermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>250€ - 450€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Détection par différence de température.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mise en eau (arrosage)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>200€ - 400€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Test d'étanchéité par zone.</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px;"><strong>Intervention d'urgence (Soir/WE)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>Majoration 50% à 100%</strong></td>
+            <td style="padding: 12px;">Déplacement immédiat pour mise hors d'eau (bâchage).</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces prix concernent uniquement la <strong>recherche</strong> de la fuite. La réparation (remplacement de tuiles, réfection de l'étanchéité) fera l'objet d'un devis séparé.</p>
+      </blockquote>
+
+      <h2 id="assurance">Prise en charge assurance : comment ça marche ?</h2>
+      
+      <p>La plupart des contrats d'assurance habitation multirisques (MRH) incluent une garantie "Dégâts des eaux". Cependant, la prise en charge de la <strong>recherche de fuite</strong> a ses subtilités.</p>
+
+      <h3>La garantie "Recherche de fuite"</h3>
+      <p>Vérifiez vos conditions générales. Souvent, l'assureur prend en charge les frais de recherche de fuite si elle est nécessaire pour identifier l'origine du dommage garanti. Attention aux plafonds de garantie (souvent autour de 300€ à 800€).</p>
+      
+      <h3>Les étapes pour se faire rembourser :</h3>
+      <ol>
+        <li><strong>Déclarez le sinistre</strong> à votre assureur dans les 5 jours ouvrés.</li>
+        <li><strong>Demandez l'accord</strong> de l'assureur avant d'engager un professionnel (sauf urgence absolue).</li>
+        <li><strong>Faites intervenir un couvreur</strong> qui vous fournira une facture détaillée distinguant "Recherche de fuite" et "Réparation".</li>
+        <li><strong>Envoyez la facture</strong> et le rapport d'intervention à votre assureur.</li>
+      </ol>
+      
+      <p>Si vous êtes locataire, informez immédiatement votre propriétaire ou le syndic. Dans une copropriété, la convention IRSI simplifie les démarches (gestion par l'assureur du local sinistré).</p>
+      
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Estimez le coût de vos réparations</strong><br/>
+        Décrivez votre problème en 2 min et recevez des estimations de couvreurs locaux.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="methodes">Les méthodes de détection de fuite (destructives vs non-destructives)</h2>
+      
+      <p>Un bon couvreur utilisera d'abord des méthodes non-destructives pour préserver votre toiture.</p>
+      
+      <h3>1. Inspection visuelle</h3>
+      <p>Le professionnel inspecte la toiture (par l'extérieur et par les combles) à la recherche de tuiles cassées, déplacées, ou de traces d'humidité sur la charpente.</p>
+      
+      <h3>2. Gaz traceur et Fumigation</h3>
+      <p>Idéal pour les toits-terrasses. On injecte un gaz ou de la fumée sous l'étanchéité. La fumée ressort à l'endroit exact de la fuite.</p>
+      
+      <h3>3. Caméra thermique</h3>
+      <p>Permet de visualiser les différences de température causées par l'humidité, même invisible à l'œil nu, sous l'isolation ou dans les murs.</p>
+
+      <h2 id="responsable">Qui doit payer la recherche de fuite ?</h2>
+      
+      <ul>
+        <li><strong>Maison individuelle (Propriétaire occupant)</strong> : C'est votre assurance habitation qui prend en charge (selon contrat).</li>
+        <li><strong>Locataire</strong> : Vous devez déclarer le sinistre à votre assurance. Si la fuite vient de la toiture (partie commune ou structure), c'est souvent l'assurance du propriétaire (non occupant) ou de l'immeuble qui règlera in fine.</li>
+        <li><strong>Copropriété</strong> : Si la fuite vient de la toiture (partie commune), c'est l'assurance de la copropriété (syndic) qui intervient.</li>
+      </ul>
+
+      <h2 id="urgence">Urgence toiture : les bons réflexes avant l'arrivée du couvreur</h2>
+      
+      <p>En attendant le professionnel, limitez les dégâts :</p>
+      <ul>
+        <li><strong>Coupez l'électricité</strong> si l'eau coule près de prises ou luminaires.</li>
+        <li><strong>Protégez vos biens</strong> (bâches plastiques, déplacement des meubles).</li>
+        <li><strong>Contenez l'eau</strong> (seaux, serpillières).</li>
+        <li><strong>Ne montez pas sur le toit</strong> vous-même, surtout s'il pleut (risque de chute mortelle).</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à faire réparer votre toiture ?</strong><br/>
+        Les couvreurs de notre réseau sont disponibles pour intervenir rapidement.<br/>
+        <a href="/service/toiture-couverture/paris" style="color: #d97706; font-weight: bold;">Contacter un couvreur local →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Recherche de fuite toiture</h2>
+      
+      <h3>Est-ce que l'expert d'assurance se déplace toujours ?</h3>
+      <p>Non. Pour les petits sinistres (< 1600€), l'expertise se fait souvent sur dossier (photos, devis). L'expert se déplace pour les dégâts importants ou si la cause est complexe à déterminer.</p>
+      
+      <h3>Puis-je réparer la fuite moi-même avant l'expertise ?</h3>
+      <p>Surtout pas ! Vous pouvez faire une <strong>réparation provisoire</strong> (bâchage) pour stopper les dégâts, mais ne faites pas de réparation définitive avant le passage de l'expert ou l'accord de l'assurance, sinon vous risquez de ne pas être indemnisé.</p>
+      
+      <h3>Quel est le délai d'intervention pour une urgence toiture ?</h3>
+      <p>En cas d'urgence (bâchage), un couvreur peut intervenir dans la journée ou sous 24h. Pour une réparation définitive, le délai dépend de la disponibilité des matériaux et du planning, comptez 1 à 3 semaines.</p>
+      
+      <h3>Combien coûte un bâchage de toiture ?</h3>
+      <p>Une mise hors d'eau temporaire (bâchage professionnel) coûte entre <strong>200€ et 500€</strong> selon la surface et la difficulté d'accès. Ce frais est généralement pris en charge par l'assurance au titre des mesures conservatoires.</p>
+    `,
+    category: "toiture-couverture",
+    publishedAt: "2026-02-08",
+    readingTime: "8 min",
+    image: "/images/blog/recherche-fuite-toiture-prix.png"
+  },
+  {
     slug: "prime-cee-comment-ca-marche-cumul",
     title: "CEE (Certificats d'Économies d'Énergie) : Comment cumuler les primes ?",
     excerpt: "Prime CEE : comment ça marche ? Découvrez le fonctionnement des Certificats d'Économies d'Énergie, les montants par travaux et comment cumuler avec MaPrimeRénov'.",
