@@ -2,6 +2,321 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "demoussage-toiture-prix-m2",
+    title: "Démoussage de toiture : Prix au m² et produits à éviter (Javel interdite !)",
+    excerpt: "Quel est le prix d'un démoussage de toiture au m² en 2026 ? Découvrez les tarifs par type de toit, les produits à éviter absolument (eau de Javel !) et comment choisir le bon professionnel.",
+    content: `
+      <p><strong>Votre toiture verdit à vue d'œil ? Mousse, lichens et algues envahissent vos tuiles ?</strong> C'est normal : en France, 80% des toitures sont touchées par les végétaux parasites en moins de 10 ans. Mais attention, un démoussage mal réalisé — ou pire, avec de l'eau de Javel — peut <strong>causer plus de dégâts que la mousse elle-même</strong>.</p>
+
+      <p>Dans ce guide complet, nous vous détaillons le <strong>prix réel d'un démoussage de toiture au m² en 2026</strong>, les produits formellement interdits, et les bonnes pratiques pour protéger votre toit durablement.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions de couvreurs qualifiés près de chez vous pour un démoussage professionnel.<br/>
+        <a href="/service/toiture-couverture/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-m2">Prix d'un démoussage de toiture au m² (2026)</a></li>
+        <li><a href="#facteurs-prix">Ce qui fait varier le prix</a></li>
+        <li><a href="#javel-interdite">Pourquoi la Javel est interdite sur une toiture</a></li>
+        <li><a href="#produits-eviter">Les produits et méthodes à éviter absolument</a></li>
+        <li><a href="#bonnes-methodes">Les bonnes méthodes de démoussage</a></li>
+        <li><a href="#quand-demousser">Quand faut-il démousser son toit ?</a></li>
+        <li><a href="#diy-vs-pro">Faire soi-même ou passer par un pro ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-m2">Prix d'un démoussage de toiture au m² en 2026</h2>
+
+      <p>Le coût d'un démoussage professionnel dépend de la méthode utilisée, du type de couverture et de l'état de votre toit. Voici les <strong>tarifs moyens constatés en France</strong> :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Prestation</th>
+            <th style="padding: 12px; text-align: center;">Prix au m² (TTC)</th>
+            <th style="padding: 12px; text-align: left;">Détails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Démoussage simple</strong> (brossage + rinçage)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>10€ - 15€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Nettoyage mécanique sans traitement</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Démoussage + traitement hydrofuge</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>15€ - 25€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Nettoyage + protection longue durée (5-10 ans)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Démoussage + traitement anti-mousse</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>12€ - 20€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Nettoyage + produit fongicide préventif</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Nettoyage haute pression</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>8€ - 12€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">⚠️ Déconseillé sur tuiles anciennes</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Pack complet (démoussage + hydrofuge + gouttières)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>20€ - 35€</strong></td>
+            <td style="padding: 12px;">La prestation la plus complète et durable</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret</strong><br/>
+        Pour une <strong>maison de 100 m² de toiture</strong> (surface courante pour un pavillon) :<br/><br/>
+        <strong>Démoussage simple</strong> : 1 000€ à 1 500€ TTC<br/>
+        <strong>Démoussage + hydrofuge</strong> : 1 500€ à 2 500€ TTC<br/>
+        <strong>Pack complet</strong> : 2 000€ à 3 500€ TTC</p>
+      </blockquote>
+
+      <h2 id="facteurs-prix">Ce qui fait varier le prix d'un démoussage</h2>
+
+      <p>Pourquoi une telle fourchette de prix ? Plusieurs facteurs influencent directement le devis :</p>
+
+      <ul>
+        <li><strong>La surface du toit</strong> : Plus la surface est grande, plus le prix au m² diminue (effet de volume)</li>
+        <li><strong>Le type de couverture</strong> : Tuiles terre cuite, tuiles béton, ardoises, zinc... Chaque matériau nécessite un traitement adapté</li>
+        <li><strong>L'état d'encrassement</strong> : Un toit très envahi par la mousse (couche épaisse de +5 cm) nécessite un travail plus long</li>
+        <li><strong>La pente et l'accessibilité</strong> : Un toit très pentu (>40°) ou difficile d'accès (4 étages, pas de place pour l'échafaudage) entraîne des surcoûts</li>
+        <li><strong>La région</strong> : Les tarifs sont 15 à 20% plus élevés en Île-de-France et PACA</li>
+        <li><strong>La méthode choisie</strong> : Brossage manuel vs nettoyage basse pression vs traitement chimique</li>
+      </ul>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de couverture</th>
+            <th style="padding: 12px; text-align: center;">Prix démoussage (m²)</th>
+            <th style="padding: 12px; text-align: left;">Précaution particulière</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Tuiles terre cuite</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€ - 20€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Pas de haute pression (porosité)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Tuiles béton</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€ - 18€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Supporte la basse pression</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Ardoises naturelles</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15€ - 25€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Matériau fragile, brossage doux uniquement</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fibrociment</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">12€ - 22€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">⚠️ Vérifier l'absence d'amiante avant travaux</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Toiture zinc/acier</strong></td>
+            <td style="padding: 12px; text-align: center;">8€ - 15€</td>
+            <td style="padding: 12px;">Rinçage simple souvent suffisant</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="javel-interdite">🚫 Pourquoi la Javel est INTERDITE sur une toiture</h2>
+
+      <p>C'est probablement la pire idée que vous puissiez avoir pour votre toit. <strong>L'eau de Javel (hypochlorite de sodium) est un produit destructeur pour les toitures</strong>, et de nombreux professionnels du bâtiment alertent contre son utilisation.</p>
+
+      <h3>Les dégâts de la Javel sur votre toit :</h3>
+      <ul>
+        <li><strong>Destruction de la surface des tuiles</strong> : La Javel attaque la couche protectrice des tuiles (l'engobe), les rendant poreuses et accélérant leur vieillissement de 10 à 15 ans</li>
+        <li><strong>Fragilisation de la structure</strong> : Les tuiles deviennent cassantes et gélives (elles éclatent en hiver)</li>
+        <li><strong>Effet rebond</strong> : La mousse revient 2 à 3 fois plus vite car la surface devenue poreuse retient davantage l'humidité</li>
+        <li><strong>Pollution environnementale</strong> : Le ruissellement de Javel contamine les sols, les nappes phréatiques et tue la végétation environnante</li>
+        <li><strong>Corrosion des gouttières</strong> : La Javel attaque le zinc et l'aluminium de vos descentes d'eau</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ ATTENTION : Javel = garantie annulée</strong><br/>
+        Si votre toiture est sous garantie décennale et qu'un artisan utilise de la Javel, <strong>la garantie est annulée</strong>. Aucun fabricant de tuiles n'autorise l'usage de produits chlorés. C'est un vice de mise en œuvre reconnu par les tribunaux.</p>
+      </blockquote>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre démoussage ?</strong><br/>
+        Décrivez votre toiture en 2 min et recevez des estimations personnalisées de couvreurs locaux.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="produits-eviter">Les produits et méthodes à éviter absolument</h2>
+
+      <p>La Javel n'est pas le seul danger. Voici la liste complète des produits et pratiques à <strong>bannir définitivement</strong> :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #991b1b; color: white;">
+            <th style="padding: 12px; text-align: left;">❌ Produit / Méthode</th>
+            <th style="padding: 12px; text-align: left;">Pourquoi c'est dangereux</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Eau de Javel</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Détruit l'engobe des tuiles, rend le toit poreux et gélif</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Acide chlorhydrique</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Corrosion immédiate des tuiles et des fixations métalliques</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Soude caustique</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Attaque les joints et les mortiers de faîtage</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Nettoyeur haute pression (>80 bars)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Casse les tuiles, soulève les écailles, projette l'eau sous la couverture</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px;"><strong>Grattage métallique agressif</strong></td>
+            <td style="padding: 12px;">Raye la surface et détruit la patine protectrice naturelle</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Un artisan qui vous propose un démoussage à la Javel ou au Kärcher haute pression n'est <strong>pas un professionnel sérieux</strong>. Demandez toujours quel produit sera utilisé et exigez une fiche technique. Les produits certifiés portent la mention <strong>« sans chlore, biodégradable »</strong>.</p>
+      </blockquote>
+
+      <h2 id="bonnes-methodes">Les bonnes méthodes de démoussage professionnel</h2>
+
+      <p>Un couvreur qualifié utilisera l'une de ces méthodes éprouvées :</p>
+
+      <h3>1. Le brossage manuel + produit anti-mousse (La méthode douce)</h3>
+      <p>Le couvreur brosse les tuiles une par une avec une <strong>brosse semi-rigide</strong>, élimine les débris, puis applique un <strong>produit fongicide certifié</strong> (type Algimouss, Sika, Guard Industrie). Le produit agit pendant plusieurs semaines : la mousse résiduelle meurt et se détache naturellement avec la pluie.</p>
+      <p><strong>Idéal pour</strong> : tuiles terre cuite, ardoises, toitures anciennes.</p>
+
+      <h3>2. Le nettoyage basse pression (< 50 bars)</h3>
+      <p>Avec un <strong>nettoyeur réglé en basse pression</strong> (30 à 50 bars maximum), le professionnel décolle la mousse sans agresser la surface. Suivi d'un traitement anti-mousse préventif.</p>
+      <p><strong>Idéal pour</strong> : tuiles béton, toitures moyennement encrassées.</p>
+
+      <h3>3. Le traitement hydrofuge (La protection longue durée)</h3>
+      <p>Après le nettoyage, l'application d'un <strong>hydrofuge incolore</strong> imperméabilise les tuiles. L'eau perle en surface au lieu de pénétrer, empêchant la mousse de s'installer. Protection efficace <strong>5 à 10 ans</strong>.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Notre recommandation</strong><br/>
+        Le meilleur rapport qualité-prix est le <strong>pack « démoussage + hydrofuge »</strong>. Certes plus cher à l'achat (15€ à 25€/m²), il protège votre toit pendant 5 à 10 ans et évite de refaire un démoussage tous les 2-3 ans. Sur 10 ans, vous économisez jusqu'à <strong>40%</strong> par rapport au démoussage simple répété.</p>
+      </blockquote>
+
+      <h2 id="quand-demousser">Quand faut-il démousser son toit ?</h2>
+
+      <p>Le timing est important pour une intervention efficace et sans risque :</p>
+
+      <h3>Les meilleures périodes</h3>
+      <ul>
+        <li><strong>Printemps (mars-mai)</strong> : Idéal. La mousse est gorgée d'eau et se détache facilement. Les produits anti-mousse agissent mieux avec les pluies de printemps</li>
+        <li><strong>Automne (septembre-novembre)</strong> : Bonne période. Permet de préparer le toit avant l'hiver et les intempéries</li>
+      </ul>
+
+      <h3>Les périodes à éviter</h3>
+      <ul>
+        <li><strong>Été (canicule)</strong> : Les produits sèchent trop vite et n'agissent pas correctement. Le travail en toiture est dangereux par forte chaleur</li>
+        <li><strong>Hiver</strong> : Risque de gel (les tuiles humides peuvent éclater). Conditions dangereuses pour les couvreurs</li>
+      </ul>
+
+      <h3>Les signes qui indiquent un démoussage urgent</h3>
+      <ul>
+        <li>Mousse épaisse (>2 cm) visible depuis le sol</li>
+        <li>Lichens blancs ou jaunes sur les tuiles (signe de porosité avancée)</li>
+        <li>Tuiles qui noircissent ou verdissent rapidement</li>
+        <li>Gouttières bouchées par des débris végétaux venant du toit</li>
+        <li>Traces d'humidité dans les combles (la mousse retient l'eau comme une éponge)</li>
+      </ul>
+
+      <p>En règle générale, un démoussage est recommandé <strong>tous les 3 à 5 ans</strong>, ou <strong>tous les 7 à 10 ans</strong> si un traitement hydrofuge a été appliqué. Si votre toit n'a jamais été traité, consultez un couvreur pour évaluer l'état de votre couverture. Vous pouvez également consulter notre guide sur la <a href="/blog/recherche-fuite-toiture-prix">recherche de fuite toiture</a> si vous constatez des infiltrations.</p>
+
+      <h2 id="diy-vs-pro">Faire soi-même ou passer par un professionnel ?</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">DIY (Faire soi-même)</th>
+            <th style="padding: 12px; text-align: center;">Professionnel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Coût</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2€ - 5€/m² (produits seuls)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€ - 25€/m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Sécurité</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Risque de chute mortelle</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Assuré et équipé</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Efficacité</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Partielle (zones inaccessibles)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Complète + traitement pro</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Garantie</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Aucune</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Garantie décennale</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Durabilité</strong></td>
+            <td style="padding: 12px; text-align: center;">1-2 ans</td>
+            <td style="padding: 12px; text-align: center;">3-10 ans (avec hydrofuge)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Chaque année, plus de 300 personnes décèdent d'une chute en hauteur en France</strong><br/>
+        Les travaux en toiture sont la première cause de chutes mortelles chez les particuliers. <strong>Ne montez jamais sur votre toit sans harnais de sécurité, ligne de vie et équipement adapté.</strong> Le coût d'un professionnel est dérisoire face au risque vital.</p>
+      </blockquote>
+
+      <h2>Conclusion : investissez dans un démoussage professionnel</h2>
+
+      <p>Le démoussage de toiture est un <strong>entretien indispensable</strong> pour préserver la durée de vie de votre couverture. Comptez en moyenne <strong>15€ à 25€/m² pour un démoussage avec traitement hydrofuge</strong>, soit 1 500€ à 2 500€ pour une maison standard. C'est un investissement rentable : une toiture bien entretenue dure <strong>50 à 80 ans</strong> contre 25 à 30 ans sans entretien.</p>
+
+      <p>Retenez surtout ces deux règles d'or : <strong>jamais de Javel</strong> (ni de produit chloré) et <strong>jamais de haute pression</strong> sur des tuiles. Faites confiance à un couvreur qualifié qui utilise des produits certifiés et respectueux de votre toiture. Pour plus d'informations sur l'entretien de votre habitation, découvrez également notre <a href="/blog/maprimenov-2026-guide-complet">guide des aides MaPrimeRénov' 2026</a>.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à redonner une seconde jeunesse à votre toit ?</strong><br/>
+        Les couvreurs de notre réseau sont disponibles dans votre ville pour un démoussage professionnel.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Démoussage de toiture</h2>
+
+      <h3>Quel est le prix moyen d'un démoussage de toiture ?</h3>
+      <p>Le prix moyen d'un démoussage de toiture se situe entre <strong>10€ et 25€ par m²</strong> selon la méthode utilisée. Pour un démoussage simple, comptez 10€ à 15€/m². Avec un traitement hydrofuge de protection, le tarif monte à 15€ à 25€/m², mais la protection dure 5 à 10 ans.</p>
+
+      <h3>Peut-on utiliser du vinaigre blanc pour démousser un toit ?</h3>
+      <p>Le vinaigre blanc est <strong>moins agressif que la Javel</strong> mais reste déconseillé sur une toiture entière : son acidité peut attaquer les mortiers de faîtage et les joints. Il est acceptable pour de petites zones ponctuelles, mais pour une toiture complète, préférez un <strong>produit anti-mousse professionnel certifié</strong> biodégradable.</p>
+
+      <h3>À quelle fréquence faut-il démousser sa toiture ?</h3>
+      <p>En règle générale, un démoussage est recommandé <strong>tous les 3 à 5 ans</strong>. Si un traitement hydrofuge a été appliqué, vous pouvez espacer les interventions à <strong>7-10 ans</strong>. Les toitures exposées au nord ou à l'ombre d'arbres nécessitent un entretien plus fréquent.</p>
+
+      <h3>Le démoussage de toiture est-il déductible des impôts ?</h3>
+      <p>Le démoussage simple n'est pas éligible au crédit d'impôt. En revanche, si le démoussage est réalisé en complément de <strong>travaux de rénovation énergétique</strong> (isolation de la toiture par l'extérieur, par exemple), l'ensemble peut bénéficier de la <strong>TVA réduite à 10%</strong> et des aides MaPrimeRénov'.</p>
+
+      <h3>Quelle est la différence entre un hydrofuge et un anti-mousse ?</h3>
+      <p>L'<strong>anti-mousse</strong> (fongicide) tue les mousses, lichens et algues existants. L'<strong>hydrofuge</strong> imperméabilise la surface pour empêcher l'eau de pénétrer et donc la mousse de repousser. Les deux sont complémentaires : on applique d'abord l'anti-mousse, puis l'hydrofuge une fois le toit propre et sec.</p>
+    `,
+    category: "toiture-couverture",
+    publishedAt: "2026-02-10",
+    readingTime: "11 min",
+    image: "/images/blog/demoussage-toiture-prix-m2.png"
+  },
+  {
     slug: "panneaux-solaires-toit-plat-possible-prix-rentabilite",
     title: "Installer des panneaux solaires sur un toit plat : Est-ce possible ?",
     excerpt: "Peut-on installer des panneaux solaires sur un toit plat ? Découvrez les avantages, le prix de l'installation et la rentabilité d'un toit-terrasse photovoltaïque en 2026.",
