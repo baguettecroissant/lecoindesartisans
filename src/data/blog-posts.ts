@@ -2,6 +2,384 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "bruit-pompe-a-chaleur-distance-voisin",
+    title: "Bruit d'une Pompe à Chaleur : Quelle distance respecter avec les voisins ?",
+    excerpt: "Le bruit d'une pompe à chaleur peut vite devenir un conflit de voisinage. Découvrez les distances légales à respecter, les niveaux sonores par modèle et les solutions pour réduire les nuisances.",
+    content: `
+      <p><strong>Votre voisin vient d'installer une pompe à chaleur à 2 mètres de votre fenêtre et le bourdonnement vous empêche de dormir ?</strong> Ou au contraire, vous projetez d'installer une PAC et vous craignez les conflits avec le voisinage ? Vous n'êtes pas seul : les <strong>plaintes liées au bruit des pompes à chaleur</strong> ont explosé de 40% entre 2022 et 2025 selon les tribunaux d'instance.</p>
+
+      <p>Dans ce guide complet, nous vous détaillons les <strong>distances légales à respecter</strong>, les niveaux sonores réels par type de PAC, et surtout les solutions concrètes pour installer votre pompe à chaleur <strong>sans nuisance pour vos voisins</strong>.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs qualifiés qui maîtrisent les normes acoustiques.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#bruit-reel">Quel est le bruit réel d'une pompe à chaleur ?</a></li>
+        <li><a href="#distance-legale">Quelle distance légale respecter avec les voisins ?</a></li>
+        <li><a href="#reglementation">La réglementation en vigueur (2026)</a></li>
+        <li><a href="#niveaux-sonores">Niveaux sonores par type de PAC (comparatif)</a></li>
+        <li><a href="#solutions">Solutions pour réduire le bruit d'une PAC</a></li>
+        <li><a href="#que-faire">Que faire si la PAC du voisin est trop bruyante ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="bruit-reel">Quel est le bruit réel d'une pompe à chaleur ?</h2>
+
+      <p>Avant tout, remettons les choses en perspective. Une pompe à chaleur n'est <strong>pas un marteau-piqueur</strong>. Mais ce n'est pas non plus le silence. Le bruit provient principalement du <strong>ventilateur de l'unité extérieure</strong> et du <strong>compresseur</strong>.</p>
+
+      <h3>Les niveaux sonores en contexte</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Source sonore</th>
+            <th style="padding: 12px; text-align: center;">Niveau (dB)</th>
+            <th style="padding: 12px; text-align: left;">Perception</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chambre calme la nuit</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25 dB</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Silence quasi total</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Réfrigérateur</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">35 dB</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Très discret</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC silencieuse (à 5m)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">35-40 dB</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Comparable à un frigo</td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC standard (à 5m)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">45-55 dB</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Conversation normale</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC bruyante / ancienne (à 5m)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">55-65 dB</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Gênant, surtout la nuit</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;">Machine à laver en essorage</td>
+            <td style="padding: 12px; text-align: center;">70 dB</td>
+            <td style="padding: 12px;">Bruyant</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Le niveau sonore diminue d'environ <strong>6 dB chaque fois que la distance double</strong>. Une PAC affichant 50 dB à 1 mètre ne produira que 38 dB à 5 mètres. C'est pourquoi la distance d'installation est si importante.</p>
+      </blockquote>
+
+      <h2 id="distance-legale">Quelle distance légale respecter avec les voisins ?</h2>
+
+      <p>C'est LA question qui génère le plus de conflits. En France, <strong>il n'existe pas de distance unique imposée par la loi au niveau national</strong>. La réglementation est un millefeuille de textes qu'il faut connaître.</p>
+
+      <h3>Les règles à respecter</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Règle</th>
+            <th style="padding: 12px; text-align: center;">Distance / Contrainte</th>
+            <th style="padding: 12px; text-align: left;">Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Code civil (vue droite)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1,90 m minimum</strong> de la limite de propriété</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Art. 678 Code civil</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PLU (Plan Local d'Urbanisme)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Variable selon communes</strong> (souvent 3 à 5 m)</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Mairie</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Règlement de copropriété</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Accord du syndic obligatoire</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Règlement copropriété</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;">
+              <strong>Recommandation professionnelle</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>Minimum 5 m</strong> de la limite voisin</td>
+            <td style="padding: 12px;">AFPAC / Installateurs RGE</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ ATTENTION : consultez votre PLU avant d'installer !</strong><br/>
+        De nombreuses communes imposent des distances minimales de <strong>3 à 5 mètres par rapport à la limite de propriété</strong>. Certaines imposent même un <strong>recul de 10 mètres</strong> pour les unités extérieures. Ne pas respecter le PLU peut entraîner une <strong>obligation de démontage</strong> de votre PAC.</p>
+      </blockquote>
+
+      <h3>La règle des 20 cm : le piège courant</h3>
+      <p>Certains installateurs affirment qu'une PAC peut être posée à seulement 20 cm du mur mitoyen. C'est techniquement possible pour la <strong>maintenance</strong>, mais c'est une catastrophe en termes de <strong>nuisances sonores</strong>. Le mur réfléchit le son et amplifie le bruit de 3 à 6 dB. À 20 cm d'un mur mitoyen, votre voisin subit le bruit comme si la PAC était <strong>chez lui</strong>.</p>
+
+      <h2 id="reglementation">La réglementation sonore en vigueur (2026)</h2>
+
+      <p>En France, le bruit des pompes à chaleur est encadré par le <strong>Code de la santé publique</strong> (articles R1336-5 à R1336-11) relatif aux bruits de voisinage.</p>
+
+      <h3>Le critère de l'émergence</h3>
+      <p>La loi ne fixe pas un seuil en décibels absolu. Elle utilise le concept d'<strong>émergence</strong> : la différence entre le bruit ambiant <strong>avec</strong> la PAC en marche et le bruit ambiant <strong>sans</strong> la PAC.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Période</th>
+            <th style="padding: 12px; text-align: center;">Émergence maximale autorisée</th>
+            <th style="padding: 12px; text-align: left;">Concrètement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Jour (7h - 22h)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>+5 dB</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">La PAC ne doit pas ajouter plus de 5 dB au bruit ambiant</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Nuit (22h - 7h)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>+3 dB</strong></td>
+            <td style="padding: 12px;">Seuil encore plus strict la nuit (le silence ambiant est plus bas)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret</strong><br/>
+        Si le bruit ambiant nocturne chez votre voisin est de <strong>30 dB</strong> (quartier calme), votre PAC ne doit pas faire monter le niveau au-dessus de <strong>33 dB</strong> chez lui. Avec une PAC émettant 50 dB à 1 m, il faut qu'elle soit à au moins <strong>8-10 mètres</strong> de sa chambre pour respecter ce seuil.</p>
+      </blockquote>
+
+      <h3>Les sanctions encourues</h3>
+      <ul>
+        <li><strong>Contravention de 3ème classe</strong> : amende de 450€ maximum pour trouble de voisinage</li>
+        <li><strong>Action civile</strong> : le voisin peut saisir le tribunal pour obtenir des dommages et intérêts (1 000€ à 15 000€ selon la jurisprudence)</li>
+        <li><strong>Obligation de mise en conformité</strong> : le juge peut ordonner le déplacement ou le retrait de la PAC à vos frais</li>
+        <li><strong>Astreinte journalière</strong> : jusqu'à 100€/jour tant que la nuisance persiste</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour une installation conforme ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations d'installateurs qui intègrent les solutions anti-bruit.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="niveaux-sonores">Niveaux sonores par type de PAC (comparatif 2026)</h2>
+
+      <p>Toutes les pompes à chaleur ne font pas le même bruit. Voici un comparatif des niveaux sonores moyens de l'<strong>unité extérieure</strong> :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de PAC</th>
+            <th style="padding: 12px; text-align: center;">Bruit à 1m (dB)</th>
+            <th style="padding: 12px; text-align: center;">Bruit à 5m (dB)</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Eau (haut de gamme)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">40-45 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">28-33 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14 000€ - 18 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Eau (standard)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">48-55 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">36-43 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 000€ - 14 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Air (multisplit)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">50-58 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">38-46 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€ - 8 000€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>PAC Géothermique</strong></td>
+            <td style="padding: 12px; text-align: center;">30-40 dB</td>
+            <td style="padding: 12px; text-align: center;">20-28 dB</td>
+            <td style="padding: 12px; text-align: center;">15 000€ - 25 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        La <strong>PAC géothermique</strong> est la plus silencieuse car elle n'a <strong>pas d'unité extérieure avec ventilateur</strong>. Le compresseur est à l'intérieur. C'est la solution idéale pour les terrains en limite de propriété, mais aussi la plus coûteuse. Pour comparer, consultez notre guide <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">Choisir entre PAC air-eau et air-air</a>.</p>
+      </blockquote>
+
+      <h2 id="solutions">Solutions concrètes pour réduire le bruit d'une PAC</h2>
+
+      <p>Que vous installiez une nouvelle PAC ou que vous cherchiez à réduire le bruit d'un modèle existant, voici les solutions les plus efficaces :</p>
+
+      <h3>1. Choisir le bon emplacement (gratuit)</h3>
+      <ul>
+        <li><strong>Éloignez l'unité extérieure</strong> au maximum des fenêtres des voisins ET des vôtres (minimum 5 m recommandé)</li>
+        <li><strong>Évitez les coins</strong> et les recoins : le son rebondit sur les murs et s'amplifie (jusqu'à +6 dB)</li>
+        <li><strong>Ne posez jamais la PAC</strong> sur un mur mitoyen ou contre un mur donnant sur une pièce de vie du voisin</li>
+        <li><strong>Orientez l'unité</strong> vers un espace ouvert (jardin, cour) plutôt que vers la maison voisine</li>
+      </ul>
+
+      <h3>2. Installer des silent blocks (50€ - 200€)</h3>
+      <p>Les <strong>plots anti-vibrations</strong> (silent blocks) se placent sous l'unité extérieure. Ils absorbent les vibrations transmises au sol ou au mur, réduisant le bruit de <strong>3 à 5 dB</strong>. C'est la solution la moins chère et la plus efficace en rapport qualité-prix.</p>
+
+      <h3>3. Poser un écran acoustique (500€ - 2 500€)</h3>
+      <p>Un <strong>écran anti-bruit</strong> (panneau acoustique) se place entre la PAC et la direction du voisin. Il peut réduire le bruit de <strong>5 à 10 dB</strong>. Attention à ne pas obstruer le flux d'air de la PAC, sinon ses performances chutent.</p>
+
+      <h3>4. Construire un caisson insonorisant (1 000€ - 3 000€)</h3>
+      <p>Un <strong>caisson ou coffrage acoustique</strong> entoure partiellement la PAC avec des panneaux absorbants. Réduction de <strong>8 à 15 dB</strong>. Il doit être conçu par un professionnel pour maintenir une ventilation suffisante.</p>
+
+      <h3>5. Opter pour un mode nuit / mode silence</h3>
+      <p>La plupart des PAC récentes disposent d'un <strong>mode nuit</strong> qui réduit la vitesse du ventilateur et du compresseur. Le bruit baisse de <strong>5 à 10 dB</strong> au prix d'une légère perte de rendement. Programmez-le entre 22h et 7h.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Solution</th>
+            <th style="padding: 12px; text-align: center;">Réduction sonore</th>
+            <th style="padding: 12px; text-align: center;">Coût</th>
+            <th style="padding: 12px; text-align: center;">Difficulté</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bon emplacement</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6-12 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Gratuit</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Silent blocks</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3-5 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">50€ - 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mode nuit</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5-10 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Gratuit (intégré)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Écran acoustique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5-10 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">500€ - 2 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Caisson insonorisant</strong></td>
+            <td style="padding: 12px; text-align: center;">8-15 dB</td>
+            <td style="padding: 12px; text-align: center;">1 000€ - 3 000€</td>
+            <td style="padding: 12px; text-align: center;">⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="que-faire">Que faire si la PAC du voisin est trop bruyante ?</h2>
+
+      <p>Vous subissez le bruit de la pompe à chaleur de votre voisin ? Voici les étapes à suivre, <strong>de la plus conciliante à la plus juridique</strong> :</p>
+
+      <h3>Étape 1 : Le dialogue amiable</h3>
+      <p>Dans 70% des cas, le voisin <strong>ne se rend pas compte</strong> de la nuisance. Expliquez-lui calmement le problème, idéalement en lui montrant l'application sonomètre de votre téléphone. Proposez des solutions (silent blocks, écran, mode nuit).</p>
+
+      <h3>Étape 2 : La lettre recommandée</h3>
+      <p>Si le dialogue échoue, envoyez un <strong>courrier recommandé avec accusé de réception</strong> décrivant la nuisance, les horaires, et demandant la mise en conformité. Joignez des mesures sonores si possible.</p>
+
+      <h3>Étape 3 : Le constat de nuisance</h3>
+      <p>Faites constater la nuisance par un <strong>huissier de justice</strong> (200€ à 400€) ou contactez le service <strong>hygiène et santé de votre mairie</strong> qui peut effectuer des mesures acoustiques gratuitement.</p>
+
+      <h3>Étape 4 : La médiation ou le tribunal</h3>
+      <p>Saisissez un <strong>conciliateur de justice</strong> (gratuit) ou, en dernier recours, le <strong>tribunal judiciaire</strong> sur le fondement du <strong>trouble anormal de voisinage</strong> (article 544 du Code civil). Le juge peut ordonner le déplacement de la PAC et des dommages et intérêts.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Avant toute action en justice, la <strong>tentative de médiation est obligatoire</strong> depuis 2020 pour les litiges de voisinage inférieurs à 5 000€. Le conciliateur de justice est gratuit et disponible dans votre mairie ou tribunal.</p>
+      </blockquote>
+
+      <h2>Les aides pour une PAC silencieuse</h2>
+
+      <p>Bonne nouvelle : les aides financières s'appliquent aussi aux modèles silencieux haut de gamme. Vous pouvez réduire significativement le coût d'une PAC performante et discrète.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil MaPrimeRénov'</th>
+            <th style="padding: 12px; text-align: center;">Aide PAC Air-Eau</th>
+            <th style="padding: 12px; text-align: center;">Prime CEE (en plus)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bleu (très modeste)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>5 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000€ - 5 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Jaune (modeste)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>4 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000€ - 5 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Violet (intermédiaire)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>3 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500€ - 4 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Rose (aisé)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>0€</strong></td>
+            <td style="padding: 12px; text-align: center;">2 500€ - 4 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour en savoir plus sur les aides disponibles, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a> et notre article sur les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE cumulables</a>.</p>
+
+      <h2>Conclusion : anticipez le bruit pour éviter les conflits</h2>
+
+      <p>Le bruit d'une pompe à chaleur est la première source de conflits de voisinage liés aux travaux de rénovation énergétique. Pourtant, avec un <strong>bon emplacement</strong>, un <strong>modèle silencieux</strong> (≤45 dB à 1 m) et quelques accessoires (silent blocks, mode nuit), il est tout à fait possible de chauffer votre maison <strong>sans déranger personne</strong>.</p>
+
+      <p>Notre conseil d'expert : investissez dans un modèle de <strong>dernière génération</strong> avec technologie Inverter et mode silence intégré. Le surcoût de 1 000€ à 2 000€ est dérisoire comparé au coût d'un procès pour nuisance sonore (jusqu'à 15 000€ de dommages et intérêts) et au coût d'un déplacement forcé de la PAC. Avant l'installation, <strong>consultez votre PLU en mairie</strong> et parlez-en à vos voisins : la transparence est le meilleur anti-conflit.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à installer votre PAC en toute sérénité ?</strong><br/>
+        Les installateurs de notre réseau connaissent les normes acoustiques et vous conseillent sur le meilleur emplacement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Bruit de pompe à chaleur et voisinage</h2>
+
+      <h3>À quelle distance du voisin doit-on installer une pompe à chaleur ?</h3>
+      <p>Il n'existe pas de distance légale nationale unique. Le <strong>Code civil impose 1,90 m minimum</strong> de la limite de propriété pour les installations en vue directe. Cependant, le PLU de votre commune peut imposer 3 à 5 m, et les professionnels recommandent <strong>au moins 5 mètres</strong> des fenêtres du voisin pour le confort acoustique.</p>
+
+      <h3>Quel est le niveau sonore maximal autorisé pour une PAC ?</h3>
+      <p>La loi française ne fixe pas de seuil absolu en décibels. Elle utilise le critère d'<strong>émergence</strong> : la PAC ne doit pas ajouter plus de <strong>5 dB le jour</strong> et <strong>3 dB la nuit</strong> au bruit ambiant mesuré chez le voisin. En pratique, cela signifie qu'une PAC doit être quasi inaudible depuis la propriété voisine la nuit.</p>
+
+      <h3>Mon voisin peut-il m'obliger à retirer ma pompe à chaleur ?</h3>
+      <p>Oui, si la PAC constitue un <strong>trouble anormal de voisinage</strong>. Le tribunal peut ordonner le retrait, le déplacement ou l'insonorisation de la PAC. Les dommages et intérêts peuvent aller de 1 000€ à 15 000€ selon la durée et l'intensité de la nuisance.</p>
+
+      <h3>Existe-t-il des pompes à chaleur vraiment silencieuses ?</h3>
+      <p>Oui. Les modèles haut de gamme récents (Daikin Altherma, Atlantic Alfea, Mitsubishi Zubadan) affichent <strong>35 à 42 dB à 1 mètre</strong>, soit le niveau d'un réfrigérateur. Les PAC géothermiques sont encore plus silencieuses car elles n'ont pas de ventilateur extérieur.</p>
+
+      <h3>Comment mesurer le bruit de la PAC de mon voisin ?</h3>
+      <p>Utilisez une <strong>application sonomètre</strong> sur smartphone (NIOSH SLM, Decibel X) pour une première estimation. Pour une mesure officielle utilisable en justice, faites appel à un <strong>acousticien certifié</strong> (300€ à 600€) ou contactez le <strong>service hygiène de votre mairie</strong> qui peut intervenir gratuitement.</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-02-11",
+    readingTime: "13 min",
+    image: "/images/blog/bruit-pompe-chaleur-voisin.webp"
+  },
+  {
     slug: "demoussage-toiture-prix-m2",
     title: "Démoussage de toiture : Prix au m² et produits à éviter (Javel interdite !)",
     excerpt: "Quel est le prix d'un démoussage de toiture au m² en 2026 ? Découvrez les tarifs par type de toit, les produits à éviter absolument (eau de Javel !) et comment choisir le bon professionnel.",
