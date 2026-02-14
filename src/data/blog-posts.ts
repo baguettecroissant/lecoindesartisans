@@ -10547,6 +10547,404 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-02-13",
     readingTime: "15 min",
     image: "/images/blog/remplacer-chaudiere-fioul-pac.webp"
+  },
+  {
+    slug: "double-ou-triple-vitrage",
+    title: "Double vitrage vs Triple vitrage : Lequel choisir pour votre région ?",
+    excerpt: "Double ou triple vitrage ? Découvrez les différences de performance, de prix et de confort selon votre région. Comparatif complet pour faire le bon choix en 2026.",
+    content: `
+      <p><strong>Vous changez vos fenêtres et vous hésitez entre double et triple vitrage ?</strong> C'est LA question que se posent 8 propriétaires sur 10 en rénovation. Et la réponse n'est pas la même selon que vous habitiez à <strong>Lille ou à Marseille</strong> ! Le surcoût du triple vitrage (15 à 30%) n'est pas toujours justifié, et dans certains cas, il peut même être <strong>contre-productif</strong>.</p>
+
+      <p>Dans ce guide comparatif, nous vous aidons à trancher en fonction de <strong>votre climat, votre budget et vos objectifs d'isolation</strong>. Vous découvrirez les performances réelles de chaque vitrage, les prix en 2026, et surtout <strong>dans quelles régions le triple vitrage est rentable</strong> — et dans lesquelles il ne l'est pas.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions de menuisiers qualifiés pour vos fenêtres.<br/>
+        <a href="/service/fenetres-menuiserie/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comprendre">Comprendre la différence : double vs triple vitrage</a></li>
+        <li><a href="#performances">Comparatif des performances thermiques</a></li>
+        <li><a href="#prix-2026">Prix double et triple vitrage en 2026</a></li>
+        <li><a href="#region">Quel vitrage selon votre région ?</a></li>
+        <li><a href="#avantages-inconvenients">Avantages et inconvénients de chaque option</a></li>
+        <li><a href="#aides">Aides financières disponibles</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="comprendre">Comprendre la différence : double vs triple vitrage</h2>
+
+      <p>La différence fondamentale est simple : le nombre de couches de verre et de lames de gaz isolant entre elles.</p>
+
+      <h3>Le double vitrage : la référence depuis 30 ans</h3>
+      <p>Le double vitrage est composé de <strong>2 vitres</strong> séparées par une <strong>lame de gaz</strong> (argon ou krypton) de 12 à 20 mm. C'est le standard en France depuis les années 1990, et c'est déjà un progrès considérable par rapport au simple vitrage. Le modèle le plus courant est le <strong>4/16/4</strong> : deux vitres de 4 mm séparées par 16 mm de gaz argon.</p>
+
+      <h3>Le triple vitrage : la performance maximale</h3>
+      <p>Le triple vitrage ajoute une <strong>3ème vitre</strong>, soit <strong>3 verres et 2 lames de gaz</strong>. La configuration classique est le <strong>4/12/4/12/4</strong>. Résultat : une isolation thermique supérieure de 20 à 40%, mais au prix d'un vitrage plus lourd et plus épais.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Caractéristique</th>
+            <th style="padding: 12px; text-align: center;">Double vitrage</th>
+            <th style="padding: 12px; text-align: center;">Triple vitrage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Composition</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 vitres + 1 lame gaz</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 vitres + 2 lames gaz</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Épaisseur totale</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">24 mm (4/16/4)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">36 mm (4/12/4/12/4)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Poids (par m²)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~20 kg</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~30 kg</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Coefficient Ug</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1,0 à 1,2 W/m².K</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>0,5 à 0,7 W/m².K</strong></td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Apports solaires (facteur g)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>60-65%</strong> ☀️</td>
+            <td style="padding: 12px; text-align: center;"><strong>45-55%</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir : le coefficient Ug, c'est quoi ?</strong><br/>
+        Le <strong>Ug (U glass)</strong> mesure la déperdition thermique à travers le vitrage. Plus il est bas, meilleure est l'isolation. Un Ug de 1,0 signifie que chaque m² de vitrage perd 1 watt pour 1°C de différence entre intérieur et extérieur. Le triple vitrage est donc <strong>2 fois plus isolant</strong> que le double.</p>
+      </blockquote>
+
+      <h2 id="performances">Comparatif des performances thermiques</h2>
+
+      <p>Au-delà du coefficient Ug, la performance réelle d'une fenêtre dépend de l'ensemble <strong>vitrage + châssis</strong>. On parle alors du coefficient <strong>Uw (U window)</strong>.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Performance</th>
+            <th style="padding: 12px; text-align: center;">Double vitrage standard</th>
+            <th style="padding: 12px; text-align: center;">Double vitrage renforcé (ITR)</th>
+            <th style="padding: 12px; text-align: center;">Triple vitrage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Uw fenêtre PVC</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1,3 - 1,5</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1,1 - 1,3</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>0,7 - 0,9</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Uw fenêtre ALU</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1,5 - 1,8</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1,3 - 1,5</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>0,9 - 1,1</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation phonique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">32-35 dB</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">35-38 dB</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Économie de chauffage</strong></td>
+            <td style="padding: 12px; text-align: center;">Référence</td>
+            <td style="padding: 12px; text-align: center;">+10% vs standard</td>
+            <td style="padding: 12px; text-align: center;"><strong>+20 à 30% vs standard</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret</strong><br/>
+        Une maison de 120 m² mal isolée au niveau des fenêtres (simple ou ancien double vitrage) qui passe en <strong>triple vitrage</strong> peut économiser <strong>300€ à 600€ par an</strong> de chauffage en zone H1 (Nord de la France). En zone H3 (Méditerranée), l'économie tombe à <strong>100€ à 250€</strong>, rendant le surcoût du triple vitrage <strong>difficilement rentable</strong>.</p>
+      </blockquote>
+
+      <h3>L'importance du facteur solaire (g)</h3>
+      <p>C'est le point faible du triple vitrage : il <strong>laisse passer moins de lumière et de chaleur solaire</strong>. En hiver, les apports solaires gratuits chauffent naturellement votre maison. Avec un triple vitrage (g = 50%), vous perdez <strong>15 à 20% d'apports solaires</strong> par rapport au double vitrage (g = 63%). Dans les régions ensoleillées du Sud, cette perte peut <strong>annuler l'avantage thermique</strong> du triple vitrage.</p>
+
+      <h2 id="prix-2026">Prix double et triple vitrage en 2026</h2>
+
+      <p>Le triple vitrage coûte en moyenne <strong>15 à 30% plus cher</strong> que le double vitrage. Voici les prix constatés en France :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de fenêtre</th>
+            <th style="padding: 12px; text-align: center;">Double vitrage (pose comprise)</th>
+            <th style="padding: 12px; text-align: center;">Triple vitrage (pose comprise)</th>
+            <th style="padding: 12px; text-align: center;">Surcoût triple</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fenêtre PVC (L120 × H125)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>300€ - 800€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>450€ - 1 100€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+40 à 50%</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fenêtre ALU (L120 × H125)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>500€ - 1 200€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>650€ - 1 600€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+25 à 35%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fenêtre bois (L120 × H125)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>400€ - 1 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>550€ - 1 400€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+30 à 40%</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Baie vitrée coulissante (L200 × H215)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>1 000€ - 2 500€</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>1 400€ - 3 500€</strong></td>
+            <td style="padding: 12px; text-align: center;">+30 à 40%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret : maison 8 fenêtres + 1 baie vitrée</strong><br/>
+        <strong>En double vitrage PVC :</strong> 4 500€ à 8 900€ TTC (pose comprise)<br/>
+        <strong>En triple vitrage PVC :</strong> 6 000€ à 12 300€ TTC<br/>
+        <strong>Surcoût :</strong> environ 1 500€ à 3 400€ pour toute la maison, soit <strong>200€ à 400€ par fenêtre</strong>.</p>
+      </blockquote>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour vos fenêtres ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées de menuisiers locaux.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="region">Quel vitrage choisir selon votre région ?</h2>
+
+      <p>C'est ici que tout se joue. La France compte <strong>3 zones climatiques</strong> (H1, H2, H3) qui déterminent directement le choix optimal entre double et triple vitrage.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Zone climatique</th>
+            <th style="padding: 12px; text-align: left;">Régions</th>
+            <th style="padding: 12px; text-align: center;">Recommandation</th>
+            <th style="padding: 12px; text-align: left;">Pourquoi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H1 (Climat froid)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Nord, Est, Île-de-France, Auvergne, Centre, Bourgogne</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>✅ Triple vitrage recommandé</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Hivers longs et froids, chauffage intensif, le surcoût est amorti en 8-12 ans</td>
+          </tr>
+          <tr style="background: #fef3c7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H2 (Climat tempéré)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Bretagne, Normandie, Aquitaine, Pays de la Loire, Rhône-Alpes</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>⚖️ Selon le cas</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Triple vitrage pertinent sur façades nord/est. Double vitrage renforcé suffisant au sud/ouest.</td>
+          </tr>
+          <tr style="background: #fee2e2;">
+            <td style="padding: 12px;"><strong>H3 (Climat chaud)</strong></td>
+            <td style="padding: 12px;">Méditerranée, Corse, littoral sud</td>
+            <td style="padding: 12px; text-align: center;"><strong>❌ Double vitrage préférable</strong></td>
+            <td style="padding: 12px;">Hivers doux, le triple réduit les apports solaires gratuits en hiver et ne se rentabilise pas.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Zone H1 : le triple vitrage est un investissement gagnant</h3>
+      <p>Si vous habitez dans le <strong>Nord, l'Est, l'Île-de-France ou le Massif Central</strong>, le triple vitrage est clairement recommandé. Les hivers y sont longs (5 à 6 mois de chauffage), les températures descendent régulièrement sous 0°C, et les économies d'énergie justifient le surcoût. Une maison bien isolée en triple vitrage en zone H1 peut atteindre le <strong>label BBC (Bâtiment Basse Consommation)</strong> plus facilement.</p>
+
+      <h3>Zone H2 : le choix intelligent = le mixte</h3>
+      <p>En zone tempérée, la stratégie la plus maline est <strong>le vitrage mixte</strong> :</p>
+      <ul>
+        <li><strong>Triple vitrage</strong> sur les fenêtres <strong>Nord et Est</strong> (peu de soleil, fort refroidissement)</li>
+        <li><strong>Double vitrage renforcé</strong> sur les fenêtres <strong>Sud et Ouest</strong> (maximiser les apports solaires gratuits)</li>
+      </ul>
+      <p>Cette approche offre le <strong>meilleur rapport performance/prix</strong> et peut réduire le surcoût de 30 à 40% par rapport au tout-triple.</p>
+
+      <h3>Zone H3 : le double vitrage suffit</h3>
+      <p>En Méditerranée, le problème n'est pas le froid mais <strong>la chaleur estivale</strong>. Le double vitrage avec <strong>traitement anti-chaleur (contrôle solaire)</strong> est bien plus pertinent qu'un triple vitrage. En hiver, les journées ensoleillées chauffent naturellement votre intérieur à travers les fenêtres : le triple vitrage bloquerait ce chauffage gratuit.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention aux idées reçues</strong><br/>
+        Le triple vitrage n'est <strong>PAS toujours meilleur</strong> que le double vitrage. En zone H3, une étude thermique a démontré que le double vitrage avec contrôle solaire permettait de <strong>réduire la facture énergétique totale</strong> (chauffage + climatisation) de 5 à 8% par rapport au triple vitrage, tout en coûtant moins cher à l'achat.</p>
+      </blockquote>
+
+      <h3>Et en altitude ?</h3>
+      <p>Au-dessus de <strong>800 mètres d'altitude</strong>, le triple vitrage est systématiquement recommandé, quelle que soit la zone climatique. Les écarts de température sont plus importants, les hivers plus rudes, et le vent plus violent. Certaines communes de montagne l'imposent d'ailleurs dans leur <strong>Plan Local d'Urbanisme</strong>. Pour optimiser l'isolation globale de votre maison en montagne, pensez également à l'<a href="/blog/isolation-exterieure-avantages-inconvenients">isolation extérieure</a>.</p>
+
+      <h2 id="avantages-inconvenients">Avantages et inconvénients de chaque option</h2>
+
+      <h3>Double vitrage : les avantages</h3>
+      <ul>
+        <li><strong>Prix accessible</strong> : 40 à 50% moins cher que le triple</li>
+        <li><strong>Luminosité maximale</strong> : laisse passer plus de lumière naturelle (63% vs 50%)</li>
+        <li><strong>Apports solaires gratuits</strong> : chauffage naturel en hiver par le soleil</li>
+        <li><strong>Poids léger</strong> : compatible avec tous les dormants et murs existants</li>
+        <li><strong>Excellent rapport qualité-prix</strong> en zones H2 et H3</li>
+        <li><strong>Installation plus simple</strong> : pose sur dormant existant souvent possible</li>
+      </ul>
+
+      <h3>Double vitrage : les inconvénients</h3>
+      <ul>
+        <li>Isolation thermique inférieure au triple (Uw 1,1 à 1,5 vs 0,7 à 0,9)</li>
+        <li>Sensation de paroi froide en hiver dans les régions froides</li>
+        <li>Isolation phonique correcte mais inférieure au triple</li>
+      </ul>
+
+      <h3>Triple vitrage : les avantages</h3>
+      <ul>
+        <li><strong>Isolation thermique maximale</strong> : Uw ≤ 0,9 (quasi passive)</li>
+        <li><strong>Confort hivernal</strong> : plus de sensation de froid près des fenêtres</li>
+        <li><strong>Isolation phonique supérieure</strong> : idéal en zone bruyante (route, aéroport)</li>
+        <li><strong>Éligible aux labels</strong> : BBC, maison passive, RT2020</li>
+        <li><strong>Valorisation immobilière</strong> : meilleur DPE grâce au triple vitrage</li>
+      </ul>
+
+      <h3>Triple vitrage : les inconvénients</h3>
+      <ul>
+        <li><strong>Prix plus élevé</strong> : 15 à 30% de surcoût (200€ à 400€/fenêtre)</li>
+        <li><strong>Poids important</strong> : 30 kg/m² vs 20 kg/m² — nécessite des châssis renforcés et peut nécessiter un renforcement du dormant</li>
+        <li><strong>Moins de lumière naturelle</strong> : 15% de luminosité en moins</li>
+        <li><strong>Moins d'apports solaires</strong> : perte de chauffage gratuit en hiver</li>
+        <li><strong>Risque de surchauffe réduit</strong> mais attention à la ventilation en été</li>
+        <li><strong>Amortissement long</strong> en zones H2 et surtout H3 (12 à 20 ans)</li>
+      </ul>
+
+      <h2 id="aides">Aides financières pour le changement de fenêtres (2026)</h2>
+
+      <p>Bonne nouvelle : les aides sont les <strong>mêmes</strong> que vous choisissiez du double ou du triple vitrage, à condition de respecter le seuil de performance exigé (<strong>Uw ≤ 1,3 W/m².K</strong>). Les deux types de vitrage y sont éligibles.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Aide</th>
+            <th style="padding: 12px; text-align: center;">Montant par fenêtre</th>
+            <th style="padding: 12px; text-align: left;">Conditions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov' (Bleu)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>100€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Uw ≤ 1,3 - Artisan RGE</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov' (Jaune)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>80€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Uw ≤ 1,3 - Artisan RGE</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov' (Violet)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>40€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Uw ≤ 1,3 - Artisan RGE</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prime CEE (Certificats d'Économie d'Énergie)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>30€ à 80€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Cumulable avec MaPrimeRénov'</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>TVA réduite 5,5%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Automatique</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Logement > 2 ans, travaux par un pro</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Éco-prêt à taux zéro</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>Jusqu'à 15 000€</strong></td>
+            <td style="padding: 12px;">Prêt sans intérêt pour financer les travaux</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour un guide complet sur toutes les aides disponibles, consultez notre article détaillé sur <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov' 2026</a>.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Astuce : cumulez les aides !</strong><br/>
+        MaPrimeRénov' et la prime CEE sont <strong>cumulables</strong>. Pour 8 fenêtres en profil Bleu, cela représente jusqu'à <strong>1 440€ d'aides</strong> (8 × 100€ MPR + 8 × 80€ CEE), réduisant significativement le surcoût du triple vitrage si vous êtes en zone H1. Découvrez aussi notre article sur les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE : comment ça marche et comment les cumuler</a>.</p>
+      </blockquote>
+
+      <h2>Notre verdict : double ou triple vitrage ?</h2>
+
+      <p>Le choix entre double et triple vitrage n'est <strong>pas une question de qualité, mais de pertinence</strong>. Voici notre recommandation synthétique :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Situation</th>
+            <th style="padding: 12px; text-align: center;">Notre conseil</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vous habitez en zone H1 (Nord, Est, IDF)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Triple vitrage</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vous habitez en zone tempérée (H2)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚖️ Mixte (triple au nord, double au sud)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vous habitez en zone chaude (H3, Méditerranée)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Double vitrage renforcé</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vous êtes en altitude (> 800 m)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Triple vitrage</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vous êtes en zone bruyante</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Triple vitrage ou double acoustique</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Vous construisez en neuf (RT2020)</strong></td>
+            <td style="padding: 12px; text-align: center;">✅ Triple vitrage (souvent exigé)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Dans tous les cas, le critère numéro 1 reste la <strong>qualité de la pose</strong>. Un triple vitrage mal posé sera moins performant qu'un double vitrage posé dans les règles de l'art. Faites toujours appel à un <strong>artisan RGE (Reconnu Garant de l'Environnement)</strong> pour bénéficier des aides et garantir une installation durable. Pour une rénovation globale, pensez aussi à l'<a href="/blog/isolation-exterieure-avantages-inconvenients">isolation extérieure</a> qui viendra compléter la performance de vos nouvelles fenêtres.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à changer vos fenêtres ?</strong><br/>
+        Les menuisiers de notre réseau sont disponibles dans votre ville pour un conseil personnalisé.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Double ou triple vitrage</h2>
+
+      <h3>Le triple vitrage est-il toujours meilleur que le double vitrage ?</h3>
+      <p>Non. Le triple vitrage est <strong>plus isolant thermiquement</strong>, mais il laisse passer moins de lumière et de chaleur solaire. Dans les régions ensoleillées du sud de la France (zone H3), le double vitrage renforcé est souvent <strong>plus performant globalement</strong> car il profite des apports solaires gratuits en hiver.<p>
+
+      <h3>Quelle est la durée de vie d'un double et d'un triple vitrage ?</h3>
+      <p>Les deux types de vitrage ont une <strong>durée de vie similaire de 25 à 30 ans</strong>. La durée de vie dépend surtout de la qualité des joints et de l'intercalaire (warm edge). Un désembuage (condensation entre les vitres) signale la fin de vie du vitrage et nécessite un remplacement.</p>
+
+      <h3>Peut-on remplacer du double vitrage par du triple sur des fenêtres existantes ?</h3>
+      <p>Rarement. Le triple vitrage est <strong>plus épais (36 mm vs 24 mm) et plus lourd</strong>. Il nécessite généralement le remplacement complet de la fenêtre (châssis + vitrage) car les dormants existants ne sont pas prévus pour cette épaisseur et ce poids supplémentaire.</p>
+
+      <h3>Le triple vitrage réduit-il la luminosité ?</h3>
+      <p>Oui, légèrement. Le triple vitrage laisse passer environ <strong>15% de lumière en moins</strong> que le double vitrage (facteur de transmission lumineuse de 72% vs 82%). En pratique, cette différence est peu perceptible dans les pièces bien éclairées, mais peut se ressentir dans les pièces orientées au nord.</p>
+
+      <h3>Quel vitrage choisir pour une maison passive ou BBC ?</h3>
+      <p>Pour atteindre le <strong>label maison passive</strong> (consommation ≤ 15 kWh/m²/an), le triple vitrage est quasiment <strong>indispensable</strong> avec un Uw ≤ 0,8 W/m².K. Pour le label BBC (≤ 50 kWh/m²/an), un double vitrage renforcé ITR performant (Uw ≤ 1,1) peut suffire en zone H3, mais le triple est recommandé en zones H1 et H2.</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-02-14",
+    readingTime: "14 min",
+    image: "/images/blog/double-ou-triple-vitrage.png"
   }
 ];
 
