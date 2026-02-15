@@ -10946,6 +10946,179 @@ export const blogPosts: BlogPost[] = [
     readingTime: "14 min",
     image: "/images/blog/double-ou-triple-vitrage.png"
   }
+  ,
+  {
+    slug: "etancheite-toiture-terrasse-bitume-epdm",
+    title: "Étanchéité toiture terrasse : Bitume ou EPDM ? Le guide complet",
+    excerpt: "Bitume ou EPDM pour votre toiture terrasse ? Découvrez le comparatif complet 2026 : prix au m², durée de vie, pose et étanchéité. Faites le bon choix pour votre toit plat.",
+    content: `
+      <p><strong>Vous avez un projet de toiture terrasse ou des infiltrations sur votre toit plat actuel ?</strong> Le choix de l'étanchéité est crucial. D'un côté, le <strong>bitume (calandrite)</strong>, solution historique et robuste. De l'autre, l'<strong>EPDM</strong>, membrane caoutchouc moderne à la durée de vie exceptionnelle.</p>
+
+      <p>Dans ce guide complet, nous comparons ces deux géants de l'étanchéité : prix au m², facilité de pose, résistance dans le temps. Vous saurez enfin <strong>quelle solution choisir pour votre toit plat en 2026</strong>.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis d'étanchéité</strong><br/>
+        Comparez jusqu'à 3 propositions d'étancheurs qualifiés pour votre toiture terrasse.<br/>
+        <a href="/service/toiture-couverture/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#match">Le match : Bitume vs EPDM</a></li>
+        <li><a href="#prix">Prix au m² : Le comparatif 2026</a></li>
+        <li><a href="#avantages">Avantages et inconvénients</a></li>
+        <li><a href="#pose">Pose et technique : Les différences</a></li>
+        <li><a href="#duree-vie">Durée de vie et entretien</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="match">Le match : Bitume (Calandrite) vs EPDM</h2>
+
+      <p>Pour faire simple : le <strong>bitume</strong> est la solution traditionnelle, éprouvée depuis des décennies mais qui demande une pose à la flamme (chalumeau). L'<strong>EPDM</strong> (Éthylène-Propylène-Diène Monomère) est une membrane synthétique d'une seule pièce, plus écologique et plus durable, qui se pose à froid (colle).</p>
+
+      <h3>Le Bitume (SBS ou APP)</h3>
+      <p>C'est des rouleaux de "goudron" armé, soudés entre eux à chaud. C'est la solution la plus courante en France, maîtrisée par tous les étancheurs. Elle est très résistante aux chocs (on peut marcher dessus facilement).</p>
+
+      <h3>L'EPDM</h3>
+      <p>C'est une grande bâche en caoutchouc noir, coupée sur mesure aux dimensions de votre toit. Comme il n'y a pas (ou peu) de joints, les risques de fuites sont quasi nuls. C'est la star des toitures modernes et des toits végétalisés.</p>
+
+      <h2 id="prix">Prix au m² étanchéité toiture terrasse : Comparatif 2026</h2>
+
+      <p>Le budget est souvent le critère décisif. Voici les prix moyens constatés (fourniture et pose par un pro) :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Solution</th>
+            <th style="padding: 12px; text-align: center;">Prix au m² (TTC)</th>
+            <th style="padding: 12px; text-align: left;">Détails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bitume (bicouche)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>60€ - 90€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Solution classique, bon rapport qualité/prix</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>EPDM</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>70€ - 100€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Plus cher à l'achat, mais plus durable</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PVC (alternative)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>50€ - 70€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Moins cher, mais durée de vie plus courte (15-20 ans)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Étanchéité Liquide (SEL)</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>80€ - 120€</strong></td>
+            <td style="padding: 12px;">Pour les rénovations complexes (balcons, formes bizarres)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Si l'EPDM coûte 10 à 20% plus cher à la pose, il se rattrape sur la <strong>durée de vie</strong> (50 ans contre 20-25 ans pour le bitume). Sur le long terme, l'EPDM est donc plus économique.</p>
+      </blockquote>
+
+      <h2 id="avantages">Avantages et inconvénients</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Bitume (Calandrite)</th>
+            <th style="padding: 12px; text-align: center;">EPDM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Durée de vie</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15 à 25 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 50 ans</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Résistance UV</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Moyenne (nécessite gravier ou protection)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Excellente (insensible aux UV)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Élasticité</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Faible (casse au grand froid)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Élevée (> 300% d'allongement)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Pose</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Chalumeau (risque incendie)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Colle à froid (sûr et sans odeur)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Écologie</strong></td>
+            <td style="padding: 12px; text-align: center;">Passable (pétrole)</td>
+            <td style="padding: 12px; text-align: center;">Bonne (chimiquement inerte, recyclable)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="pose">Pose et technique : Les différences majeures</h2>
+
+      <h3>Le danger du chalumeau</h3>
+      <p>La pose du bitume nécessite l'utilisation d'une flamme nue sur le toit. Chaque année, des incendies de toitures sont causés par des travaux d'étanchéité mal maîtrisés. C'est pourquoi les assurances des étancheurs bitume sont très chères.</p>
+
+      <h3>La sécurité de la pose à froid</h3>
+      <p>L'EPDM se colle. Pas de flamme, pas de risque d'incendie, pas de mauvaises odeurs de goudron fondu. C'est un argument de poids si vous faites des travaux en site occupé.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Estimez le coût de vos travaux</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="duree-vie">Durée de vie et entretien</h2>
+
+      <p>C'est là que l'EPDM creuse l'écart. Une membrane EPDM bien posée peut durer <strong>plus de 50 ans</strong> sans perdre ses propriétés élastiques. Elle résiste aux chocs thermiques (-40°C à +120°C) et aux UV.</p>
+
+      <p>Le bitume, lui, vieillit plus vite. Sous l'action du soleil, il sèche et finit par craqueler au bout de 15-20 ans, créant des micro-fissures par lesquelles l'eau s'infiltre. Il nécessite un entretien plus régulier (recharge en paillettes d'ardoise, vérification des joints).</p>
+
+      <h3>Et pour une toiture végétalisée ?</h3>
+      <p>L'<strong>EPDM est incontournable pour les toitures végétalisées</strong>. Il est anti-racines (contrairement au bitume simple qui se fait percer) et supporte parfaitement l'humidité constante de la terre.</p>
+
+      <h2>Conclusion : Lequel choisir ?</h2>
+
+      <ul>
+        <li><strong>Choisissez le bitume si</strong> : vous voulez la solution la moins chère à l'instant T, ou si vous faites appel à un artisan "classique" qui ne pose que ça.</li>
+        <li><strong>Choisissez l'EPDM si</strong> : vous visez le long terme (tranquillité pour 50 ans), si vous avez une toiture végétalisée, ou si vous êtes sensible à l'aspect écologique.</li>
+      </ul>
+
+      <p>Notre conseil d'expert : pour quelques euros de plus au m², l'<strong>EPDM est le meilleur investissement</strong> sur la durée de vie de votre maison. Pensez également à vérifier l'état de votre isolation sous l'étanchéité, c'est le moment idéal pour la renforcer (consultez notre guide sur l'<a href="/blog/isolation-exterieure-avantages-inconvenients">isolation thermique par l'extérieur</a>).</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à étancher votre toiture ?</strong><br/>
+        Les étancheurs de notre réseau maîtrisent le Bitume et l'EPDM. Comparez leurs avis.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Étanchéité toiture terrasse</h2>
+
+      <h3>Peut-on poser de l'EPDM sur du bitume existant ?</h3>
+      <p>Oui, c'est tout à fait possible et même courant en rénovation. On peut coller l'EPDM directement sur l'ancien bitume après un nettoyage, ou poser un géotextile de séparation. Cela évite de tout arracher (gain de temps et d'argent : pas de déchetterie).</p>
+
+      <h3>Peut-on marcher sur une toiture EPDM ?</h3>
+      <p>Oui, l'EPDM supporte le piétinement occasionnel pour l'entretien (nettoyage, accès antenne). Si vous voulez en faire une vraie terrasse accessible (tables, chaises), il faudra poser un revêtement par-dessus (dalles sur plots, carrelage, platelage bois) pour protéger la membrane des poinçonnements.</p>
+
+      <h3>Quel est le prix pour refaire l'étanchéité d'une terrasse de 20m2 ?</h3>
+      <p>Pour une petite surface de 20 m², comptez entre <strong>1 500€ et 2 500€ TTC</strong> tout compris. Le prix au m² est souvent plus élevé sur les petites surfaces car il y a des coûts fixes (déplacement, mise en sécurité) incompressibles.</p>
+
+      <h3>L'EPDM est-il difficile à poser soi-même ?</h3>
+      <p>C'est plus facile que le bitume (pas de feu !), mais cela demande de la rigueur. Les points singuliers (coins, évacuations d'eau) sont techniques. Une erreur de collage = une fuite. Pour la garantie décennale, passez par un pro.</p>
+    `,
+    category: "toiture-couverture",
+    publishedAt: "2026-02-15",
+    readingTime: "10 min",
+    image: "/images/blog/etancheite-toiture-terrasse.png"
+  },
 ];
 
 

@@ -71,14 +71,8 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right: Lead Form Card */}
-            <div className="hidden lg:block relative group">
-              {/* Glow effect */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-amber-500 to-amber-300 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200" />
-              <div className="relative">
-                <LeadForm instanceId="desktop" />
-              </div>
-            </div>
+            {/* Right: Lead Form Card - REMOVED from Hero on Desktop */}
+            {/* <div className="hidden lg:block relative group"> ... </div> */}
           </div>
         </div>
       </section>
@@ -218,8 +212,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-24 md:py-32 relative overflow-hidden">
+      {/* Final CTA Section - Mobile Only */}
+      <section className="lg:hidden py-24 md:py-32 relative overflow-hidden">
         {/* Dark Background with gradient overlay */}
         <div className="absolute inset-0 bg-navy-900">
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 via-transparent to-transparent opacity-50" />
@@ -243,6 +237,54 @@ export default function HomePage() {
           <p className="mt-8 text-navy-300 font-medium tracking-wide">
             <span className="opacity-60">Gratuit et sans engagement</span>
           </p>
+        </div>
+      </section>
+
+      {/* Desktop Lead Form Section - Added at Bottom */}
+      <section className="hidden lg:block py-24 bg-navy-900 relative overflow-hidden">
+        {/* Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[url('/hero-bg.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-900/90 to-navy-900/40"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-8 text-white">
+              <h2 className="text-5xl font-extrabold leading-tight">
+                Prêt à démarrer <br />
+                <span className="text-amber-500">votre projet ?</span>
+              </h2>
+              <p className="text-xl text-navy-100 leading-relaxed max-w-xl">
+                Ne perdez plus de temps à chercher. Nos artisans vérifiés sont prêts à répondre à vos besoins.
+                Décrivez votre projet en 2 minutes et recevez vos devis sous 24h.
+              </p>
+              <div className="space-y-4 pt-4">
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <CheckCircle className="w-6 h-6 text-green-500" />
+                  </div>
+                  <span className="text-lg">Artisans certifiés et assurés</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <CheckCircle className="w-6 h-6 text-green-500" />
+                  </div>
+                  <span className="text-lg">Devis gratuits et sans engagement</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <CheckCircle className="w-6 h-6 text-green-500" />
+                  </div>
+                  <span className="text-lg">Accompagnement personnalisé</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <LeadForm instanceId="desktop-bottom" />
+            </div>
+          </div>
         </div>
       </section>
 

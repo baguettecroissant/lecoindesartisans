@@ -6,6 +6,7 @@ import { Calendar, Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { getAllBlogPosts, getBlogPostBySlug } from "@/data/blog-posts";
 import { getSiteSettings } from "@/lib/data";
 import LeadForm from "@/components/LeadForm";
+import StickyBlogCTA from "@/components/StickyBlogCTA";
 
 interface PageProps {
     params: Promise<{
@@ -180,11 +181,13 @@ export default async function BlogPostPage({ params }: PageProps) {
                     </div>
 
                     {/* Mobile CTA - Shown only on mobile */}
-                    <div className="lg:hidden mt-8">
+                    <div id="mobile-lead-form" className="lg:hidden mt-8">
                         <LeadForm instanceId="mobile" />
                     </div>
                 </div>
             </section>
+
+            <StickyBlogCTA targetId="mobile-lead-form" />
         </>
     );
 }
