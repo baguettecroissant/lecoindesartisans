@@ -2,6 +2,368 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "mise-aux-normes-tableau-electrique-prix",
+    title: "Tableau électrique aux normes (NFC 15-100) : Prix d'une rénovation complète",
+    excerpt: "Combien coûte la mise aux normes d'un tableau électrique en 2026 ? Découvrez les prix réels, les obligations de la norme NFC 15-100 et les aides disponibles pour votre rénovation électrique.",
+    content: `
+      <p><strong>Votre tableau électrique date des années 80 et vous n'avez toujours pas de disjoncteur différentiel ?</strong> Vous n'êtes pas seul : en France, <strong>7 millions de logements</strong> possèdent une installation électrique vétuste, responsable de <strong>50 000 incendies domestiques par an</strong> selon l'Observatoire National de la Sécurité Électrique (ONSE). La mise aux normes de votre tableau électrique n'est pas un luxe — c'est une question de <strong>sécurité vitale</strong>.</p>
+
+      <p>Dans ce guide complet, nous vous détaillons le <strong>prix réel d'une mise aux normes de tableau électrique en 2026</strong>, les exigences de la norme NFC 15-100, et les aides financières disponibles pour alléger votre facture.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'électriciens qualifiés près de chez vous pour la mise aux normes de votre tableau.<br/>
+        <a href="/service/plomberie-sanitaire/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-renovation">Prix d'une mise aux normes de tableau électrique (2026)</a></li>
+        <li><a href="#nfc-15-100">Que dit la norme NFC 15-100 ?</a></li>
+        <li><a href="#signes-renovation">Les signes qu'il faut rénover votre tableau</a></li>
+        <li><a href="#travaux-detail">Détail des travaux et composants</a></li>
+        <li><a href="#avantages-inconvenients">Avantages et inconvénients d'une rénovation</a></li>
+        <li><a href="#aides-financieres">Aides financières disponibles</a></li>
+        <li><a href="#choisir-electricien">Comment choisir son électricien ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-renovation">Prix d'une mise aux normes de tableau électrique en 2026</h2>
+
+      <p>Le coût d'une mise aux normes de votre tableau électrique dépend de l'ampleur des travaux : simple remplacement du tableau ou rénovation complète de l'installation. Voici les <strong>tarifs moyens constatés en France</strong> :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de prestation</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen (TTC)</th>
+            <th style="padding: 12px; text-align: left;">Détails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Remplacement du tableau seul</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>600€ - 1 300€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Coffret neuf + disjoncteurs + câblage interne</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mise aux normes partielle</strong> (tableau + différentiels)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1 000€ - 2 500€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Remplacement tableau + ajout de protections différentielles 30mA</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mise aux normes complète</strong> (NFC 15-100)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>2 500€ - 5 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Tableau + câblage + prises + terre + Consuel</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Rénovation électrique totale</strong> (logement entier)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>5 000€ - 12 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Installation complète avec passage de gaines et reprise du câblage</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Diagnostic électrique obligatoire</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>100€ - 180€</strong></td>
+            <td style="padding: 12px;">Rapport de conformité par un diagnostiqueur certifié</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret</strong><br/>
+        Pour un <strong>appartement T3 de 65 m²</strong> avec un tableau à fusibles des années 1990 :<br/><br/>
+        <strong>Mise aux normes partielle</strong> (tableau + différentiels + terre) : 1 800€ à 2 800€ TTC<br/>
+        <strong>Mise aux normes complète</strong> (reprise du câblage + tableau neuf) : 3 500€ à 5 500€ TTC<br/>
+        <strong>Maison de 120 m² - rénovation totale</strong> : 7 000€ à 12 000€ TTC</p>
+      </blockquote>
+
+      <h3>Ce qui fait varier le prix</h3>
+      <ul>
+        <li><strong>La surface du logement</strong> : Plus le logement est grand, plus il y a de circuits à protéger (comptez 80€ à 100€/m² pour une rénovation totale)</li>
+        <li><strong>L'état de l'installation existante</strong> : Un logement avec fils en coton et prises sans terre coûte beaucoup plus cher à remettre aux normes qu'un logement des années 2000</li>
+        <li><strong>Le nombre de circuits</strong> : Chaque circuit nécessite un disjoncteur divisionnaire (10€ à 25€ par module)</li>
+        <li><strong>L'accessibilité des gaines</strong> : La reprise en encastré dans les murs coûte 30 à 50% plus cher qu'en apparent avec goulottes</li>
+        <li><strong>La région</strong> : Les tarifs sont 15 à 25% plus élevés en Île-de-France</li>
+        <li><strong>La certification Consuel</strong> : Obligatoire pour toute rénovation complète, elle coûte environ 150€ à 200€</li>
+      </ul>
+
+      <h2 id="nfc-15-100">Que dit la norme NFC 15-100 ?</h2>
+
+      <p>La <strong>norme NFC 15-100</strong> est LA norme de référence pour les installations électriques basse tension en France. Elle définit les règles de conception, de réalisation et d'entretien des installations électriques. Elle est <strong>obligatoire pour toute construction neuve et toute rénovation importante</strong>.</p>
+
+      <h3>Les exigences clés de la NFC 15-100</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Exigence</th>
+            <th style="padding: 12px; text-align: left;">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Disjoncteur de branchement 500mA</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Protection générale de l'installation, sélectif (type S)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Interrupteurs différentiels 30mA</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Au minimum 2 (type A pour les circuits spécialisés + type AC pour les autres). Obligation de protéger tous les circuits</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Disjoncteurs divisionnaires</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Un par circuit (éclairage 10A, prises 16A, four 20A, plaque 32A, etc.)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mise à la terre</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Toutes les prises et tous les appareils métalliques doivent être reliés à la terre</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Parafoudre</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Obligatoire dans certaines régions (zones à densité de foudroiement élevée)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>ETEL (Espace Technique Électrique du Logement)</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Espace dédié de 60 cm x 25 cm minimum pour le tableau</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Nombre minimum de prises</strong></td>
+            <td style="padding: 12px;">5 prises en cuisine, 3 prises par chambre, 1 prise RJ45 par pièce principale</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        La norme NFC 15-100 est <strong>régulièrement mise à jour</strong>. La dernière révision majeure date de décembre 2020 (amendement 5). Elle a notamment introduit l'obligation du <strong>parafoudre</strong> dans davantage de régions et renforcé les exigences sur les <strong>prises de communication RJ45</strong>. Un électricien qualifié doit travailler avec la version la plus récente.</p>
+      </blockquote>
+
+      <h2 id="signes-renovation">Les signes qu'il faut rénover votre tableau électrique</h2>
+
+      <p>Comment savoir si votre installation est dangereuse ? Voici les <strong>signaux d'alerte</strong> qui doivent vous pousser à agir :</p>
+
+      <h3>🚨 Signes de danger immédiat</h3>
+      <ul>
+        <li><strong>Fusibles à porcelaine ou à broche</strong> au lieu de disjoncteurs : votre installation a probablement plus de 40 ans</li>
+        <li><strong>Fils électriques en tissu (gainés coton)</strong> : isolant dégradé, risque d'arc électrique et d'incendie</li>
+        <li><strong>Absence de prise de terre</strong> : les prises n'ont que 2 trous (pas de broche de terre)</li>
+        <li><strong>Odeur de brûlé</strong> ou traces noires autour du tableau</li>
+        <li><strong>Disjoncteur général qui saute régulièrement</strong></li>
+      </ul>
+
+      <h3>⚠️ Signes d'une installation vétuste</h3>
+      <ul>
+        <li><strong>Prises qui chauffent</strong> quand un appareil est branché</li>
+        <li><strong>Lumières qui vacillent</strong> quand vous branchez un gros appareil (aspirateur, four, machine à laver)</li>
+        <li><strong>Pas d'interrupteur différentiel 30mA</strong> au tableau (la protection qui sauve des vies en cas d'électrocution)</li>
+        <li><strong>Rallonges et multiprises partout</strong> : signe que le nombre de prises est insuffisant</li>
+        <li><strong>Tableau sans étiquetage</strong> : impossible de savoir quel disjoncteur protège quel circuit</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ ATTENTION : Le diagnostic électrique est obligatoire à la vente</strong><br/>
+        Depuis 2009, tout vendeur d'un logement dont l'installation électrique a plus de <strong>15 ans</strong> doit fournir un <strong>diagnostic électrique</strong> (validité 3 ans). Depuis 2017, cette obligation est étendue à la <strong>location</strong> (validité 6 ans). Un diagnostic négatif ne vous oblige pas à faire les travaux, mais il peut faire <strong>chuter le prix de vente de 5 à 15%</strong>.</p>
+      </blockquote>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre mise aux normes ?</strong><br/>
+        Décrivez votre installation en 2 min et recevez des estimations personnalisées d'électriciens qualifiés.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="travaux-detail">Détail des travaux et composants d'un tableau NFC 15-100</h2>
+
+      <p>Voici la composition type d'un tableau électrique aux normes et le <strong>prix de chaque composant</strong> :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Composant</th>
+            <th style="padding: 12px; text-align: center;">Prix unitaire (TTC)</th>
+            <th style="padding: 12px; text-align: left;">Rôle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Coffret nu (2 à 4 rangées)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">50€ - 150€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Le boîtier qui accueille tous les modules</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Interrupteur différentiel 30mA type AC</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30€ - 80€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Protection des personnes (éclairage, prises classiques)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Interrupteur différentiel 30mA type A</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">50€ - 120€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Protection des circuits spécialisés (plaque de cuisson, lave-linge)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Disjoncteur divisionnaire (10A à 32A)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8€ - 25€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Protection individuelle de chaque circuit</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Parafoudre</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">80€ - 200€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Protection contre la foudre (obligatoire selon zones)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bornier de terre</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10€ - 30€</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Raccordement de tous les fils de terre</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Main d'œuvre (électricien)</strong></td>
+            <td style="padding: 12px; text-align: center;">40€ - 60€/heure</td>
+            <td style="padding: 12px;">Comptez 4 à 8 heures pour un remplacement de tableau</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Les différences entre les grandes marques</h3>
+      <p>Trois fabricants dominent le marché français des tableaux électriques :</p>
+      <ul>
+        <li><strong>Legrand</strong> : Leader en France, gamme très large, excellent rapport qualité-prix. Gamme Drivia (grand public) et XL³ (haut de gamme)</li>
+        <li><strong>Schneider Electric</strong> : Référence industrielle, fiabilité éprouvée. Gamme Resi9 (résidentiel) et Pragma (professionnel)</li>
+        <li><strong>Hager</strong> : Constructeur allemand très qualitatif, apprécié des électriciens pour sa facilité de montage. Gamme Gamma</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Les trois marques se valent en termes de qualité et de conformité. La différence se joue surtout sur le <strong>design</strong> (porte translucide, forme des modules) et le <strong>système de câblage</strong>. Votre électricien a généralement sa marque préférée — faites-lui confiance sur ce choix. </p>
+      </blockquote>
+
+      <h2 id="avantages-inconvenients">Avantages et inconvénients d'une mise aux normes</h2>
+
+      <h3>✅ Avantages</h3>
+      <ul>
+        <li><strong>Sécurité maximale</strong> : protection contre les incendies d'origine électrique (50 000/an en France) et les électrocutions</li>
+        <li><strong>Valorisation du bien</strong> : un diagnostic électrique conforme rassure les acheteurs et peut augmenter la valeur de votre logement de 5 à 10%</li>
+        <li><strong>Confort au quotidien</strong> : fini les disjoncteurs qui sautent, les prises insuffisantes et les rallonges partout</li>
+        <li><strong>Préparation aux équipements modernes</strong> : borne de recharge véhicule électrique, pompe à chaleur, domotique</li>
+        <li><strong>Assurance habitation</strong> : en cas de sinistre, une installation non conforme peut entraîner un refus d'indemnisation</li>
+        <li><strong>TVA réduite à 10%</strong> : pour les logements de plus de 2 ans, la main d'œuvre et les fournitures bénéficient de la TVA intermédiaire</li>
+      </ul>
+
+      <h3>❌ Inconvénients</h3>
+      <ul>
+        <li><strong>Coût initial important</strong> : de 1 000€ pour un simple remplacement de tableau à plus de 10 000€ pour une rénovation totale</li>
+        <li><strong>Travaux intrusifs</strong> : la reprise du câblage peut nécessiter des saignées dans les murs (et donc des travaux de finition)</li>
+        <li><strong>Coupure d'électricité</strong> : comptez 1 à 3 jours de coupure partielle ou totale pendant les travaux</li>
+        <li><strong>Passage du Consuel</strong> : pour les rénovations lourdes, un contrôle de conformité est obligatoire (ajout de 150€ à 200€ et délai de 2 à 4 semaines)</li>
+      </ul>
+
+      <h2 id="aides-financieres">Aides financières disponibles pour la rénovation électrique</h2>
+
+      <p>Contrairement aux travaux de rénovation énergétique (isolation, pompe à chaleur), la mise aux normes électrique bénéficie de <strong>moins d'aides spécifiques</strong>. Cependant, plusieurs dispositifs existent :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Aide</th>
+            <th style="padding: 12px; text-align: center;">Montant</th>
+            <th style="padding: 12px; text-align: left;">Conditions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>TVA réduite à 10%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Économie de 10%</strong> sur le total</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Logement de plus de 2 ans, travaux réalisés par un professionnel</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov' (si travaux couplés)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Variable</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Si la rénovation électrique fait partie d'un bouquet de travaux énergétiques</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Éco-PTZ (Prêt à taux zéro)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Jusqu'à <strong>50 000€</strong> à 0%</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Si travaux intégrés à une rénovation globale</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Aide de l'Anah (Habiter Sain)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Jusqu'à <strong>10 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Propriétaires occupants modestes, logement indigne ou dangereux</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Aides des collectivités locales</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>Variable</strong></td>
+            <td style="padding: 12px;">Certaines régions, départements ou communes proposent des aides spécifiques</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour un tour d'horizon complet des aides à la rénovation, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide MaPrimeRénov' 2026</a>. Si votre mise aux normes est couplée à l'installation d'une pompe à chaleur ou de panneaux solaires, les aides sont bien plus généreuses. Découvrez nos articles sur le <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">choix entre PAC air-eau et air-air</a> et la <a href="/blog/rentabilite-panneaux-solaires-autoconsommation">rentabilité des panneaux solaires</a>.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple concret : combien pouvez-vous économiser ?</strong><br/>
+        Pour une mise aux normes complète à <strong>4 000€ TTC</strong> dans un logement de plus de 2 ans :<br/><br/>
+        <strong>TVA 10% au lieu de 20%</strong> : vous économisez ~360€<br/>
+        <strong>Aide Anah "Habiter Sain"</strong> (si éligible) : jusqu'à 4 000€ de subvention<br/>
+        <strong>Coût final potentiel</strong> : entre 0€ et 3 640€ selon votre profil</p>
+      </blockquote>
+
+      <h2 id="choisir-electricien">Comment choisir son électricien pour une mise aux normes ?</h2>
+
+      <p>La qualité de l'installation dépend autant des matériaux que du <strong>savoir-faire de l'électricien</strong>. Voici les critères essentiels :</p>
+
+      <h3>Les certifications à vérifier</h3>
+      <ul>
+        <li><strong>Qualification Qualifelec</strong> : c'est l'équivalent du label RGE pour l'électricité. Elle atteste que l'artisan est formé et compétent</li>
+        <li><strong>Assurance décennale en cours</strong> : demandez systématiquement l'attestation. Elle couvre les malfaçons pendant 10 ans</li>
+        <li><strong>Certification Consuel</strong> : un bon électricien connaît la procédure et vous accompagne dans les démarches</li>
+      </ul>
+
+      <h3>Les bons réflexes</h3>
+      <ul>
+        <li><strong>Demandez 3 devis détaillés</strong> : comparez les prestations, pas seulement les prix. Un devis sérieux détaille chaque composant et son prix unitaire</li>
+        <li><strong>Vérifiez les références</strong> : demandez des photos de chantiers précédents et des avis clients</li>
+        <li><strong>Exigez un schéma unifilaire</strong> : le plan du tableau doit vous être fourni à la fin des travaux. C'est obligatoire</li>
+        <li><strong>Méfiez-vous des prix trop bas</strong> : un tableau à 500€ tout compris, c'est suspect. L'électricien utilise peut-être du matériel d'entrée de gamme ou bâcle le travail</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ ATTENTION aux "électriciens" non qualifiés</strong><br/>
+        L'électricité est un métier qui tue. Chaque année, environ <strong>200 personnes décèdent par électrocution</strong> en France, dont une partie lors de travaux réalisés par des non-professionnels. Ne confiez <strong>jamais</strong> votre mise aux normes à un "ami bricoleur" ou un artisan sans assurance. Le risque est vital pour votre famille et votre logement.</p>
+      </blockquote>
+
+      <h2>Conclusion : ne repoussez pas votre mise aux normes</h2>
+
+      <p>La mise aux normes de votre tableau électrique est un <strong>investissement dans la sécurité de votre famille</strong>. Comptez en moyenne <strong>1 500€ à 3 000€ pour une mise aux normes sérieuse</strong> incluant le remplacement du tableau, l'ajout de protections différentielles 30mA et la vérification de la terre. Pour une rénovation complète de l'installation dans un logement ancien, prévoyez <strong>5 000€ à 12 000€</strong>.</p>
+
+      <p>Notre conseil d'expert : ne vous limitez pas au remplacement du tableau seul si votre installation est ancienne. Un tableau neuf sur des fils en coton, c'est comme mettre un airbag dans une voiture sans freins. Profitez de la <strong>TVA à 10%</strong> et renseignez-vous sur l'aide <strong>"Habiter Sain" de l'Anah</strong> si vos revenus sont modestes. Et surtout, faites appel à un <strong>électricien qualifié Qualifelec</strong> avec une assurance décennale — c'est la garantie d'un travail conforme et durable.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Prêt à sécuriser votre installation électrique ?</strong><br/>
+        Les électriciens de notre réseau sont certifiés Qualifelec et disponibles dans votre ville.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Mise aux normes du tableau électrique</h2>
+
+      <h3>Combien coûte la mise aux normes d'un tableau électrique ?</h3>
+      <p>Le prix varie de <strong>600€ à 1 300€</strong> pour un simple remplacement de tableau, de <strong>1 000€ à 2 500€</strong> pour une mise aux normes partielle (tableau + différentiels), et de <strong>2 500€ à 5 000€</strong> pour une mise aux normes complète NFC 15-100. Pour une rénovation électrique totale d'un logement, comptez <strong>5 000€ à 12 000€</strong> selon la surface.</p>
+
+      <h3>Est-il obligatoire de mettre aux normes son tableau électrique ?</h3>
+      <p>Non, il n'existe pas d'obligation légale de mettre aux normes une installation existante tant que vous ne vendez pas ou ne louez pas votre logement. En revanche, le <strong>diagnostic électrique est obligatoire pour la vente</strong> (logements de +15 ans) et la <strong>location</strong>. Et en cas de sinistre, votre assureur peut <strong>refuser l'indemnisation</strong> si l'installation est non conforme.</p>
+
+      <h3>Quelle est la durée de vie d'un tableau électrique ?</h3>
+      <p>Un tableau électrique bien installé a une <strong>durée de vie de 25 à 30 ans</strong>. Cependant, les normes évoluent régulièrement (la NFC 15-100 est mise à jour tous les 3 à 5 ans). Au-delà de 25 ans, un remplacement est fortement recommandé, même si les composants fonctionnent encore.</p>
+
+      <h3>Puis-je changer mon tableau électrique moi-même ?</h3>
+      <p>Techniquement, rien ne l'interdit pour un particulier. Cependant, c'est <strong>fortement déconseillé</strong>. Le risque d'électrocution est réel (240V), et une installation mal réalisée ne sera pas couverte par votre assurance. De plus, le <strong>certificat Consuel</strong> ne peut être obtenu qu'après vérification par un professionnel. Seul un électricien qualifié peut garantir la conformité NFC 15-100.</p>
+
+      <h3>Combien de temps durent les travaux de mise aux normes ?</h3>
+      <p>Pour un simple remplacement de tableau, comptez <strong>1 journée</strong> de travail. Pour une mise aux normes complète avec reprise partielle du câblage, prévoyez <strong>2 à 3 jours</strong>. Pour une rénovation électrique totale d'un logement, les travaux peuvent durer <strong>1 à 2 semaines</strong> selon la surface et la complexité de l'installation.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-02-18",
+    readingTime: "14 min",
+    image: "/images/blog/mise-aux-normes-tableau-electrique-prix.png"
+  },
+  {
     slug: "bruit-pompe-a-chaleur-distance-voisin",
     title: "Bruit d'une Pompe à Chaleur : Quelle distance respecter avec les voisins ?",
     excerpt: "Le bruit d'une pompe à chaleur peut vite devenir un conflit de voisinage. Découvrez les distances légales à respecter, les niveaux sonores par modèle et les solutions pour réduire les nuisances.",
