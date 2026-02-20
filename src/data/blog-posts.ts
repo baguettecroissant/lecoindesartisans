@@ -2,6 +2,184 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "releve-chaudiere-pompe-a-chaleur-appoint",
+    title: "La relève de chaudière : Garder son ancienne chaudière en appoint de la PAC ?",
+    excerpt: "Faut-il remplacer totalement son ancienne chaudière ou la garder en relève d'une pompe à chaleur ? Découvrez les prix, avantages et aides prévues en 2026.",
+    content: `
+      <p><strong>Vous envisagez d'installer une pompe à chaleur pour réduire vos factures, mais votre ancienne chaudière fonctionne encore très bien ?</strong> Faut-il s'en débarrasser ou la conserver en relève ? Rassurez-vous, de nombreux Français se posent cette question stratégique au moment d'engager leur transition énergétique.</p>
+
+      <p>Dans ce guide complet, nous vous expliquons en détail le principe de fonctionnement de la <strong>relève de chaudière</strong>, ses prix réels pour l'année 2026, ainsi que les avantages et les limites de ce système hybride astucieux.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans qualifiés près de chez vous pour un système hybride ou en relève.<br/>
+        <a href="/service/pompe-a-chaleur/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#principe">Qu'est-ce qu'une pompe à chaleur en relève de chaudière ?</a></li>
+        <li><a href="#avantages">Pourquoi garder son ancienne chaudière en appoint ?</a></li>
+        <li><a href="#limites">Les limites de la relève de chaudière</a></li>
+        <li><a href="#prix">Prix et rentabilité d'une PAC en relève en 2026</a></li>
+        <li><a href="#aides">Quelles aides financières pour une installation en relève ?</a></li>
+        <li><a href="#faq">FAQ : Vos questions sur la relève</a></li>
+      </ul>
+
+      <h2 id="principe">Qu'est-ce qu'une pompe à chaleur en relève de chaudière ?</h2>
+
+      <p>Installer une pompe à chaleur (PAC) en relève de chaudière signifie que l'on <strong>associe deux équipements de chauffage indépendants</strong> — la nouvelle PAC air-eau et l'ancienne chaudière (au fioul, au gaz ou au bois) — sur le même réseau hydraulique (radiateurs ou plancher chauffant).</p>
+
+      <h3>Fonctionnement d'un système bivalent</h3>
+      <p>Ce couplage est piloté par une régulation intelligente qui choisit l'équipement le plus performant (ou le plus rentable) selon la température extérieure :</p>
+      <ul>
+        <li><strong>En mi-saison / Hiver doux (5°C à 15°C) :</strong> La pompe à chaleur fonctionne seule avec d'excellents rendements (COP élevé).</li>
+        <li><strong>Froid intense (en dessous de 0°C ou -5°C) :</strong> Le rendement de la PAC diminue. La régulation coupe la PAC et <strong>prend le relais avec la chaudière</strong>, ou bien les fait fonctionner en simultané selon le paramétrage.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        On appelle aussi ce fonctionnement le <strong>chauffage bivalent</strong> (ou hybride lorsque le système est vendu en une seule machine combinée). Conserver son ancienne chaudière permet souvent d'éviter de redimensionner ses vieux radiateurs en fonte.</p>
+      </blockquote>
+
+      <h2 id="avantages">Pourquoi garder son ancienne chaudière en appoint ?</h2>
+
+      <p>Bien que le démantèlement des chaudières fossiles soit encouragé pour la transition écologique, conserver un équipement existant en appoint présente de <strong>nombreux avantages très concrets</strong> :</p>
+
+      <h3>✅ Économies sur le coût d'installation</h3>
+      <p>Si vous gardez l'appoint chaudière, la pompe à chaleur n'a pas besoin de couvrir 100% de vos besoins thermiques. Vous pouvez ainsi acheter un <strong>modèle plus petit (moins puissant) et, surtout, moins cher</strong> de 3 000€ à 5 000€ par rapport à un modèle surdimensionné ou haute température.</p>
+
+      <h3>✅ Confort maximal en cas de grand froid</h3>
+      <p>Une pompe à chaleur air-eau puise ses calories dans l'air extérieur. Si l'air est à -10°C, elle peine à fournir de l'eau à haute température. En basculant sur le fioul ou le gaz par grand froid, <strong>vous garantissez à 100% le confort de votre maison</strong> sans solliciter les "résistances électriques" d'appoint, très gourmandes en énergie.</p>
+
+      <h3>✅ Évite le remplacement des vieux radiateurs</h3>
+      <p>Si vous habitez une maison mal isolée avec un ancien circuit de radiateurs en fonte haute température (qui ont besoin d'eau à 65°C-70°C), relier une PAC classique nécessitera parfois de changer tous vos émetteurs. Avec la chaudière en relève, c'est elle qui envoie du 70°C les jours très froids.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées d'installateurs qualifiés.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="limites">Les limites de la relève de chaudière</h2>
+
+      <p>Garder deux systèmes présente aussi quelques inconvénients qu'il faut absolument intégrer dans votre réflexion :</p>
+
+      <h3>❌ Le double entretien obligatoire</h3>
+      <p>Posséder une PAC et une chaudière gaz/fioul signifie <strong>deux entretiens annuels à payer</strong>. L'entretien obligatoire de la chaudière (150€ à 200€) et l'entretien obligatoire de la pompe à chaleur (150€ à 250€). Soit environ 400€ de frais fixes par an.</p>
+
+      <h3>❌ L'abonnement gaz à maintenir</h3>
+      <p>Si vous conservez une chaudière à gaz, vous devez payer l'<strong>abonnement annuel à votre distributeur</strong> tout au long de l'année (environ 250€/an), alors que vous ne consommerez très peu de gaz. C'est un surcoût fixe qu'il faut déduire des économies.</p>
+
+      <h3>❌ L'encombrement / Esthétique</h3>
+      <p>Garder la chaudière et rajouter les éléments d'une PAC (module hydraulique ou ballon tampon) demande de l'espace dans une chaufferie, un garage ou une buanderie. Cela peut vite devenir encombrant.</p>
+
+      <h2 id="prix">Prix et rentabilité d'une PAC en relève en 2026</h2>
+
+      <p>Voici une estimation des coûts d'une PAC classique installée en relève (couplée à votre chaudière existante) face à une solution de remplacement complet sans chaudière.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Solution choisie</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen TTC (pose comprise)</th>
+            <th style="padding: 12px; text-align: left;">Budget annuel de maintenance/abonnements</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Eau en Relève</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>8 000€ - 12 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Double entretien (~400€) + Abonnement Gaz possible</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC Air-Eau (Haute température) - Remplacement Total</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>14 000€ - 18 000€</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Abonnement électrique + Entretien PAC (200€)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Différence d'investissement</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>- 6 000€ en moyenne</strong></td>
+            <td style="padding: 12px;">Des frais d'usages plus importants.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ La fausse bonne idée de la chaudière vétuste</strong><br/>
+        Garder une chaudière de 5 ans en excellent état en relève a un sens financier. Garder une chaudière de 25 ans qui risque <strong>la panne totale l'hiver prochain</strong> n'est pas rentable. Si elle tombe en panne, votre PAC sous-dimensionnée ne saura plus chauffer votre maison.</p>
+      </blockquote>
+
+      <h2 id="aides">Quelles aides financières pour une installation en relève ?</h2>
+
+      <p>L'État adapte sans cesse les aides à la transition énergétique en fonction de l'abandon (ou non) des énergies fossiles. En 2026 :</p>
+
+      <ul>
+        <li><strong>Coup de pouce Chauffage (Primes CEE) :</strong> Cette aide de 2 500€ à 4 000€ est traditionnellement réservée aux foyers qui <strong>remplacent ou détruisent</strong> leur chaudière fioul/chardon/gaz (hormis chaudières à condensation). En la gardant en appoint, <strong>vous perdez souvent cette fameuse prime</strong> (Certificat de destruction obligatoire).</li>
+        <li><strong>MaPrimeRénov' 2026 :</strong> Renseignez-vous bien lors de l'établissement du devis. Garder une chaudière fossile en tant que relève peut disqualifier d'un certain barème MaPrimeRénov pour un changement de mode de chauffage si la chaudière est perçue comme un équipement principal qui n'est pas déposé.</li>
+      </ul>
+
+      <p>Pour mieux comprendre les conditions liées à la mise à la casse d'une ancienne chaudière, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet sur MaPrimeRénov' 2026</a> et lisez en détail les offres de Rénovation Globale qui obligent le retrait complet de la cuve à fioul par exemple.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil</th>
+            <th style="padding: 12px; text-align: center;">Montant MaPrimeRénov' (Installation PAC Air-Eau max accordé)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Bleu (très modeste)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Jaune (modeste)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Violet (intermédiaire)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Rose (aisé)</td>
+            <td style="padding: 12px; text-align: center;">0€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusion : l'installation en relève est-elle faite pour vous ?</h2>
+
+      <p>La relève de chaudière est <strong>un excellent compromis</strong> si vous habitez une maison mal isolée, située dans une région très froide (montagne ou Nord/Est de la France), et si votre chaudière actuelle a moins de 10 ans et marche parfaitement.</p>
+
+      <p>Notre conseil d'expert : si, à l'inverse, votre isolation de murs est au point, ou que vous souhaitez arrêter de subir l'envolée du coup de la taxe carbone du gaz, remplacez définitivement votre ancien système par un modèle de PAC de bonne qualité 100% électrique soutenu par toutes les aides nationales.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à lancer votre projet ?</strong><br/>
+        Les artisans de notre réseau sont disponibles dans votre ville et vous conseilleront en toute objectivité entre un remplacement sec et une offre hybride.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions sur la relève</h2>
+
+      <h3>Dois-je utiliser des radiateurs spécifiques avec une PAC en relève ?</h3>
+      <p>Non, l'immense intérêt de la relève de chaudière réside dans l'utilisation de vos radiateurs existants (même les radiateurs fontes dits "haute température"). La PAC chauffe l'eau à 40-50°C une bonne partie de l'année, et la chaudière s'enclenche pour monter l'eau à 65°C lors des épisodes les plus froids.</p>
+
+      <h3>Qu'appelle-t-on le point de bivalence ?</h3>
+      <p>Il s'agit de la température extérieure d'équilibre, souvent fixée entre -2°C et -5°C, à partir de laquelle la pompe à chaleur cède sa place, en tout ou en partie, pour confier la relève du cycle de chauffe à la chaudière fossile avec les meilleurs rendements.</p>
+
+      <h3>Une PAC en relève consomme-t-elle toujours plus qu'une pompe à chaleur dédiée ?</h3>
+      <p>Non. Au moment le plus froid de la courbe météo (soit 3 semaines dans l'année), solliciter une relève de chaudière dont on possède déjà l'instrument sera énergétiquement (et donc financièrement) plus rentable qu'utiliser brutalement des appoints électriques très gourmands sur un modèle 100% électrique mal calibré.</p>
+
+      <h3>Où trouver un artisan qui accepte de garder ma chaudière ?</h3>
+      <p>La grande majorité des plombiers-chauffagistes RGE sont formés au montage <i>bivalent</i>. Mais méfiez-vous des installeurs qui ne viennent que pour toucher la subvention CEE et vous "offrent" de vous débarrasser, quoiqu'il arrive, de la chaudière pour une prime maximum. Posez des questions concrètes lors des rendez-vous de devis gratuits !</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-02-21",
+    readingTime: "12 min",
+    image: "/images/blog/releve-chaudiere-pompe-a-chaleur-appoint.png"
+  },
+  {
     slug: "mise-aux-normes-tableau-electrique-prix",
     title: "Tableau électrique aux normes (NFC 15-100) : Prix d'une rénovation complète",
     excerpt: "Combien coûte la mise aux normes d'un tableau électrique en 2026 ? Découvrez les prix réels, les obligations de la norme NFC 15-100 et les aides disponibles pour votre rénovation électrique.",
