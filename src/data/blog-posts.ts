@@ -2,6 +2,409 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "baie-vitree-coulissante-alu-prix",
+    title: "Prix d'une baie vitrée coulissante alu : Standard vs Sur-mesure (2026)",
+    excerpt: "Combien coûte une baie vitrée coulissante en aluminium en 2026 ? Découvrez les prix réels, les différences entre modèles standard et sur-mesure, et toutes les aides disponibles pour réduire votre budget.",
+    content: `
+      <p><strong>Vous envisagez d'installer une baie vitrée coulissante en aluminium pour agrandir votre espace de vie et faire entrer la lumière ?</strong> Bonne nouvelle : c'est l'une des ouvertures les plus demandées en France, et les prix ont beaucoup évolué ces dernières années. Mais entre un modèle standard trouvé en grande surface de bricolage et une baie sur-mesure posée par un menuisier RGE, l'écart peut facilement aller du simple au triple.</p>
+
+      <p>Dans ce guide complet, nous vous détaillons les <strong>prix réels d'une baie vitrée coulissante alu en 2026</strong> — fourniture et pose comprises — selon la taille, la gamme (standard ou sur-mesure), et les options choisies. Nous vous expliquons aussi quelles aides financières peuvent alléger la facture.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions de menuisiers qualifiés près de chez vous pour votre baie vitrée coulissante alu.<br/>
+        <a href="/service/menuiserie-fenetres/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-standard">Prix d'une baie vitrée coulissante alu standard</a></li>
+        <li><a href="#prix-sur-mesure">Prix d'une baie vitrée sur-mesure en alu</a></li>
+        <li><a href="#comparatif">Comparatif Standard vs Sur-mesure</a></li>
+        <li><a href="#facteurs-prix">Les facteurs qui font varier le prix</a></li>
+        <li><a href="#materiaux">Alu vs PVC vs Bois : quel matériau choisir ?</a></li>
+        <li><a href="#vitrage">Quel vitrage choisir pour votre baie coulissante ?</a></li>
+        <li><a href="#aides">Aides financières disponibles en 2026</a></li>
+        <li><a href="#artisan">Comment choisir son menuisier ?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <h2 id="prix-standard">Prix d'une baie vitrée coulissante alu standard (2026)</h2>
+
+      <p>Un modèle <strong>"standard"</strong> désigne une baie vitrée aux dimensions courantes (souvent 215 x 240 cm ou 215 x 200 cm), fabriquée en série, disponible en stock chez les distributeurs et les grandes enseignes. Elle offre moins de liberté sur les dimensions et les coloris, mais son coût est nettement inférieur.</p>
+
+      <p>Voici les <strong>fourchettes de prix constatées en France en 2026</strong>, fourniture et pose d'un artisan incluses :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Dimension (L x H)</th>
+            <th style="padding: 12px; text-align: center;">Gamme entrée de gamme</th>
+            <th style="padding: 12px; text-align: center;">Gamme milieu de gamme</th>
+            <th style="padding: 12px; text-align: center;">Gamme haut de gamme</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>180 x 215 cm</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">900€ - 1 400€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 400€ - 2 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 000€ - 3 000€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>240 x 215 cm</strong> (la plus courante)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 200€ - 1 800€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 800€ - 2 600€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 600€ - 3 800€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>300 x 215 cm</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 500€ - 2 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 200€ - 3 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 200€ - 4 800€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>360 x 230 cm</strong></td>
+            <td style="padding: 12px; text-align: center;">1 900€ - 2 800€</td>
+            <td style="padding: 12px; text-align: center;">2 800€ - 4 000€</td>
+            <td style="padding: 12px; text-align: center;">4 000€ - 6 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Ces prix incluent la pose par un menuisier professionnel (comptez <strong>300€ à 600€ pour la main d'œuvre seule</strong>). La pose d'une baie vitrée est un travail technique qui nécessite un coffrage adapté, une étanchéité parfaite à l'air et à l'eau, et souvent des travaux de maçonnerie annexes. Ne confiez jamais cette pose à un bricoleur amateur.</p>
+      </blockquote>
+
+      <h2 id="prix-sur-mesure">Prix d'une baie vitrée coulissante alu sur-mesure (2026)</h2>
+
+      <p>Une baie vitrée <strong>sur-mesure</strong> est fabriquée selon les dimensions exactes de votre ouverture, avec des finitions et des options que vous choisissez entièrement : couleur du profil, type de vitrage, nombre de vantaux, intégration d'un volet roulant, seuil bas ou affleurant… C'est la solution incontournable pour les ouvertures atypiques ou les projets de création.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de configuration</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen TTC (fourniture + pose)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Baie sur-mesure 2 vantaux (petite surface)</strong> — moins de 4 m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1 800€ - 3 500€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Baie sur-mesure 2 vantaux (surface standard)</strong> — 4 à 6 m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>2 500€ - 5 000€</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Baie sur-mesure 3 vantaux (grande largeur)</strong> — 6 à 9 m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>4 000€ - 7 500€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Baie galandage sur-mesure</strong> (vantaux qui s'escamotent dans le mur)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>5 000€ - 12 000€</strong></td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Baie panoramique / Grand Angle</strong> (plus de 9 m²)</td>
+            <td style="padding: 12px; text-align: center;"><strong>7 000€ - 18 000€ et plus</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention aux devis "fourniture seule"</strong><br/>
+        De nombreux sites affichent des prix de baies vitrées hors pose. Un modèle affiché à <strong>800€</strong> en ligne peut facilement revenir à <strong>1 800€ - 2 500€</strong> avec la pose, le raccord de façade, l'étanchéité et les finitions intérieures. Demandez toujours un devis <strong>tout compris</strong>.</p>
+      </blockquote>
+
+      <h2 id="comparatif">Comparatif Standard vs Sur-mesure : que choisir ?</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Baie Standard</th>
+            <th style="padding: 12px; text-align: center;">Baie Sur-mesure</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prix</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Moins cher</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Plus cher (+30 à +80%)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Délai de livraison</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ 2 à 4 semaines</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ 6 à 12 semaines</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Choix des dimensions</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Limité (tailles catalogue)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Toutes dimensions</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Choix des coloris</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ 2 à 5 couleurs</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Toute la palette RAL</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Performance thermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Correcte (Uw 1,4 à 2,2)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Excellente (Uw dès 1,0)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Options (volet, seuil bas, etc.)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Limitées</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Illimitées</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Eligibilité aux aides (MaPrimeRénov')</strong></td>
+            <td style="padding: 12px; text-align: center;">⚠️ Sous conditions</td>
+            <td style="padding: 12px; text-align: center;">✅ Oui (si Uw ≤ 1,3)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Notre conseil</strong><br/>
+        Si votre ouverture est aux <strong>dimensions standard et que votre budget est serré</strong>, optez pour un modèle catalogue d'une bonne marque (Kline, Technal, Schüco distribués par des agences régionales). Si votre maison a des dimensions atypiques, ou que vous souhaitez des <strong>performances thermiques élevées et une intégration esthétique parfaite</strong>, le sur-mesure s'impose. L'investissement supplémentaire est souvent rentabilisé par les aides et les économies d'énergie.</p>
+      </blockquote>
+
+      <h2 id="facteurs-prix">Les facteurs qui font varier le prix d'une baie coulissante alu</h2>
+
+      <p>Le prix d'une baie vitrée coulissante en aluminium dépend de nombreux paramètres. Voici les principaux :</p>
+
+      <h3>1. La surface de la baie</h3>
+      <p>C'est le principal déterminant du prix. Plus la baie est grande, plus les profilés, les vitrages et la main d'œuvre sont importants. En règle générale, comptez <strong>400€ à 800€ par m²</strong> (fourniture + pose) pour un modèle milieu de gamme.</p>
+
+      <h3>2. Le nombre de vantaux</h3>
+      <p>Une baie à <strong>2 vantaux</strong> (le plus courant) est la moins chère. Une baie à <strong>3 vantaux</strong> (souvent pour des largeurs supérieures à 3,5 m) est plus complexe et coûteuse. La configuration <strong>3 rails</strong> (2 vantaux mobiles + 1 fixe) est un bon compromis performance/prix.</p>
+
+      <h3>3. La couleur du profil aluminium</h3>
+      <p>Le blanc (RAL 9016) reste le coloris le moins cher, souvent inclus dans le tarif de base. Les teintes <strong>sable, gris anthracite (RAL 7016) ou bi-coloration</strong> (couleur différente à l'intérieur et à l'extérieur) engendrent un surcoût de <strong>5 à 20%</strong>.</p>
+
+      <h3>4. Le vitrage choisi</h3>
+      <p>Un double vitrage standard (4/16/4 avec argon) est la base. Un <strong>triple vitrage</strong> ou un double vitrage renforcé (4/20/4 avec krypton) améliore l'isolation thermique et phonique, mais ajoute <strong>15 à 30%</strong> au prix. Voir notre section sur le vitrage ci-dessous.</p>
+
+      <h3>5. Les options et accessoires</h3>
+      <ul>
+        <li><strong>Volet roulant intégré</strong> (coffre en tableau) : +400€ à +900€ par vantail</li>
+        <li><strong>Volet roulant motorisé</strong> : +600€ à +1 500€ par vantail</li>
+        <li><strong>Seuil de plain-pied (seuil encastré)</strong> : +200€ à +500€ (travaux de maçonnerie inclus)</li>
+        <li><strong>Vitrage feuilleté anti-effraction</strong> (classe P2A) : +10 à +25% sur le vitrage</li>
+        <li><strong>Vitrage chauffant ou anti-solaire</strong> (contrôle solaire) : +15 à +30%</li>
+        <li><strong>Serrure multipoints</strong> (sécurité renforcée) : +100€ à +300€</li>
+      </ul>
+
+      <h3>6. La région et la complexité de pose</h3>
+      <p>Les tarifs de menuiserie sont <strong>15 à 25% plus élevés en Île-de-France</strong> qu'en province. La création d'une ouverture dans un mur porteur (linteau à poser) peut ajouter <strong>1 000€ à 3 000€</strong> de travaux supplémentaires (gros œuvre).</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Obtenez une estimation personnalisée</strong><br/>
+        Décrivez votre projet en 2 min et recevez des devis d'artisans locaux certifiés, sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="materiaux">Alu vs PVC vs Bois : pourquoi choisir l'aluminium ?</h2>
+
+      <p>L'aluminium s'est imposé comme le matériau de référence pour les grandes baies vitrées. Voici pourquoi, et comment il se compare à ses concurrents.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Aluminium</th>
+            <th style="padding: 12px; text-align: center;">PVC</th>
+            <th style="padding: 12px; text-align: center;">Bois</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prix moyen (240 x 215 cm)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1 800€ - 2 600€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>1 200€ - 2 000€</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>2 500€ - 4 500€</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Solidité / Grandes dimensions</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Excellent</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Limité au-delà de 3 m</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Bon</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Entretien</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Très faible</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Très faible</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Lasure / peinture régulière</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Esthétique / Finesse du profil</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Profils fins, moderne</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Profils plus épais</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Chaleureux, classique</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Performance thermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Très bon (rupture de pont thermique)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Excellent (naturellement isolant)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Excellent</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Durée de vie</strong></td>
+            <td style="padding: 12px; text-align: center;">40 à 60 ans</td>
+            <td style="padding: 12px; text-align: center;">30 à 40 ans</td>
+            <td style="padding: 12px; text-align: center;">40 à 60 ans (si entretenu)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour aller plus loin dans la comparaison des matériaux, consultez notre guide complet <a href="/blog/comparatif-fenetres-pvc-alu-bois-prix-performance">Fenêtres PVC, Alu ou Bois : comparatif des prix et performances</a>.</p>
+
+      <h2 id="vitrage">Quel vitrage choisir pour votre baie coulissante alu ?</h2>
+
+      <p>Le vitrage représente l'essentiel de la performance thermique et phonique de votre baie. Il génère aussi <strong>40 à 60% du coût</strong> de la fourniture. Voici les options disponibles :</p>
+
+      <h3>Double vitrage : la solution standard</h3>
+      <p>Le double vitrage (DVH) est aujourd'hui le minimum légalement requis. La configuration <strong>4/16/4 avec gaz argon</strong> offre un coefficient Uw global (baie + cadre) de <strong>1,3 à 1,8 W/m².K</strong> selon la qualité du cadre. C'est suffisant pour une maison bien isolée dans une région à climat tempéré.</p>
+
+      <h3>Triple vitrage : pour les régions froides ou labels HPE</h3>
+      <p>Le triple vitrage (TVH) ajoute une troisième feuille de verre, portant l'Uw à <strong>0,6 à 1,0 W/m².K</strong>. Il est recommandé pour :</p>
+      <ul>
+        <li>Les régions de montagne ou à hivers rigoureux</li>
+        <li>Les projets labellisés BBC Rénovation, RT 2012, RE 2020</li>
+        <li>Les baies très exposées au nord</li>
+      </ul>
+      <p>Son inconvénient : il est <strong>30 à 50% plus lourd</strong>, ce qui exige des ouvrants et des rails renforcés. Et il peut réduire légèrement les apports solaires passifs (intéressants en hiver).</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Double ou triple vitrage : quel est le bon choix ?</strong><br/>
+        Pour une baie vitrée coulissante alu, le triple vitrage est rarement nécessaire dans les zones climatiques tempérées (H2, H3). Un bon double vitrage 4/20/4 avec intercalaire à rupture de pont thermique est souvent plus rentable. Découvrez notre analyse complète dans l'article <a href="/blog/double-ou-triple-vitrage">Double ou triple vitrage : le vrai comparatif</a>.</p>
+      </blockquote>
+
+      <h2 id="aides">Aides financières pour votre baie vitrée coulissante en 2026</h2>
+
+      <p>Les aides à la rénovation énergétique peuvent considérablement alléger le coût de votre projet. Mais toutes les baies vitrées ne sont pas éligibles : il faut respecter des critères de performance précis.</p>
+
+      <h3>MaPrimeRénov' 2026</h3>
+      <p>La baie vitrée coulissante en aluminium peut être éligible à <strong>MaPrimeRénov'</strong> si :</p>
+      <ul>
+        <li>Le coefficient de transmission thermique de la fenêtre complète est <strong>Uw ≤ 1,3 W/m².K</strong></li>
+        <li>Le facteur solaire est <strong>Sw ≤ 0,36</strong> (pour les zones très ensoleillées, zone H3)</li>
+        <li>Les travaux sont réalisés par un artisan <strong>RGE (Reconnu Garant de l'Environnement)</strong></li>
+      </ul>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Profil de revenus</th>
+            <th style="padding: 12px; text-align: center;">Aide MaPrimeRénov' (remplacement fenêtre)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ménage très modeste (Bleu)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>100€/m² de vitrage</strong> (plafonné)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ménage modeste (Jaune)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>75€/m² de vitrage</strong></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ménage intermédiaire (Violet)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>40€/m² de vitrage</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Ménage aisé (Rose)</td>
+            <td style="padding: 12px; text-align: center;"><strong>Non éligible</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Exemple d'économie</strong><br/>
+        Pour une baie vitrée 240 x 215 cm (soit environ <strong>5,16 m² de vitrage</strong>), un ménage modeste (profil Jaune) peut percevoir :<br/><br/>
+        <strong>5,16 m² × 75€ = 387€ d'aide MaPrimeRénov'</strong><br/>
+        À cumuler avec la TVA réduite à 5,5% sur la fourniture et la pose (logement de plus de 2 ans).<br/>
+        Sur une baie à <strong>2 500€ TTC</strong>, la TVA à 5,5% au lieu de 20% représente une économie de <strong>~360€</strong>.</p>
+      </blockquote>
+
+      <h3>Prime CEE (Certificats d'Économies d'Énergie)</h3>
+      <p>La fiche CEE BAR-EN-104 (fenêtres et portes-fenêtres) permet d'obtenir une prime de la part des fournisseurs d'énergie. Cette prime est <strong>cumulable avec MaPrimeRénov'</strong> et peut apporter <strong>50€ à 200€ supplémentaires</strong> selon votre dossier et votre région. Voir notre guide sur les <a href="/blog/prime-cee-comment-ca-marche-cumul">Primes CEE : comment ça marche et comment les cumuler</a>.</p>
+
+      <h3>TVA réduite à 5,5%</h3>
+      <p>Pour tous les logements de plus de 2 ans, la fourniture et la pose par un professionnel d'une baie vitrée performante (Uw ≤ 1,3 W/m².K) bénéficient de la <strong>TVA à 5,5%</strong> au lieu de 20%. C'est automatique : votre artisan RGE l'applique directement sur votre facture. Sur une baie à 3 000€ HT, vous économisez environ <strong>435€ de TVA</strong>.</p>
+
+      <p>Pour un tour d'horizon complet des aides disponibles pour vos travaux, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a>.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Pour bénéficier des aides, travaillez obligatoirement avec un artisan RGE</strong><br/>
+        Les menuisiers certifiés RGE sont formés aux exigences thermiques et vous remettent les documents nécessaires (attestation de valeur thermique) pour constituer votre dossier d'aide.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Trouver un menuisier RGE près de chez moi →</a></p>
+      </blockquote>
+
+      <h2 id="artisan">Comment bien choisir son menuisier pour une baie vitrée alu ?</h2>
+
+      <p>L'installation d'une baie vitrée coulissante est un travail minutieux. Une pose mal réalisée entraîne des infiltrations d'eau, de l'air, du bruit et une perte de performance thermique. Voici les critères essentiels :</p>
+
+      <h3>Les certifications à demander</h3>
+      <ul>
+        <li><strong>Label RGE (Qualibat ou equivalents)</strong> : indispensable pour bénéficier de MaPrimeRénov' et des CEE</li>
+        <li><strong>Assurance décennale en cours de validité</strong> : demandez systématiquement l'attestation. Elle couvre les infiltrations et les défauts de pose pendant 10 ans</li>
+        <li><strong>Garantie de parfait achèvement (1 an)</strong> : couvre tous les désordres signalés dans l'année suivant la réception</li>
+      </ul>
+
+      <h3>Les bons réflexes avant de signer</h3>
+      <ul>
+        <li><strong>Demandez 3 devis</strong> : comparez les Uw des vitrages, les systèmes de rail, les marques de profilés — pas uniquement les prix</li>
+        <li><strong>Vérifiez le Uw annoncé</strong> : il doit figurer sur une fiche technique officielle (pas seulement sur une promesse commerciale)</li>
+        <li><strong>Posez des questions sur l'étanchéité</strong> : un bon artisan vous proposera un fond de joint, un rejingot et un raccord d'étanchéité intérieur/extérieur</li>
+        <li><strong>Renseignez-vous sur les marques</strong> : Technal, Kline, Schüco, Wicona, Reynaers sont les références du marché français de l'aluminium architectural</li>
+      </ul>
+
+      <h2>Conclusion : quel budget prévoir pour votre baie vitrée coulissante alu ?</h2>
+
+      <p>Pour une baie vitrée coulissante en aluminium aux dimensions standards (240 x 215 cm), prévoyez en moyenne :</p>
+      <ul>
+        <li><strong>Entrée de gamme (standard, pose comprise) :</strong> 1 200€ à 1 800€</li>
+        <li><strong>Milieu de gamme (standard ou sur-mesure, bon Uw) :</strong> 1 800€ à 3 000€</li>
+        <li><strong>Haut de gamme (sur-mesure, triple vitrage, grandes dimensions) :</strong> 3 000€ à 7 000€ et au-delà</li>
+      </ul>
+
+      <p>Notre conseil d'expert : ne sacrifiez pas les performances thermiques pour réduire le budget. Un Uw 1,1 au lieu de 1,8 peut vous faire économiser <strong>100 à 150€ par an</strong> sur vos factures de chauffage, et vous ouvre droit à des aides qui financent une partie de l'écart de prix. Choisissez aussi systématiquement un artisan RGE avec assurance décennale — c'est votre seule garantie en cas de problème d'infiltration ou de condensation dans les années qui suivent.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à lancer votre projet de baie vitrée ?</strong><br/>
+        Les menuisiers de notre réseau sont certifiés RGE et disponibles dans votre ville. Comparez leurs devis en toute transparence.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Baie vitrée coulissante alu prix</h2>
+
+      <h3>Quel est le prix moyen d'une baie vitrée coulissante en aluminium en 2026 ?</h3>
+      <p>Pour une baie aux dimensions standards (240 x 215 cm), le prix moyen est de <strong>1 800€ à 2 600€ TTC pose comprise</strong> pour un modèle milieu de gamme. Les modèles entrée de gamme débutent à 1 200€ et les configurations sur-mesure haut de gamme peuvent dépasser 6 000€.</p>
+
+      <h3>Quelle est la différence de prix entre une baie standard et une baie sur-mesure ?</h3>
+      <p>Une baie sur-mesure coûte généralement <strong>30 à 80% de plus</strong> qu'un modèle standard aux dimensions proches. La différence se justifie par la fabrication, les délais plus longs et la qualité des matériaux souvent supérieure. Mais le sur-mesure permet aussi d'accéder à de meilleures performances thermiques et à plus d'aides.</p>
+
+      <h3>Une baie vitrée coulissante alu est-elle éligible à MaPrimeRénov' ?</h3>
+      <p>Oui, si son coefficient thermique <strong>Uw ≤ 1,3 W/m².K</strong> et si elle est posée par un artisan <strong>RGE</strong>. L'aide varie de 40€ à 100€/m² de vitrage selon vos revenus. Les ménages aisés (profil rose) ne sont pas éligibles.</p>
+
+      <h3>Alu ou PVC : quel matériau est le moins cher ?</h3>
+      <p>Le PVC est généralement <strong>15 à 30% moins cher</strong> que l'aluminium à performances équivalentes. Mais l'aluminium s'impose pour les grandes baies (rigidité) et esthétiquement pour les architectures modernes. À long terme, l'aluminium est aussi plus durable (40 à 60 ans contre 30 à 40 ans pour le PVC).</p>
+
+      <h3>Combien de temps dure la pose d'une baie vitrée coulissante ?</h3>
+      <p>La pose par un menuisier professionnel prend généralement <strong>une demi-journée à une journée entière</strong> pour une baie standard. Si la pose implique la création d'une ouverture dans un mur (linteau + maçonnerie), comptez <strong>2 à 3 jours</strong> de travaux au total.</p>
+
+      <h3>Faut-il un permis de construire pour installer une baie vitrée ?</h3>
+      <p>Pour un <strong>remplacement à l'identique</strong> (même emplacement, même surface), aucune autorisation n'est requise. Si vous créez une nouvelle ouverture ou modifiez l'aspect extérieur du bâtiment, une <strong>déclaration préalable de travaux</strong> en mairie est nécessaire. En secteur protégé ou en copropriété, des autorisations supplémentaires peuvent s'appliquer.</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-02-21",
+    readingTime: "13 min",
+    image: "/images/blog/baie-vitree-coulissante-alu-prix.png"
+  },
+  {
     slug: "releve-chaudiere-pompe-a-chaleur-appoint",
     title: "La relève de chaudière : Garder son ancienne chaudière en appoint de la PAC ?",
     excerpt: "Faut-il remplacer totalement son ancienne chaudière ou la garder en relève d'une pompe à chaleur ? Découvrez les prix, avantages et aides prévues en 2026.",
