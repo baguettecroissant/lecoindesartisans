@@ -2,6 +2,178 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "volet-roulant-solaire-prix",
+    title: "Volets Roulants Solaires : Prix, installation et avantages (Somfy, Velux...)",
+    excerpt: "Combien coûte un volet roulant solaire en 2026 ? Découvrez les vrais prix (pose comprise), les meilleures marques comme Somfy et Velux, et les aides financières disponibles pour votre projet.",
+    content: `
+      <p><strong>Vous envisagez d'installer des volets roulants mais vous redoutez les gros travaux liés au raccordement électrique ?</strong> Le volet roulant solaire est la solution idéale. Totalement autonome, il fonctionne grâce à l'énergie solaire captée par un petit panneau intégré à son coffre, sans avoir besoin d'être relié au réseau électrique de votre maison. Mais à quel prix ?</p>
+
+      <p>Dans ce guide complet mis à jour pour <strong>2026</strong>, nous décryptons le <strong>prix d'un volet roulant solaire</strong> (fourniture et pose), les meilleures marques du marché (Somfy, Velux, Bubendorff) et toutes les aides de l'État pour alléger votre budget.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions de menuisiers près de chez vous pour l'installation de vos volets roulants solaires.<br/>
+        <a href="/service/menuiserie-fenetres/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#prix-volet-solaire">Quel est le prix d'un volet roulant solaire en 2026 ?</a></li>
+        <li><a href="#facteurs-prix">Les facteurs qui font varier le coût</a></li>
+        <li><a href="#avantages">Pourquoi choisir un volet avec panneau solaire ?</a></li>
+        <li><a href="#marques">Somfy vs Velux vs Bubendorff : Le comparatif</a></li>
+        <li><a href="#installation">Pose : Faut-il le faire soi-même ou appeler un pro ?</a></li>
+        <li><a href="#aides">Les aides financières disponibles (TVA, MaPrimeRénov')</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="prix-volet-solaire">Quel est le prix d'un volet roulant solaire en 2026 ?</h2>
+
+      <p>Le marché du volet solaire a explosé, ce qui a permis une baisse relative des prix malgré l'inflation. Aujourd'hui, on considère que le <strong>prix d'un volet roulant solaire pose comprise se situe entre 500€ et 1 200€</strong> par fenêtre, selon les dimensions et la marque.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Matériau & Dimension</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen Fourniture (TTC)</th>
+            <th style="padding: 12px; text-align: center;">Prix avec Pose par un Pro (TTC)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Volet PVC (Fenêtre standard 120x120cm)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">350€ - 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">500€ - 750€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Volet Alu (Fenêtre standard 120x120cm)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">450€ - 700€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">600€ - 950€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Volet Alu (Porte-fenêtre 215x120cm)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">600€ - 850€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">800€ - 1 100€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Volet Alu (Baie vitrée 215x240cm)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">800€ - 1 300€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 000€ - 1 600€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Volet pour fenêtre de toit (type Velux)</strong></td>
+            <td style="padding: 12px; text-align: center;">550€ - 800€</td>
+            <td style="padding: 12px; text-align: center;">750€ - 1 050€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        À l'achat, un volet solaire est environ <strong>20 à 30% plus cher</strong> qu'un volet roulant électrique filaire classique. Cependant, l'absence de raccordement électrique divise le temps (et le coût) de la pose par deux ! Au final, le budget total (fourniture + installation) est souvent équivalent ou même inférieur au filaire s'il fallait créer des saignées dans les murs.</p>
+      </blockquote>
+
+      <h2 id="facteurs-prix">Les facteurs qui font varier le coût</h2>
+
+      <p>Plusieurs éléments viennent impacter le devis final pour l'équipement de votre maison :</p>
+
+      <ul>
+        <li><strong>Le matériau (PVC ou Aluminium) :</strong> Le PVC est moins onéreux et offre une très bonne isolation (idéal pour compléter un <a href="/blog/double-ou-triple-vitrage">double vitrage performant</a>). L'aluminium est plus cher, mais il est obligatoire pour les grandes dimensions (baies vitrées) grâce à sa rigidité, et offre un gande durée de vie (idéal si vous prévoyez d'assortir vos volets avec de nouvelles <a href="/blog/comparatif-fenetres-pvc-alu-bois-prix-performance">fenêtres Alu</a>).</li>
+        <li><strong>Les dimensions :</strong> Les volets sur-mesure ou destinés aux grandes ouvertures exigent des moteurs solaires plus puissants et un tablier renforcé.</li>
+        <li><strong>La marque du moteur :</strong> Les moteurs solaires Somfy ou Bubendorff sont réputés pour leur très haute fiabilité et sont logiquement plus chers que les marques génériques de GSB (Grandes Surfaces de Bricolage).</li>
+        <li><strong>Les options de domotique :</strong> L'ajout d'une box domotique (type Tahoma de Somfy ou iDiamant de Bubendorff) pour piloter vos volets depuis votre smartphone ajoute entre 150€ et 250€ au budget global.</li>
+      </ul>
+
+      <h2 id="avantages">Pourquoi choisir un volet avec panneau solaire ?</h2>
+
+      <p>La part de marché du solaire ne cesse de grimper chez les menuisiers, et ce n'est pas un hasard. Voici ses atouts majeurs :</p>
+
+      <h3>1. Une installation sans dégâts (0% travaux lourds)</h3>
+      <p>C'est l'argument numéro un. Pour un volet électrique classique, l'artisan doit percer vos murs, tirer des câbles jusqu'au tableau électrique et poser des goulottes ou creuser des saignées. Avec le volet solaire, le moteur est alimenté par une batterie située dans le coffre, elle-même rechargée par la lumière du jour. <strong>Résultat : aucune dégradation de la décoration intérieure.</strong></p>
+
+      <h3>2. Fonctionne même en cas de coupure de courant</h3>
+      <p>Puisqu'il est autonome, le tablier continue de pouvoir être ouvert ou fermé via sa télécommande radio même si le réseau Enedis est en panne. Une sécurité très appréciable lors de tempêtes hivernales.</p>
+
+      <h3>3. Fonctionne PARTOUT, même au nord ou par temps gris</h3>
+      <p>C'est une idée reçue tenace : non, le volet n'a pas besoin de grand soleil plein sud pour se recharger ! Les panneaux photovoltaïques modernes captent les <strong>rayonnements infrarouges (ou la luminosité diffuse)</strong> de la lumière du jour. Votre volet fonctionne parfaitement au nord, en hiver et même dans les régions du nord de la France.</p>
+
+      <h3>4. 100% énergie verte (Autonomie de 30 a 45 jours)</h3>
+      <p>Une fois complètement chargée, la batterie d'un volet roulant offre environ 45 jours d'autonomie (sur la base de 2 montées et 2 descentes par jour), dans le noir le plus complet. La consommation énergétique du système est donc neutre sur votre facture.</p>
+
+      <h2 id="marques">Somfy vs Velux vs Bubendorff : Le comparatif</h2>
+
+      <p>Si vous choisissez d'équiper votre maison, nous vous conseillons vivement d'opter pour une grande marque. Le moteur et la batterie étant soumis au froid et à la chaleur, la fiabilité est primordiale.</p>
+
+      <h3>Somfy : Le leader de la motorisation</h3>
+      <p>Avec ses moteurs Oximo WireFree, l'entreprise française est la référence. Les moteurs Somfy sont compatibles avec la box domotique TaHoma, permettant de créer des scénarios intelligents (ex: fermeture automatique en été quand la température monte). Leurs panneaux photovoltaïques sont très fins et esthétiques.</p>
+
+      <h3>Bubendorff : La garantie ultime (10 ans)</h3>
+      <p>Bubendorff est le pionnier historique du volet roulant solaire en France. Son grand point fort ? La marque offre une <strong>garantie de 7 à 10 ans pièces, main d'œuvre et déplacement incluant la batterie et le panneau solaire !</strong> Un argument de poids face à la concurrence.</p>
+
+      <h3>Velux : Le roi de la fenêtre de toit</h3>
+      <p>Pour les combles, Velux est incontournable. Leurs volets solaires (gamme SSL) s'installent facilement sur des fenêtres de toit Velux existantes sans aucun passage de câble. Idéal pour gagner en isolation thermique l'été sous les toits.</p>
+
+      <h2 id="installation">Pose : Faut-il le faire soi-même ou appeler un pro ?</h2>
+
+      <p>L'absence de raccordement électrique au 230V rend le volet roulant solaire bien plus facile à poser qu'un modèle filaire. Les bons bricoleurs peuvent acheter des volets en kit et les fixer eux-mêmes.</p>
+
+      <p>Cependant, <strong>faire appel à un menuisier professionnel est fortement recommandé pour plusieurs raisons :</strong></p>
+      <ul>
+        <li><strong>L'étanchéité :</strong> La pose en tableau ou en façade doit être parfaitement scellée pour éviter les ponts thermiques ou les infiltrations d'eau.</li>
+        <li><strong>La garantie :</strong> La plupart des fabricants (notamment Bubendorff) exigent une pose par un professionnel pour activer la garantie longue durée globale.</li>
+        <li><strong>Le réglage des fins de course :</strong> Le paramétrage du moteur pour qu'il s'arrête exactement au bon endroit en haut et en bas demande un certain savoir-faire.</li>
+        <li><strong>Les Aides financières :</strong> C'est le point clé. Vous ne pouvez bénéficier de la TVA réduite et des primes que si un artisan RGE fournit ET pose le matériel.</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Obtenez une estimation personnalisée</strong><br/>
+        Décrivez votre projet en 2 min et recevez des devis de pros près de chez vous, sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="aides">Les aides financières disponibles (TVA, MaPrimeRénov')</h2>
+
+      <p>Installer des volets roulants permet d'améliorer l'isolation de vos <a href="/blog/comparatif-fenetres-pvc-alu-bois-prix-performance">fenêtres</a>. C'est pourquoi l'État propose des dispositifs pour réduire la facture :</p>
+
+      <h3>La TVA réduite à 5,5%</h3>
+      <p>Pour l'achat et la pose de volets isolants par un professionnel dans un logement construit depuis plus de 2 ans, la TVA appliquée est de 5,5% au lieu de 20%. Cette réduction directe peut vous faire économiser une somme conséquente (environ 145€ d'économie sur un devis de 1 000€ HT).</p>
+
+      <h3>L'Eco-Prêt à Taux Zéro (Eco-PTZ)</h3>
+      <p>Si vous financez vos travaux, vous pouvez emprunter sans payer aucun intérêt bancaire, pour financer l'installation, a condition que les volets assurent une isolation thermique suffisante du vitrage l'hiver.</p>
+
+      <h3>MaPrimeRénov'</h3>
+      <p>Attention : l'installation de volets roulants seuls <strong>n'est plus éligible directement</strong> à <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov'</a> comme un geste seul depuis quelques temps (hormis Outre-Mer dans certains cas). En revanche, ils peuvent être inclus dans le financement global si vous réalisez une <em>rénovation d'ampleur</em> (par exemple : Isolation + Pompe à chaleur + Changement complet des fenêtres et des volets) sous l'égide du Parcours Accompagné.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Condition indispensable pour les aides</strong><br/>
+        Le volet doit justifier d'une résistance additionnelle apportée (ΔR) supérieure à 0,22 m².K/W, et la facture doit impérativement être éditée par un installateur certifié <strong>RGE (Reconnu Garant de l'Environnement)</strong>.</p>
+      </blockquote>
+
+      <h2>Conclusion : Investissement rentable ou non ?</h2>
+
+      <p>Oui, très rentable à condition de calculer son budget intelligemment. Si votre décoration intérieure est neuve et que vous n'avez pas de gaines encastrées, le surcoût matériel de 150€ à 200€ par rapport à de l'électrique filaire est quasi immédiatement compensé par le gain sur la main d'œuvre du plaquiste, du peintre et de l'électricien. La motorisation solaire devient aujourd'hui <strong>la norme plutôt que l'exception sur le marché de la rénovation</strong>.</p>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes sur les volets solaires</h2>
+
+      <h3>Combien de temps dure la batterie d'un volet solaire ?</h3>
+      <p>Les batteries modernes en Nickel-Métal Hydrure (Ni-MH) ont une durée de vie moyenne très appréciable, estimée entre <strong>8 et 12 ans</strong>. Le remplacement de la batterie est très facile, il faut compter environ 60€ à 90€ la pièce selon la marque.</p>
+
+      <h3>Faut-il nettoyer le panneau solaire ?</h3>
+      <p>Oui, un simple coup de chiffon humide une à deux fois par an (souvent lors du nettoyage de printemps de vos fenêtres) suffit à ôter la poussière et les pollens, permettant au panneau de conserver 100% de son efficacité de rechargement.</p>
+
+      <h3>Est-ce que ça marche la nuit ou les jours de pluie ?</h3>
+      <p>Bien sûr ! La batterie stocke assez d'énergie pour faire monter et descendre complètement le volet pendant 45 jours sans une once de lumière du soleil. De plus, la simple lumière du jour (même derrière des gros nuages gris avec de la pluie) suffit à assurer l'appoint quotidien d'énergie nécessaire au moteur.</p>
+
+      <h3>Peut-on motoriser en solaire un ancien volet manuel (à manivelle) ?</h3>
+      <p>Tout à fait. C'est ce que l'on appelle un <strong>kit de motorisation solaire de rénovation</strong>. Votre installateur ne changera que l'axe (le tube), enfilera le moteur tubulaire à l'intérieur, fixera le panneau avec deux rivets et la batterie. Cela permet de diviser le coût presque par deux puisque vous conservez vos lames en PVC ou Aluminium si elles sont encore en bon état ! Prix moyen : 350 à 450€ pose comprise.</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-02-22",
+    readingTime: "10 min",
+    image: "/images/blog/volet-roulant-solaire-prix.png"
+  },
+
+  {
     slug: "baie-vitree-coulissante-alu-prix",
     title: "Prix d'une baie vitrée coulissante alu : Standard vs Sur-mesure (2026)",
     excerpt: "Combien coûte une baie vitrée coulissante en aluminium en 2026 ? Découvrez les prix réels, les différences entre modèles standard et sur-mesure, et toutes les aides disponibles pour réduire votre budget.",
