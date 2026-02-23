@@ -2,6 +2,162 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "reception-chantier-reserves-guide",
+    title: "Réception de chantier : Comment faire des réserves ? (Procès-verbal)",
+    excerpt: "Découvrez comment bien préparer votre réception de chantier, formuler vos réserves sur le PV et sécuriser vos travaux avec notre guide expert 2026.",
+    content: `
+      <p><strong>La fin de vos travaux de rénovation ou de construction approche à grands pas ?</strong> Ce moment tant attendu, où l'artisan vous remet enfin les clés, est crucial. Pourtant, beaucoup de propriétaires l'abordent avec appréhension, craignant de rater des malfaçons ou des défauts de finition. La <strong>réception de chantier</strong> n'est pas une simple formalité : c'est l'acte juridique qui transfère la garde de l'ouvrage et fait démarrer vos garanties.</p>
+
+      <p>Dans ce guide complet mis à jour pour <strong>2026</strong>, nous détaillons les étapes pour réussir votre réception de chantier, comment consigner avec précision des réserves sur le procès-verbal (PV), et quelles actions entreprendre en cas de désaccord avec votre entrepreneur.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'artisans qualifiés près de chez vous pour vos futurs travaux de rénovation.<br/>
+        <a href="/service/renovation-globale/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#definition">Qu'est-ce que la réception de chantier et les réserves ?</a></li>
+        <li><a href="#preparation">Comment bien préparer votre visite de réception ?</a></li>
+        <li><a href="#consignation-pv">Comment consigner les réserves sur le Procès-Verbal (PV) ?</a></li>
+        <li><a href="#delais-levee">Délais et levée des réserves : retenue de garantie</a></li>
+        <li><a href="#litige">Que faire en cas de litige ou refus de signature ?</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="definition">Qu'est-ce que la réception de chantier et les réserves ?</h2>
+
+      <p>La réception de chantier est régie par l'article 1792-6 du Code de la santé et civil. C'est le moment officiel où vous (le "maître d'ouvrage") acceptez les travaux réalisés par l'entreprise (le "constructeur"), avec ou sans réserves.</p>
+
+      <p>Émettre des <strong>réserves</strong> signifie que vous signalez par écrit sur le procès-verbal (PV) de réception tous les défauts, malfaçons, non-façons (travaux prévus mais non exécutés) ou non-conformités par rapport au devis initial ou aux règles de l'art.</p>
+
+      <h3>Les garanties qui démarrent</h3>
+      <p>Dès la signature du PV de réception, trois garanties majeures entrent en vigueur :</p>
+      <ul>
+        <li><strong>La garantie de parfait achèvement (1 an) :</strong> Couvre tous les désordres signalés sur le PV et ceux apparaissant dans l'année.</li>
+        <li><strong>La garantie biennale (2 ans) :</strong> Concerne les équipements dissociables du gros œuvre (plomberie, portes intérieures, etc.).</li>
+        <li><strong>La garantie décennale (10 ans) :</strong> Couvre les dommages compromettant la solidité de l'ouvrage ou le rendant impropre à sa destination.</li>
+      </ul>
+
+      <h2 id="preparation">Comment bien préparer votre visite de réception (Checklist) ?</h2>
+
+      <p>Une réception de chantier ne se fait pas à la hâte en 15 minutes. Bloquez au minimum une demi-journée. Voici les outils indispensables à avoir le jour J :</p>
+      <ul>
+        <li>Le <strong>devis signé</strong> et les éventuels avenants (pour vérifier la conformité)</li>
+        <li>Un <strong>appareil photo</strong> ou votre smartphone bien chargé</li>
+        <li>Une lampe torche</li>
+        <li>Un mètre ruban, un niveau à bulle, une équerre</li>
+        <li>Un chargeur de téléphone (pour tester toutes les prises de courant)</li>
+        <li>Des post-it (pour marquer physiquement les défauts)</li>
+      </ul>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Point de vérification</th>
+            <th style="padding: 12px; text-align: left;">Ce qu'il faut contrôler spécifiquement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Plomberie et sanitaires</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ouvrez tous les robinets brusquement (pression et fuites). Tirez les chasses d'eau. Regardez sous les éviers.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Électricité</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Testez toutes les prises, actionnez tous les interrupteurs. Vérifiez le tableau électrique.</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Menuiseries</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Ouvrez et fermez toutes les portes et fenêtres. Vérifiez les joints, les vitrages (rayures) et le fonctionnement des volets roulants.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Finitions et revêtements</strong></td>
+            <td style="padding: 12px;">Passez la main sur les murs, cherchez des jours sous les plinthes, des carreaux fissurés ou sonnant creux.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="consignation-pv">Comment consigner les réserves sur le Procès-Verbal (PV) ?</h2>
+
+      <p>La formulation est primordiale pour faire valoir vos droits. Ne vous contentez pas d'inscriptions subjectives.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ La règle d'or de la consignation</strong><br/>
+        Soyez <strong>précis, factuel et exhaustif</strong>. Un commentaire comme "finitions à revoir" n'a aucune valeur juridique. Écrivez plutôt : "Peinture écaillée au-dessus de la plinthe du mur Ouest du salon sur 15cm" ou "Absence du sèche-serviettes Acova prévu au devis dans la salle de bain du RDC".</p>
+      </blockquote>
+
+      <p>Le PV de réception doit impérativement comporter :</p>
+      <ul>
+        <li>La date de la réception</li>
+        <li>L'adresse du chantier</li>
+        <li>Les noms et signatures du maître d'ouvrage (vous) et de l'entrepreneur</li>
+        <li>La décision : réception avec réserves, sans réserves, ou refus de réception</li>
+        <li>La liste détaillée numérotée des réserves (pouvant être une annexe signée)</li>
+        <li>Le délai accordé pour lever chaque réserve (par exemple, 15, 30 ou 60 jours)</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Quel budget pour votre projet ?</strong><br/>
+        Décrivez votre projet en 2 min et recevez des estimations personnalisées d'artisans compétents.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="delais-levee">Les délais et la levée des réserves (La retenue de 5%)</h2>
+
+      <p>Que se passe-t-il après la signature ? Si vous avez émis des réserves, vous êtes en droit, selon la loi de 1971, de consigner jusqu'à <strong>5 % du montant total du marché</strong> (sous réserve de l'avoir prévu au contrat ou dans le devis). Cette somme servira de garantie contre le constructeur s'il ne vient pas corriger les défauts.</p>
+
+      <h3>Le délai de 8 jours (Loi Spinetta)</h3>
+      <p>Si vous êtes un particulier (maître d'ouvrage) réalisant la réception <strong>sans l'assistance d'un professionnel habilité</strong> (architecte, maître d'œuvre, contrôleur technique), la loi vous accorde un <strong>délai supplémentaire de 8 jours</strong> à compter de la remise des clés de l'ouvrage pour dénoncer des vices apparents qui auraient échappé à votre vigilance lors de la première inspection.</p>
+      <p>Ces réserves additionnelles doivent être notifiées impérativement à l'entreprise par lettre recommandée avec accusé de réception (LRAR).</p>
+
+      <h3>Le PV de levée des réserves</h3>
+      <p>Une fois que l'entrepreneur a corrigé tous les défauts listés, une nouvelle réunion est programmée. Vous devez <strong>signer un PV de levée des réserves</strong>. C'est ce document qui certifie que tout est en ordre et qui oblige au paiement du solde de 5 % préalablement consigné.</p>
+
+      <h2 id="litige">Que faire en cas de litige ou refus de signature ?</h2>
+
+      <p>Il arrive que la tension monte et que l'entrepreneur refuse de signer le PV de réception avec vos réserves. Dans cette situation :</p>
+
+      <ol>
+        <li><strong>Vous prenez quand même possession des lieux (réception tacite) :</strong> Effectuez un virement amputé des 5 % si possible, et notifiez toutes vos réserves immédiatement par LRAR. Attention, cette situation est déconseillée car souvent ambiguë.</li>
+        <li><strong>Vous refusez la réception de l'ouvrage :</strong> C'est la solution ultime en cas de malfaçons extrêmes compromettant la solidité, ou quand le chantier est inachevé. Le contrat n'est pas soldé. Envoyez une mise en demeure d'achever les travaux par LRAR.</li>
+      </ol>
+
+      <p>Si l'artisan fait la sourde oreille pour lever des réserves, commencez par une mise en demeure. Sans réaction dans un délai imparti, l'article 1792-6 vous autorise (après mise en demeure infructueuse) à faire exécuter les travaux de reprise par <strong>une autre entreprise de votre choix, aux frais et risques de l'entrepreneur défaillant</strong>. Les fonds consignés serviront à financer cette intervention.</p>
+
+      <h2>Conclusion : Exigence et dialogue</h2>
+
+      <p>La réception de chantier est un équilibre entre fermeté et dialogue constructif. Ne soyez pas intimidé, c'est de votre argent et de votre maison qu'il s'agit. Soyez méticuleux lors de votre visite, notez le moindre défaut, mais acceptez aussi qu'un chantier n'est presque jamais "zéro défaut" lors de la première inspection. Les artisans sérieux se feront un point d'honneur à lever vos réserves rapidement pour clore proprement le dossier de paiement.</p>
+
+      <p>Si vous envisagez des travaux de réfection après plusieurs mauvaises expériences, il est essentiel de s'appuyer sur des professionnels référencés qui sauront vous assurer tranquillité d'esprit et suivi pointu.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à lancer votre projet l'esprit léger ?</strong><br/>
+        Les artisans de notre réseau sont certifiés, expérimentés et disponibles dans votre ville.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes</h2>
+
+      <h3>La retenue de 5% est-elle automatique et obligatoire ?</h3>
+      <p>Non. Elle doit figurée obligatoirement dans les conditions générales ou le contrat initial signé par l'entreprise. En son absence contractuelle, la consignation n’est théoriquement pas acquise de plein droit sans l'accord de l'artisan. Ne la déduisez pas "sauvagement" sans l’avoir préalablement formalisée.</p>
+
+      <h3>Peut-on habiter dans la maison si l'on a émis des réserves ?</h3>
+      <p>Absolument. La réception avec réserves permet la "prise de possession" de l'ouvrage. C'est notamment pour cela qu'elle reste la procédure conseillée par rapport à un refus de réception brutal qui empêcherait la remise des clés.</p>
+
+      <h3>Quelle différence y a-t-il entre réception expresse et réception tacite ?</h3>
+      <p>La réception expresse est celle matérialisée par la signature d'un PV conjoint. La réception tacite est reconnue par le juge lorsque le propriétaire prend possession des lieux et paie la quasi-totalité de la facture sans formuler de réserves, signifiant sa volonté d'accepter l'ouvrage.</p>
+
+      <h3>Que faire des vices cachés découverts après les 8 jours supplémentaires ?</h3>
+      <p>Ceux-ci ne font plus partie des "vices apparents" de la réception. Ils relèvent alors des différentes garanties légales : garantie de parfait achèvement (pendant 1 an), biennale (pendant 2 ans) ou décennale (pendant 10 ans) selon la nature du défaut (dysfonctionnement ou atteinte structurelle).</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-02-23",
+    readingTime: "11 min",
+    image: "/images/blog/reception-chantier-reserves.png"
+  },
+  {
     slug: "volet-roulant-solaire-prix",
     title: "Volets Roulants Solaires : Prix, installation et avantages (Somfy, Velux...)",
     excerpt: "Combien coûte un volet roulant solaire en 2026 ? Découvrez les vrais prix (pose comprise), les meilleures marques comme Somfy et Velux, et les aides financières disponibles pour votre projet.",
