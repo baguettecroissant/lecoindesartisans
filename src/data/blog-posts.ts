@@ -2,6 +2,365 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "micro-onduleur-ou-onduleur-central",
+    title: "Onduleur central ou Micro-onduleurs (Enphase) : Le duel technique (2026)",
+    excerpt: "Micro-onduleur ou onduleur central ? Découvrez le comparatif technique complet : rendement, prix, fiabilité, monitoring. Tout pour choisir la bonne technologie pour vos panneaux solaires en 2026.",
+    content: `
+      <p><strong>Vous investissez dans une installation photovoltaïque et l'installateur vous propose deux options : un onduleur central (string) ou des micro-onduleurs (Enphase, APsystems…) ?</strong> Ce choix, souvent relégué au second plan derrière le nombre de panneaux, est pourtant l'un des plus structurants de votre projet solaire. L'onduleur — qu'il soit centralisé ou réparti — est le <strong>cœur électrique de votre installation</strong> : c'est lui qui convertit le courant continu (DC) produit par vos panneaux en courant alternatif (AC) exploitable par vos appareils.</p>
+
+      <p>Dans ce comparatif technique mis à jour pour <strong>2026</strong>, nous analysons en profondeur les deux technologies, leurs performances réelles sur le terrain, leurs prix, et surtout : <strong>laquelle choisir selon votre configuration de toiture, votre budget et vos objectifs de rendement</strong>.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Obtenez vos devis gratuits</strong><br/>
+        Comparez jusqu'à 3 propositions d'installateurs certifiés RGE près de chez vous pour votre projet photovoltaïque.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#fonctionnement">Comment fonctionne un onduleur solaire ?</a></li>
+        <li><a href="#onduleur-central">L'onduleur central (string inverter) : principe et fonctionnement</a></li>
+        <li><a href="#micro-onduleur">Le micro-onduleur (Enphase, APsystems) : principe et fonctionnement</a></li>
+        <li><a href="#comparatif">Le comparatif technique complet</a></li>
+        <li><a href="#prix">Prix : onduleur central vs micro-onduleurs en 2026</a></li>
+        <li><a href="#quand-choisir">Quand choisir l'un ou l'autre ?</a></li>
+        <li><a href="#optimiseurs">Et les optimiseurs de puissance (SolarEdge) ?</a></li>
+        <li><a href="#marques">Les meilleures marques en 2026</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="fonctionnement">Comment fonctionne un onduleur solaire ?</h2>
+
+      <p>Un panneau photovoltaïque produit du <strong>courant continu (DC)</strong>. Or, le réseau électrique de votre maison et tous vos appareils fonctionnent en <strong>courant alternatif (AC) à 230V / 50Hz</strong>. L'onduleur est l'appareil qui réalise cette conversion DC → AC. Sans lui, votre installation est inutilisable.</p>
+
+      <p>Mais au-delà de cette fonction de base, l'onduleur moderne assure également :</p>
+      <ul>
+        <li>Le <strong>MPPT (Maximum Power Point Tracking)</strong> : algorithme qui recherche en permanence le point de puissance maximale de chaque panneau ou chaîne de panneaux pour optimiser la production</li>
+        <li>La <strong>protection électrique</strong> : coupure automatique en cas de surtension, de court-circuit ou de coupure réseau (protection anti-îlotage)</li>
+        <li>Le <strong>monitoring</strong> : suivi en temps réel de la production via une application smartphone</li>
+        <li>La <strong>communication</strong> avec le gestionnaire de réseau (Enedis) pour l'injection du surplus</li>
+      </ul>
+
+      <p>La différence fondamentale entre onduleur central et micro-onduleur réside dans <strong>l'architecture de cette conversion</strong> : centralisée (un seul appareil) ou distribuée (un appareil par panneau).</p>
+
+      <h2 id="onduleur-central">L'onduleur central (string inverter) : principe et fonctionnement</h2>
+
+      <p>L'onduleur central — aussi appelé <strong>onduleur string</strong> — est la technologie historique et la plus répandue au monde. Son principe est simple : les panneaux solaires sont reliés <strong>en série</strong> (comme les maillons d'une chaîne) pour former une « string » (chaîne). Le courant continu de toute la chaîne converge vers un <strong>unique onduleur</strong>, généralement installé dans le garage, le local technique ou en façade extérieure.</p>
+
+      <h3>Les avantages de l'onduleur central</h3>
+      <ul>
+        <li><strong>Prix inférieur :</strong> Un seul appareil à acheter et à installer. Le coût matériel est 20 à 40% moins élevé qu'une configuration micro-onduleurs à puissance égale.</li>
+        <li><strong>Rendement de conversion élevé :</strong> Les meilleurs onduleurs string (SMA, Fronius, Huawei) atteignent des rendements de conversion de <strong>97,5% à 98,6%</strong>, parmi les plus hauts du marché.</li>
+        <li><strong>Installation rapide :</strong> Un seul branchement côté AC, un ou deux MPPT côté DC. L'installateur gagne du temps, ce qui réduit le coût de la main d'œuvre.</li>
+        <li><strong>Technologie mature et éprouvée :</strong> Des dizaines de millions d'unités installées dans le monde depuis plus de 20 ans.</li>
+        <li><strong>Remplacement simple en cas de panne :</strong> Un seul appareil à remplacer, facilement accessible au sol.</li>
+      </ul>
+
+      <h3>Les inconvénients de l'onduleur central</h3>
+      <ul>
+        <li><strong>L'effet « maillon faible » :</strong> C'est le défaut majeur. Dans une chaîne (string), la production de l'ensemble est limitée par le panneau le moins performant. Si un panneau est ombragé, encrassé ou défaillant, <strong>tous les panneaux de la chaîne sont sous-performants</strong>. C'est le fameux « effet guirlande de Noël ».</li>
+        <li><strong>Point de défaillance unique :</strong> Si l'onduleur tombe en panne, <strong>toute l'installation est à l'arrêt</strong>. Production = 0 kWh jusqu'à la réparation ou le remplacement.</li>
+        <li><strong>Monitoring limité :</strong> Le suivi se fait au niveau de la chaîne, pas au niveau de chaque panneau individuel. Un panneau défaillant peut passer inaperçu pendant des mois.</li>
+        <li><strong>Courant continu haute tension sur le toit :</strong> Les chaînes fonctionnent entre 300V et 600V DC à leurs bornes. Un risque accru pour les pompiers en cas d'incendie (dérogation Rapid Shutdown dans certains pays).</li>
+        <li><strong>Durée de vie plus courte :</strong> Généralement garantis 10 à 12 ans (extensible à 20 ans chez certains fabricants), soit moins que la durée de vie des panneaux (25-30 ans). Un remplacement en cours de vie de l'installation est quasi certain.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Les onduleurs centraux modernes possèdent 2 à 3 entrées MPPT indépendantes. Cela permet de connecter des chaînes de panneaux sur <strong>des orientations ou des inclinaisons différentes</strong> (ex. : une string Est, une string Ouest) sans qu'elles s'impactent mutuellement. C'est un progrès majeur par rapport aux anciens modèles mono-MPPT.</p>
+      </blockquote>
+
+      <h2 id="micro-onduleur">Le micro-onduleur (Enphase, APsystems) : principe et fonctionnement</h2>
+
+      <p>Le <strong>micro-onduleur</strong> est un petit onduleur individuel installé <strong>sous chaque panneau solaire</strong> (ou partagé entre 2 panneaux pour les modèles bi-modulaires). Chaque panneau dispose de sa propre conversion DC → AC et de son propre tracker MPPT. Les panneaux sont ensuite reliés <strong>en parallèle</strong> sur le circuit AC de la maison.</p>
+
+      <p>Le leader mondial incontesté de cette technologie est <strong>Enphase Energy</strong> (USA), avec sa gamme IQ8 et IQ8+ (2024-2026). <strong>APsystems</strong> (France/Chine) est le principal challenger, avec ses modèles bi-modulaires QS1 et DS3.</p>
+
+      <h3>Les avantages du micro-onduleur</h3>
+      <ul>
+        <li><strong>Indépendance totale des panneaux :</strong> Chaque panneau fonctionne de manière autonome. Si un panneau est ombragé par une cheminée, un arbre ou une antenne, seul CE panneau produit moins. Les autres continuent à 100%. <strong>Gain de production moyen constaté : 5 à 25%</strong> par rapport à un string en conditions d'ombrage partiel.</li>
+        <li><strong>Monitoring panneau par panneau :</strong> Via l'application Enphase Enlighten ou APsystems EMA, vous visualisez la production de chaque panneau individuellement, en temps réel. Un panneau défaillant est détecté en quelques heures, pas en quelques mois.</li>
+        <li><strong>Sécurité électrique maximale :</strong> Aucun courant continu haute tension sur le toit. Chaque micro-onduleur convertit immédiatement en 230V AC. En cas de coupure réseau, chaque unité se met en sécurité individuellement. C'est la configuration la plus sûre en cas d'incendie (conformité Rapid Shutdown NFC 15-100).</li>
+        <li><strong>Durée de vie et garantie supérieures :</strong> Les micro-onduleurs Enphase sont garantis <strong>25 ans</strong> (l'une des meilleures garanties du marché), alignés sur la durée de vie des panneaux. Pas de remplacement d'onduleur prévu avant 25 ans.</li>
+        <li><strong>Modularité et évolutivité :</strong> Vous pouvez ajouter des panneaux ultérieurement (1 par 1 si vous le souhaitez) sans changer d'onduleur. Idéal si vous prévoyez d'agrandir votre installation ou d'ajouter une <a href="/blog/batterie-panneau-solaire-rentabilite">batterie de stockage</a> dans le futur.</li>
+        <li><strong>Toitures complexes :</strong> Parfait pour les toits multi-pans (Est + Sud + Ouest), les toitures avec lucarnes, cheminées, velux ou masques solaires localisés.</li>
+      </ul>
+
+      <h3>Les inconvénients du micro-onduleur</h3>
+      <ul>
+        <li><strong>Prix plus élevé :</strong> Le surcoût matériel est de l'ordre de <strong>600€ à 1 500€</strong> pour une installation résidentielle de 3 à 9 kWc par rapport à un onduleur central.</li>
+        <li><strong>Rendement de conversion unitaire légèrement inférieur :</strong> Un micro-onduleur affiche entre 96,5% et 97,5% de rendement de conversion, soit 0,5 à 1 point de moins qu'un onduleur string haut de gamme. Mais cet écart est largement compensé par l'optimisation individuelle MPPT en conditions réelles.</li>
+        <li><strong>Intervention en toiture en cas de panne :</strong> Si un micro-onduleur tombe en panne (rare, mais possible), il faut monter sur le toit pour y accéder, ce qui implique un coût d'intervention avec nacelle ou échafaudage.</li>
+        <li><strong>Nombre de composants électroniques :</strong> Plus de composants = plus de points de défaillance théoriques. Cependant, le taux de panne constaté des micro-onduleurs Enphase est inférieur à 0,05%/an, l'un des plus bas de l'industrie.</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Besoin d'un devis adapté à votre toiture ?</strong><br/>
+        Décrivez votre projet en 2 minutes et recevez des estimations personnalisées d'installateurs RGE certifiés.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet →</a></p>
+      </blockquote>
+
+      <h2 id="comparatif">Le comparatif technique complet : Onduleur central vs Micro-onduleurs</h2>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Onduleur central (String)</th>
+            <th style="padding: 12px; text-align: center;">Micro-onduleurs (Enphase)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Architecture</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 onduleur pour tous les panneaux</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 onduleur par panneau (ou par 2)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Rendement de conversion</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">97,5% – 98,6%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">96,5% – 97,5%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Production en cas d'ombrage</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Fortement impactée (effet chaîne)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Seul le panneau ombragé est affecté</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Monitoring</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Par chaîne uniquement</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Panneau par panneau (temps réel)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Sécurité (DC sur le toit)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ 300-600V DC en continu</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Aucun DC haute tension</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Garantie</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10-12 ans (extensible à 20 ans)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ 25 ans (Enphase)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Impact d'une panne</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Installation 100% à l'arrêt</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Seul 1 panneau est affecté</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Évolutivité</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Limité par la capacité de l'onduleur</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Ajout panneau par panneau</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Toitures multi-orientations</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Nécessite multi-MPPT</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Natif, aucune contrainte</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bruit</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Ventilateur audible (garage recommandé)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Silencieux (sous les panneaux)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Prix (installation 6 kWc)</strong></td>
+            <td style="padding: 12px; text-align: center;">✅ 8 500€ – 12 000€</td>
+            <td style="padding: 12px; text-align: center;">⚠️ 9 500€ – 14 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="prix">Prix : Onduleur central vs Micro-onduleurs en 2026</h2>
+
+      <p>Le prix de l'onduleur représente environ <strong>15 à 25% du coût total d'une installation solaire</strong>. Voici les fourchettes constatées en France en 2026 pour le matériel seul (hors pose) :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance installation</th>
+            <th style="padding: 12px; text-align: center;">Onduleur central (matériel)</th>
+            <th style="padding: 12px; text-align: center;">Micro-onduleurs (matériel)</th>
+            <th style="padding: 12px; text-align: center;">Surcoût micro-onduleurs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 kWc (8 panneaux)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">500€ – 800€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">960€ – 1 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+400€ à +500€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>6 kWc (16 panneaux)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">800€ – 1 200€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 920€ – 2 400€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+800€ à +1 200€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>9 kWc (24 panneaux)</strong></td>
+            <td style="padding: 12px; text-align: center;">1 100€ – 1 600€</td>
+            <td style="padding: 12px; text-align: center;">2 880€ – 3 600€</td>
+            <td style="padding: 12px; text-align: center;">+1 300€ à +2 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour un comparatif complet des coûts d'installation selon la puissance, consultez notre guide détaillé sur le <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">prix des panneaux solaires en 3, 6 et 9 kWc</a>.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Le surcoût est-il rentable ?</strong><br/>
+        Sur une installation de 6 kWc avec des ombres partielles (cheminée, arbre, antenne), les micro-onduleurs produisent en moyenne <strong>10 à 20% de kWh en plus</strong> par an. Sur 25 ans, ce gain de production représente <strong>3 000€ à 6 000€ de revenus supplémentaires</strong> (autoconsommation + vente de surplus). Le surcoût initial de 800€ à 1 200€ est amorti en 4 à 6 ans. Découvrez notre analyse complète de la <a href="/blog/rentabilite-panneaux-solaires-2026">rentabilité des panneaux solaires en 2026</a>.</p>
+      </blockquote>
+
+      <h2 id="quand-choisir">Quand choisir l'un ou l'autre ?</h2>
+
+      <h3>✅ Choisissez un onduleur central si :</h3>
+      <ul>
+        <li>Votre toiture est <strong>100% dégagée</strong> (aucune ombre, aucune cheminée, aucun arbre à proximité)</li>
+        <li>Tous vos panneaux sont sur <strong>un seul pan de toit, même orientation, même inclinaison</strong></li>
+        <li>Votre budget est serré et vous souhaitez minimiser l'investissement initial</li>
+        <li>Vous disposez d'un local technique accessible (garage, buanderie) pour installer l'onduleur</li>
+        <li>Vous prévoyez une installation de <strong>grande puissance (> 9 kWc)</strong> en autoconsommation avec vente de surplus</li>
+      </ul>
+
+      <h3>✅ Choisissez des micro-onduleurs si :</h3>
+      <ul>
+        <li>Votre toiture présente des <strong>zones d'ombre</strong> (cheminée, lucarnes, arbres, bâtiment voisin)</li>
+        <li>Vos panneaux sont répartis sur <strong>plusieurs orientations</strong> (Est + Sud + Ouest) ou plusieurs pans de toit</li>
+        <li>Vous souhaitez un <strong>monitoring panneau par panneau</strong> pour détecter immédiatement les anomalies</li>
+        <li>La <strong>sécurité électrique</strong> est une priorité (pas de courant continu haute tension sur le toit)</li>
+        <li>Vous prévoyez d'<strong>agrandir votre installation</strong> dans le futur (ajout de panneaux progressif)</li>
+        <li>Votre <a href="/blog/panneaux-solaires-toit-plat-possible-prix-rentabilite">toiture est plate</a> avec des panneaux sur supports inclinés (orientations variables)</li>
+        <li>Vous ne disposez pas de local pour un onduleur central (appartement, maison sans garage)</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Le piège du « tout onduleur central » chez certains installateurs</strong><br/>
+        Certains installateurs proposent systématiquement l'onduleur central car <strong>leur marge est plus élevée</strong> et l'installation est plus rapide. Si votre toiture présente le moindre masque solaire, exigez un comparatif chiffré des deux options. Un installateur sérieux doit pouvoir vous fournir une simulation de production avec et sans micro-onduleurs. Pour éviter les mauvaises surprises, consultez notre guide pour <a href="/blog/arnaque-panneau-solaire-5-signes-alerter">repérer les arnaques aux panneaux solaires</a>.</p>
+      </blockquote>
+
+      <h2 id="optimiseurs">Et les optimiseurs de puissance (SolarEdge) ?</h2>
+
+      <p>Il existe une <strong>troisième voie</strong> : les <strong>optimiseurs de puissance</strong>, dont le leader est <strong>SolarEdge</strong> (Israël). C'est un système hybride qui combine :</p>
+      <ul>
+        <li>Un <strong>optimiseur DC/DC</strong> installé sous chaque panneau (comme un micro-onduleur, mais sans conversion AC)</li>
+        <li>Un <strong>onduleur central</strong> qui reçoit le courant DC optimisé et le convertit en AC</li>
+      </ul>
+
+      <p>L'optimiseur permet un suivi panneau par panneau et réduit l'effet d'ombrage (comme le micro-onduleur), tout en conservant un onduleur central pour la conversion AC (rendement élevé). C'est un bon compromis technique.</p>
+
+      <p><strong>Cependant</strong>, le système SolarEdge a été critiqué ces dernières années pour des <strong>taux de panne plus élevés</strong> que la concurrence sur certains modèles d'onduleurs centraux (séries HD-Wave). De plus, le système est <strong>propriétaire</strong> : optimiseurs et onduleur doivent être de la même marque. En cas de défaillance de SolarEdge en tant qu'entreprise, le remplacement devient problématique.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Onduleur central</th>
+            <th style="padding: 12px; text-align: center;">Optimiseurs + Onduleur (SolarEdge)</th>
+            <th style="padding: 12px; text-align: center;">Micro-onduleurs (Enphase)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gestion de l'ombrage</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Monitoring par panneau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Risque de panne totale</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Élevé</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Élevé (onduleur central)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Quasi nul</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Garantie système</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10-12 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25 ans optimiseurs / 12 ans onduleur</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25 ans</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Indépendance fournisseur</strong></td>
+            <td style="padding: 12px; text-align: center;">✅ Multi-marques</td>
+            <td style="padding: 12px; text-align: center;">❌ Propriétaire SolarEdge</td>
+            <td style="padding: 12px; text-align: center;">✅ Compatible tous panneaux</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Obtenez une simulation personnalisée</strong><br/>
+        Décrivez votre toiture, vos ombres et vos objectifs. Recevez des propositions chiffrées avec les deux technologies comparées.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="marques">Les meilleures marques d'onduleurs en 2026</h2>
+
+      <h3>Onduleurs centraux (string)</h3>
+      <ul>
+        <li><strong>Huawei (SUN2000) :</strong> Leader mondial en parts de marché. Excellent rapport qualité/prix, rendement jusqu'à 98,6%, application FusionSolar très complète. Garantie 10 ans extensible à 20 ans.</li>
+        <li><strong>SMA (Sunny Boy / Sunny Tripower) :</strong> Le fabricant allemand historique, référence en fiabilité. Plus cher, mais une qualité de fabrication irréprochable. Garantie 10 ans extensible à 20 ans.</li>
+        <li><strong>Fronius (Primo / Symo Gen24) :</strong> L'autrichien est très apprécié des installateurs français pour sa robustesse et son SAV européen. Le Gen24 intègre nativement un backup batterie.</li>
+        <li><strong>GoodWe :</strong> Marque chinoise montante, prix très compétitif, bonne fiabilité constatée. Le choix budgétaire intelligent.</li>
+      </ul>
+
+      <h3>Micro-onduleurs</h3>
+      <ul>
+        <li><strong>Enphase (IQ8 / IQ8+) :</strong> Le leader absolu. Garantie 25 ans, taux de panne < 0,05%/an, application Enlighten de référence. L'IQ8+ est compatible avec les panneaux jusqu'à 480 Wc. Le Sunlight Backup permet de produire même en cas de coupure réseau (sans batterie).</li>
+        <li><strong>APsystems (DS3 / QS1) :</strong> Le challenger français. Le DS3 est bi-modulaire (1 micro-onduleur pour 2 panneaux), ce qui réduit le coût. Garantie 25 ans. Application EMA efficace. Un excellent rapport qualité/prix.</li>
+        <li><strong>Hoymiles (HMS / HMT) :</strong> Marque chinoise en forte croissance. Micro-onduleurs mono et multi-modulaires. Prix très compétitif, garantie 12 à 25 ans selon les modèles.</li>
+      </ul>
+
+      <h2>Conclusion : quel onduleur pour votre installation solaire ?</h2>
+
+      <p>Le choix entre <strong>micro-onduleur et onduleur central</strong> n'est pas une question de « meilleure technologie » dans l'absolu, mais de <strong>meilleure adéquation avec votre configuration spécifique</strong>.</p>
+
+      <p>En résumé :</p>
+      <ul>
+        <li><strong>Toiture simple, dégagée, un seul pan orienté Sud :</strong> l'onduleur central reste le choix le plus économique et parfaitement adapté.</li>
+        <li><strong>Toiture complexe, ombrages, multi-orientations :</strong> les micro-onduleurs sont quasiment indispensables pour maximiser votre <a href="/blog/rentabilite-panneaux-solaires-2026">rentabilité</a>.</li>
+        <li><strong>En cas de doute : les micro-onduleurs</strong> constituent le choix le plus sûr à long terme (garantie 25 ans, évolutivité, monitoring, sécurité).</li>
+      </ul>
+
+      <p>Quel que soit votre choix, l'essentiel est de faire appel à un <strong>installateur certifié RGE QualiPV</strong>, de comparer au minimum 3 devis, et de vous assurer que le choix entre <a href="/blog/autoconsommation-ou-vente-totale-panneaux-solaires">autoconsommation et vente totale</a> est adapté à votre profil de consommation.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à comparer les meilleures offres ?</strong><br/>
+        Les installateurs de notre réseau sont certifiés RGE QualiPV et vous proposent des devis détaillés avec les deux options d'onduleur.<br/>
+        <a href="/service/panneaux-solaires/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes sur les onduleurs solaires</h2>
+
+      <h3>Quelle est la durée de vie d'un onduleur central ?</h3>
+      <p>Un onduleur central de qualité (Huawei, SMA, Fronius) dure en moyenne <strong>10 à 15 ans</strong>. La garantie standard est de 10-12 ans, extensible à 20 ans sur option (environ 200€ à 400€). Comme la durée de vie des panneaux est de 25-30 ans, il est probable que vous devrez remplacer votre onduleur central au moins une fois. Budget prévoir : <strong>800€ à 1 500€</strong> pour le remplacement.</p>
+
+      <h3>Quelle est la durée de vie d'un micro-onduleur Enphase ?</h3>
+      <p>Les micro-onduleurs Enphase IQ8 sont garantis <strong>25 ans pièces et main d'œuvre</strong>. Avec un taux de défaillance annuel inférieur à 0,05%, ils sont conçus pour durer toute la vie de vos panneaux sans remplacement. C'est l'un des arguments majeurs de cette technologie.</p>
+
+      <h3>Les micro-onduleurs fonctionnent-ils en cas de coupure de courant ?</h3>
+      <p>La plupart des installations (centrales comme micro-onduleurs) se coupent automatiquement en cas de panne réseau, pour la sécurité des techniciens Enedis (<strong>protection anti-îlotage obligatoire</strong>). Cependant, Enphase propose la fonctionnalité <strong>Sunlight Backup</strong> sur les IQ8 : vos panneaux peuvent alimenter directement certains circuits de la maison en journée, même sans réseau et sans batterie. Pour une autonomie totale jour et nuit, l'ajout d'une <a href="/blog/batterie-panneau-solaire-rentabilite">batterie de stockage</a> est nécessaire.</p>
+
+      <h3>Peut-on mélanger onduleur central et micro-onduleurs ?</h3>
+      <p>Techniquement oui, mais c'est <strong>rarement recommandé</strong>. Certains installateurs proposent un onduleur central pour la chaîne principale plein Sud et des micro-onduleurs pour des panneaux « périphériques » sur un pan ombragé. Cela fonctionne, mais complexifie le monitoring et la maintenance.</p>
+
+      <h3>Mon installateur me propose Huawei : est-ce fiable ?</h3>
+      <p>Oui. Huawei est le <strong>leader mondial des onduleurs solaires</strong> en parts de marché depuis 2020. Leurs onduleurs SUN2000 sont parmi les plus fiables et performants du marché (rendement 98,6%). Le SAV et la couverture en France se sont considérablement améliorés. C'est aujourd'hui un choix parfaitement légitime pour un onduleur central résidentiel.</p>
+
+      <h3>Les micro-onduleurs font-ils du bruit ?</h3>
+      <p>Non. Les micro-onduleurs sont <strong>totalement silencieux</strong> car ils ne possèdent aucune pièce mobile (pas de ventilateur). À l'inverse, un onduleur central possède un ventilateur de refroidissement qui peut générer un léger bruit (30 à 45 dB), comparable à un réfrigérateur. C'est pourquoi il est recommandé de l'installer dans un garage plutôt que dans une pièce de vie.</p>
+    `,
+    category: "solaire-photovoltaique",
+    publishedAt: "2026-03-02",
+    readingTime: "15 min",
+    image: "/images/blog/micro-onduleur-ou-onduleur-central.png"
+  },
+  {
     slug: "desamiantage-toiture-fibrociment-prix",
     title: "Désamiantage toiture fibro-ciment : Prix, obligations et risques (2026)",
     excerpt: "Combien coûte le désamiantage d'une toiture en fibro-ciment ? Découvrez les prix au m², les obligations légales, les risques sanitaires et les aides financières disponibles en 2026.",
