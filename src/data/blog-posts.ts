@@ -2,6 +2,444 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "recherche-fuite-eau-qui-paye",
+    title: "Recherche de fuite d'eau : Qui paie ? (Assurance, Locataire, Propriétaire, Syndic)",
+    excerpt: "Qui doit payer la recherche de fuite d'eau ? Découvrez les responsabilités de l'assurance, du locataire, du propriétaire et du syndic selon la situation. Guide complet 2026 avec coûts, démarches et cas concrets.",
+    content: `
+      <p><strong>Vous constatez une fuite d'eau dans votre logement — tache au plafond, compteur qui tourne, facture anormalement élevée — et la première question qui vient : qui va payer la recherche de fuite ?</strong> La réponse n'est pas toujours simple. Elle dépend de votre statut (locataire ou propriétaire), de l'origine de la fuite, du type de logement (maison individuelle ou copropriété), et de votre contrat d'assurance habitation.</p>
+
+      <p>Dans ce guide complet mis à jour pour <strong>2026</strong>, nous décryptons <strong>les règles de prise en charge de la recherche de fuite d'eau</strong> selon toutes les situations possibles : qui paie entre l'assurance, le locataire, le propriétaire et le syndic de copropriété ? Quels sont les coûts réels ? Et surtout, quelles sont les démarches pour éviter de payer de votre poche.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Besoin d'un plombier rapidement ?</strong><br/>
+        Comparez jusqu'à 3 devis de plombiers qualifiés près de chez vous pour une recherche de fuite professionnelle.<br/>
+        <a href="/service/plomberie-sanitaire/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comprendre">Recherche de fuite d'eau : de quoi parle-t-on exactement ?</a></li>
+        <li><a href="#qui-paye">Qui paye la recherche de fuite d'eau ? Les règles par situation</a></li>
+        <li><a href="#assurance">L'assurance habitation et la recherche de fuite</a></li>
+        <li><a href="#locataire-proprietaire">Locataire vs Propriétaire : qui prend en charge quoi ?</a></li>
+        <li><a href="#copropriete">En copropriété : le rôle du syndic</a></li>
+        <li><a href="#convention-cidre">La convention CIDRE/IRSI : comment ça marche ?</a></li>
+        <li><a href="#prix">Combien coûte une recherche de fuite d'eau en 2026 ?</a></li>
+        <li><a href="#demarches">Les démarches concrètes en cas de fuite</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="comprendre">Recherche de fuite d'eau : de quoi parle-t-on exactement ?</h2>
+
+      <p>La <strong>recherche de fuite d'eau</strong> (aussi appelée <strong>détection de fuite non destructive</strong>) est une intervention technique réalisée par un professionnel spécialisé pour localiser précisément l'origine d'une fuite dans un réseau d'eau — sans démolir les murs, les sols ou les plafonds. C'est une étape indispensable avant toute réparation, car il est impossible de réparer correctement une fuite si on ne sait pas exactement d'où elle vient.</p>
+
+      <h3>Les techniques utilisées par les professionnels</h3>
+      <p>Les plombiers spécialisés en recherche de fuite utilisent des technologies avancées qui évitent de casser inutilement :</p>
+      <ul>
+        <li><strong>Le gaz traceur (hydrogène/azote) :</strong> Un mélange gazeux inoffensif est injecté dans la canalisation. Il s'échappe par la fissure et est détecté en surface par un capteur ultra-sensible. C'est la méthode la plus fiable pour les canalisations enterrées.</li>
+        <li><strong>La caméra thermique infrarouge :</strong> Elle détecte les variations de température dans les murs et sols, révélant les zones humides invisibles à l'œil nu. Idéale pour les fuites dans les planchers chauffants ou les circuits encastrés.</li>
+        <li><strong>L'écoute électroacoustique :</strong> Un microphone ultra-sensible placé sur les canalisations capte le bruit caractéristique de l'eau qui s'échappe sous pression. Efficace pour les fuites sur les réseaux sous pression (arrivée d'eau).</li>
+        <li><strong>La caméra endoscopique :</strong> Une caméra miniature est introduite dans les canalisations pour une inspection visuelle directe de l'intérieur des tuyaux. Permet de repérer les fissures, les racines, les obstructions.</li>
+        <li><strong>Le colorant fluorescent (fluorescéine) :</strong> Un colorant est injecté dans le réseau suspect. On observe où il réapparaît pour tracer le parcours de la fuite. Très utilisé pour les fuites d'évacuation.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        La recherche de fuite est une opération distincte de la réparation. Le professionnel localise la fuite et rédige un rapport (souvent exigé par l'assurance), mais la réparation elle-même fait l'objet d'un devis séparé. C'est important car <strong>la prise en charge par l'assurance peut couvrir la recherche mais pas toujours la réparation</strong>, et vice-versa.</p>
+      </blockquote>
+
+      <h3>Quand faut-il faire intervenir un professionnel ?</h3>
+      <p>Voici les signaux d'alerte qui doivent vous pousser à demander une recherche de fuite rapidement :</p>
+      <ul>
+        <li><strong>Tache d'humidité</strong> qui apparaît au plafond ou sur un mur (surtout si elle s'agrandit)</li>
+        <li><strong>Compteur d'eau qui tourne</strong> alors que tous les robinets sont fermés</li>
+        <li><strong>Facture d'eau anormalement élevée</strong> sans explication logique</li>
+        <li><strong>Bruit d'écoulement continu</strong> dans les murs ou le sol</li>
+        <li><strong>Peinture qui cloque, papier peint qui se décolle</strong>, moisissures récurrentes</li>
+        <li><strong>Odeur d'humidité persistante</strong> dans une pièce</li>
+        <li><strong>Dégât des eaux chez un voisin</strong> situé en dessous de votre logement</li>
+      </ul>
+
+      <h2 id="qui-paye">Qui paye la recherche de fuite d'eau ? Les règles par situation</h2>
+
+      <p>C'est LA question centrale. La réponse dépend de trois facteurs : <strong>l'origine de la fuite</strong>, <strong>le statut de l'occupant</strong> (locataire ou propriétaire) et <strong>le type de bien</strong> (maison individuelle ou copropriété). Voici le tableau récapitulatif complet :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Situation</th>
+            <th style="padding: 12px; text-align: center;">Qui paie la recherche ?</th>
+            <th style="padding: 12px; text-align: center;">Qui paie la réparation ?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fuite sur robinet, joint, flexible (usure courante)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Locataire</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Locataire</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fuite sur canalisation encastrée (vétusté)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Propriétaire</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Propriétaire</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Dégât des eaux avec dommages chez un tiers</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Assurance (convention IRSI)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Responsable de la fuite</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fuite sur parties communes (copropriété)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Syndic / Assurance copro</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Syndic / Assurance copro</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fuite entre compteur et logement (maison)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Propriétaire</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Propriétaire</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fuite avant compteur (réseau public)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Service des eaux (distributeur)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Service des eaux (distributeur)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Propriétaire occupant, fuite interne</strong></td>
+            <td style="padding: 12px; text-align: center;">Propriétaire (ou assurance si garantie)</td>
+            <td style="padding: 12px; text-align: center;">Propriétaire</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention à l'urgence</strong><br/>
+        En cas de fuite importante, la priorité absolue est de <strong>couper l'arrivée d'eau immédiatement</strong> (vanne d'arrêt générale) pour limiter les dégâts. Ensuite seulement, appelez votre assurance puis un plombier. Plus vous réagissez vite, moins les dommages (et la facture) seront importants. Si la fuite provient d'une <a href="/blog/recherche-fuite-toiture-prix">fuite en toiture</a>, les démarches sont différentes.</p>
+      </blockquote>
+
+      <h2 id="assurance">L'assurance habitation et la recherche de fuite</h2>
+
+      <p>Votre <strong>assurance multirisque habitation (MRH)</strong> joue un rôle central dans la prise en charge des recherches de fuite. Mais attention, toutes les assurances ne couvrent pas la même chose, et les conditions de prise en charge sont souvent mal comprises.</p>
+
+      <h3>Ce que couvre généralement l'assurance habitation</h3>
+      <p>La garantie <strong>« Dégât des eaux »</strong>, présente dans tous les contrats MRH, couvre habituellement :</p>
+      <ul>
+        <li><strong>Les frais de recherche de fuite</strong> lorsqu'un sinistre « dégât des eaux » est déclaré et qu'il est nécessaire de localiser l'origine de la fuite pour procéder aux réparations</li>
+        <li><strong>Les dommages matériels</strong> causés par la fuite à votre logement (peinture, revêtements, meubles, équipements endommagés)</li>
+        <li><strong>Les dommages causés aux tiers</strong> (exemple : vous êtes au 3ème étage et la fuite endommage l'appartement du 2ème — votre <strong>responsabilité civile</strong> entre en jeu)</li>
+      </ul>
+
+      <h3>Ce que l'assurance ne couvre généralement PAS</h3>
+      <ul>
+        <li><strong>La réparation de la fuite elle-même</strong> (remplacement du tuyau percé, du joint défaillant, etc.) : c'est considéré comme de l'entretien, à la charge du propriétaire ou du locataire selon la nature de la réparation</li>
+        <li><strong>Les fuites dues à un défaut d'entretien manifeste</strong> (robinet qui goutte depuis des mois sans intervention, par exemple)</li>
+        <li><strong>Les infiltrations par défaut d'étanchéité</strong> (toiture non entretenue, joints de terrasse défaillants) : c'est une question d'entretien du bâti, pas un « sinistre » au sens assurantiel</li>
+        <li><strong>La surconsommation d'eau</strong> : votre assurance ne rembourse pas la facture d'eau gonflée par la fuite (mais la loi Warsmann vous protège — voir FAQ)</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Vérifiez votre contrat d'assurance</strong><br/>
+        Tous les contrats ne sont pas identiques. Certains contrats haut de gamme incluent une <strong>garantie « recherche de fuite »</strong> distincte de la garantie « dégât des eaux », avec un plafond dédié (souvent entre 1 500€ et 5 000€). D'autres contrats basiques ne couvrent la recherche que si elle est consécutive à un sinistre déclaré. Relisez vos conditions particulières ou appelez votre assureur pour clarifier avant le sinistre.</p>
+      </blockquote>
+
+      <h3>La franchise : combien reste à votre charge ?</h3>
+      <p>Même si votre assurance couvre la recherche de fuite, une <strong>franchise</strong> s'applique. Elle est généralement comprise entre <strong>150€ et 300€</strong> pour un sinistre dégât des eaux classique. Si le coût total de la recherche de fuite est inférieur à la franchise, l'assurance n'intervient pas. C'est pourquoi il est important de comparer les devis et de bien connaître le montant de votre franchise avant de faire intervenir un professionnel.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Comparez les devis de plombiers qualifiés</strong><br/>
+        Avant de faire intervenir un professionnel, obtenez plusieurs estimations pour maîtriser votre budget.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="locataire-proprietaire">Locataire vs Propriétaire : qui prend en charge quoi ?</h2>
+
+      <p>La répartition des charges entre locataire et propriétaire en matière de fuite d'eau est régie par la <strong>loi du 6 juillet 1989</strong> et le <strong>décret du 26 août 1987</strong> qui liste les réparations locatives. Le principe est simple en théorie, mais les situations concrètes sont souvent plus nuancées.</p>
+
+      <h3>Ce qui est à la charge du locataire</h3>
+      <p>Le locataire est responsable de l'<strong>entretien courant</strong> et des <strong>menues réparations</strong> (article 7 de la loi de 1989). En matière de plomberie, cela inclut :</p>
+      <ul>
+        <li>Le remplacement des <strong>joints de robinetterie</strong> (joints de clapet, joints toriques)</li>
+        <li>Le remplacement des <strong>flexibles de douche</strong> et de lavabo</li>
+        <li>Le <strong>débouchage des canalisations</strong> d'évacuation (siphons, WC, douche)</li>
+        <li>Le remplacement du <strong>flotteur et du mécanisme de chasse d'eau</strong></li>
+        <li>Le <strong>détartrage</strong> des robinets, pommeaux de douche et résistances de chauffe-eau</li>
+        <li>Le remplacement des <strong>tuyaux flexibles de machine à laver</strong> (arrivée et évacuation)</li>
+      </ul>
+
+      <p>Si la fuite provient d'un de ces éléments, <strong>la recherche ET la réparation sont à la charge du locataire</strong>. C'est le cas le plus fréquent : un joint qui lâche sous l'évier, un flexible de machine à laver qui fuit, un mécanisme de chasse qui ne fait plus son office.</p>
+
+      <h3>Ce qui est à la charge du propriétaire</h3>
+      <p>Le propriétaire est responsable des <strong>gros travaux liés à la vétusté, à un vice de construction ou à un cas de force majeure</strong>. En matière de plomberie, cela couvre :</p>
+      <ul>
+        <li>Le remplacement d'une <strong>canalisation vétuste ou défaillante</strong> (cuivre percé par corrosion, PER qui lâche, plomb à remplacer)</li>
+        <li>La réparation d'une <strong>fuite dans un mur, un sol ou un plafond</strong> due à la vétusté de l'installation</li>
+        <li>Le remplacement d'un <strong>chauffe-eau</strong> en panne (sauf entretien courant : détartrage = locataire)</li>
+        <li>La réparation des <strong>canalisations encastrées</strong> qui fuient par usure normale</li>
+        <li>La <strong>mise en conformité</strong> de l'installation de plomberie si elle ne respecte pas les normes en vigueur</li>
+      </ul>
+
+      <p>Dans ces cas, <strong>la recherche de fuite est à la charge du propriétaire</strong>, car elle est nécessaire pour localiser un défaut relevant de sa responsabilité.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de réparation</th>
+            <th style="padding: 12px; text-align: center;">À la charge du locataire</th>
+            <th style="padding: 12px; text-align: center;">À la charge du propriétaire</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Joint de robinet, flexible, siphon</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Mécanisme de chasse d'eau, flotteur</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Canalisation encastrée vétuste</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Remplacement chauffe-eau</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Détartrage robinetterie</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;">Colonne montante, réseau collectif</td>
+            <td style="padding: 12px; text-align: center;">❌</td>
+            <td style="padding: 12px; text-align: center;">✅ (via syndic en copro)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 La zone grise : comment trancher ?</strong><br/>
+        Quand l'origine de la fuite est incertaine (est-ce un joint usé ou un tuyau vétuste ?), c'est justement la <strong>recherche de fuite</strong> qui permettra de déterminer la cause exacte. En cas de désaccord, le rapport du plombier ou de l'expert mandaté par l'assurance fait foi. Si un litige persiste, un <strong>expert judiciaire</strong> peut être désigné par le tribunal. Pensez à toujours <a href="/blog/lire-analyser-devis-artisan">analyser le devis du plombier</a> avec attention pour éviter les mauvaises surprises.</p>
+      </blockquote>
+
+      <h2 id="copropriete">En copropriété : le rôle du syndic</h2>
+
+      <p>En immeuble en copropriété, la situation se complexifie car un troisième acteur entre en jeu : le <strong>syndic de copropriété</strong>, qui gère les parties communes et l'assurance de l'immeuble.</p>
+
+      <h3>La distinction parties communes / parties privatives</h3>
+      <p>Le <strong>règlement de copropriété</strong> définit la frontière entre les parties communes et les parties privatives. En matière de plomberie, voici la répartition généralement admise :</p>
+      <ul>
+        <li><strong>Parties communes :</strong> les colonnes montantes (conduites verticales d'eau froide et d'eau chaude qui desservent les étages), les canalisations d'évacuation principales (colonnes de chute), les vannes d'arrêt générales, les suppresseurs, les compteurs généraux</li>
+        <li><strong>Parties privatives :</strong> tout le réseau de plomberie situé après le robinet d'arrêt de votre lot (tuyaux dans les murs de votre appartement, robinets, WC, douche, baignoire, chauffe-eau individuel)</li>
+      </ul>
+
+      <h3>Qui paie en copropriété ?</h3>
+      <ul>
+        <li><strong>Si la fuite est sur les parties communes</strong> (colonne montante, canalisation d'évacuation collective) : le syndic mandate et paie la recherche de fuite. Le coût est imputé au budget <strong>charges communes</strong> de la copropriété. L'assurance de l'immeuble (assurance copropriété) peut prendre en charge les frais si le contrat le prévoit.</li>
+        <li><strong>Si la fuite est dans vos parties privatives</strong> : c'est à vous (propriétaire ou locataire selon le cas) de payer la recherche et la réparation. Votre assurance habitation personnelle interviendra si le sinistre est couvert.</li>
+        <li><strong>Si l'origine est incertaine</strong> (la fuite peut provenir des parties communes OU des parties privatives) : le syndic a l'obligation de mandater une recherche de fuite pour déterminer l'origine exacte. Les frais sont <strong>avancés par la copropriété</strong>, puis imputés au lot responsable une fois l'origine identifiée.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Le cas de la colonne montante percée</strong><br/>
+        C'est l'un des sinistres les plus fréquents en copropriété ancienne. L'eau s'infiltre du 4ème étage jusqu'au 1er en cascade, causant des dégâts dans plusieurs appartements. La <strong>recherche de fuite et la réparation sont à la charge de la copropriété</strong> (charges communes). L'assurance de l'immeuble prend en charge les frais de recherche et les dommages dans les parties communes, tandis que chaque copropriétaire sinistré déclare le dégât des eaux à sa propre assurance habitation pour les dommages dans ses parties privatives.</p>
+      </blockquote>
+
+      <h2 id="convention-cidre">La convention CIDRE/IRSI : comment ça marche ?</h2>
+
+      <p>Lorsqu'un dégât des eaux implique <strong>plusieurs assureurs</strong> (par exemple, votre assurance et celle de votre voisin du dessous, ou l'assurance de la copropriété), c'est la <strong>convention IRSI (Convention d'Indemnisation et de Recours des Sinistres Immeubles)</strong> qui s'applique. Elle a remplacé l'ancienne convention CIDRE en juin 2018.</p>
+
+      <h3>Le principe de la convention IRSI</h3>
+      <p>La convention IRSI simplifie et accélère la gestion des sinistres « dégât des eaux » en définissant des règles claires entre assureurs :</p>
+      <ul>
+        <li><strong>Sinistre inférieur à 5 000€ HT :</strong> C'est l'<strong>assureur du local où se situent les dommages</strong> qui prend en charge la recherche de fuite ET l'indemnisation, quel que soit le responsable. Il ne se retourne pas contre l'assureur du responsable. C'est la règle la plus courante dans les sinistres résidentiels.</li>
+        <li><strong>Sinistre supérieur à 5 000€ HT :</strong> Les assureurs appliquent des règles de recours pour répartir les coûts entre eux.</li>
+      </ul>
+
+      <h3>Ce que ça change pour vous concrètement</h3>
+      <p>Pour le sinistré, la convention IRSI est une bonne nouvelle :</p>
+      <ul>
+        <li>Vous n'avez qu'<strong>un seul interlocuteur</strong> : votre propre assureur</li>
+        <li>Vous n'avez pas à prouver la responsabilité du tiers pour être indemnisé</li>
+        <li>Les délais d'indemnisation sont raccourcis (objectif : 3 mois maximum)</li>
+        <li>La recherche de fuite est prise en charge dans le cadre de la convention si elle est nécessaire</li>
+      </ul>
+
+      <p>La convention IRSI prévoit explicitement que les frais de recherche de fuite sont à la charge de l'<strong>assureur gestionnaire du sinistre</strong>. C'est un coût intégré au sinistre, pas un extra à votre charge (hors franchise).</p>
+
+      <h2 id="prix">Combien coûte une recherche de fuite d'eau en 2026 ?</h2>
+
+      <p>Le coût d'une recherche de fuite varie considérablement selon la complexité de l'intervention, la technique utilisée et la zone géographique. Voici les <strong>fourchettes de prix constatées en France en 2026</strong> :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type d'intervention</th>
+            <th style="padding: 12px; text-align: center;">Prix moyen (TTC)</th>
+            <th style="padding: 12px; text-align: center;">Observations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Recherche de fuite simple (fuite visible, accès facile)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">150€ – 350€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Inspection visuelle + test de pression</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Recherche avec caméra thermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">300€ – 600€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Murs, sols, planchers chauffants</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Recherche par gaz traceur</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">400€ – 800€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Canalisations enterrées, réseau complexe</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Recherche par écoute acoustique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">250€ – 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Réseau sous pression</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Inspection caméra endoscopique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">200€ – 450€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Canalisations d'évacuation, colonnes</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Recherche complexe multi-techniques + rapport complet</strong></td>
+            <td style="padding: 12px; text-align: center;">600€ – 1 500€</td>
+            <td style="padding: 12px; text-align: center;">Copropriété, origine incertaine, rapport assurance</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Les facteurs qui influencent le prix</strong><br/>
+        Le coût dépend de la <strong>localisation géographique</strong> (Paris et Île-de-France sont 20 à 40% plus chers que les zones rurales), de l'<strong>urgence</strong> (intervention en soirée, week-end ou jour férié : majoration de 50 à 100%), de la <strong>complexité d'accès</strong> (sous-sol enterré, plancher chauffant, canalisation sous dalle) et du nombre de techniques nécessaires. Comme pour tout travaux de plomberie, pensez à <a href="/blog/acompte-travaux-pourcentage">bien négocier l'acompte</a> avant le début de l'intervention.</p>
+      </blockquote>
+
+      <h2 id="demarches">Les démarches concrètes en cas de fuite d'eau</h2>
+
+      <p>Voici la marche à suivre, étape par étape, pour gérer correctement une fuite d'eau et optimiser votre prise en charge :</p>
+
+      <h3>Étape 1 : Limiter les dégâts immédiatement</h3>
+      <p>Si possible, <strong>coupez l'arrivée d'eau</strong> au robinet d'arrêt de votre logement (sous l'évier, dans les WC) ou à la vanne générale. Épongez l'eau stagnante, déplacez les objets de valeur, et si l'eau s'écoule chez un voisin, prévenez-le immédiatement.</p>
+
+      <h3>Étape 2 : Déclarer le sinistre à votre assurance</h3>
+      <p>Vous disposez de <strong>5 jours ouvrés maximum</strong> à compter de la constatation de la fuite pour déclarer le sinistre à votre assureur (article L113-2 du Code des assurances). Ce délai est impératif : passé ce délai, votre assureur peut refuser la prise en charge. La déclaration peut se faire :</p>
+      <ul>
+        <li>Par <strong>courrier recommandé avec AR</strong> (le plus sûr juridiquement)</li>
+        <li>Par <strong>téléphone</strong> suivi d'une confirmation écrite</li>
+        <li>Via l'<strong>espace client en ligne</strong> de votre assureur</li>
+      </ul>
+
+      <h3>Étape 3 : Remplir le constat amiable dégât des eaux</h3>
+      <p>Si la fuite implique un tiers (voisin, copropriété), vous devez remplir un <strong>constat amiable dégât des eaux</strong> (formulaire standardisé, disponible auprès de votre assureur ou en mairie). Ce document, signé par les deux parties, décrit les circonstances et les dommages. Il est essentiel pour accélérer la procédure d'indemnisation dans le cadre de la convention IRSI.</p>
+
+      <h3>Étape 4 : Faire réaliser la recherche de fuite</h3>
+      <p>Selon les instructions de votre assureur :</p>
+      <ul>
+        <li>Soit l'assureur <strong>mandate directement un plombier</strong> via ses prestataires agréés (c'est le cas le plus fréquent dans le cadre de la convention IRSI)</li>
+        <li>Soit l'assureur vous demande de <strong>faire établir des devis</strong> et approuve l'intervention avant qu'elle ne soit réalisée</li>
+        <li>Soit vous faites intervenir un plombier de votre choix et <strong>transmettez la facture</strong> pour remboursement (vérifiez que votre contrat le permet)</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Ne faites jamais de travaux AVANT l'accord de l'assurance</strong><br/>
+        Sauf en cas d'urgence absolue (fuite majeure mettant en danger la structure ou les personnes), ne lancez pas de réparation <strong>avant que l'assureur n'ait validé</strong> la prise en charge. Sinon, vous risquez de ne pas être remboursé. Si vous devez agir en urgence, photographiez tout, gardez toutes les factures et prévenez votre assureur dans les plus brefs délais.</p>
+      </blockquote>
+
+      <h3>Étape 5 : Le passage de l'expert (si nécessaire)</h3>
+      <p>Pour les sinistres importants (généralement au-delà de 1 600€ de dommages), l'assureur mandate un <strong>expert en assurance</strong> qui se rend sur place pour évaluer les dommages, valider l'origine de la fuite et chiffrer les réparations. L'expert rédige un rapport qui sert de base à l'indemnisation. Vous pouvez contester les conclusions de l'expert en faisant appel à un <strong>contre-expert</strong> à vos frais.</p>
+
+      <h3>Étape 6 : L'indemnisation et les réparations</h3>
+      <p>Une fois le rapport d'expertise validé, l'assureur vous adresse une proposition d'indemnisation. Vous pouvez l'accepter ou la contester. Si vous acceptez, l'indemnisation est versée dans un délai de <strong>30 à 60 jours</strong> en règle générale. Vous êtes libre ensuite de faire réaliser les travaux de remise en état par l'artisan de votre choix. N'oubliez pas de <a href="/blog/reception-chantier-reserves-guide">bien réceptionner les travaux avec un PV</a> pour vous protéger en cas de malfaçon.</p>
+
+      <h2>Cas particuliers : les situations complexes</h2>
+
+      <h3>La fuite entre le compteur et le logement</h3>
+      <p>En maison individuelle, la canalisation entre le compteur d'eau (installé en limite de propriété, souvent dans un regard sur le trottoir) et votre habitation est <strong>votre propriété et votre responsabilité</strong>. Une fuite sur ce tronçon — souvent enterré dans le jardin — est à vos frais (recherche + réparation). La bonne nouvelle : depuis la <strong>loi Warsmann de 2012</strong>, si cette fuite souterraine a provoqué une surconsommation, le service des eaux est tenu de plafonner votre facture au double de votre consommation normale (sur présentation de la facture de réparation).</p>
+
+      <h3>La fuite sur le réseau public (avant compteur)</h3>
+      <p>Si la fuite se situe <strong>en amont de votre compteur</strong> (sur le réseau public d'eau potable), c'est le <strong>service des eaux</strong> (distributeur : Veolia, Suez, régie municipale, etc.) qui est responsable et qui paie les frais de recherche et de réparation. Vous pouvez signaler une fuite sur le réseau public en contactant le numéro d'urgence de votre distributeur (indiqué sur votre facture d'eau).</p>
+
+      <h3>La fuite sur un plancher chauffant</h3>
+      <p>C'est l'un des cas les plus coûteux. Une fuite sur un <strong>plancher chauffant hydraulique</strong> nécessite obligatoirement une recherche par <strong>caméra thermique</strong> et/ou <strong>gaz traceur</strong>. La réparation implique souvent de casser une partie du sol pour accéder au tuyau percé. Le coût global (recherche + réparation + remise en état du sol) peut atteindre <strong>2 000€ à 5 000€</strong>. La bonne nouvelle : la garantie décennale du constructeur peut couvrir ce type de sinistre si le bâtiment a moins de 10 ans.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Un projet de rénovation plomberie ?</strong><br/>
+        Les canalisations vétustes sont la cause n°1 des fuites récurrentes. Une mise à niveau complète de votre réseau d'eau peut vous éviter des sinistres et des surcoûts. Découvrez aussi <a href="/blog/mise-aux-normes-tableau-electrique-prix">la mise aux normes de votre tableau électrique</a>, souvent nécessaire lors d'une rénovation globale.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mon projet plomberie →</a></p>
+      </blockquote>
+
+      <h2>Comment éviter les fuites d'eau : la prévention</h2>
+
+      <p>La meilleure fuite est celle qui n'arrive jamais. Voici les gestes de prévention essentiels pour minimiser les risques :</p>
+      <ul>
+        <li><strong>Vérifiez régulièrement vos joints :</strong> Les joints de robinet et de flexible s'usent avec le temps. Un remplacement préventif tous les 3 à 5 ans coûte moins de 10€ et peut vous éviter un dégât des eaux à plusieurs milliers d'euros.</li>
+        <li><strong>Surveillez votre compteur d'eau :</strong> Relevez votre compteur le soir, ne consommez pas d'eau pendant la nuit, et vérifiez le matin. Si le compteur a bougé, vous avez une fuite cachée.</li>
+        <li><strong>Installez un détecteur de fuite connecté :</strong> Des capteurs à poser au sol (Fibaro, Xiaomi Aqara, Grohe Sense) vous alertent instantanément sur votre smartphone en cas de présence anormale d'eau. Investissement : 30€ à 100€, potentiellement des milliers d'euros d'économies.</li>
+        <li><strong>Purgez vos canalisations extérieures avant l'hiver :</strong> L'eau gelée fait éclater les tuyaux. Fermez les arrivées d'eau extérieures et ouvrez les robinets de purge avant les premières gelées.</li>
+        <li><strong>Coupez l'eau en cas d'absence prolongée :</strong> Si vous partez en vacances plus de 48h, fermez la vanne d'arrêt générale. C'est le geste de prévention le plus efficace.</li>
+        <li><strong>Faites entretenir votre chauffe-eau :</strong> Un détartrage et une vérification de l'anode tous les 2-3 ans prolongent la durée de vie de l'appareil et préviennent les fuites par corrosion.</li>
+      </ul>
+
+      <h2>Conclusion : anticipez pour éviter de payer de votre poche</h2>
+
+      <p>La <strong>recherche de fuite d'eau</strong> est une intervention technique incontournable pour localiser l'origine d'un dégât des eaux et procéder aux réparations. La prise en charge des frais dépend principalement de <strong>l'origine de la fuite</strong> et de <strong>votre statut</strong> (locataire, propriétaire, copropriétaire).</p>
+
+      <p>En résumé :</p>
+      <ul>
+        <li><strong>En cas de dégât des eaux impliquant un tiers</strong> : la convention IRSI simplifie tout. Votre assurance habitation prend en charge la recherche de fuite et l'indemnisation (hors franchise).</li>
+        <li><strong>Fuite liée à l'entretien courant</strong> (joints, flexibles, chasse d'eau) : c'est au <strong>locataire</strong> de payer.</li>
+        <li><strong>Fuite liée à la vétusté</strong> (canalisations encastrées, réseau ancien) : c'est au <strong>propriétaire</strong> de payer.</li>
+        <li><strong>Fuite sur parties communes en copropriété</strong> : c'est le <strong>syndic</strong> qui gère via les charges de copropriété.</li>
+      </ul>
+
+      <p>Dans tous les cas, <strong>déclarez le sinistre dans les 5 jours</strong>, ne lancez pas de travaux sans accord de l'assureur, et conservez tous les justificatifs (photos, <a href="/blog/lire-analyser-devis-artisan">devis</a>, factures, constats). La réactivité et la rigueur dans les démarches sont vos meilleurs alliés pour obtenir une prise en charge optimale.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Trouvez un plombier fiable pour votre recherche de fuite</strong><br/>
+        Comparez les devis d'artisans qualifiés et certifiés près de chez vous. Intervention rapide, rapport détaillé pour votre assurance.<br/>
+        <a href="/service/plomberie-sanitaire/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes sur la recherche de fuite d'eau</h2>
+
+      <h3>Est-ce que l'assurance paie la recherche de fuite ?</h3>
+      <p>Oui, dans la grande majorité des cas. Si vous déclarez un sinistre « dégât des eaux » à votre assurance habitation, les frais de recherche de fuite sont couverts par la <strong>garantie dégât des eaux</strong> de votre contrat (déduction faite de la franchise, généralement 150€ à 300€). Dans le cadre de la convention IRSI, l'assureur gestionnaire du sinistre prend en charge la recherche de fuite comme un coût intégré au sinistre. Attention : si vous faites réaliser une recherche de fuite « de votre propre initiative » sans sinistre déclaré, l'assurance ne couvrira probablement pas les frais.</p>
+
+      <h3>Qui paie la recherche de fuite en cas de dégât des eaux chez le voisin ?</h3>
+      <p>Si votre logement est à l'origine de la fuite qui a causé un dégât des eaux chez votre voisin, c'est votre <strong>assurance responsabilité civile</strong> (incluse dans votre MRH) qui prend en charge les dommages chez le voisin. La recherche de fuite est gérée dans le cadre de la convention IRSI : l'assureur du local sinistré (votre voisin) avance les frais pour les sinistres inférieurs à 5 000€, sans recours contre votre assureur. Pour les sinistres supérieurs, les assureurs se répartissent les coûts entre eux.</p>
+
+      <h3>Comment bénéficier de la loi Warsmann pour limiter ma facture d'eau ?</h3>
+      <p>La <strong>loi Warsmann (article L2224-12-4 du CGCT)</strong>, applicable depuis 2012, protège les particuliers contre les factures d'eau anormalement élevées dues à une fuite sur les canalisations privatives (après compteur). Si votre consommation d'eau dépasse le <strong>double de votre consommation moyenne des 3 dernières années</strong>, vous pouvez demander un plafonnement au distributeur. Pour en bénéficier, vous devez fournir une <strong>attestation d'un plombier prouvant que la fuite a été réparée</strong> dans le mois suivant la notification par le service des eaux, ou que vous avez fait réparer dans un délai raisonnable après l'avoir constatée.</p>
+
+      <h3>Combien de temps dure une recherche de fuite d'eau ?</h3>
+      <p>Une recherche de fuite simple (fuite visible, accès facile) dure entre <strong>30 minutes et 1 heure</strong>. Une recherche complexe nécessitant plusieurs techniques (caméra thermique + gaz traceur + écoute acoustique) peut prendre <strong>2 à 4 heures</strong>. En copropriété, lorsque la fuite peut provenir de plusieurs lots, la recherche peut nécessiter l'accès à plusieurs appartements et s'étaler sur <strong>une demi-journée à une journée complète</strong>. Le rapport détaillé est généralement remis sous 24h à 48h après l'intervention.</p>
+
+      <h3>Peut-on refuser de laisser entrer un plombier mandaté par l'assurance pour une recherche de fuite ?</h3>
+      <p>Si vous êtes locataire, votre bail vous oblige à <strong>laisser accès au logement</strong> pour les travaux nécessaires validés par le propriétaire (article 7 de la loi de 1989). En copropriété, le règlement de copropriété impose généralement de donner accès pour les interventions sur les parties communes traversant votre lot. Refuser l'accès peut être considéré comme un <strong>trouble anormal de voisinage</strong> et engager votre responsabilité si les dégâts s'aggravent en raison de votre refus. En pratique, le plombier prend rendez-vous et l'intervention est planifiée à <a href="/blog/reception-chantier-reserves-guide">un moment convenant aux deux parties</a>.</p>
+
+      <h3>Que faire si le syndic refuse de prendre en charge la recherche de fuite ?</h3>
+      <p>Si le syndic refuse d'intervenir alors que la fuite semble provenir des parties communes, vous pouvez :</p>
+      <ul>
+        <li>Envoyer une <strong>mise en demeure par courrier recommandé AR</strong> au syndic, rappelant son obligation d'entretien des parties communes (article 18 de la loi de 1965)</li>
+        <li>Demander l'inscription du sujet à l'<strong>ordre du jour de la prochaine assemblée générale</strong></li>
+        <li>En cas d'urgence, faire réaliser la recherche de fuite à vos frais et en demander le remboursement à la copropriété (article 18 alinéa 2)</li>
+        <li>En dernier recours, saisir le <strong>tribunal judiciaire</strong> pour contraindre le syndic à intervenir</li>
+      </ul>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-03-05",
+    readingTime: "16 min",
+    image: "/images/blog/recherche-fuite-eau-qui-paye.png"
+  },
+  {
     slug: "micro-onduleur-ou-onduleur-central",
     title: "Onduleur central ou Micro-onduleurs (Enphase) : Le duel technique (2026)",
     excerpt: "Micro-onduleur ou onduleur central ? Découvrez le comparatif technique complet : rendement, prix, fiabilité, monitoring. Tout pour choisir la bonne technologie pour vos panneaux solaires en 2026.",
