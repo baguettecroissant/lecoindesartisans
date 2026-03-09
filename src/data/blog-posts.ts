@@ -2,6 +2,283 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "micro-station-epuration-prix",
+    title: "Fosse Septique vs Micro-Station d'épuration : Quelle solution choisir en 2026 ?",
+    excerpt: "Fosse septique ou micro-station ? Découvrez le comparatif complet 2026 : prix, fonctionnement, réglementation et aides financières. Tout pour bien choisir votre système d'assainissement non collectif (ANC) et réussir vos travaux.",
+    content: `
+      <p><strong>Vous envisagez de construire ou de rénover votre système d'assainissement non collectif et vous hésitez entre une fosse toutes eaux (la nouvelle fosse septique) et une micro-station d'épuration ?</strong> Ce choix est crucial pour la conformité de votre habitation, votre budget à long terme et l'impact environnemental de votre foyer. En 2026, avec le durcissement des contrôles du SPANC et l'évolution des aides financières, il est plus important que jamais de comprendre les différences techniques et économiques entre ces deux solutions.</p>
+
+      <p>Dans ce guide ultra-complet, nous décryptons <strong>tout ce que vous devez savoir pour choisir entre fosse septique et micro-station en 2026</strong> : fonctionnement, prix d'installation « clé en main », coûts d'entretien, réglementation en vigueur et subventions disponibles. Nous comparons les avantages et les limites de chaque technologie pour vous aider à prendre la meilleure décision selon la configuration de votre terrain et vos besoins.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Besoin d'un devis pour votre assainissement ?</strong><br/>
+        Obtenez jusqu'à 3 devis gratuits d'entreprises spécialisées en assainissement non collectif (ANC) près de chez vous.<br/>
+        <a href="/service/plomberie-sanitaire/paris" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comprendre">Assainissement Non Collectif (ANC) : Les bases en 2026</a></li>
+        <li><a href="#fosse-toutes-eaux">La fosse toutes eaux (ex-fosse septique) : Le classique</a></li>
+        <li><a href="#micro-station">La micro-station d'épuration : La solution technologique</a></li>
+        <li><a href="#comparatif">Comparatif détaillé : Avantages et Inconvénients</a></li>
+        <li><a href="#prix">Prix 2026 : Quel budget pour votre installation ?</a></li>
+        <li><a href="#reglementation">Réglementation et SPANC : Ce qu'il faut savoir</a></li>
+        <li><a href="#aides">Aides financières 2026 : Comment réduire la facture ?</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="comprendre">Assainissement Non Collectif (ANC) : Les bases en 2026</h2>
+
+      <p>L'assainissement non collectif, aussi appelé <strong>assainissement autonome</strong>, concerne les habitations qui ne sont pas raccordées au réseau public de collecte des eaux usées (le fameux « tout-à-l'égout »). En France, cela concerne environ 5 millions de logements, principalement en zone rurale ou périurbaine.</p>
+
+      <p>L'objectif de tout système d'ANC est de traiter les eaux usées domestiques (eaux des WC, de la cuisine, de la salle de bain) avant de les rejeter dans le milieu naturel, afin de protéger la santé publique et l'environnement. Un système d'assainissement complet se compose généralement de deux étapes :</p>
+      <ul>
+        <li><strong>Le prétraitement :</strong> C'est le rôle de la fosse. On y sépare les matières solides (qui coulent) et les graisses (qui flottent). L'eau en ressort partiellement clarifiée mais toujours polluée.</li>
+        <li><strong>Le traitement (ou épuration) :</strong> C'est l'étape où les bactéries digèrent la pollution organique. Cela peut se faire dans le sol (épandage) ou dans une cuve spécifique (micro-station).</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Rappel important</strong><br/>
+        Depuis 2009, la <strong>fosse septique</strong> classique (qui ne traitait que les eaux des WC) est interdite en installation neuve. Elle est remplacée par la <strong>fosse toutes eaux</strong>, capable de traiter l'ensemble des eaux usées de la maison. Dans la suite de ce guide, quand nous parlerons de « fosse », il s'agira toujours d'une fosse toutes eaux.</p>
+      </blockquote>
+
+      <h2 id="fosse-toutes-eaux">La fosse toutes eaux (ex-fosse septique) : Le classique</h2>
+
+      <p>La fosse toutes eaux est la solution la plus traditionnelle. Elle fonctionne sur un principe de <strong>décantation physique et de digestion anaérobie</strong> (sans oxygène). Elle doit impérativement être couplée à une filière de traitement pour assurer l'épuration finale.</p>
+
+      <h3>Fonctionnement d'une fosse toutes eaux</h3>
+      <p>L'eau usée arrive dans la cuve. Les solides descendent au fond pour former des boues, tandis que les graisses remontent à la surface. Les bactéries naturellement présentes dans les eaux usées commencent à décomposer la pollution. L'eau clarifiée sort ensuite de la cuve vers le système de traitement.</p>
+
+      <h3>Les types de filières de traitement associées</h3>
+      <ul>
+        <li><strong>Le lit d'épandage :</strong> L'eau est répartie dans des tuyaux perforés posés sur une couche de graviers dans le sol naturel. C'est le sol qui assure le traitement bactérien. Nécessite un terrain perméable et une grande surface (minimum 60-80 m²).</li>
+        <li><strong>Le filtre à sable :</strong> Si le sol naturel n'est pas adapté, on installe un lit de sable spécifique qui jouera le rôle de filtre. C'est une solution très courante mais encombrante.</li>
+        <li><strong>Le filtre compact :</strong> Une solution moderne qui utilise un média filtrant (coco, laine de roche, zéolithe) dans une petite cuve après la fosse. Très compact, idéal pour les petits jardins, mais plus cher.</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Un projet de rénovation ?</strong><br/>
+        Si votre ancienne fosse n'est plus conforme, une mise aux normes est obligatoire. Découvrez aussi notre guide sur la <a href="/blog/recherche-fuite-eau-qui-paye">recherche de fuite d'eau</a> pour protéger vos installations.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mes travaux →</a></p>
+      </blockquote>
+
+      <h2 id="micro-station">La micro-station d'épuration : La solution technologique</h2>
+
+      <p>La micro-station est une solution « tout-en-un » qui reproduit le fonctionnement d'une station d'épuration municipale à l'échelle d'une maison. Elle assure le prétraitement ET le traitement dans une seule (ou deux) cuve compacte.</p>
+
+      <h3>Fonctionnement d'une micro-station</h3>
+      <p>Elle utilise le principe de <strong>culture fixée ou de culture libre (boues activées)</strong>. Une pompe à air (compresseur) injecte de l'oxygène dans la cuve pour booster l'activité des bactéries aérobies. Ces bactéries sont beaucoup plus efficaces et rapides que celles d'une fosse classique, ce qui permet de traiter l'eau dans un volume très réduit.</p>
+
+      <h3>Les trois étapes de traitement</h3>
+      <ol>
+        <li><strong>Décantation primaire :</strong> Séparation des solides et des liquides (comme une fosse).</li>
+        <li><strong>Réacteur biologique (Aération) :</strong> L'étape clé où les bactéries oxygénées digèrent la pollution.</li>
+        <li><strong>Clarificateur :</strong> Une dernière étape de décantation pour rejeter une eau propre et claire.</li>
+      </ol>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention à l'alimentation électrique</strong><br/>
+        La quasi-totalité des micro-stations nécessite une alimentation électrique permanente pour faire fonctionner le compresseur d'air. En cas de coupure prolongée, le traitement biologique s'arrête. Il existe des modèles sans électricité (filtres compacts), mais ils sont techniquement différents des micro-stations à boues activées.</p>
+      </blockquote>
+
+      <h2 id="comparatif">Comparatif détaillé : Avantages et Inconvénients</h2>
+
+      <p>Pour faire votre choix, voici une analyse comparative point par point des deux solutions en 2026 :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Fosse Toutes Eaux + Épandage</th>
+            <th style="padding: 12px; text-align: center;">Micro-Station d'Épuration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Emprise au sol</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Importante (60 à 150 m²)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Très faible (5 à 15 m²)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Consommation électrique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Nulle (gravitaire)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">40€ à 80€ / an</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Résidence secondaire</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Idéal (supporte les absences)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ Déconseillé (besoin de flux continu)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Odeurs</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Risque si ventilation mal faite</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Quasi nulles (traitement oxygéné)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Entretien</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Modéré (vidange tous les 4-5 ans)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ Fréquent (vidange 1-2 ans + contrat)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Durée de vie</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 à 30 ans (cuve béton/plastique)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15 à 25 ans (électromécanique à changer)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Installation standard (prix)</strong></td>
+            <td style="padding: 12px; text-align: center;">6 000€ – 9 000€ TTC</td>
+            <td style="padding: 12px; text-align: center;">8 500€ – 14 000€ TTC</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Pourquoi choisir la fosse toutes eaux ?</h3>
+      <p>C'est la solution la plus <strong>robuste et économique</strong>. Une fois installée, elle ne coûte quasiment rien au quotidien et supporte très bien les variations de charge (occupation le week-end, vacances, invités nombreux). C'est le choix par excellence pour les <strong>résidences secondaires</strong> ou si vous avez un grand terrain avec un sol perméable.</p>
+
+      <h3>Pourquoi choisir la micro-station ?</h3>
+      <p>C'est le choix de la <strong>place et du confort</strong>. Si votre jardin est petit ou si vous ne voulez pas dénaturer votre aménagement paysager avec un grand champ d'épandage, la micro-station est imbattable. C'est aussi une solution plus "écologique" en termes de qualité de rejet d'eau, et elle dégage beaucoup moins d'odeurs qu'une fosse mal ventilée. Elle est idéale pour une <strong>résidence principale</strong> occupée toute l'année.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Il existe des filières appelées "Filtres Compacts" qui combinent les avantages des deux solutions : ils sont aussi compacts qu'une micro-station mais fonctionnent sans électricité comme une fosse. C'est souvent le compromis idéal en 2026, bien que leur coût initial soit assez élevé (environ 10 000€ à 12 000€).</p>
+      </blockquote>
+
+      <h2 id="prix">Prix 2026 : Quel budget pour votre installation ?</h2>
+
+      <p>Le budget global d'un assainissement non collectif comprend l'achat du matériel, le terrassement, la pose, le raccordement et les frais annexes (étude de sol, contrôle SPANC). Voici les <strong>prix moyens constatés en 2026</strong> pour une habitation de type 5 pièces (4 à 6 Équivalents Habitants).</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de système</th>
+            <th style="padding: 12px; text-align: center;">Fourchette de prix TTC</th>
+            <th style="padding: 12px; text-align: center;">Observations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fosse toutes eaux + Épandage standard</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 000€ – 8 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">La plus économique, terrain > 400m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Fosse toutes eaux + Filtre à sable</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7 500€ – 10 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Terrain non perméable, emprise forte</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Micro-station à boues activées</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 000€ – 12 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Compact, électricité requise</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Micro-station à culture fixée</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">9 500€ – 14 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Plus robuste, haute performance</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Filtre compact (Coco, Laine...)</strong></td>
+            <td style="padding: 12px; text-align: center;">10 000€ – 13 500€</td>
+            <td style="padding: 12px; text-align: center;">Zéro électricité, très compact</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Les frais annexes indispensables</h3>
+      <ul>
+        <li><strong>L'étude de sol (G1) :</strong> Obligatoire pour déterminer la perméabilité de votre terrain. Comptez <strong>600€ à 1 500€</strong>.</li>
+        <li><strong>Contrôle de conception du SPANC :</strong> Validation de votre projet avant travaux. Environ <strong>150€ à 300€</strong>.</li>
+        <li><strong>Contrôle de réalisation du SPANC :</strong> Vérification de la pose avant remblayage. Environ <strong>150€ à 300€</strong>.</li>
+        <li><strong>Terrassement complexe :</strong> Si votre terrain est rocheux, pentu ou nécessite un pompage, le budget peut grimper de 2 000€ à 4 000€.</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Coût de fonctionnement annuel</strong><br/>
+        N'oubliez pas d'intégrer l'entretien ! Pour une micro-station, comptez environ <strong>150€ à 250€ par an</strong> (contrat de maintenance + électricité + vidange plus fréquente). Pour une fosse, le budget est quasi nul, hormis la vidange tous les 4 ans (environ 250€), soit <strong>60€ par an</strong>.</p>
+      </blockquote>
+
+      <h2 id="reglementation">Réglementation et SPANC : Ce qu'il faut savoir</h2>
+
+      <p>L'assainissement est strictement encadré. Le non-respect des règles peut entraîner des amendes et l'obligation de refaire les travaux à vos frais.</p>
+
+      <h3>Le rôle du SPANC</h3>
+      <p>Le <strong>Service Public d'Assainissement Non Collectif (SPANC)</strong> est votre interlocuteur privilégié. C'est l'organisme municipal ou intercommunal qui contrôle les installations. Ses missions :</p>
+      <ul>
+        <li>Valider le choix de la filière lors du permis de construire ou d'une rénovation.</li>
+        <li>Contrôler la bonne exécution des travaux.</li>
+        <li>Réaliser un diagnostic périodique (tous les 4 à 10 ans selon les communes) pour vérifier le bon fonctionnement.</li>
+      </ul>
+
+      <h3>La vente d'un bien immobilier</h3>
+      <p>Lors de la vente d'une maison disposant d'un assainissement autonome, un <strong>diagnostic de moins de 3 ans</strong> doit être fourni à l'acquéreur. Si l'installation est déclarée non conforme, l'acquéreur a <strong>une obligation de travaux sous 1 an</strong> après la signature de l'acte de vente. C'est un point de négociation majeur sur le prix de vente du bien.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Préparez votre projet avec sérieux</strong><br/>
+        Une mauvaise étude de sol ou un mauvais choix de filière peut coûter cher. Pour en savoir plus sur la gestion de votre projet, lisez notre article sur <a href="/blog/lire-analyser-devis-artisan">comment analyser un devis d'artisan</a>.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer les offres ANC →</a></p>
+      </blockquote>
+
+      <h2 id="aides">Aides financières 2026 : Comment réduire la facture ?</h2>
+
+      <p>L'installation d'un assainissement autonome est coûteuse, mais en 2026, plusieurs dispositifs permettent d'alléger la note, notamment si vous rénovez un système obsolète.</p>
+
+      <h3>1. L'Éco-Prêt à Taux Zéro (Éco-PTZ)</h3>
+      <p>Vous pouvez emprunter jusqu'à <strong>10 000€ à taux 0%</strong> pour la réhabilitation d'un système d'assainissement non collectif ne consommant pas d'énergie (fosses avec épandage ou filtres compacts). Les micro-stations, consommant de l'électricité, sont généralement exclues de ce prêt spécifique.</p>
+
+      <h3>2. Les aides de l'ANAH</h3>
+      <p>Si vos revenus sont modestes, l'ANAH peut subventionner jusqu'à 50% du montant des travaux pour la mise aux normes d'un assainissement défectueux, sous réserve que votre logement ait plus de 15 ans. Consultez le simulateur <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov' 2026</a> pour plus de détails sur les aides à la rénovation.</p>
+
+      <h3>3. La TVA à taux réduit (10%)</h3>
+      <p>Si votre logement est achevé depuis plus de 2 ans, vous bénéficiez d'une <strong>TVA à 10%</strong> sur la fourniture et la pose de votre système d'assainissement par un professionnel. Cela représente une économie immédiate de 10% par rapport au taux standard.</p>
+
+      <h3>4. Les aides des collectivités et Agences de l'Eau</h3>
+      <p>Certaines Agences de l'Eau (selon votre bassin versant) proposent des subventions directes pouvant atteindre <strong>3 000€ à 6 000€</strong> pour la réhabilitation groupée d'assainissements dans des zones sensibles. Renseignez-vous auprès de votre mairie ou de votre SPANC.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Cumulez les aides !</strong><br/>
+        Il est souvent possible de cumuler l'Éco-PTZ, la TVA à 10% et les subventions locales. Un projet de 10 000€ peut ainsi vous revenir à moins de 6 000€ après déduction des aides si vous remplissez toutes les conditions. C'est le moment idéal pour mettre votre installation aux normes avant une future vente ou pour valoriser votre patrimoine.</p>
+      </blockquote>
+
+      <h2 id="conclusion">Conclusion : Quelle solution choisir pour votre projet ?</h2>
+
+      <p>Le duel <strong>Fosse Septique vs Micro-Station</strong> n'a pas de vainqueur universel. Tout dépend de vos priorités :</p>
+      <ul>
+        <li><strong>Choisissez la Fosse toutes eaux (+ épandage ou filtre compact)</strong> si vous cherchez la tranquillité, si vous possédez une résidence secondaire, ou si vous voulez minimiser les coûts d'entretien sur 30 ans.</li>
+        <li><strong>Choisissez la Micro-station</strong> si vous avez un petit terrain, si vous privilégiez un aménagement de jardin soigné, ou si vous voulez la technologie la plus performante en termes de traitement environnemental pour une résidence principale.</li>
+      </ul>
+
+      <p>Dans tous les cas, <strong>ne négligez pas l'étude de sol</strong> : c'est elle qui dicte techniquement ce qui est réalisable ou non sur votre parcelle. Et assurez-vous de comparer plusieurs devis d'entreprises locales certifiées pour obtenir le meilleur rapport qualité/prix.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à lancer votre projet d'assainissement ?</strong><br/>
+        Confiez votre projet à des experts. Recevez sous 48h des devis personnalisés et conformes aux exigences du SPANC.<br/>
+        <a href="/service/plomberie-sanitaire/paris" style="color: #d97706; font-weight: bold;">Comparer 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes sur l'assainissement non collectif</h2>
+
+      <h3>Peut-on installer une micro-station soi-même ?</h3>
+      <p>Techniquement oui, mais c'est <strong>fortement déconseillé</strong>. Le terrassement et le raccordement demandent une précision extrême pour assurer le bon écoulement gravitaire. De plus, sans facture de pose d'un professionnel, vous perdez le bénéfice de la TVA à 10%, des aides financières et surtout de la garantie décennale en cas de malfaçon. Le SPANC peut également être beaucoup plus pointilleux lors du contrôle de réalisation.</p>
+
+      <h3>À quelle fréquence faut-il vidanger sa fosse ou sa micro-station ?</h3>
+      <p>Pour une fosse toutes eaux, la vidange se fait généralement tous les <strong>4 à 5 ans</strong> (lorsque les boues atteignent 50% du volume). Pour une micro-station, la vidange est plus fréquente, souvent tous les <strong>1 à 2 ans</strong> (lorsque les boues atteignent 30% du volume), car la cuve de décantation est plus petite. Attention, seul un vidangeur agréé par la préfecture est habilité à intervenir et doit vous remettre un certificat.</p>
+
+      <h3>Une micro-station fait-elle du bruit ?</h3>
+      <p>La micro-station comporte un compresseur d'air qui émet un <strong>léger bourdonnement continu</strong>. Si elle est installée à plus de 5 mètres de la maison (distance réglementaire) et que le capot est bien isolé, le bruit n'est généralement pas perceptible. Cependant, évitez de l'installer juste sous une fenêtre de chambre ou près d'une terrasse de repos.</p>
+
+      <h3>Puis-je rejeter les eaux traitées dans un fossé ?</h3>
+      <p>Oui, mais c'est <strong>soumis à autorisation</strong>. Le rejet dans un fossé ou un cours d'eau est l'ultime solution si l'infiltration dans le sol est techniquement impossible. Vous devez obtenir l'accord du propriétaire du fossé (souvent la mairie) et l'eau rejetée doit respecter des normes de pureté strictes (généralement garanties par les micro-stations agréées).</p>
+
+      <h3>Quel est le risque si mon assainissement n'est pas conforme ?</h3>
+      <p>En cas de non-conformité majeure (risque pour la santé ou pollution avérée), le SPANC vous mettra en demeure de réaliser les travaux sous un délai (souvent 4 ans). Si vous ne réagissez pas, vous vous exposez à des amendes pouvant aller jusqu'à <strong>45 000€</strong> et une majoration de votre redevance d'assainissement. En cas de vente, la mise aux normes est une obligation légale pour l'acquéreur sous un an.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-03-09",
+    readingTime: "18 min",
+    image: "/images/blog/micro_station_epuration_prix.png"
+  },
+  {
     slug: "recherche-fuite-eau-qui-paye",
     title: "Recherche de fuite d'eau : Qui paie ? (Assurance, Locataire, Propriétaire, Syndic)",
     excerpt: "Qui doit payer la recherche de fuite d'eau ? Découvrez les responsabilités de l'assurance, du locataire, du propriétaire et du syndic selon la situation. Guide complet 2026 avec coûts, démarches et cas concrets.",
