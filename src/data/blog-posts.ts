@@ -2,6 +2,512 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "etapes-construction-maison",
+    title: "Construire sa maison en 2026 : Les étapes clés de A à Z (Guide Ultime)",
+    excerpt: "Découvrez toutes les étapes construction maison en 2026 : du terrain au permis de construire, des fondations à la remise des clés. Budget, délais, démarches et conseils d'experts pour réussir votre projet de construction neuve.",
+    content: `
+      <p><strong>Construire sa maison est le projet d'une vie — et en 2026, les étapes construction maison n'ont jamais été aussi encadrées, exigeantes et passionnantes.</strong> Entre la RE 2020 pleinement en vigueur, les nouvelles exigences thermiques, les évolutions du PTZ et les prix du foncier en constante mutation, il est essentiel de connaître <strong>chaque étape du processus</strong> pour éviter les pièges et mener votre chantier à bien.</p>
+
+      <p>Ce guide ultime vous accompagne <strong>de la première idée jusqu'à la remise des clés</strong>. Que vous passiez par un constructeur (CCMI), un architecte ou un maître d'œuvre, vous trouverez ici toutes les informations pratiques, les budgets réalistes et les conseils de professionnels pour concrétiser votre rêve de <strong>construction de maison individuelle</strong> en 2026.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Vous avez un projet de construction ?</strong><br/>
+        Comparez gratuitement jusqu'à 3 devis de constructeurs et maîtres d'œuvre qualifiés près de chez vous. Estimation fiable et sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#etape1">Étape 1 : Définir son projet et son budget</a></li>
+        <li><a href="#etape2">Étape 2 : Trouver et acheter le terrain</a></li>
+        <li><a href="#etape3">Étape 3 : Choisir son mode de construction</a></li>
+        <li><a href="#etape4">Étape 4 : Concevoir les plans de la maison</a></li>
+        <li><a href="#etape5">Étape 5 : Obtenir le permis de construire</a></li>
+        <li><a href="#etape6">Étape 6 : Financer son projet (prêt, PTZ, aides)</a></li>
+        <li><a href="#etape7">Étape 7 : Le gros œuvre (fondations, murs, toiture)</a></li>
+        <li><a href="#etape8">Étape 8 : Le second œuvre (isolation, électricité, plomberie)</a></li>
+        <li><a href="#etape9">Étape 9 : Les finitions et aménagements</a></li>
+        <li><a href="#etape10">Étape 10 : La réception de la maison</a></li>
+        <li><a href="#budget">Budget construction maison 2026 : combien ça coûte ?</a></li>
+        <li><a href="#delais">Délais de construction : à quoi s'attendre ?</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="etape1">Étape 1 : Définir son projet et son budget</h2>
+
+      <p>Avant de chercher un terrain ou un constructeur, la toute première étape est de <strong>cadrer précisément votre projet de construction</strong>. C'est la phase de réflexion qui conditionne tout le reste. Plus vous serez précis à ce stade, moins vous aurez de mauvaises surprises en cours de chantier.</p>
+
+      <h3>Les questions essentielles à se poser</h3>
+      <ul>
+        <li><strong>Quelle surface habitable ?</strong> En 2026, le prix moyen de construction se situe entre 1 500€ et 3 000€/m². Une maison de 100 m² coûtera donc entre 150 000€ et 300 000€ hors terrain. Définissez la surface en fonction de vos besoins réels (nombre de chambres, bureau télétravail, suite parentale, etc.).</li>
+        <li><strong>Quel type de maison ?</strong> Plain-pied, à étage, en L, contemporaine, traditionnelle, maison bois, maison passive ? Chaque configuration a un impact direct sur le prix au m² et la surface de terrain nécessaire.</li>
+        <li><strong>Quel budget global ?</strong> N'oubliez pas que le terrain représente en moyenne <strong>30 à 50% du budget total</strong> selon les régions. Ajoutez les frais de notaire (7-8% du terrain), les raccordements (3 000€ à 8 000€), la taxe d'aménagement et le coût de l'aménagement extérieur.</li>
+        <li><strong>Quelle localisation ?</strong> Proximité des écoles, des commerces, des transports, du lieu de travail, qualité de la connexion internet (fibre), zone inondable ou non, exposition au bruit.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Conseil d'expert</strong><br/>
+        Créez un tableur détaillé avec tous les postes de dépenses. La règle d'or : prévoyez toujours une <strong>marge de sécurité de 10 à 15%</strong> sur le budget total pour absorber les imprévus (surcoût de fondations spéciales, options ajoutées en cours de chantier, raccordements plus complexes que prévu). Si vous construisez pour la première fois, notre guide sur <a href="/blog/lire-analyser-devis-artisan">comment lire et analyser un devis d'artisan</a> vous sera très utile pour comparer les offres.</p>
+      </blockquote>
+
+      <h2 id="etape2">Étape 2 : Trouver et acheter le terrain</h2>
+
+      <p>Le choix du terrain est <strong>la décision la plus structurante</strong> de votre projet de construction. Un mauvais terrain peut transformer un projet de rêve en cauchemar financier. Voici ce qu'il faut vérifier impérativement avant de signer.</p>
+
+      <h3>Les vérifications indispensables</h3>
+      <ul>
+        <li><strong>Le PLU (Plan Local d'Urbanisme) :</strong> Ce document municipal définit ce que vous avez le droit de construire : hauteur maximale, emprise au sol, recul par rapport aux limites, aspect architectural obligatoire (tuiles, enduit, couleurs). Demandez-le en mairie avant tout achat.</li>
+        <li><strong>L'étude de sol (G2 AVP) :</strong> Obligatoire depuis la loi ELAN de 2018 en zone argileuse. Elle détermine le type de fondations nécessaires. Un sol argileux ou une nappe phréatique haute peut multiplier le coût des fondations par 2 ou 3.</li>
+        <li><strong>La viabilisation :</strong> Le terrain est-il raccordé aux réseaux (eau, électricité, gaz, assainissement, télécom) ? Un terrain non viabilisé coûte moins cher à l'achat mais nécessitera <strong>5 000€ à 15 000€ de raccordements</strong>. Pour les terrains non raccordés à l'assainissement collectif, consultez notre guide sur les <a href="/blog/micro-station-epuration-prix">micro-stations d'épuration</a>.</li>
+        <li><strong>Les risques naturels :</strong> Consultez le Plan de Prévention des Risques (PPR) pour vérifier si le terrain est en zone inondable, zone sismique, zone de retrait-gonflement des argiles ou zone de bruit.</li>
+        <li><strong>Le bornage :</strong> Faites borner le terrain par un géomètre-expert pour connaître les limites exactes. Le coût est d'environ 500€ à 1 500€ selon la complexité.</li>
+      </ul>
+
+      <h3>Terrain en lotissement vs terrain isolé (diffus)</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">Terrain en lotissement</th>
+            <th style="padding: 12px; text-align: center;">Terrain isolé (diffus)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Viabilisation</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Incluse dans le prix</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">❌ À votre charge</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Étude de sol</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Fournie par le lotisseur</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⚠️ À commander (1 500€ – 3 000€)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Permis de construire</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Simplifié (pas de CU à demander)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Démarches complètes</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Liberté architecturale</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Limitée (cahier des charges)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Totale (selon PLU)</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Prix moyen</strong></td>
+            <td style="padding: 12px; text-align: center;">Plus cher au m² mais « clé en main »</td>
+            <td style="padding: 12px; text-align: center;">Moins cher mais frais cachés</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="etape3">Étape 3 : Choisir son mode de construction</h2>
+
+      <p>En 2026, vous avez principalement <strong>trois options</strong> pour faire construire votre maison. Chacune présente des avantages et des inconvénients en termes de prix, de garanties et de liberté de conception.</p>
+
+      <h3>1. Le Contrat de Construction de Maison Individuelle (CCMI)</h3>
+      <p>C'est le cadre le plus protecteur juridiquement. Le constructeur s'engage sur un <strong>prix ferme et définitif</strong>, un délai de livraison et fournit toutes les garanties obligatoires (garantie de livraison à prix et délais convenus, garantie décennale, garantie de parfait achèvement). C'est le choix de <strong>80% des particuliers</strong> qui font construire en France.</p>
+      <ul>
+        <li><strong>Avantages :</strong> Prix garanti, délai garanti, garantie de livraison bancaire, un seul interlocuteur.</li>
+        <li><strong>Inconvénients :</strong> Personnalisation limitée, catalogue de plans, choix de matériaux restreint.</li>
+        <li><strong>Prix moyen 2026 :</strong> 1 400€ à 2 200€/m² (construction seule, hors terrain).</li>
+      </ul>
+
+      <h3>2. L'architecte</h3>
+      <p>L'architecte est obligatoire pour les maisons de plus de <strong>150 m² de surface de plancher</strong>. Il conçoit une maison sur-mesure, parfaitement adaptée à votre terrain et à vos envies. Il peut aussi assurer la maîtrise d'œuvre complète (suivi de chantier, coordination des artisans).</p>
+      <ul>
+        <li><strong>Avantages :</strong> Maison unique, optimisation du terrain, qualité architecturale, suivi rigoureux.</li>
+        <li><strong>Inconvénients :</strong> Prix plus élevé (honoraires 8 à 15% du coût des travaux), pas de garantie de prix ferme, plus de responsabilités pour le maître d'ouvrage.</li>
+        <li><strong>Prix moyen 2026 :</strong> 1 800€ à 3 500€/m² (selon complexité et matériaux).</li>
+      </ul>
+
+      <h3>3. Le maître d'œuvre</h3>
+      <p>Le maître d'œuvre (souvent un bureau d'études ou un indépendant) offre un compromis entre le CCMI et l'architecte. Il conçoit les plans, sélectionne les artisans par appels d'offres et coordonne le chantier, tout en vous laissant plus de latitude sur les choix techniques.</p>
+      <ul>
+        <li><strong>Avantages :</strong> Bonne personnalisation, transparence sur les prix (lots séparés), souplesse.</li>
+        <li><strong>Inconvénients :</strong> Pas de garantie de livraison à prix convenu (sauf assurance spécifique), vous signez plusieurs contrats (un par lot).</li>
+        <li><strong>Prix moyen 2026 :</strong> 1 500€ à 2 800€/m².</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Point de vigilance</strong><br/>
+        Quel que soit votre choix, vérifiez toujours que le professionnel dispose d'une <strong>assurance décennale en cours de validité</strong> couvrant les travaux de construction. Exigez l'attestation avant de signer tout contrat. Pour bien comprendre les enjeux, consultez notre guide complet sur la <a href="/blog/reception-chantier-reserves-guide">réception de chantier avec réserves</a>.</p>
+      </blockquote>
+
+      <h2 id="etape4">Étape 4 : Concevoir les plans de la maison</h2>
+
+      <p>La conception des plans est une étape passionnante mais cruciale. En 2026, les plans doivent intégrer la <strong>réglementation environnementale RE 2020</strong> qui impose des performances thermiques et un bilan carbone stricts pour toute construction neuve.</p>
+
+      <h3>Les contraintes de la RE 2020</h3>
+      <ul>
+        <li><strong>Bbio (Besoin Bioclimatique) :</strong> Le bâtiment doit être naturellement performant grâce à son orientation, son isolation et ses surfaces vitrées. Privilégiez les grandes baies vitrées au sud et limitez-les au nord.</li>
+        <li><strong>Cep (Consommation d'Énergie Primaire) :</strong> Consommation maximale d'énergie pour le chauffage, la climatisation, l'eau chaude, l'éclairage et les auxiliaires. Concrètement, cela favorise les <a href="/blog/consommation-electrique-pompe-a-chaleur">pompes à chaleur</a> et les chauffe-eaux thermodynamiques.</li>
+        <li><strong>Ic (Indice Carbone) :</strong> Bilan carbone de la construction sur 50 ans, qui pousse vers les matériaux biosourcés (bois, ouate de cellulose, chanvre).</li>
+        <li><strong>DH (Degrés-Heures d'inconfort) :</strong> Indicateur de confort d'été qui oblige à anticiper les surchauffes. Les brise-soleil, les volets et les casquettes architecturales deviennent indispensables.</li>
+      </ul>
+
+      <h3>Les éléments clés des plans</h3>
+      <p>Un bon plan de maison en 2026 doit optimiser :</p>
+      <ul>
+        <li><strong>L'orientation :</strong> Pièces de vie au sud (séjour, cuisine), chambres à l'est ou à l'ouest, garage et buanderie au nord.</li>
+        <li><strong>La compacité :</strong> Une maison compacte (carrée ou rectangulaire) coûte moins cher à construire et à chauffer qu'une maison en L ou en U.</li>
+        <li><strong>La circulation :</strong> Minimisez les couloirs inutiles qui gaspillent des m² sans valeur d'usage.</li>
+        <li><strong>L'évolutivité :</strong> Prévoyez les combles aménageables, les pré-câblages, les attentes de plomberie pour une future salle de bain. Pensez aussi à l'installation de <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">panneaux solaires</a> en prévoyant une orientation de toiture adaptée.</li>
+      </ul>
+
+      <h2 id="etape5">Étape 5 : Obtenir le permis de construire</h2>
+
+      <p>Le <strong>permis de construire</strong> est l'autorisation administrative indispensable pour toute construction neuve de plus de 20 m². Le dépôt se fait en mairie, et le processus peut prendre <strong>2 à 4 mois</strong> selon les communes.</p>
+
+      <h3>Les pièces du dossier</h3>
+      <ul>
+        <li><strong>Formulaire Cerfa n°13406*12 :</strong> La demande officielle avec les informations sur le demandeur et le terrain.</li>
+        <li><strong>Plan de situation (PCMI 1) :</strong> Localisation du terrain dans la commune.</li>
+        <li><strong>Plan de masse (PCMI 2) :</strong> Implantation de la maison sur le terrain avec les cotes (distances aux limites, hauteurs).</li>
+        <li><strong>Plan de coupe (PCMI 3) :</strong> Coupe transversale montrant le profil du terrain et l'implantation de la construction.</li>
+        <li><strong>Notice descriptive (PCMI 4) :</strong> Description des matériaux et de l'aspect extérieur.</li>
+        <li><strong>Plans des façades et toitures (PCMI 5) :</strong> Représentations de toutes les élévations.</li>
+        <li><strong>Document graphique d'insertion (PCMI 6) :</strong> Photomontage montrant la maison dans son environnement.</li>
+        <li><strong>Attestation RE 2020 :</strong> Calcul thermique réalisé par un bureau d'études certifié, obligatoire au dépôt du permis.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Bon à savoir</strong><br/>
+        Le délai d'instruction est de <strong>2 mois</strong> pour une maison individuelle standard, et de <strong>3 mois</strong> si le terrain est situé dans le périmètre d'un Architecte des Bâtiments de France (ABF) — c'est-à-dire à proximité d'un monument historique. Après l'obtention du permis, vous devez afficher le panneau réglementaire sur le terrain pendant <strong>toute la durée du chantier</strong>. Le délai de recours des tiers est de 2 mois à compter de l'affichage.</p>
+      </blockquote>
+
+      <h2 id="etape6">Étape 6 : Financer son projet (prêt, PTZ, aides 2026)</h2>
+
+      <p>Le financement est souvent le nerf de la guerre. En 2026, plusieurs dispositifs existent pour vous aider à boucler votre budget de construction.</p>
+
+      <h3>Le Prêt à Taux Zéro (PTZ) 2026</h3>
+      <p>Grande nouveauté 2026 : le PTZ est désormais <strong>étendu à l'ensemble du territoire pour la construction neuve</strong> (y compris les maisons individuelles en zone B2 et C, ce qui n'était plus le cas depuis 2020). Le montant du PTZ peut atteindre :</p>
+      <ul>
+        <li><strong>Jusqu'à 40% du coût total</strong> en zone A et B1</li>
+        <li><strong>Jusqu'à 20% du coût total</strong> en zone B2 et C</li>
+        <li><strong>Plafond de revenus :</strong> Selon la composition du ménage et la zone géographique</li>
+        <li><strong>Durée de remboursement :</strong> 20 à 25 ans avec un différé de 5 à 15 ans selon les revenus</li>
+      </ul>
+
+      <h3>Les autres aides en 2026</h3>
+      <ul>
+        <li><strong>Le Prêt Action Logement (1%) :</strong> Jusqu'à 40 000€ à 0,5% pour les salariés d'entreprises de plus de 10 employés. Cumulable avec le PTZ.</li>
+        <li><strong>Les aides des collectivités locales :</strong> Certaines communes proposent des exonérations de taxe foncière pendant 2 ans, des ventes de terrains à prix préférentiel ou des primes à la construction (jusqu'à 10 000€ dans certaines zones rurales). Pour connaître toutes les aides disponibles, consultez notre guide <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov' et aides 2026</a>.</li>
+        <li><strong>La TVA réduite (5,5%) :</strong> Applicable dans les quartiers prioritaires de la politique de la ville (QPV) pour les résidences principales de primo-accédants.</li>
+      </ul>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Dispositif</th>
+            <th style="padding: 12px; text-align: center;">Montant max</th>
+            <th style="padding: 12px; text-align: center;">Conditions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PTZ 2026</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Jusqu'à 80 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Primo-accédant, plafond de revenus</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prêt Action Logement</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">40 000€ à 0,5%</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Salarié d'entreprise > 10 pers.</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Exonération taxe foncière</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 ans (variable)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Construction neuve, déclaration H1</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>TVA 5,5% (zone QPV)</strong></td>
+            <td style="padding: 12px; text-align: center;">Économie de ~15% sur le prix TTC</td>
+            <td style="padding: 12px; text-align: center;">Primo-accédant, zone QPV</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Optimisez votre financement</strong><br/>
+        Faites appel à un courtier en prêt immobilier qui pourra comparer les offres de 20 à 30 banques et cumuler PTZ + prêt classique + prêt Action Logement pour obtenir le meilleur taux global. En 2026, les taux d'intérêt immobiliers se situent entre 2,8% et 3,5% sur 20 ans.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer les offres de construction →</a></p>
+      </blockquote>
+
+      <h2 id="etape7">Étape 7 : Le gros œuvre (fondations, murs, toiture)</h2>
+
+      <p>Le gros œuvre est la phase la plus spectaculaire : en quelques semaines, votre maison prend forme. C'est aussi le poste budgétaire le plus important, représentant <strong>40 à 50% du coût total de construction</strong>.</p>
+
+      <h3>Le terrassement et les fondations</h3>
+      <p>Tout commence par le terrassement : décapage de la terre végétale, mise à niveau du terrain, creusement des fouilles pour les fondations. Le type de fondation dépend de l'étude de sol :</p>
+      <ul>
+        <li><strong>Semelles filantes :</strong> Solution standard pour les sols porteurs (calcaire, gravier). Budget : 100€ à 200€/ml.</li>
+        <li><strong>Radier (dalle flottante) :</strong> Sur les sols compressibles ou argileux. Budget : 100€ à 180€/m².</li>
+        <li><strong>Pieux ou micropieux :</strong> En cas de sol très meuble ou de nappe phréatique haute. Budget : 150€ à 300€ par pieu, avec 20 à 40 pieux pour une maison standard. C'est le poste qui peut faire exploser le budget si l'étude de sol n'a pas été faite correctement.</li>
+      </ul>
+
+      <h3>L'élévation des murs</h3>
+      <p>En 2026, les matériaux de construction les plus utilisés pour les murs porteurs sont :</p>
+      <ul>
+        <li><strong>Le parpaing (bloc béton) :</strong> Toujours le plus économique (50€ à 80€/m²). Nécessite une isolation complémentaire par l'intérieur ou l'extérieur.</li>
+        <li><strong>La brique (monomur ou thermobriques) :</strong> Excellente inertie thermique, respirante, elle simplifie l'isolation. Budget : 80€ à 130€/m².</li>
+        <li><strong>Le béton cellulaire :</strong> Léger, isolant, facile à poser. Budget : 90€ à 140€/m².</li>
+        <li><strong>L'ossature bois :</strong> Construction rapide, écologique (carbone stocké), parfaitement adaptée à la RE 2020. Budget : 120€ à 200€/m² de mur.</li>
+      </ul>
+
+      <h3>La charpente et la couverture</h3>
+      <p>La toiture protège la maison des intempéries et contribue à son esthétique. Les deux grands types de charpente :</p>
+      <ul>
+        <li><strong>Charpente traditionnelle :</strong> Permet d'aménager les combles (chambres supplémentaires). Plus coûteuse mais plus valorisante. Budget : 80€ à 150€/m².</li>
+        <li><strong>Charpente industrielle (fermettes) :</strong> Économique mais combles perdus (non aménageables sans modification). Budget : 50€ à 90€/m². Pour les combles perdus, vous pouvez prévoir une <a href="/blog/isolation-combles-perdus-laine-verre-ouate-cellulose-roche">isolation soufflée performante</a>.</li>
+      </ul>
+      <p>Pour la couverture, les prix incluent la fourniture et la pose. Consultez notre guide complet sur le <a href="/blog/prix-refection-toiture-100m2-tuiles-ardoise-zinc">prix de la toiture au m²</a> pour des estimations détaillées par matériau.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Étape clé : le « hors d'eau / hors d'air »</strong><br/>
+        Quand la toiture est posée (hors d'eau) et les menuiseries extérieures installées (hors d'air), la maison est protégée des intempéries. C'est une étape majeure qui déclenche souvent un appel de fonds de 40 à 50% dans le cadre d'un CCMI. À ce stade, le plus gros du risque climatique est passé.</p>
+      </blockquote>
+
+      <h2 id="etape8">Étape 8 : Le second œuvre (isolation, électricité, plomberie)</h2>
+
+      <p>Le second œuvre regroupe tous les corps de métier qui interviennent après la mise hors d'eau/hors d'air. C'est la phase qui rend la maison habitable. Elle représente environ <strong>30 à 35% du budget total</strong>.</p>
+
+      <h3>L'isolation thermique et acoustique</h3>
+      <p>En RE 2020, l'isolation est un poste stratégique. En 2026, les solutions les plus courantes sont :</p>
+      <ul>
+        <li><strong>Isolation des murs par l'intérieur (ITI) :</strong> Laine de verre, laine de roche ou isolant biosourcé (ouate de cellulose, fibre de bois) en doublage sur ossature. R minimum recommandé : 4,5 m².K/W. Budget : 30€ à 60€/m².</li>
+        <li><strong>Isolation des murs par l'extérieur (ITE) :</strong> Panneaux d'isolant collés et recouverts d'un enduit. Supprime les ponts thermiques. R recommandé : 4 à 5 m².K/W. Budget : 100€ à 180€/m². Consultez notre guide sur l'<a href="/blog/isolation-exterieure-prix-m2">isolation extérieure prix au m²</a>.</li>
+        <li><strong>Isolation de la toiture :</strong> Sous rampants (combles aménagés) ou en soufflage (combles perdus). R minimum : 8 m².K/W en combles. Budget : 25€ à 70€/m².</li>
+        <li><strong>Isolation du plancher bas :</strong> Sous dalle ou sous vide sanitaire. R minimum : 3,7 m².K/W. Budget : 20€ à 50€/m².</li>
+      </ul>
+
+      <h3>L'électricité</h3>
+      <p>L'installation électrique doit être conforme à la norme <strong>NF C 15-100 (édition 2024)</strong>. Prévoyez :</p>
+      <ul>
+        <li>Un tableau électrique dimensionné (200€ à 1 000€ selon la puissance). Consultez notre guide sur la <a href="/blog/mise-aux-normes-tableau-electrique-prix">mise aux normes du tableau électrique</a>.</li>
+        <li>Les prises et interrupteurs dans chaque pièce (nombre minimum imposé par la norme)</li>
+        <li>Le pré-câblage pour la domotique (volets roulants motorisés, portail, alarme)</li>
+        <li>Le raccordement Enedis (1 000€ à 2 500€ selon la puissance et la distance)</li>
+        <li><strong>Budget moyen électricité :</strong> 80€ à 130€/m² de surface habitable</li>
+      </ul>
+
+      <h3>La plomberie et le chauffage</h3>
+      <p>En RE 2020, les systèmes de chauffage à énergie fossile (chaudière gaz, fioul) sont <strong>interdits en construction neuve</strong>. Les solutions plébiscitées en 2026 :</p>
+      <ul>
+        <li><strong>Pompe à chaleur air-eau :</strong> La plus courante. Elle assure le chauffage par le sol ou des radiateurs basse température + l'eau chaude sanitaire. Budget : 8 000€ à 15 000€.</li>
+        <li><strong>Pompe à chaleur air-air (climatisation réversible) :</strong> Moins chère mais ne produit pas d'eau chaude. Budget : 5 000€ à 10 000€.</li>
+        <li><strong>Chauffe-eau thermodynamique :</strong> Obligatoire si la PAC ne produit pas l'ECS. Budget : 2 000€ à 4 000€.</li>
+        <li><strong>Plancher chauffant hydraulique :</strong> Le summum du confort. Budget : 40€ à 70€/m².</li>
+      </ul>
+
+      <h2 id="etape9">Étape 9 : Les finitions et aménagements</h2>
+
+      <p>Les finitions sont la touche finale qui transforme un chantier en un foyer. C'est souvent la phase la plus longue et celle où les dépassements de budget sont les plus fréquents. Comptez <strong>15 à 25% du budget total</strong>.</p>
+
+      <h3>Les postes de finition principaux</h3>
+      <ul>
+        <li><strong>Revêtements de sol :</strong> Carrelage (30€ à 80€/m² posé), parquet (40€ à 120€/m² posé), vinyle/PVC (15€ à 40€/m² posé). Prévoyez environ 3 000€ à 10 000€ pour une maison de 100 m².</li>
+        <li><strong>Peinture intérieure :</strong> 15€ à 35€/m² (murs + plafonds). Budget : 3 000€ à 7 000€ pour une maison standard.</li>
+        <li><strong>Faïence (salle de bain, cuisine) :</strong> 40€ à 100€/m² posée. Budget : 1 500€ à 4 000€.</li>
+        <li><strong>Menuiseries intérieures (portes) :</strong> 150€ à 600€ par porte posée. Budget : 1 500€ à 6 000€ pour 10 portes.</li>
+        <li><strong>Cuisine équipée :</strong> 3 000€ à 15 000€ selon la gamme (hors électroménager).</li>
+        <li><strong>Salle de bain :</strong> 3 000€ à 12 000€ par salle de bain équipée (sanitaires, robinetterie, douche/baignoire).</li>
+      </ul>
+
+      <h3>Les aménagements extérieurs</h3>
+      <p>Ne sous-estimez pas le budget extérieur — il est souvent oublié dans les estimations initiales :</p>
+      <ul>
+        <li><strong>Allée d'accès et terrasse :</strong> 3 000€ à 10 000€</li>
+        <li><strong>Clôture et portail :</strong> 2 000€ à 8 000€</li>
+        <li><strong>Engazonnement et plantations :</strong> 1 000€ à 5 000€</li>
+        <li><strong>Assainissement (si non raccordé) :</strong> 6 000€ à 14 000€</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Anticipez les finitions !</strong><br/>
+        La meilleure stratégie est de faire un choix réaliste dès le départ. Les modifications en cours de chantier (changement de carrelage, ajout de prises, modification de cloisons) génèrent des avenants coûteux et des retards. Pour estimer précisément vos coûts, notre guide sur l'<a href="/blog/acompte-travaux-pourcentage">acompte et le paiement des travaux</a> vous aidera à comprendre l'échéancier financier.</p>
+      </blockquote>
+
+      <h2 id="etape10">Étape 10 : La réception de la maison</h2>
+
+      <p>La réception est l'<strong>acte juridique le plus important</strong> du processus de construction. C'est le moment où vous acceptez (ou non) les travaux réalisés. Elle déclenche le point de départ de toutes les garanties légales.</p>
+
+      <h3>Comment se passe la réception ?</h3>
+      <ol>
+        <li><strong>Visite complète de la maison :</strong> Inspectez chaque pièce, chaque équipement, chaque détail. Ouvrez les fenêtres, testez les robinets, vérifiez les prises, allumez le chauffage.</li>
+        <li><strong>Liste des réserves :</strong> Notez scrupuleusement chaque défaut constaté (fissure, rayure, prise mal positionnée, porte qui frotte, etc.) sur le procès-verbal de réception.</li>
+        <li><strong>Signature du PV :</strong> Si les défauts sont mineurs, vous signez avec réserves. Le constructeur a un délai (généralement 90 jours) pour lever les réserves. <strong>Ne signez jamais sans réserves si des défauts sont constatés.</strong></li>
+        <li><strong>Consignation du solde (5%) :</strong> En CCMI, vous pouvez consigner les 5% restants chez un tiers (Caisse des dépôts ou notaire) jusqu'à la levée des réserves.</li>
+      </ol>
+
+      <h3>Les garanties après réception</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Garantie</th>
+            <th style="padding: 12px; text-align: center;">Durée</th>
+            <th style="padding: 12px; text-align: center;">Ce qu'elle couvre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Parfait achèvement</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 an</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Tous les défauts signalés à la réception + ceux apparus la 1ère année</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bon fonctionnement (biennale)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Équipements dissociables (volets, robinetterie, chauffe-eau, etc.)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Décennale</strong></td>
+            <td style="padding: 12px; text-align: center;">10 ans</td>
+            <td style="padding: 12px; text-align: center;">Solidité + impropriété à destination (fondations, structure, toiture, étanchéité)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="budget">Budget construction maison 2026 : combien ça coûte ?</h2>
+
+      <p>Voici les <strong>budgets moyens constatés en France en 2026</strong> pour la construction d'une maison individuelle, terrain inclus :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de projet</th>
+            <th style="padding: 12px; text-align: center;">Budget total moyen (terrain + construction)</th>
+            <th style="padding: 12px; text-align: center;">Surface habitable</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maison d'entrée de gamme (CCMI)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">200 000€ – 280 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">80 – 100 m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maison milieu de gamme (CCMI)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">280 000€ – 400 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">100 – 140 m²</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maison haut de gamme (architecte)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">400 000€ – 700 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">130 – 200 m²</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maison passive / très haute performance</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">350 000€ – 600 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">100 – 150 m²</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Maison bois / ossature bois</strong></td>
+            <td style="padding: 12px; text-align: center;">250 000€ – 450 000€</td>
+            <td style="padding: 12px; text-align: center;">90 – 150 m²</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Répartition type du budget</strong><br/>
+        Pour une maison à 300 000€ tout compris : <strong>Terrain :</strong> 90 000€ à 120 000€ (30-40%) | <strong>Gros œuvre :</strong> 70 000€ à 90 000€ (25-30%) | <strong>Second œuvre :</strong> 50 000€ à 65 000€ (18-22%) | <strong>Finitions :</strong> 25 000€ à 40 000€ (8-13%) | <strong>Frais annexes</strong> (notaire, raccordements, taxes) : 15 000€ à 25 000€ (5-8%).</p>
+      </blockquote>
+
+      <h2 id="delais">Délais de construction : à quoi s'attendre ?</h2>
+
+      <p>Le délai total entre la décision de construire et l'emménagement est généralement de <strong>15 à 24 mois</strong>. Voici le chronogramme type :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Étape</th>
+            <th style="padding: 12px; text-align: center;">Durée moyenne</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Recherche de terrain + achat</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 à 6 mois</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Conception des plans + études</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 à 3 mois</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Permis de construire (dépôt + instruction)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 à 4 mois</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Financement (montage dossier + offre de prêt)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 à 2 mois</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Purge du permis (recours des tiers)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 mois</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Gros œuvre</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 à 5 mois</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Second œuvre + finitions</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 à 6 mois</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>TOTAL</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>15 à 24 mois</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="conclusion">Conclusion : lancez votre projet de construction en 2026</h2>
+
+      <p>Construire sa maison en 2026 est un projet ambitieux mais parfaitement réalisable si vous suivez les <strong>étapes construction maison</strong> de manière méthodique. De la définition du budget à la réception des travaux, chaque phase mérite une attention particulière et des choix éclairés.</p>
+
+      <p>Les points clés à retenir :</p>
+      <ul>
+        <li><strong>Budgétisez avec réalisme :</strong> Prévoyez 10 à 15% de marge pour les imprévus</li>
+        <li><strong>L'étude de sol est non négociable :</strong> Elle conditionne le type de fondations et peut impacter le budget de 10 000€ à 30 000€</li>
+        <li><strong>La RE 2020 est une opportunité :</strong> Une maison RE 2020 consomme très peu d'énergie et se valorise mieux à la revente</li>
+        <li><strong>Comparez au minimum 3 devis :</strong> Que ce soit pour le CCMI, l'architecte ou le maître d'œuvre</li>
+        <li><strong>Ne négligez jamais la réception :</strong> C'est votre meilleure protection juridique</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à construire votre maison en 2026 ?</strong><br/>
+        Recevez sous 48h des devis personnalisés de constructeurs, architectes et maîtres d'œuvre qualifiés et assurés près de chez vous. Gratuit et sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis construction →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes sur la construction de maison</h2>
+
+      <h3>Combien coûte la construction d'une maison en 2026 ?</h3>
+      <p>En 2026, le coût moyen de construction d'une maison individuelle (hors terrain) se situe entre <strong>1 500€ et 3 000€ par m²</strong> selon le type de construction (CCMI, architecte, maître d'œuvre), les matériaux choisis et la région. Pour une maison de 100 m², comptez un budget construction de <strong>150 000€ à 300 000€</strong>. En ajoutant le terrain, les frais de notaire et les raccordements, le budget total s'établit généralement entre <strong>250 000€ et 450 000€</strong>. Les régions les plus chères sont l'Île-de-France, la Côte d'Azur et la région genevoise (Haute-Savoie).</p>
+
+      <h3>Combien de temps faut-il pour construire une maison ?</h3>
+      <p>Le délai de construction seul (du premier coup de pelle à la remise des clés) est de <strong>8 à 12 mois</strong> pour une maison standard en CCMI. Mais le délai total du projet — recherche de terrain, permis de construire, financement — s'étend généralement sur <strong>15 à 24 mois</strong>. Les facteurs qui allongent les délais : l'instruction du permis en zone ABF (+1 mois), un hiver rigoureux (arrêt du gros œuvre), une pénurie de matériaux ou de main-d'œuvre, et les modifications demandées en cours de chantier.</p>
+
+      <h3>Quelles sont les aides pour construire sa maison en 2026 ?</h3>
+      <p>Les principales aides pour la construction neuve en 2026 sont : le <strong>Prêt à Taux Zéro (PTZ)</strong> élargi à toutes les zones (jusqu'à 80 000€ sans intérêts), le <strong>Prêt Action Logement</strong> (jusqu'à 40 000€ à 0,5%), l'exonération de taxe foncière pendant 2 ans, et la TVA à 5,5% en zone QPV. Certaines communes proposent également des primes à la construction. Pour les équipements énergétiques installés lors de la construction, les primes CEE peuvent s'appliquer — consultez notre guide sur les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE</a>.</p>
+
+      <h3>CCMI ou architecte : que choisir ?</h3>
+      <p>Le <strong>CCMI</strong> (Contrat de Construction de Maison Individuelle) offre la meilleure protection juridique : prix ferme, délai garanti, garantie de livraison bancaire. C'est le choix idéal pour les primo-accédants et les budgets maîtrisés. L'<strong>architecte</strong> permet une personnalisation totale et une optimisation du terrain, mais coûte 15 à 30% plus cher et ne garantit pas un prix ferme. Le <strong>maître d'œuvre</strong> est un bon compromis entre les deux. Notre conseil : si votre budget est serré, optez pour le CCMI ; si vous souhaitez une maison unique sur un terrain atypique, passez par un architecte.</p>
+
+      <h3>Quels sont les pièges à éviter lors de la construction ?</h3>
+      <p>Les pièges les plus courants en construction de maison sont : <strong>sous-estimer le budget</strong> (oublier le coût du terrain, les raccordements, les aménagements extérieurs, les taxes), <strong>négliger l'étude de sol</strong> (des fondations spéciales peuvent coûter 15 000€ à 30 000€ de plus que des fondations standard), <strong>ne pas vérifier l'assurance décennale</strong> du constructeur, <strong>accepter un terrain sans certificat d'urbanisme</strong>, <strong>modifier les plans en cours de chantier</strong> (avenants coûteux et retards), et <strong>signer la réception sans réserves</strong> alors que des défauts sont visibles.</p>
+
+      <h3>La maison bois est-elle plus chère qu'une maison traditionnelle ?</h3>
+      <p>En 2026, une maison à ossature bois coûte en moyenne <strong>5 à 15% plus cher</strong> qu'une maison parpaing équivalente (1 600€ à 2 500€/m² contre 1 400€ à 2 200€/m²). Cependant, la construction est <strong>plus rapide</strong> (2 à 3 mois de moins pour le gros œuvre), la maison est naturellement mieux isolée (économies de chauffage de 15 à 30%), et son bilan carbone est excellent (conformité RE 2020 facilitée). À long terme, le surcoût initial est souvent compensé par les économies d'énergie et la valorisation immobilière.</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-03-14",
+    readingTime: "25 min",
+    image: "/images/blog/etapes-construction-maison.png"
+  },
+  {
     slug: "ravalement-facade-prix-m2",
     title: "Ravalement de façade : Prix au m², obligations décennales et finitions",
     excerpt: "Ravalement de façade prix au m² en 2026 : de 30€ à 200€ selon les finitions. Découvrez les obligations légales, la garantie décennale, les techniques (enduit, peinture, bardage, ITE) et les aides financières pour vos travaux de ravalement.",
