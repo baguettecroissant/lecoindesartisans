@@ -12,7 +12,7 @@ import {
     getOtherServices,
     getSiteSettings,
 } from "@/lib/data";
-import { getRegionalContent, generateRegionalDescription } from "@/data/regional-content";
+import { getRegionalContent } from "@/data/regional-content";
 import { getServiceContent } from "@/data/service-content";
 import { getGeneratedLocalContent } from "@/lib/generated-data";
 import { MARKET_DATA } from "@/data/market-prices";
@@ -33,14 +33,39 @@ export async function generateStaticParams() {
     return getAllServiceCityCombinations();
 }
 
+// Build SEO-optimized meta description per service/city
+function buildServiceMetaDescription(
+    service: { slug: string; name: string },
+    city: { name: string; zip: string; region: string },
+    regionalData: { price_range?: { min: number; max: number; unit: string } }
+): string {
+    const priceInfo = regionalData.price_range
+        ? `dès ${regionalData.price_range.min.toLocaleString('fr-FR')}${regionalData.price_range.unit.startsWith('€') ? regionalData.price_range.unit : '€'}`
+        : '';
+
+    const descTemplates: Record<string, string> = {
+        "panneaux-solaires": `Installation panneaux solaires à ${city.name} ${priceInfo}. 3 devis gratuits d'installateurs certifiés RGE. Autoconsommation et aides MaPrimeRénov' 2026.`,
+        "pompe-a-chaleur": `Pompe à chaleur à ${city.name} ${priceInfo}. 3 devis gratuits d'artisans certifiés RGE. Aides ${city.region} + MaPrimeRénov' déduites. Réponse sous 48h.`,
+        "isolation-exterieure": `Isolation extérieure (ITE) à ${city.name} ${priceInfo}. 3 devis gratuits d'entreprises RGE. Polystyrène, laine de roche ou bardage. Aides 2026.`,
+        "fenetres-menuiserie": `Pose de fenêtres PVC et alu à ${city.name} ${priceInfo}. 3 devis gratuits de menuisiers Qualibat. Double et triple vitrage. Prix et aides 2026.`,
+        "toiture-couverture": `Couvreur à ${city.name} : réparation, rénovation et entretien toiture ${priceInfo}. 3 devis gratuits de couvreurs-zingueurs Qualibat 2026.`,
+        "plomberie-sanitaire": `Plombier à ${city.name} (${city.zip}) : dépannage urgent 24h/24, installation et rénovation. Devis gratuit. Intervention rapide dans votre quartier.`,
+        "climatisation-reversible": `Climatisation réversible à ${city.name} ${priceInfo}. 3 devis gratuits d'installateurs qualifiés. Chauffage + clim en un seul équipement, aides 2026.`,
+        "borne-recharge": `Installation borne de recharge à ${city.name} ${priceInfo}. Devis gratuit d'électriciens IRVE certifiés. Wallbox toutes marques. Crédit d'impôt 2026.`,
+    };
+
+    const desc = descTemplates[service.slug]
+        || `${service.name} à ${city.name}. 3 devis gratuits d'artisans certifiés. Comparez les prix et trouvez le meilleur pro près de chez vous.`;
+
+    return desc.substring(0, 160);
+}
+
 // Generate dynamic metadata
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const resolvedParams = await params;
     const service = getServiceBySlug(resolvedParams.serviceSlug);
     const city = getCityBySlug(resolvedParams.citySlug);
     const settings = getSiteSettings();
-    const generatedLocalContent = getGeneratedLocalContent(resolvedParams.serviceSlug, resolvedParams.citySlug);
-
 
     if (!service || !city) {
         return {
@@ -49,10 +74,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     const title = generateSeoTitle(service.seo_title, city);
-    const regionalDescription = generateRegionalDescription(service.name, city.name, city.region, service.slug);
-    const description = generatedLocalContent
-        ? `${generatedLocalContent.intro.substring(0, 150)}... ${generatedLocalContent.local_tip}`.substring(0, 160)
-        : regionalDescription;
+    const regionalData = getRegionalContent(service.slug, city.region);
+    const description = buildServiceMetaDescription(service, city, regionalData);
     const canonicalUrl = `/service/${service.slug}/${city.slug}`;
 
     return {

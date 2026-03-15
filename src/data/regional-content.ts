@@ -134,7 +134,13 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "L'isolation thermique par l'extérieur (ITE) est la solution la plus efficace pour supprimer les ponts thermiques. Nos artisans RGE vous garantissent une mise en œuvre conforme.",
             specialties: ["Polystyrène expansé", "Laine de roche", "Bardage ventilé"],
             climate_note: "L'ITE peut faire gagner jusqu'à 2 classes sur votre DPE.",
-            local_tip: "L'ITE est éligible aux aides MaPrimeRénov' et CEE."
+            local_tip: "L'ITE est éligible aux aides MaPrimeRénov' et CEE.",
+            price_range: {
+                min: 120,
+                max: 220,
+                unit: "€/m²",
+                note: "Prix moyens 2026, pose comprise, avant aides"
+            }
         }
     },
     "fenetres-menuiserie": {
@@ -154,7 +160,13 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "Nos menuisiers certifiés Qualibat installent vos fenêtres PVC, aluminium ou bois. Double ou triple vitrage, nous vous conseillons selon votre région et votre budget.",
             specialties: ["Double vitrage", "PVC et aluminium", "Portes-fenêtres"],
             climate_note: "Des fenêtres performantes réduisent les déperditions de 15%.",
-            local_tip: "Le label Origine France Garantie assure une fabrication locale."
+            local_tip: "Le label Origine France Garantie assure une fabrication locale.",
+            price_range: {
+                min: 300,
+                max: 900,
+                unit: "€/fenêtre",
+                note: "Prix moyens 2026, pose comprise, hors aides"
+            }
         }
     },
     "toiture-couverture": {
@@ -180,7 +192,13 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "Nos couvreurs certifiés Qualibat interviennent pour tous types de toiture : tuiles, ardoises, zinc ou bac acier. Réparation de fuites, rénovation complète ou nettoyage.",
             specialties: ["Réparation fuite", "Rénovation complète", "Démoussage"],
             climate_note: "Une toiture bien entretenue dure 30 à 50 ans.",
-            local_tip: "Le diagnostic toiture gratuit permet d'estimer les travaux nécessaires."
+            local_tip: "Le diagnostic toiture gratuit permet d'estimer les travaux nécessaires.",
+            price_range: {
+                min: 40,
+                max: 120,
+                unit: "€/m²",
+                note: "Prix rénovation complète 2026, selon matériaux"
+            }
         }
     },
     "plomberie-sanitaire": {
@@ -194,7 +212,53 @@ export const regionalContent: ServiceRegionalContent = {
             intro: "Nos plombiers qualifiés interviennent rapidement pour tous vos besoins : dépannage urgent, installation sanitaire, rénovation de salle de bain ou cuisine.",
             specialties: ["Dépannage urgent", "Installation chauffe-eau", "Rénovation salle de bain"],
             climate_note: "Un entretien annuel du chauffe-eau prolonge sa durée de vie.",
-            local_tip: "Demandez plusieurs devis pour comparer les tarifs locaux."
+            local_tip: "Demandez plusieurs devis pour comparer les tarifs locaux.",
+            price_range: {
+                min: 80,
+                max: 250,
+                unit: "€/intervention",
+                note: "Tarifs moyens dépannage 2026, hors pièces"
+            }
+        }
+    },
+    "climatisation-reversible": {
+        "PACA": {
+            intro: "Dans le Sud, la climatisation réversible est devenue indispensable. Nos frigoristes certifiés installent des systèmes performants adaptés aux fortes chaleurs méditerranéennes.",
+            specialties: ["Multi-split", "Gainable", "Haute performance SEER"],
+            climate_note: "Un système réversible vous fait économiser sur le chauffage ET la clim.",
+            local_tip: "Optez pour un COP supérieur à 4 pour maximiser les économies."
+        },
+        "default": {
+            intro: "Nos installateurs qualifiés posent votre climatisation réversible pour un confort 4 saisons. Chauffage et rafraîchissement en un seul équipement économique.",
+            specialties: ["Mono-split", "Multi-split", "PAC air-air"],
+            climate_note: "Une clim réversible consomme 3 à 4 fois moins qu'un radiateur électrique.",
+            local_tip: "La clim réversible est éligible aux aides MaPrimeRénov' sous conditions.",
+            price_range: {
+                min: 1500,
+                max: 5000,
+                unit: "mono/multi-split",
+                note: "Prix moyens 2026, pose comprise"
+            }
+        }
+    },
+    "borne-recharge": {
+        "Île-de-France": {
+            intro: "En Île-de-France, la mobilité électrique explose. Nos électriciens IRVE installent votre borne en maison individuelle ou en copropriété, même avec des contraintes de parking souterrain.",
+            specialties: ["Copropriété", "Parking souterrain", "Wallbox 7-22 kW"],
+            climate_note: "Une borne à domicile réduit votre coût de recharge de 70% vs bornes publiques.",
+            local_tip: "Le droit à la prise facilite l'installation en copropriété."
+        },
+        "default": {
+            intro: "Nos électriciens qualifiés IRVE installent votre borne de recharge à domicile. Compatible toutes marques : Tesla, Renault, Peugeot, BMW et plus.",
+            specialties: ["Wallbox 7.4 kW", "Wallbox 22 kW", "Copropriété"],
+            climate_note: "Rechargez votre véhicule la nuit en heures creuses pour moins de 3€ les 100 km.",
+            local_tip: "Le crédit d'impôt couvre jusqu'à 500€ sur l'installation de votre borne.",
+            price_range: {
+                min: 1200,
+                max: 2500,
+                unit: "borne installée",
+                note: "Prix moyens 2026, avant crédit d'impôt"
+            }
         }
     }
 };

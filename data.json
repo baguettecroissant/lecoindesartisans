@@ -19,7 +19,7 @@
       "name": "Panneaux Solaires",
       "short_desc": "Produisez votre électricité et réduisez vos factures jusqu'à 70%.",
       "full_desc": "Installation de panneaux photovoltaïques par des artisans certifiés RGE. Autoconsommation, revente, batteries.",
-      "seo_title": "Installateur Panneaux Solaires à {city} - Devis & Rentabilité 2026",
+      "seo_title": "Panneaux Solaires {city} ({zip}) : 3 Devis Gratuits 2026",
       "icon": "Sun",
       "payout_category": "High Ticket"
     },
@@ -29,7 +29,7 @@
       "name": "Pompe à Chaleur",
       "short_desc": "Remplacez votre chaudière fioul/gaz et profitez des aides de l'État.",
       "full_desc": "Installation de PAC Air/Eau ou Air/Air. Économies d'énergie garanties. Vérifiez votre éligibilité aux primes.",
-      "seo_title": "Installation Pompe à Chaleur à {city} - Aides de l'État Déduites",
+      "seo_title": "Pompe à Chaleur {city} ({zip}) : Devis Gratuit + Aides 2026",
       "icon": "ThermometerSun",
       "payout_category": "High Ticket"
     },
@@ -39,7 +39,7 @@
       "name": "Isolation Extérieure (ITE)",
       "short_desc": "Isolez vos murs par l'extérieur et redonnez un coup de jeune à votre façade.",
       "full_desc": "Suppression des ponts thermiques, ravalement de façade inclus. Solutions polystyrène ou laine de roche.",
-      "seo_title": "Entreprise d'Isolation Extérieure à {city} - Devis Murs & Façade",
+      "seo_title": "Isolation Extérieure {city} ({zip}) : Prix au m² + Devis 2026",
       "icon": "Home",
       "payout_category": "Medium Ticket"
     },
@@ -49,7 +49,7 @@
       "name": "Fenêtres & Volets",
       "short_desc": "Double ou triple vitrage PVC, Alu, Bois pour une isolation phonique et thermique.",
       "full_desc": "Pose de fenêtres, portes-fenêtres, baies vitrées et volets roulants solaires. Made in France disponible.",
-      "seo_title": "Pose de Fenêtres PVC/Alu à {city} - Prix & Devis",
+      "seo_title": "Fenêtres PVC/Alu {city} ({zip}) : Devis Gratuit + Prix 2026",
       "icon": "AppWindow",
       "payout_category": "Medium Ticket"
     },
@@ -59,7 +59,7 @@
       "name": "Toiture & Couverture",
       "short_desc": "Réparation de fuites, rénovation complète, nettoyage et démoussage.",
       "full_desc": "Couvreurs zingueurs pour tuiles, ardoises ou zinc. Étanchéité et traitement hydrofuge garantis.",
-      "seo_title": "Couvreur Zingueur à {city} : Rénovation de Toiture & Fuites",
+      "seo_title": "Couvreur {city} ({zip}) : Devis Toiture & Réparation 2026",
       "icon": "Hammer",
       "payout_category": "High Ticket"
     },
@@ -69,7 +69,7 @@
       "name": "Plomberie & Dépannage",
       "short_desc": "Intervention rapide pour fuites, débouchage et installation sanitaire.",
       "full_desc": "Plombiers qualifiés pour urgences, chauffe-eau, rénovation salle de bain et cuisine.",
-      "seo_title": "Plombier à {city} ({zip}) - Dépannage Urgence & Installation",
+      "seo_title": "Plombier {city} ({zip}) : Urgence 24h + Devis Gratuit 2026",
       "icon": "Wrench",
       "payout_category": "Volume"
     },
@@ -79,7 +79,7 @@
       "name": "Climatisation Réversible",
       "short_desc": "Chauffez et climatisez votre logement avec une seule installation économique.",
       "full_desc": "Installation de climatisations réversibles (PAC Air/Air) par des frigoristes qualifiés. Confort 4 saisons et économies d'énergie.",
-      "seo_title": "Installateur Climatisation Réversible à {city} - Devis & Prix 2026",
+      "seo_title": "Climatisation Réversible {city} ({zip}) : Devis + Prix 2026",
       "icon": "Wind",
       "payout_category": "Medium Ticket"
     },
@@ -89,7 +89,7 @@
       "name": "Borne de Recharge IRVE",
       "short_desc": "Rechargez votre véhicule électrique à domicile 3x plus vite.",
       "full_desc": "Installation de bornes de recharge (Wallbox) par des électriciens qualifiés IRVE. Compatible toutes marques (Tesla, Renault, etc.).",
-      "seo_title": "Installateur Borne de Recharge IRVE à {city} - Devis Wallbox",
+      "seo_title": "Borne de Recharge {city} ({zip}) : Devis IRVE + Aides 2026",
       "icon": "Zap",
       "payout_category": "Medium Ticket"
     }
