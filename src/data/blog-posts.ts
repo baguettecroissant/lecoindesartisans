@@ -2,6 +2,409 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "dimensionnement-pompe-a-chaleur",
+    title: "Comment dimensionner sa Pompe à Chaleur ? (Éviter le sous/sur-dimensionnement)",
+    excerpt: "Dimensionnement pompe à chaleur : apprenez à calculer la puissance idéale en kW pour votre logement. Évitez le sous-dimensionnement et le sur-dimensionnement grâce à notre guide complet avec méthodes de calcul, tableaux et conseils d'experts 2026.",
+    content: `
+      <p><strong>Le dimensionnement de votre pompe à chaleur est LA décision technique la plus importante de votre projet de chauffage.</strong> Une PAC sous-dimensionnée ne chauffera pas votre logement les jours de grand froid, tandis qu'une PAC sur-dimensionnée gaspillera votre argent et s'usera prématurément. En 2026, avec des équipements coûtant entre <strong>8 000€ et 20 000€</strong>, se tromper de puissance revient à jeter littéralement des milliers d'euros par la fenêtre.</p>
+
+      <p>Ce guide complet vous explique <strong>comment calculer précisément la puissance nécessaire</strong> pour votre pompe à chaleur, les erreurs fatales à éviter, et les critères que votre installateur doit impérativement prendre en compte. Que vous optiez pour une <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">PAC air-eau ou air-air</a>, un bon dimensionnement est le socle d'une installation performante et rentable.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Vous avez un projet d'installation de pompe à chaleur ?</strong><br/>
+        Recevez jusqu'à 3 devis gratuits d'installateurs certifiés RGE QualiPAC près de chez vous. Chaque devis inclut une étude de dimensionnement personnalisée.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#pourquoi">Pourquoi le dimensionnement est-il si crucial ?</a></li>
+        <li><a href="#sous-dimensionnement">Les risques du sous-dimensionnement</a></li>
+        <li><a href="#sur-dimensionnement">Les risques du sur-dimensionnement</a></li>
+        <li><a href="#facteurs">Les facteurs clés du dimensionnement</a></li>
+        <li><a href="#calcul">Comment calculer la puissance nécessaire ?</a></li>
+        <li><a href="#zones-climatiques">Zones climatiques et température de base</a></li>
+        <li><a href="#tableau-puissances">Tableau des puissances recommandées par surface</a></li>
+        <li><a href="#bilan-thermique">L'étude thermique : le seul calcul fiable</a></li>
+        <li><a href="#erreurs">Les 5 erreurs fatales à éviter</a></li>
+        <li><a href="#installateur">Bien choisir son installateur</a></li>
+        <li><a href="#faq">FAQ : Vos questions fréquentes</a></li>
+      </ul>
+
+      <h2 id="pourquoi">Pourquoi le dimensionnement d'une pompe à chaleur est-il si crucial ?</h2>
+
+      <p>Le <strong>dimensionnement d'une pompe à chaleur</strong> consiste à déterminer la puissance calorifique exacte (exprimée en <strong>kW</strong>) dont votre logement a besoin pour être chauffé confortablement, même lors des jours les plus froids de l'année. C'est un calcul technique précis qui prend en compte des dizaines de paramètres — et certainement pas une estimation « au doigt mouillé ».</p>
+
+      <p>Contrairement à une chaudière gaz classique qui peut fonctionner à n'importe quelle puissance sans conséquence majeure, une pompe à chaleur est un <strong>système thermodynamique</strong> dont le rendement (le fameux <a href="/blog/consommation-electrique-pompe-a-chaleur">COP — Coefficient de Performance</a>) dépend directement de son point de fonctionnement. Si la PAC fonctionne trop souvent en dehors de sa plage optimale, son efficacité s'effondre et votre facture d'électricité explose.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Le saviez-vous ?</strong><br/>
+        Selon l'ADEME, <strong>plus de 30% des pompes à chaleur installées en France sont mal dimensionnées</strong>. Ce chiffre alarmant explique en grande partie les retours négatifs de certains utilisateurs qui se plaignent de factures d'électricité élevées ou de confort insuffisant. Avant de consulter les <a href="/blog/avis-pompe-a-chaleur-marque-fiable">avis sur les marques de PAC</a>, assurez-vous que le dimensionnement est correct — c'est bien plus important que le choix de la marque.</p>
+      </blockquote>
+
+      <h2 id="sous-dimensionnement">Les risques du sous-dimensionnement : une PAC trop petite</h2>
+
+      <p>Un <strong>sous-dimensionnement</strong> signifie que la puissance de la pompe à chaleur est inférieure aux besoins de chauffage de votre logement. C'est l'erreur la plus fréquente, souvent commise par des installateurs peu scrupuleux qui proposent un modèle moins cher pour remporter le marché.</p>
+
+      <h3>Les conséquences concrètes du sous-dimensionnement</h3>
+      <ul>
+        <li><strong>Inconfort thermique :</strong> La PAC n'arrive pas à maintenir la température de consigne (20-21°C) lorsque la température extérieure descend en dessous de 0°C. Vous avez froid chez vous en hiver, précisément quand vous avez le plus besoin de chauffage.</li>
+        <li><strong>Recours excessif à l'appoint électrique :</strong> Pour compenser, la résistance électrique d'appoint (intégrée dans la plupart des PAC) prend le relais. Or, cette résistance consomme 3 à 4 fois plus d'électricité que la PAC. Votre facture peut doubler voire tripler pendant les mois froids.</li>
+        <li><strong>Fonctionnement permanent à pleine charge :</strong> La PAC tourne 24h/24 sans atteindre la consigne. Les composants (compresseur, ventilateur) s'usent prématurément. La durée de vie peut chuter de <strong>20 ans à 10-12 ans</strong>.</li>
+        <li><strong>Eau chaude sanitaire insuffisante :</strong> Si la PAC air-eau gère aussi l'ECS, elle n'arrive plus à produire suffisamment d'eau chaude tout en chauffant le logement. Les douches deviennent tièdes en hiver.</li>
+        <li><strong>Bruit constant :</strong> Une PAC qui tourne en permanence à plein régime génère un <a href="/blog/bruit-pompe-a-chaleur-distance-voisin">bruit de fonctionnement continu</a> qui peut devenir une source de nuisance pour vous et vos voisins.</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Exemple concret de sous-dimensionnement</strong><br/>
+        M. Dupont à Strasbourg a fait installer une PAC air-eau de <strong>8 kW</strong> dans sa maison de 140 m² des années 1990, mal isolée (déperditions estimées à 13 kW à -15°C). Résultat : sa facture d'électricité est passée de 1 200€/an (avec la chaudière gaz) à <strong>2 800€/an</strong>. La résistance d'appoint fonctionnait plus de 900 heures par an. Après une étude thermique sérieuse, la puissance nécessaire était de <strong>12 kW minimum</strong>.</p>
+      </blockquote>
+
+      <h2 id="sur-dimensionnement">Les risques du sur-dimensionnement : une PAC trop puissante</h2>
+
+      <p>Le <strong>sur-dimensionnement</strong> est l'erreur inverse, mais tout aussi coûteuse. Certains installateurs, par prudence excessive ou méconnaissance, proposent une PAC beaucoup plus puissante que nécessaire. « Mieux vaut trop que pas assez » est un raisonnement qui ne fonctionne PAS avec les pompes à chaleur.</p>
+
+      <h3>Les conséquences concrètes du sur-dimensionnement</h3>
+      <ul>
+        <li><strong>Phénomène de « short cycling » (cycles courts) :</strong> C'est le problème majeur. La PAC atteint très rapidement la température de consigne, s'arrête, puis redémarre quelques minutes plus tard. Ces cycles marche/arrêt répétés (parfois 10 à 15 par heure) sont <strong>extrêmement néfastes pour le compresseur</strong>. C'est l'équivalent de démarrer et couper le moteur de votre voiture toutes les 5 minutes.</li>
+        <li><strong>Surconsommation électrique :</strong> Chaque démarrage du compresseur provoque un pic de consommation (courant d'appel). Des cycles courts multipliés par des dizaines de fois par jour augmentent la facture de <strong>15 à 25%</strong> par rapport à un fonctionnement optimal.</li>
+        <li><strong>Usure prématurée du compresseur :</strong> Le compresseur est le composant le plus coûteux de la PAC (1 500€ à 4 000€ pièce + main-d'œuvre). Les démarrages répétés réduisent sa durée de vie de 30 à 50%.</li>
+        <li><strong>Coût d'achat supérieur inutile :</strong> Une PAC de 16 kW coûte 2 000€ à 5 000€ de plus qu'une PAC de 10 kW. Cet argent est purement gaspillé si 10 kW suffisent.</li>
+        <li><strong>Confort dégradé :</strong> Paradoxalement, une PAC sur-dimensionnée peut créer des variations de température désagréables (chaud/froid oscillant) au lieu d'une chaleur douce et constante.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 L'exception : les PAC Inverter</strong><br/>
+        Les pompes à chaleur <strong>Inverter</strong> (technologie à vitesse variable) atténuent en partie les effets du sur-dimensionnement car elles peuvent moduler leur puissance de 30 à 100%. Cependant, même avec un Inverter, un sur-dimensionnement de plus de 30% reste problématique. Les meilleures marques comme <a href="/blog/avis-pompe-chaleur-marque-daikin-atlantic-mitsubishi">Daikin, Atlantic et Mitsubishi</a> proposent des Inverter très performants, mais le dimensionnement reste la priorité n°1.</p>
+      </blockquote>
+
+      <h2 id="facteurs">Les facteurs clés du dimensionnement d'une pompe à chaleur</h2>
+
+      <p>Le <strong>dimensionnement d'une pompe à chaleur</strong> repose sur le calcul des <strong>déperditions thermiques</strong> de votre logement — c'est-à-dire la quantité de chaleur qui « s'échappe » par les murs, le toit, les fenêtres, le sol et la ventilation. Plus les déperditions sont élevées, plus la PAC devra être puissante.</p>
+
+      <h3>1. La surface et le volume du logement</h3>
+      <p>C'est le point de départ évident, mais attention : ce n'est qu'un indicateur parmi d'autres. Deux maisons de 120 m² peuvent avoir des besoins thermiques radicalement différents selon leur isolation, leur orientation et leur localisation. Le volume (surface × hauteur sous plafond) est d'ailleurs plus pertinent que la surface seule, car une maison avec des plafonds de 3 m nécessite plus de chauffage qu'une maison avec des plafonds de 2,50 m.</p>
+
+      <h3>2. L'isolation du bâtiment</h3>
+      <p>C'est <strong>le facteur le plus déterminant</strong>. Une maison bien isolée (RE 2020 ou rénovée BBC) a des déperditions 3 à 5 fois inférieures à une maison ancienne non isolée. Avant d'investir dans une PAC puissante, il est souvent plus rentable d'investir dans l'<a href="/blog/isolation-exterieure-prix-m2">isolation extérieure</a> ou l'<a href="/blog/isolation-combles-perdus-laine-verre-ouate-cellulose-roche">isolation des combles</a> pour réduire les besoins.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Niveau d'isolation</th>
+            <th style="padding: 12px; text-align: center;">Coefficient de déperdition (W/m³.°C)</th>
+            <th style="padding: 12px; text-align: center;">Type de bâtiment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Excellente (RE 2020)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0,5 – 0,7</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Construction neuve 2022+</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bonne (RT 2012 / BBC rénovation)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0,7 – 0,9</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Construction 2013-2021 ou rénovation globale</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Moyenne (RT 2005)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">0,9 – 1,1</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Construction 2006-2012</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Faible (années 1980-2005)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1,1 – 1,4</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Isolation partielle, simple vitrage possible</td>
+          </tr>
+          <tr style="background: #fef2f2;">
+            <td style="padding: 12px;"><strong>Très faible (avant 1980)</strong></td>
+            <td style="padding: 12px; text-align: center;">1,4 – 2,0</td>
+            <td style="padding: 12px; text-align: center;">Pas d'isolation ou isolation dégradée</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>3. La zone climatique et la température de base</h3>
+      <p>La France est découpée en <strong>zones climatiques</strong> qui déterminent la « température de base » — c'est-à-dire la température extérieure minimale à prendre en compte pour le calcul. À Nice, la température de base est de -3°C ; à Strasbourg, elle est de -15°C. Cela signifie qu'une même maison à Strasbourg aura besoin d'une PAC <strong>40 à 60% plus puissante</strong> qu'à Nice.</p>
+
+      <h3>4. L'orientation et les apports solaires</h3>
+      <p>Une maison orientée plein sud avec de grandes baies vitrées bénéficie d'apports solaires gratuits significatifs (jusqu'à 2 000 à 3 000 kWh/an), ce qui réduit les besoins de chauffage. À l'inverse, une maison orientée nord ou encaissée dans une vallée ombragée aura des besoins supérieurs.</p>
+
+      <h3>5. Les besoins en eau chaude sanitaire (ECS)</h3>
+      <p>Si la PAC air-eau doit également produire l'eau chaude sanitaire — ce qui est le cas dans 80% des installations — il faut ajouter la puissance nécessaire pour l'ECS. Pour un foyer de 4 personnes, comptez environ <strong>2 à 3 kW supplémentaires</strong>. Le dimensionnement doit intégrer cette charge, surtout pour les familles nombreuses.</p>
+
+      <h3>6. Le type d'émetteurs de chaleur</h3>
+      <p>Le type de radiateurs ou de plancher chauffant influence le dimensionnement. Un <strong>plancher chauffant basse température</strong> (30-35°C) est le compagnon idéal d'une PAC car il permet un fonctionnement à haut rendement (COP de 4 à 5). Des <strong>radiateurs haute température</strong> (60-70°C) ancienne génération obligent la PAC à monter en température, ce qui réduit son COP à 2-3 et augmente la puissance nécessaire.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Vous remplacez une chaudière gaz ou fioul ?</strong><br/>
+        Avant de dimensionner votre PAC, faites établir un <strong>bilan thermique complet</strong> par un bureau d'études certifié. C'est la seule garantie d'un dimensionnement correct. Consultez notre guide <a href="/blog/remplacer-chaudiere-fioul-pompe-a-chaleur">remplacer une chaudière fioul par une pompe à chaleur</a> pour connaître toutes les étapes.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis d'installateurs RGE →</a></p>
+      </blockquote>
+
+      <h2 id="calcul">Comment calculer la puissance nécessaire pour une pompe à chaleur ?</h2>
+
+      <p>Il existe deux approches pour le <strong>dimensionnement d'une pompe à chaleur</strong> : la méthode simplifiée (pour une première estimation) et l'étude thermique complète (la seule méthode fiable).</p>
+
+      <h3>Méthode simplifiée : la formule de base</h3>
+      <p>La formule simplifiée de calcul des déperditions thermiques est :</p>
+
+      <blockquote style="background: #f3f4f6; border-left: 4px solid #6b7280; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>P (kW) = V × G × ΔT / 1000</strong><br/><br/>
+        Où :<br/>
+        <strong>V</strong> = Volume du logement en m³ (surface × hauteur sous plafond)<br/>
+        <strong>G</strong> = Coefficient de déperdition volumique en W/m³.°C (voir tableau ci-dessus)<br/>
+        <strong>ΔT</strong> = Différence entre la température intérieure souhaitée (20°C) et la température de base extérieure<br/>
+        <strong>P</strong> = Puissance nécessaire en kW</p>
+      </blockquote>
+
+      <h3>Exemple de calcul concret</h3>
+      <p>Prenons une maison de <strong>120 m² à Lyon</strong> (température de base : -10°C), bien isolée (RT 2012, G = 0,85), avec une hauteur sous plafond de 2,50 m :</p>
+      <ul>
+        <li><strong>V</strong> = 120 × 2,50 = 300 m³</li>
+        <li><strong>G</strong> = 0,85 W/m³.°C</li>
+        <li><strong>ΔT</strong> = 20 – (-10) = 30°C</li>
+        <li><strong>P</strong> = 300 × 0,85 × 30 / 1000 = <strong>7,65 kW</strong></li>
+      </ul>
+      <p>Il faut ajouter environ 2 kW pour l'ECS, soit une puissance totale de <strong>9,5 à 10 kW</strong>. On choisira donc une PAC de <strong>10 ou 11 kW</strong>.</p>
+
+      <p>Maintenant, la même maison mais <strong>mal isolée</strong> (années 1970, G = 1,6) :</p>
+      <ul>
+        <li><strong>P</strong> = 300 × 1,6 × 30 / 1000 = <strong>14,4 kW</strong></li>
+        <li>Avec ECS : <strong>16,5 à 17 kW</strong></li>
+      </ul>
+      <p>La différence est spectaculaire : <strong>la même maison, mal isolée, nécessite une PAC presque deux fois plus puissante</strong>, donc beaucoup plus coûteuse à l'achat et à l'usage. C'est pourquoi les professionnels recommandent souvent d'<strong>isoler avant d'installer une PAC</strong>.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ La règle d'or</strong><br/>
+        <strong>Isoler d'abord, dimensionner ensuite.</strong> En investissant 8 000€ à 15 000€ dans l'isolation (combles + murs), vous pouvez réduire la puissance PAC nécessaire de 30 à 50%, économiser 3 000€ à 6 000€ sur l'achat de la PAC, et diviser vos factures de chauffage par 2 ou 3. Les aides <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov' 2026</a> et les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE</a> couvrent une grande partie de l'investissement.</p>
+      </blockquote>
+
+      <h2 id="zones-climatiques">Zones climatiques et température de base en France</h2>
+
+      <p>La <strong>température de base</strong> est la température extérieure la plus froide que l'on peut statistiquement rencontrer dans votre région (moins de 5 jours par an en dessous). C'est sur cette valeur que repose tout le dimensionnement. La norme NF EN 12831 définit ces températures zone par zone.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Zone climatique</th>
+            <th style="padding: 12px; text-align: center;">Température de base</th>
+            <th style="padding: 12px; text-align: center;">Départements typiques</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H1a (Nord)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-9°C à -12°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Nord, Pas-de-Calais, Picardie, Île-de-France</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H1b (Nord-Est)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-12°C à -15°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Alsace, Lorraine, Champagne, Bourgogne</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H1c (Est montagneux)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-15°C à -21°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Jura, Alpes (altitude), Massif Central</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H2a (Ouest)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-4°C à -7°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Bretagne, Normandie, Pays de la Loire</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H2b (Centre-Ouest)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-7°C à -10°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Centre, Poitou-Charentes, Limousin, Aquitaine nord</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H2c (Sud-Ouest)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-5°C à -8°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Bordeaux, Toulouse, Pyrénées basses</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>H2d (Rhône-Alpes bas)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">-8°C à -10°C</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Lyon, Grenoble vallée, Rhône</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>H3 (Méditerranée)</strong></td>
+            <td style="padding: 12px; text-align: center;">-2°C à -5°C</td>
+            <td style="padding: 12px; text-align: center;">Provence, Côte d'Azur, Languedoc, Corse</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="tableau-puissances">Tableau des puissances recommandées par surface</h2>
+
+      <p>Le tableau suivant donne une <strong>estimation indicative de la puissance PAC nécessaire</strong> selon la surface du logement et son niveau d'isolation. Ces valeurs incluent un appoint ECS modéré (famille de 3-4 personnes) et sont calculées pour une zone climatique moyenne (H2b, température de base -8°C).</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Surface habitable</th>
+            <th style="padding: 12px; text-align: center;">Isolation excellente (RE 2020)</th>
+            <th style="padding: 12px; text-align: center;">Bonne isolation (RT 2012)</th>
+            <th style="padding: 12px; text-align: center;">Isolation moyenne</th>
+            <th style="padding: 12px; text-align: center;">Faible isolation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>80 m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 – 5 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 – 7 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 – 9 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">11 – 13 kW</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>100 m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 – 6 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7 – 9 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 – 12 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14 – 17 kW</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>120 m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 – 8 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 – 10 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">12 – 14 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">17 – 20 kW</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>150 m²</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7 – 9 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 – 13 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15 – 18 kW</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">21 – 25 kW</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>200 m²</strong></td>
+            <td style="padding: 12px; text-align: center;">10 – 12 kW</td>
+            <td style="padding: 12px; text-align: center;">13 – 16 kW</td>
+            <td style="padding: 12px; text-align: center;">19 – 23 kW</td>
+            <td style="padding: 12px; text-align: center;">27 – 33 kW</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention</strong><br/>
+        Ce tableau est une <strong>estimation indicative uniquement</strong>. Il ne remplace en aucun cas une étude thermique réalisée par un professionnel. Les valeurs peuvent varier de ±30% selon votre zone climatique, l'orientation de la maison, le type de ventilation, le nombre d'occupants et les apports internes. Pour un projet sérieux, exigez toujours un <a href="/blog/devis-pompe-a-chaleur-arnaque">devis avec étude thermique détaillée</a>.</p>
+      </blockquote>
+
+      <h2 id="bilan-thermique">L'étude thermique : le seul calcul fiable pour dimensionner sa PAC</h2>
+
+      <p>La <strong>méthode simplifiée</strong> vue plus haut donne un ordre de grandeur, mais elle ne prend pas en compte les ponts thermiques, la ventilation, les apports solaires, l'inertie du bâtiment ni les usages spécifiques du logement. Pour un dimensionnement fiable, il faut réaliser une <strong>étude thermique complète</strong> selon la norme NF EN 12831.</p>
+
+      <h3>Que comprend une étude thermique ?</h3>
+      <ul>
+        <li><strong>Relevé des parois :</strong> Mesure de la composition de chaque mur, toiture, plancher et menuiserie (épaisseur, nature de l'isolant, type de vitrage). Calcul du coefficient U (W/m².K) de chaque paroi.</li>
+        <li><strong>Calcul des ponts thermiques :</strong> Identification et quantification des déperditions aux jonctions (mur/plancher, mur/toiture, linteaux, tableaux de fenêtres). Les ponts thermiques représentent souvent <strong>15 à 30% des déperditions totales</strong>.</li>
+        <li><strong>Calcul des déperditions par renouvellement d'air :</strong> Prise en compte du système de ventilation (VMC simple flux, VMC double flux, ventilation naturelle). La ventilation représente <strong>20 à 40% des déperditions</strong> dans un bâtiment bien isolé.</li>
+        <li><strong>Apports internes et solaires :</strong> Comptabilisation de la chaleur « gratuite » produite par les occupants, l'éclairage, l'électroménager et le soleil. Cela peut réduire les besoins de 10 à 20%.</li>
+        <li><strong>Dimensionnement pièce par pièce :</strong> Calcul des puissances nécessaires pour chaque pièce, indispensable pour le dimensionnement des émetteurs (radiateurs, boucles de plancher chauffant).</li>
+      </ul>
+
+      <h3>Qui réalise l'étude thermique ?</h3>
+      <p>L'étude thermique doit être réalisée par un <strong>bureau d'études thermiques (BET)</strong> ou un installateur certifié qui maîtrise le logiciel de calcul NF EN 12831. Le coût d'une étude thermique dédiée au dimensionnement PAC se situe entre <strong>300€ et 800€</strong>. C'est un investissement minime par rapport au coût de la PAC (8 000€ à 20 000€) et aux conséquences financières d'un mauvais dimensionnement. Consultez notre guide sur la <a href="/blog/pompe-chaleur-vs-chaudiere-gaz-comparatif">comparaison PAC vs chaudière gaz</a> pour comprendre les enjeux.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Ce que dit la réglementation</strong><br/>
+        Depuis 2026, pour bénéficier de <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov'</a> sur l'installation d'une PAC, <strong>un audit énergétique ou une étude thermique préalable est obligatoire</strong> pour les logements classés F ou G au DPE. L'installateur RGE QualiPAC doit fournir une note de dimensionnement dans son devis. Si un installateur refuse de réaliser cette étude ou propose un dimensionnement « standard » sans visite technique, fuyez.</p>
+      </blockquote>
+
+      <h2 id="erreurs">Les 5 erreurs fatales à éviter lors du dimensionnement</h2>
+
+      <h3>Erreur n°1 : Se fier uniquement à la surface</h3>
+      <p>La règle « 1 kW pour 10 m² » que l'on trouve partout sur Internet est une approximation grossière qui ne tient compte ni de l'isolation, ni du climat, ni des spécificités du logement. Elle peut conduire à un sous-dimensionnement de 30 à 50% dans une maison ancienne mal isolée, ou à un sur-dimensionnement de 40 à 60% dans une maison neuve RE 2020.</p>
+
+      <h3>Erreur n°2 : Reprendre la puissance de l'ancienne chaudière</h3>
+      <p>Beaucoup d'installateurs proposent de « remplacer la chaudière de 24 kW par une PAC de 24 kW ». C'est une erreur classique. Les anciennes chaudières étaient systématiquement sur-dimensionnées (c'était la norme à l'époque). De plus, si vous avez amélioré l'isolation depuis (nouvelles fenêtres, isolation des combles), les besoins ont diminué. Le dimensionnement doit être recalculé <strong>à partir de zéro</strong>. Consultez notre guide <a href="/blog/releve-chaudiere-pompe-a-chaleur-appoint">PAC en relève de chaudière</a> pour bien comprendre la transition.</p>
+
+      <h3>Erreur n°3 : Ignorer le fonctionnement en mode dégradé</h3>
+      <p>La puissance nominale d'une PAC air-eau (ex : « 10 kW ») est donnée à une température extérieure de référence (souvent +7°C). Mais à -10°C, cette même PAC ne fournit plus que <strong>6 à 7 kW</strong> (perte de 30 à 40% de puissance). Le dimensionnement doit prendre en compte la <strong>courbe de puissance réelle</strong> de la machine aux températures extérieures les plus basses.</p>
+
+      <h3>Erreur n°4 : Oublier l'eau chaude sanitaire</h3>
+      <p>Si votre PAC air-eau produit aussi l'ECS (via un ballon intégré ou un préparateur), il faut ajouter la puissance nécessaire pour chauffer l'eau. Pour une famille de 4 personnes consommant 200 litres/jour à 55°C, c'est environ <strong>2 à 3 kW en pointe</strong>. Ignorer l'ECS dans le dimensionnement garantit un manque de confort.</p>
+
+      <h3>Erreur n°5 : Ne pas visiter le logement avant de devis</h3>
+      <p>Un installateur qui propose un devis par téléphone ou par email, sans jamais avoir mis les pieds dans votre logement, ne peut pas dimensionner correctement votre PAC. La visite technique est <strong>indispensable</strong> pour constater l'état de l'isolation, mesurer les surfaces, vérifier les émetteurs existants, identifier l'emplacement de l'unité extérieure et évaluer la configuration hydraulique. Si un installateur vous propose un devis à distance, c'est un signal d'alarme — consultez notre guide sur les <a href="/blog/pompe-a-chaleur-1-euro-arnaque-2026">arnaques PAC à 1 euro</a>.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Ne prenez aucun risque sur le dimensionnement</strong><br/>
+        Comparez au minimum 3 devis d'installateurs certifiés RGE QualiPAC. Vérifiez que chaque devis inclut une note de dimensionnement détaillée avec les hypothèses de calcul (déperditions, température de base, puissance ECS). Un bon devis fait toujours plus de 3 pages.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes 3 devis gratuits →</a></p>
+      </blockquote>
+
+      <h2 id="installateur">Bien choisir son installateur pour un dimensionnement fiable</h2>
+
+      <p>Le choix de l'installateur est indissociable du dimensionnement. Un bon installateur ne se contente pas de poser la PAC — il conçoit l'installation complète avec un dimensionnement rigoureux. Voici les critères essentiels :</p>
+
+      <h3>Les certifications obligatoires</h3>
+      <ul>
+        <li><strong>RGE QualiPAC :</strong> Certification obligatoire pour que vos clients bénéficient des aides (MaPrimeRénov', CEE). Elle atteste d'une formation spécifique aux pompes à chaleur.</li>
+        <li><strong>Qualibat / Qualit'ENR :</strong> Labels de qualification professionnelle complémentaires.</li>
+        <li><strong>Assurance décennale :</strong> Vérifiez que l'installateur possède une assurance décennale couvrant spécifiquement les « équipements de chauffage thermodynamique ». Voir notre guide sur l'<a href="/blog/entretien-pompe-a-chaleur-prix-frequence-obligatoire">entretien obligatoire des PAC</a>.</li>
+      </ul>
+
+      <h3>Les questions à poser lors de la visite technique</h3>
+      <ul>
+        <li>Quelle est la <strong>puissance de déperditions calculée</strong> pour mon logement ? (Exigez le détail du calcul)</li>
+        <li>Quelle est la <strong>température de base retenue</strong> pour ma commune ?</li>
+        <li>Quel est le <strong>taux de couverture</strong> de la PAC ? (Idéalement 80 à 100% des besoins, les 0 à 20% restants étant couverts par l'appoint)</li>
+        <li>Quel est le <strong>COP nominal</strong> de la PAC proposée, et quel est le <strong>SCOP</strong> (COP saisonnier) attendu dans ma zone climatique ?</li>
+        <li>Mes <strong>émetteurs actuels</strong> (radiateurs) sont-ils compatibles avec une PAC basse température, ou faut-il les changer ?</li>
+        <li>L'installation nécessite-t-elle un <strong>ballon tampon</strong> (recommandé pour les systèmes avec radiateurs) ?</li>
+      </ul>
+
+      <h2 id="conclusion">Conclusion : un bon dimensionnement, c'est des économies pendant 20 ans</h2>
+
+      <p>Le <strong>dimensionnement d'une pompe à chaleur</strong> est un exercice technique qui conditionne la rentabilité et le confort de votre installation pendant toute sa durée de vie (15 à 25 ans). Un écart de 2 à 3 kW dans un sens ou dans l'autre peut se traduire par des <strong>milliers d'euros de surcoût</strong> sur la facture d'électricité et des pannes prématurées.</p>
+
+      <p>Les points essentiels à retenir :</p>
+      <ul>
+        <li><strong>Isoler d'abord, dimensionner ensuite :</strong> Réduisez vos déperditions thermiques avant de choisir votre PAC.</li>
+        <li><strong>Exigez une étude thermique :</strong> C'est le seul moyen d'obtenir un dimensionnement fiable. Budget : 300€ à 800€, largement rentabilisé.</li>
+        <li><strong>Méfiez-vous des règles simplistes :</strong> La règle « 1 kW pour 10 m² » est dangereusement approximative.</li>
+        <li><strong>Comparez 3 devis minimum :</strong> Et vérifiez que chaque devis inclut une note de dimensionnement détaillée.</li>
+        <li><strong>Privilégiez les PAC Inverter :</strong> Elles offrent une meilleure tolérance au léger sur/sous-dimensionnement grâce à la modulation de puissance.</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p>✅ <strong>Prêt à dimensionner votre pompe à chaleur correctement ?</strong><br/>
+        Recevez sous 48h des devis personnalisés d'installateurs RGE QualiPAC incluant une étude de dimensionnement sérieuse. Gratuit et sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer 3 devis PAC avec étude thermique →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions fréquentes sur le dimensionnement d'une pompe à chaleur</h2>
+
+      <h3>Quelle puissance de pompe à chaleur pour 100 m² ?</h3>
+      <p>La puissance nécessaire pour une maison de 100 m² dépend fortement de son isolation et de sa zone climatique. En moyenne, comptez <strong>5 à 6 kW</strong> pour une maison très bien isolée (RE 2020), <strong>7 à 9 kW</strong> pour une bonne isolation (RT 2012), <strong>10 à 12 kW</strong> pour une isolation moyenne, et <strong>14 à 17 kW</strong> pour une maison mal isolée (avant 1980). Ces valeurs incluent un appoint ECS pour une famille de 3-4 personnes et sont calculées pour une zone climatique moyenne (H2). Pour une estimation plus précise, consultez notre guide sur le <a href="/blog/prix-pompe-chaleur-air-eau-2026">prix d'une PAC air-eau en 2026</a>.</p>
+
+      <h3>Comment savoir si ma pompe à chaleur est sous-dimensionnée ?</h3>
+      <p>Plusieurs signes indiquent un sous-dimensionnement : la température intérieure <strong>n'atteint pas 20°C</strong> lorsqu'il fait froid dehors (en dessous de -5°C), la <strong>résistance d'appoint électrique fonctionne fréquemment</strong> (vérifiable sur le tableau de bord de la PAC), votre <strong>facture d'électricité hivernale est anormalement élevée</strong> (plus de 150€/mois pour 100 m²), l'eau chaude devient <strong>tiède le matin en hiver</strong>, et la PAC tourne <strong>en continu sans jamais s'arrêter</strong> par temps froid. Si vous constatez ces symptômes, faites réaliser un audit par un installateur indépendant.</p>
+
+      <h3>Peut-on installer une PAC dans une maison mal isolée ?</h3>
+      <p>Techniquement oui, mais c'est <strong>rarement rentable</strong>. Dans une maison classée F ou G au DPE (passoire thermique), les déperditions sont telles qu'il faudrait une PAC très puissante (16 à 25 kW), plus coûteuse à l'achat et à l'usage. De plus, les radiateurs haute température existants obligent la PAC à fonctionner avec un COP médiocre (2 à 2,5 au lieu de 4 à 5). La recommandation des experts en 2026 est claire : <strong>rénovez l'isolation en priorité</strong> (combles, murs, fenêtres), puis installez une PAC correctement dimensionnée. Les aides <a href="/blog/maprimenov-2026-guide-complet">MaPrimeRénov' Parcours Accompagné</a> financent jusqu'à 90% d'une rénovation globale incluant l'isolation ET la PAC.</p>
+
+      <h3>Quelle est la différence entre puissance nominale et puissance calorifique ?</h3>
+      <p>La <strong>puissance nominale</strong> est la puissance annoncée par le fabricant dans des conditions de test standardisées (généralement +7°C extérieur / +35°C d'eau de départ pour une PAC air-eau). La <strong>puissance calorifique réelle</strong> varie selon la température extérieure : à -10°C, elle peut chuter de <strong>30 à 50%</strong> par rapport à la puissance nominale. C'est pourquoi le dimensionnement doit se faire sur la puissance réelle à la température de base de votre zone climatique, et non sur la puissance nominale catalogue. Un installateur sérieux vous présentera la <strong>courbe de puissance</strong> de la PAC proposée.</p>
+
+      <h3>Faut-il un appoint électrique avec une pompe à chaleur ?</h3>
+      <p>Dans la plupart des cas, oui. L'appoint électrique (résistance intégrée) n'est pas un défaut de dimensionnement — c'est un <strong>choix économique rationnel</strong>. On dimensionne généralement la PAC pour couvrir <strong>80 à 90% des besoins annuels</strong> (point de bivalence autour de -5°C à -10°C selon les régions). L'appoint ne fonctionne que quelques dizaines d'heures par an lors des pointes de froid. Dimensionner la PAC pour couvrir 100% des besoins (y compris le jour le plus froid) conduirait à un sur-dimensionnement coûteux pendant 99% du temps. L'important est que l'appoint reste <strong>marginal</strong> (moins de 5% de la consommation annuelle).</p>
+
+      <h3>Quelle puissance de PAC pour une piscine ?</h3>
+      <p>Le dimensionnement d'une PAC piscine est différent d'une PAC de chauffage. Il dépend du <strong>volume du bassin</strong>, de la <strong>température souhaitée</strong> et de la <strong>région</strong>. En règle générale, comptez <strong>1 kW pour 5 à 8 m³ de volume d'eau</strong>. Pour une piscine de 8×4 m (environ 50 m³), il faut une PAC de <strong>7 à 12 kW</strong> pour un chauffage de mai à septembre. Pour une piscine chauffée toute l'année, la puissance doit être doublée. Découvrez notre guide complet sur le <a href="/blog/prix-pompe-chaleur-air-air-100m2-clim-reversible">prix des PAC air-air et climatisation réversible</a>.</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-03-19",
+    readingTime: "18 min",
+    image: "/images/blog/dimensionnement-pompe-a-chaleur.png"
+  },
+  {
     slug: "etapes-construction-maison",
     title: "Construire sa maison en 2026 : Les étapes clés de A à Z (Guide Ultime)",
     excerpt: "Découvrez toutes les étapes construction maison en 2026 : du terrain au permis de construire, des fondations à la remise des clés. Budget, délais, démarches et conseils d'experts pour réussir votre projet de construction neuve.",
@@ -6985,7 +7388,7 @@ export const blogPosts: BlogPost[] = [
         </tbody>
       </table>
 
-      <p>Pour en savoir plus sur les installations solaires, consultez notre <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">guide complet des prix panneaux solaires 2026</a> et notre article sur <a href="/blog/autoconsommation-vente-totale-solaire-2026">l'autoconsommation vs vente totale</a>.</p>
+      <p>Pour en savoir plus sur les installations solaires, consultez notre <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">guide complet des prix panneaux solaires 2026</a> et notre article sur <a href="/blog/autoconsommation-ou-vente-totale-panneaux-solaires">l'autoconsommation vs vente totale</a>.</p>
 
       <h2 id="alternatives">Alternatives à la batterie de stockage</h2>
       
