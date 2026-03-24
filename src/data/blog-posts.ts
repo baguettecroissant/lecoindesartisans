@@ -2,6 +2,643 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "aide-pompe-a-chaleur-2026",
+    title: "Les aides MaPrimeRénov' pour le chauffage en 2026 : Barèmes par revenus",
+    excerpt: "Aide pompe à chaleur 2026 : découvrez tous les barèmes MaPrimeRénov' par tranches de revenus pour financer votre PAC air-eau, air-air ou géothermique. Montants, plafonds, conditions d'éligibilité et cumul avec les primes CEE expliqués par des experts.",
+    content: `
+      <p><strong>En 2026, l'aide pompe à chaleur MaPrimeRénov' reste le levier financier le plus puissant pour les ménages français souhaitant remplacer leur ancien système de chauffage par une pompe à chaleur.</strong> Mais entre les quatre catégories de revenus (Bleu, Jaune, Violet, Rose), les différents parcours (Décarbonation, Accompagné, Rénovation d'ampleur), et les évolutions réglementaires entrées en vigueur au 1er janvier 2026, il est devenu quasi impossible de s'y retrouver sans un guide détaillé.</p>
+
+      <p>Ce guide complet vous présente <strong>tous les barèmes MaPrimeRénov' 2026 pour le chauffage</strong>, classés par niveaux de revenus, avec les montants exacts, les conditions d'éligibilité, les plafonds de dépenses et les possibilités de cumul avec d'autres aides. Que vous envisagiez une <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">PAC air-eau, air-air ou géothermique</a>, vous saurez exactement combien vous pouvez obtenir en 2026.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Vous souhaitez installer une pompe à chaleur en 2026 ?</strong><br/>
+        Recevez jusqu'à 3 devis gratuits d'installateurs certifiés RGE QualiPAC incluant le calcul de toutes vos aides. Estimation personnalisée en 48h.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits avec simulation d'aides →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#comprendre">Comprendre MaPrimeRénov' 2026 pour le chauffage</a></li>
+        <li><a href="#categories">Les 4 catégories de revenus MaPrimeRénov'</a></li>
+        <li><a href="#baremes-pac">Barèmes d'aide pompe à chaleur 2026 par type</a></li>
+        <li><a href="#parcours">Les différents parcours MaPrimeRénov' 2026</a></li>
+        <li><a href="#autres-chauffage">Aides pour les autres systèmes de chauffage</a></li>
+        <li><a href="#cumul">Cumul des aides : MaPrimeRénov' + CEE + aides locales</a></li>
+        <li><a href="#conditions">Conditions d'éligibilité en 2026</a></li>
+        <li><a href="#demarches">Les démarches pour obtenir l'aide</a></li>
+        <li><a href="#exemples">Exemples chiffrés : combien vous touchez réellement</a></li>
+        <li><a href="#erreurs">Les erreurs à éviter pour maximiser vos aides</a></li>
+        <li><a href="#faq">FAQ : Vos questions sur l'aide pompe à chaleur 2026</a></li>
+      </ul>
+
+      <h2 id="comprendre">Comprendre MaPrimeRénov' 2026 pour le chauffage</h2>
+
+      <p>MaPrimeRénov' est le <strong>dispositif principal d'aide à la rénovation énergétique</strong> en France, géré par l'Agence Nationale de l'Habitat (ANAH). En 2026, le dispositif a été simplifié et renforcé pour accélérer la décarbonation du parc de logements français, avec un objectif ambitieux : <strong>remplacer 1 million de chaudières fossiles par an</strong> d'ici 2030.</p>
+
+      <p>Pour le chauffage, MaPrimeRénov' 2026 se décline en <strong>deux grands parcours</strong> :</p>
+      <ul>
+        <li><strong>Parcours Décarbonation (ex-« par geste ») :</strong> Pour remplacer un équipement de chauffage spécifique (chaudière gaz/fioul → pompe à chaleur, par exemple). L'aide finance un geste unique.</li>
+        <li><strong>Parcours Accompagné (rénovation d'ampleur) :</strong> Pour une rénovation globale incluant isolation + chauffage + ventilation. Les aides sont plus généreuses mais la démarche est plus encadrée (audit énergétique obligatoire, accompagnement par un Accompagnateur Rénov').</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Nouveauté 2026 importante</strong><br/>
+        Depuis le 1er janvier 2026, <strong>les logements classés F ou G au DPE (passoires thermiques) ne peuvent plus bénéficier du Parcours Décarbonation seul</strong>. Ils sont orientés vers le Parcours Accompagné qui combine isolation et changement de chauffage, car remplacer un chauffage sans isoler un logement énergivore est jugé inefficace. Consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a> pour tous les détails.</p>
+      </blockquote>
+
+      <h2 id="categories">Les 4 catégories de revenus MaPrimeRénov' 2026</h2>
+
+      <p>Le montant de l'<strong>aide pompe à chaleur 2026</strong> dépend directement de votre catégorie de revenus. L'ANAH classe les ménages en 4 profils, identifiés par un code couleur, en fonction du <strong>revenu fiscal de référence (RFR)</strong> et de la composition du foyer.</p>
+
+      <h3>Plafonds de revenus en Île-de-France (2026)</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Nombre de personnes</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu (très modeste)</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune (modeste)</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet (intermédiaire)</th>
+            <th style="padding: 12px; text-align: center;">🩷 Rose (aisé)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>1 personne</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 23 541 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 28 657 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 40 018 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 40 018 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>2 personnes</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 34 551 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 42 058 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 58 827 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 58 827 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 personnes</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 41 493 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 50 513 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 70 382 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 70 382 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>4 personnes</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 48 447 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 58 981 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 82 839 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 82 839 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>5 personnes</strong></td>
+            <td style="padding: 12px; text-align: center;">≤ 55 427 €</td>
+            <td style="padding: 12px; text-align: center;">≤ 67 473 €</td>
+            <td style="padding: 12px; text-align: center;">≤ 94 844 €</td>
+            <td style="padding: 12px; text-align: center;">> 94 844 €</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Plafonds de revenus hors Île-de-France (2026)</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Nombre de personnes</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu (très modeste)</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune (modeste)</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet (intermédiaire)</th>
+            <th style="padding: 12px; text-align: center;">🩷 Rose (aisé)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>1 personne</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 17 009 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 21 805 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 30 549 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 30 549 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>2 personnes</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 24 875 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 31 889 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 44 907 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 44 907 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 personnes</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 29 917 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 38 349 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 54 071 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 54 071 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>4 personnes</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 34 948 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 44 802 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 63 235 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">> 63 235 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>5 personnes</strong></td>
+            <td style="padding: 12px; text-align: center;">≤ 40 002 €</td>
+            <td style="padding: 12px; text-align: center;">≤ 51 281 €</td>
+            <td style="padding: 12px; text-align: center;">≤ 72 400 €</td>
+            <td style="padding: 12px; text-align: center;">> 72 400 €</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Comment trouver votre catégorie ?</strong><br/>
+        Votre revenu fiscal de référence (RFR) figure sur votre <strong>avis d'imposition</strong> (ligne « Revenu fiscal de référence »). Prenez l'avis N-1 (celui de 2025 sur les revenus 2024). C'est le revenu de l'ensemble du foyer fiscal qui est pris en compte, pas les revenus individuels. En cas de doute, le simulateur officiel <a href="https://www.maprimerenov.gouv.fr" target="_blank" rel="noopener">maprimerenov.gouv.fr</a> vous donne votre catégorie en quelques clics.</p>
+      </blockquote>
+
+      <h2 id="baremes-pac">Barèmes d'aide pompe à chaleur 2026 par type de PAC</h2>
+
+      <p>Voici le détail des <strong>montants MaPrimeRénov' 2026 pour chaque type de pompe à chaleur</strong>, dans le cadre du Parcours Décarbonation (remplacement d'un chauffage existant par une PAC).</p>
+
+      <h3>PAC air-eau (la plus installée en France)</h3>
+
+      <p>La <a href="/blog/prix-pompe-chaleur-air-eau-2026">pompe à chaleur air-eau</a> est le choix privilégié des Français pour remplacer une chaudière gaz ou fioul. Elle assure le chauffage central via des radiateurs ou un plancher chauffant, et produit généralement l'eau chaude sanitaire.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Catégorie de revenus</th>
+            <th style="padding: 12px; text-align: center;">Montant MaPrimeRénov'</th>
+            <th style="padding: 12px; text-align: center;">Plafond de dépenses éligibles</th>
+            <th style="padding: 12px; text-align: center;">Taux de prise en charge</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🔵 Bleu (très modeste)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #1e40af;">5 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~28%</td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟡 Jaune (modeste)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #92400e;">4 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~22%</td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟣 Violet (intermédiaire)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #6b21a8;">3 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~17%</td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;"><strong>🩷 Rose (aisé)</strong></td>
+            <td style="padding: 12px; text-align: center; font-weight: bold; color: #9d174d;">Non éligible</td>
+            <td style="padding: 12px; text-align: center;">—</td>
+            <td style="padding: 12px; text-align: center;">—</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>PAC géothermique ou solarothermique (les plus performantes)</h3>
+
+      <p>La <a href="/blog/pompe-chaleur-geothermique-prix">PAC géothermique</a> puise la chaleur dans le sol via des capteurs enterrés. Son COP est supérieur (4 à 5 toute l'année) et sa durée de vie plus longue, mais l'investissement initial est nettement plus élevé. L'État le compense par des aides majorées.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Catégorie de revenus</th>
+            <th style="padding: 12px; text-align: center;">Montant MaPrimeRénov'</th>
+            <th style="padding: 12px; text-align: center;">Plafond de dépenses éligibles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🔵 Bleu (très modeste)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #1e40af;">11 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 000 €</td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟡 Jaune (modeste)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #92400e;">9 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 000 €</td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟣 Violet (intermédiaire)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #6b21a8;">6 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 000 €</td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;"><strong>🩷 Rose (aisé)</strong></td>
+            <td style="padding: 12px; text-align: center; font-weight: bold; color: #9d174d;">Non éligible</td>
+            <td style="padding: 12px; text-align: center;">—</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Comparatif aide PAC air-eau vs géothermique</strong><br/>
+        L'aide pour une PAC géothermique est <strong>plus de 2 fois supérieure</strong> à celle d'une PAC air-eau, car l'investissement initial est lui aussi 2 à 3 fois plus élevé (20 000€ à 40 000€ contre 8 000€ à 16 000€). Cependant, la PAC géothermique est plus performante et plus durable. Pour un <a href="/blog/dimensionnement-pompe-a-chaleur">dimensionnement correct</a>, consultez un installateur RGE qualifié qui vous guidera vers la technologie la plus adaptée à votre terrain et votre budget.</p>
+      </blockquote>
+
+      <h3>Chauffe-eau thermodynamique (CET)</h3>
+
+      <p>Le chauffe-eau thermodynamique fonctionne comme une mini pompe à chaleur dédiée à la production d'eau chaude sanitaire. C'est un excellent complément si votre PAC ne gère pas l'ECS, ou un remplacement économique d'un cumulus électrique classique.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Catégorie de revenus</th>
+            <th style="padding: 12px; text-align: center;">Montant MaPrimeRénov'</th>
+            <th style="padding: 12px; text-align: center;">Plafond de dépenses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🔵 Bleu</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold;">1 200 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 500 €</td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟡 Jaune</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold;">800 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 500 €</td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟣 Violet</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; font-weight: bold;">400 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 500 €</td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;"><strong>🩷 Rose</strong></td>
+            <td style="padding: 12px; text-align: center; font-weight: bold;">Non éligible</td>
+            <td style="padding: 12px; text-align: center;">—</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="parcours">Les différents parcours MaPrimeRénov' 2026</h2>
+
+      <h3>Parcours Décarbonation : le remplacement de chauffage simple</h3>
+
+      <p>Le <strong>Parcours Décarbonation</strong> est le plus accessible : il finance le remplacement d'un système de chauffage fossile (chaudière gaz, fioul, charbon) ou d'un chauffage électrique peu performant par un équipement décarboné (PAC, système solaire combiné, chaudière bois, réseau de chaleur).</p>
+
+      <p><strong>Conditions spécifiques en 2026 :</strong></p>
+      <ul>
+        <li>Le logement doit avoir un DPE classé <strong>A, B, C, D ou E</strong> (les F et G sont redirigés vers le Parcours Accompagné)</li>
+        <li>L'installation doit être réalisée par un artisan <strong>certifié RGE</strong> (QualiPAC pour les PAC)</li>
+        <li>Le devis doit être signé <strong>après</strong> le dépôt de la demande sur maprimerenov.gouv.fr</li>
+        <li>Le logement doit avoir plus de <strong>15 ans</strong> (contre 2 ans avant 2024)</li>
+        <li>Il doit s'agir de votre <strong>résidence principale</strong></li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention : les PAC air-air ne sont PAS éligibles au Parcours Décarbonation</strong><br/>
+        Seules les PAC <strong>air-eau</strong> et <strong>géothermiques</strong> sont éligibles à MaPrimeRénov'. Les <a href="/blog/prix-pompe-chaleur-air-air-100m2-clim-reversible">PAC air-air (climatisation réversible)</a> ne sont pas couvertes par ce dispositif, car elles ne sont pas raccordées à un système de chauffage central. Elles restent toutefois éligibles aux primes CEE.</p>
+      </blockquote>
+
+      <h3>Parcours Accompagné : la rénovation globale (aides maximales)</h3>
+
+      <p>Le <strong>Parcours Accompagné</strong> est le parcours le plus généreux financièrement, mais aussi le plus exigeant. Il finance une rénovation d'ampleur combinant plusieurs gestes : isolation + ventilation + chauffage. L'objectif est de gagner au minimum <strong>2 classes DPE</strong> (par exemple, passer de E à C).</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Catégorie</th>
+            <th style="padding: 12px; text-align: center;">Gain de 2 classes DPE</th>
+            <th style="padding: 12px; text-align: center;">Gain de 3 classes DPE</th>
+            <th style="padding: 12px; text-align: center;">Gain de 4+ classes DPE</th>
+            <th style="padding: 12px; text-align: center;">Plafond HT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #dbeafe;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🔵 Bleu</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>80%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>80%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>80%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">70 000 €</td>
+          </tr>
+          <tr style="background: #fef9c3;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟡 Jaune</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>60%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>65%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>65%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">70 000 €</td>
+          </tr>
+          <tr style="background: #f3e8ff;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>🟣 Violet</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>45%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>50%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>50%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">70 000 €</td>
+          </tr>
+          <tr style="background: #fce7f3;">
+            <td style="padding: 12px;"><strong>🩷 Rose</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>30%</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>35%</strong></td>
+            <td style="padding: 12px; text-align: center;"><strong>35%</strong></td>
+            <td style="padding: 12px; text-align: center;">70 000 €</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Concrètement, pour un ménage Bleu avec un projet de rénovation globale à 50 000€ HT incluant isolation + PAC, l'aide Parcours Accompagné peut atteindre <strong>40 000€</strong> (80% de 50 000€), soit un reste à charge de seulement 10 000€ avant primes CEE. C'est nettement plus avantageux que le Parcours Décarbonation seul (5 000€ pour la PAC).</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Le Parcours Accompagné est souvent le plus rentable</strong><br/>
+        Si votre logement est mal isolé (DPE D, E, F ou G), le Parcours Accompagné est presque toujours plus avantageux financièrement. Vous financez <strong>l'isolation ET la PAC</strong> en un seul dossier, avec un taux d'aide très supérieur. De plus, une maison bien isolée nécessite une <a href="/blog/dimensionnement-pompe-a-chaleur">PAC moins puissante (et moins chère)</a>. C'est un double bénéfice.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer des devis pour une rénovation globale →</a></p>
+      </blockquote>
+
+      <h2 id="autres-chauffage">Aides pour les autres systèmes de chauffage décarbonés</h2>
+
+      <p>MaPrimeRénov' 2026 ne se limite pas aux pompes à chaleur. Voici les montants pour les autres équipements de chauffage éligibles au Parcours Décarbonation :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Équipement</th>
+            <th style="padding: 12px; text-align: center;">🔵 Bleu</th>
+            <th style="padding: 12px; text-align: center;">🟡 Jaune</th>
+            <th style="padding: 12px; text-align: center;">🟣 Violet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC air-eau</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>PAC géothermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">11 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">9 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 000 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chaudière bois (granulés)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 500 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Poêle à granulés</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 500 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Système solaire combiné</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">10 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">8 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chauffe-eau solaire</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 000 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Chauffe-eau thermodynamique</strong></td>
+            <td style="padding: 12px; text-align: center;">1 200 €</td>
+            <td style="padding: 12px; text-align: center;">800 €</td>
+            <td style="padding: 12px; text-align: center;">400 €</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="cumul">Cumul des aides : MaPrimeRénov' + CEE + aides locales</h2>
+
+      <p>L'un des grands avantages de MaPrimeRénov' est qu'elle est <strong>cumulable avec d'autres dispositifs</strong>. En 2026, voici les combinaisons possibles pour maximiser le financement de votre <strong>aide pompe à chaleur 2026</strong> :</p>
+
+      <h3>Les primes CEE (Certificats d'Économies d'Énergie)</h3>
+
+      <p>Les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE</a> sont versées par les fournisseurs d'énergie (EDF, Engie, TotalEnergies, etc.) et sont <strong>cumulables avec MaPrimeRénov'</strong>. Pour une PAC air-eau, la prime CEE représente en moyenne :</p>
+      <ul>
+        <li><strong>Ménages modestes (Bleu/Jaune) :</strong> 4 000€ à 5 500€ via le dispositif « Coup de Pouce Chauffage »</li>
+        <li><strong>Ménages intermédiaires (Violet) :</strong> 2 500€ à 4 000€</li>
+        <li><strong>Ménages aisés (Rose) :</strong> 2 500€ à 4 000€ (les CEE sont ouverts à tous, même les ménages exclus de MaPrimeRénov')</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Exemple de cumul pour un ménage Bleu (PAC air-eau)</strong><br/>
+        MaPrimeRénov' : <strong>5 000€</strong> + Prime CEE Coup de Pouce : <strong>5 500€</strong> = <strong>10 500€ d'aides</strong> sur un investissement de 14 000€ TTC.<br/>
+        <strong>Reste à charge : 3 500€</strong> seulement pour une PAC air-eau installée !<br/>
+        Et si votre commune ou région propose une aide complémentaire, le reste à charge peut descendre encore plus bas.</p>
+      </blockquote>
+
+      <h3>Les aides locales et régionales</h3>
+
+      <p>De nombreuses collectivités locales proposent des aides complémentaires pour l'installation de pompes à chaleur. Ces aides varient considérablement d'une région à l'autre :</p>
+      <ul>
+        <li><strong>Île-de-France :</strong> Éco-Rénovons Paris+ (jusqu'à 6 000€ pour une PAC), aides de la Métropole du Grand Paris</li>
+        <li><strong>Auvergne-Rhône-Alpes :</strong> Aides régionales complémentaires de 500€ à 2 000€</li>
+        <li><strong>Occitanie :</strong> Éco-Chèque logement (1 500€ à 3 000€ selon les revenus)</li>
+        <li><strong>Bretagne, Pays de la Loire :</strong> Aides départementales variables (500€ à 1 500€)</li>
+      </ul>
+      <p>Renseignez-vous auprès de votre <strong>Espace Conseil France Rénov'</strong> le plus proche pour connaître toutes les aides disponibles dans votre commune.</p>
+
+      <h3>L'éco-prêt à taux zéro (Éco-PTZ)</h3>
+
+      <p>L'<strong>Éco-PTZ</strong> est un prêt sans intérêt qui finance le reste à charge après déduction des aides. En 2026 :</p>
+      <ul>
+        <li>Montant maximal : <strong>15 000€</strong> pour un geste unique (PAC seule), <strong>50 000€</strong> pour une rénovation globale</li>
+        <li>Durée : jusqu'à <strong>20 ans</strong></li>
+        <li>Sans conditions de revenus</li>
+        <li>Cumulable avec MaPrimeRénov' et les CEE</li>
+      </ul>
+
+      <h3>La TVA réduite à 5,5%</h3>
+      <p>Les travaux de rénovation énergétique bénéficient automatiquement d'une <strong>TVA à 5,5%</strong> (au lieu de 20%), ce qui représente une économie supplémentaire de <strong>14,5%</strong> sur le montant TTC. Pour une PAC à 12 000€ HT, l'économie de TVA est de <strong>1 740€</strong>.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Aide</th>
+            <th style="padding: 12px; text-align: center;">Montant indicatif (PAC air-eau)</th>
+            <th style="padding: 12px; text-align: center;">Cumulable MaPrimeRénov' ?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov' Décarbonation</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€ à 5 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">—</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prime CEE Coup de Pouce</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500€ à 5 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Oui</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Aides locales / régionales</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">500€ à 6 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Oui (sous plafond)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Éco-PTZ</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Jusqu'à 15 000€ (prêt)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">✅ Oui</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>TVA réduite 5,5%</strong></td>
+            <td style="padding: 12px; text-align: center;">~1 500€ à 2 500€ d'économie</td>
+            <td style="padding: 12px; text-align: center;">✅ Automatique</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Règle du reste à charge minimum</strong><br/>
+        Attention : en 2026, le <strong>cumul de toutes les aides publiques ne peut pas dépasser 90% du coût TTC des travaux</strong> pour les ménages très modestes (Bleu) et 75% pour les autres catégories. Cela garantit un reste à charge minimum de 10 à 25%. Méfiez-vous des entreprises qui promettent une <a href="/blog/pompe-a-chaleur-1-euro-arnaque-2026">PAC à 1€ ou à 0€ de reste à charge</a> — c'est souvent le signe d'une arnaque.</p>
+      </blockquote>
+
+      <h2 id="conditions">Conditions d'éligibilité à l'aide pompe à chaleur 2026</h2>
+
+      <p>Pour bénéficier de la <strong>prime MaPrimeRénov' pour une pompe à chaleur en 2026</strong>, vous devez respecter ces conditions cumulatives :</p>
+
+      <h3>Conditions liées au logement</h3>
+      <ul>
+        <li>Le logement doit être votre <strong>résidence principale</strong> (occupé au moins 8 mois par an)</li>
+        <li>Il doit être <strong>construit depuis plus de 15 ans</strong> (exception : 2 ans pour le remplacement d'une chaudière fioul)</li>
+        <li>Il doit être situé en <strong>France métropolitaine ou dans les DOM</strong></li>
+        <li>Pour le Parcours Décarbonation : DPE classé <strong>A à E</strong></li>
+        <li>Pour le Parcours Accompagné : <strong>tous les DPE</strong> sont éligibles</li>
+      </ul>
+
+      <h3>Conditions liées aux travaux</h3>
+      <ul>
+        <li>Les travaux doivent être réalisés par un <strong>professionnel certifié RGE QualiPAC</strong></li>
+        <li>La PAC doit respecter des <strong>critères de performance minimaux</strong> (ETAS ≥ 126% pour une PAC air-eau moyenne/haute température, ≥ 111% pour basse température)</li>
+        <li>Le devis ne doit pas être signé <strong>avant</strong> le dépôt de la demande (sauf exception)</li>
+        <li>Les travaux doivent être terminés dans un <strong>délai de 2 ans</strong> après l'accord de l'ANAH</li>
+      </ul>
+
+      <h3>Conditions liées au demandeur</h3>
+      <ul>
+        <li>Être <strong>propriétaire</strong> (occupant ou bailleur)</li>
+        <li>Respecter les <strong>plafonds de revenus</strong> de sa catégorie (les ménages Rose ne sont éligibles qu'au Parcours Accompagné)</li>
+        <li>Ne pas avoir bénéficié d'un <strong>Éco-PTZ ou d'une MaPrimeRénov'</strong> pour le même logement dans les 5 dernières années (pour le même type de geste)</li>
+      </ul>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Propriétaires bailleurs : vous aussi !</strong><br/>
+        Depuis 2024, les propriétaires bailleurs sont éligibles à MaPrimeRénov' pour la rénovation de leurs logements locatifs, dans la <strong>limite de 3 logements</strong>. Les montants sont identiques à ceux des propriétaires occupants. La seule condition : s'engager à louer le bien pendant au minimum <strong>6 ans après les travaux</strong> et ne pas augmenter le loyer.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Estimer mes aides propriétaire bailleur →</a></p>
+      </blockquote>
+
+      <h2 id="demarches">Les démarches pour obtenir l'aide pompe à chaleur 2026</h2>
+
+      <p>Voici le processus étape par étape pour obtenir votre <strong>aide pompe à chaleur 2026</strong> via MaPrimeRénov' :</p>
+
+      <h3>Étape 1 : Vérifier votre éligibilité</h3>
+      <p>Utilisez le simulateur officiel sur <strong>maprimerenov.gouv.fr</strong> pour vérifier votre catégorie de revenus et le montant estimé de votre aide. Munissez-vous de votre dernier avis d'imposition et de votre DPE actuel.</p>
+
+      <h3>Étape 2 : Obtenir des devis</h3>
+      <p>Demandez <strong>au minimum 3 devis</strong> auprès d'installateurs certifiés RGE QualiPAC. Chaque devis doit inclure : le <a href="/blog/dimensionnement-pompe-a-chaleur">dimensionnement de la PAC</a>, la marque et le modèle, le détail des travaux, et le montant TTC. Consultez notre guide pour <a href="/blog/devis-pompe-a-chaleur-arnaque">éviter les arnaques sur les devis PAC</a>.</p>
+
+      <h3>Étape 3 : Créer votre dossier en ligne</h3>
+      <p>Créez votre compte sur <strong>maprimerenov.gouv.fr</strong> et déposez votre demande <strong>AVANT de signer le devis</strong>. Joignez les pièces justificatives : avis d'imposition, devis de l'artisan RGE, DPE du logement, justificatif de propriété.</p>
+
+      <h3>Étape 4 : Réaliser les travaux</h3>
+      <p>Après avoir reçu l'accord de l'ANAH, signez le devis et planifiez les travaux. L'installateur doit réaliser l'intégralité des travaux conformément au devis validé. Le délai maximal est de <strong>2 ans</strong>.</p>
+
+      <h3>Étape 5 : Demander le versement</h3>
+      <p>Après achèvement des travaux, déposez la facture acquittée sur la plateforme. Le versement intervient sous <strong>4 à 8 semaines</strong> par virement bancaire. Depuis 2025, un système d'<strong>avance de 70%</strong> est disponible pour les ménages très modestes (Bleu) afin de réduire l'avance de trésorerie.</p>
+
+      <h2 id="exemples">Exemples chiffrés : combien vous touchez réellement en 2026</h2>
+
+      <h3>Exemple 1 : Famille modeste remplaçant une chaudière fioul</h3>
+      <p><strong>Profil :</strong> Couple avec 2 enfants en province, RFR = 30 000€ (catégorie 🟡 Jaune), maison de 120 m² classée E au DPE, chaudière fioul de 25 ans.</p>
+      <p><strong>Projet :</strong> Installation d'une PAC air-eau 10 kW + dépose cuve fioul + production ECS.</p>
+      <ul>
+        <li>Coût total TTC (TVA 5,5%) : <strong>13 500 €</strong></li>
+        <li>MaPrimeRénov' Décarbonation : <strong>4 000 €</strong></li>
+        <li>Prime CEE Coup de Pouce : <strong>4 500 €</strong></li>
+        <li>Aide communale : <strong>500 €</strong></li>
+        <li><strong>Total des aides : 9 000 €</strong></li>
+        <li><strong>Reste à charge : 4 500 €</strong> (financé par Éco-PTZ sur 15 ans = 25€/mois)</li>
+      </ul>
+      <p>Avec une <a href="/blog/consommation-electrique-pompe-a-chaleur">consommation électrique</a> annuelle de la PAC estimée à 1 200€ contre 2 800€ de fioul, l'économie est de <strong>1 600€/an</strong>. Le retour sur investissement est atteint en <strong>moins de 3 ans</strong>.</p>
+
+      <h3>Exemple 2 : Ménage très modeste avec rénovation globale</h3>
+      <p><strong>Profil :</strong> Personne seule en province, RFR = 15 000€ (catégorie 🔵 Bleu), appartement de 70 m² classé F au DPE.</p>
+      <p><strong>Projet :</strong> Parcours Accompagné — isolation des murs + fenêtres + PAC air-eau + VMC double flux. Gain visé : 3 classes DPE (F → C).</p>
+      <ul>
+        <li>Coût total HT : <strong>35 000 €</strong></li>
+        <li>MaPrimeRénov' Parcours Accompagné (80%) : <strong>28 000 €</strong></li>
+        <li>Prime CEE : <strong>3 000 €</strong></li>
+        <li><strong>Total des aides : 31 000 €</strong></li>
+        <li><strong>Reste à charge : 4 000 € HT</strong> (+ TVA 5,5% = 4 220€)</li>
+      </ul>
+
+      <h3>Exemple 3 : Ménage intermédiaire optant pour la géothermie</h3>
+      <p><strong>Profil :</strong> Couple sans enfant en Île-de-France, RFR = 55 000€ (catégorie 🟣 Violet), maison de 150 m² classée D au DPE, chauffage gaz.</p>
+      <p><strong>Projet :</strong> PAC géothermique sur capteurs horizontaux + <a href="/blog/isolation-exterieure-prix-m2">isolation extérieure</a>.</p>
+      <ul>
+        <li>PAC géothermique TTC : <strong>25 000 €</strong></li>
+        <li>MaPrimeRénov' géothermique : <strong>6 000 €</strong></li>
+        <li>Prime CEE : <strong>3 500 €</strong></li>
+        <li><strong>Total des aides PAC : 9 500 €</strong></li>
+        <li><strong>Reste à charge PAC : 15 500 €</strong></li>
+        <li>+ Aides ITE séparées (MaPrimeRénov' + CEE) : environ 7 000€ à 10 000€</li>
+      </ul>
+
+      <h2 id="erreurs">Les erreurs à éviter pour maximiser vos aides en 2026</h2>
+
+      <h3>Erreur n°1 : Signer le devis avant de déposer le dossier</h3>
+      <p>C'est l'erreur la plus fréquente et la plus coûteuse. Si vous signez le devis <strong>avant</strong> d'avoir créé votre dossier MaPrimeRénov', votre demande sera <strong>systématiquement refusée</strong>. Aucune dérogation n'est possible. Le devis peut être établi (pour estimer le montant), mais il ne doit pas être signé/accepté avant le dépôt.</p>
+
+      <h3>Erreur n°2 : Choisir un artisan non-RGE</h3>
+      <p>La certification <strong>RGE QualiPAC</strong> est une condition sine qua non pour obtenir MaPrimeRénov' et les CEE. Un artisan non-RGE, même très compétent, vous fait perdre le droit à toutes les aides. Vérifiez la validité de la certification sur <strong>france-renov.gouv.fr</strong>. Attention : un artisan RGE « Qualibois » n'est pas qualifié pour installer une PAC — il lui faut la mention QualiPAC spécifiquement.</p>
+
+      <h3>Erreur n°3 : Négliger le DPE</h3>
+      <p>Si votre logement est classé F ou G, vous ne pouvez pas bénéficier du Parcours Décarbonation (PAC seule). Vous devez passer par le Parcours Accompagné. Or, le DPE peut parfois être amélioré par des travaux simples (changement de fenêtres, isolation des combles) avant de faire la demande pour la PAC. Consultez un conseiller <strong>France Rénov'</strong> pour définir la meilleure stratégie.</p>
+
+      <h3>Erreur n°4 : Sous-estimer l'importance du bon dimensionnement</h3>
+      <p>Une PAC mal dimensionnée (trop puissante ou pas assez) ne sera pas plus performante malgré les aides. Au contraire, elle vous coûtera plus cher à l'usage. Exigez un <a href="/blog/dimensionnement-pompe-a-chaleur">dimensionnement rigoureux</a> avec un bilan thermique. C'est aussi un critère que l'ANAH peut vérifier en cas de contrôle. Pour bien comparer les offres, consultez notre guide <a href="/blog/lire-analyser-devis-artisan">lire et analyser un devis d'artisan</a>.</p>
+
+      <h3>Erreur n°5 : Oublier de demander les CEE</h3>
+      <p>Les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE</a> ne sont pas automatiques : vous devez les demander <strong>avant de signer le devis</strong> auprès d'un obligé (EDF, Engie, etc.) ou d'un délégataire. Si vous signez le devis sans avoir contractualisé votre prime CEE, vous la perdez définitivement. Beaucoup d'installateurs RGE proposent de gérer les CEE pour vous — vérifiez que c'est bien inclus dans leur offre.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Faites-vous accompagner gratuitement</strong><br/>
+        Les <strong>Espaces Conseil France Rénov'</strong> offrent un accompagnement gratuit et personnalisé pour votre projet de rénovation. Un conseiller vous aide à identifier toutes les aides, à monter votre dossier et à choisir un artisan RGE de confiance. C'est un service public gratuit, financé par l'État.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Trouver un installateur RGE de confiance →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions sur l'aide pompe à chaleur 2026</h2>
+
+      <h3>Quel est le montant de MaPrimeRénov' pour une pompe à chaleur air-eau en 2026 ?</h3>
+      <p>Le montant de MaPrimeRénov' pour une <strong>PAC air-eau en 2026</strong> dépend de vos revenus : <strong>5 000€</strong> pour les ménages très modestes (Bleu), <strong>4 000€</strong> pour les ménages modestes (Jaune), et <strong>3 000€</strong> pour les ménages intermédiaires (Violet). Les ménages aisés (Rose) ne sont pas éligibles au Parcours Décarbonation mais peuvent bénéficier du Parcours Accompagné (30 à 35% du coût global d'une rénovation d'ampleur). En cumulant avec les primes CEE (2 500€ à 5 500€), le total des aides peut atteindre <strong>8 000€ à 10 500€</strong> selon votre profil. Pour connaître le <a href="/blog/prix-pompe-chaleur-air-eau-2026">prix d'une PAC air-eau en 2026</a>, consultez notre guide dédié.</p>
+
+      <h3>Les pompes à chaleur air-air sont-elles éligibles à MaPrimeRénov' en 2026 ?</h3>
+      <p>Non, les <a href="/blog/prix-pompe-chaleur-air-air-100m2-clim-reversible">PAC air-air (climatisation réversible)</a> ne sont <strong>pas éligibles à MaPrimeRénov'</strong> en 2026. Elles ne sont pas considérées comme des systèmes de chauffage central et ne remplissent pas les critères du Parcours Décarbonation. Cependant, les PAC air-air restent éligibles aux <strong>primes CEE</strong> (environ 300€ à 900€ par unité) et bénéficient de la TVA à 5,5%. Si vous hésitez entre air-eau et air-air, consultez notre <a href="/blog/choisir-pompe-chaleur-air-eau-air-air">comparatif PAC air-eau vs air-air</a>.</p>
+
+      <h3>Peut-on cumuler MaPrimeRénov' et les CEE pour une pompe à chaleur ?</h3>
+      <p>Oui, le <strong>cumul MaPrimeRénov' + CEE</strong> est non seulement possible mais fortement recommandé. C'est même la stratégie standard pour minimiser votre reste à charge. Les deux dispositifs sont complémentaires : MaPrimeRénov' est versée par l'ANAH (État), les CEE sont versées par les fournisseurs d'énergie (secteur privé). Vous pouvez également ajouter les aides locales et l'Éco-PTZ. La seule limite est le <strong>plafond de cumul</strong> : le total des aides publiques ne peut pas dépasser 90% du coût TTC pour les ménages très modestes et 75% pour les autres.</p>
+
+      <h3>Faut-il un DPE pour demander MaPrimeRénov' en 2026 ?</h3>
+      <p>Oui, le <strong>DPE (Diagnostic de Performance Énergétique)</strong> est obligatoire pour toute demande MaPrimeRénov' en 2026, quel que soit le parcours. Son classement détermine le parcours auquel vous êtes éligible : <strong>A à E → Parcours Décarbonation OU Accompagné</strong>, <strong>F ou G → Parcours Accompagné uniquement</strong>. Le DPE doit être réalisé par un diagnostiqueur certifié et avoir moins de 10 ans. Si vous n'avez pas de DPE, comptez environ <strong>150€ à 300€</strong> pour le faire réaliser.</p>
+
+      <h3>Comment savoir si mon installateur est bien RGE QualiPAC ?</h3>
+      <p>Vérifiez la certification sur l'annuaire officiel <strong>france-renov.gouv.fr/annuaire-rge</strong>. Saisissez le nom ou le SIRET de l'entreprise et vérifiez que la mention <strong>« QualiPAC »</strong> apparaît bien dans les qualifications actives. Attention : la certification est rattachée à une entreprise (pas à un artisan individuel) et a une durée limitée (4 ans renouvelable). Vérifiez la date de validité. Un installateur dont la certification a expiré n'est plus RGE, même s'il était qualifié l'année précédente. Consultez aussi les <a href="/blog/avis-pompe-a-chaleur-marque-fiable">avis sur les marques de PAC</a> pour choisir un équipement fiable.</p>
+
+      <h3>MaPrimeRénov' est-elle versée avant ou après les travaux ?</h3>
+      <p>MaPrimeRénov' est versée <strong>après les travaux</strong>, sur présentation de la facture acquittée. Cependant, depuis 2025, les ménages très modestes (catégorie Bleu) peuvent bénéficier d'une <strong>avance de 70% du montant de l'aide</strong> versée avant le début des travaux, afin de limiter l'avance de trésorerie. Cette avance est versée dans un délai de 2 à 4 semaines après validation du dossier. Pour les autres catégories, le versement intervient sous 4 à 8 semaines après le dépôt de la facture. L'Éco-PTZ permet de financer le reste à charge sans intérêts.</p>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-03-24",
+    readingTime: "22 min",
+    image: "/images/blog/aide-pompe-a-chaleur-2026.png"
+  },
+
+  {
     slug: "dimensionnement-pompe-a-chaleur",
     title: "Comment dimensionner sa Pompe à Chaleur ? (Éviter le sous/sur-dimensionnement)",
     excerpt: "Dimensionnement pompe à chaleur : apprenez à calculer la puissance idéale en kW pour votre logement. Évitez le sous-dimensionnement et le sur-dimensionnement grâce à notre guide complet avec méthodes de calcul, tableaux et conseils d'experts 2026.",
