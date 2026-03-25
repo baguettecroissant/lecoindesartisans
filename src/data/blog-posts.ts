@@ -16309,6 +16309,154 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-03-07",
     readingTime: "12 min",
     image: "/images/blog/nettoyage-panneaux-solaires.png"
+  },
+  {
+    slug: "pompe-a-chaleur-isolation-combiner-economies",
+    title: "Pompe à chaleur et isolation : pourquoi combiner les deux pour maximiser vos économies en 2026",
+    excerpt: "Installer une PAC sans isoler, c'est comme chauffer fenêtres ouvertes. Découvrez pourquoi le combo PAC + isolation est le secret des rénovations énergétiques réussies : gains réels, ordre des travaux et aides cumulables.",
+    content: `
+      <h2>Introduction : le tandem indissociable de la rénovation énergétique</h2>
+      <p>En 2026, plus de <strong>4,8 millions de logements</strong> en France sont encore classés F ou G au DPE — les fameuses « passoires thermiques » dont la mise en location est progressivement interdite. Face à cette urgence, deux solutions dominent le marché de la rénovation : la <strong>pompe à chaleur</strong> (PAC) et l'<strong>isolation thermique</strong>. Prises séparément, elles améliorent la performance du logement. Combinées intelligemment, elles <strong>divisent la facture énergétique par 3 à 4</strong> et permettent de gagner plusieurs lettres au DPE.</p>
+      <p>Ce guide vous explique pourquoi l'ordre des travaux est crucial, quels gains chiffrés attendre et comment financer l'ensemble grâce aux aides cumulables.</p>
+
+      <h2>Pourquoi isoler AVANT d'installer une pompe à chaleur ?</h2>
+      <p>C'est l'erreur n°1 des propriétaires : installer une PAC performante dans un logement mal isolé. Résultat ? La pompe à chaleur fonctionne en surrégime pour compenser les déperditions, sa durée de vie se réduit, et la facture électrique reste élevée.</p>
+
+      <h3>L'ordre optimal des travaux</h3>
+      <ol>
+        <li><strong>Étape 1 — Isoler l'enveloppe du bâtiment :</strong> combles (30 % des déperditions), murs (25 %), planchers bas (10 %), fenêtres (15 %).</li>
+        <li><strong>Étape 2 — Dimensionner la PAC :</strong> Une fois les déperditions réduites, la puissance nécessaire de la PAC diminue. Vous pouvez installer un modèle plus petit (moins cher à l'achat ET à l'usage).</li>
+        <li><strong>Étape 3 — Installer la ventilation :</strong> VMC double flux ou hygroréglable pour un renouvellement d'air maîtrisé sans perte de chaleur.</li>
+      </ol>
+
+      <blockquote style="background: #eff6ff; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Conseil d'expert :</strong> En isolant d'abord, vous pouvez souvent <strong>descendre d'un cran de puissance PAC</strong>. Par exemple, passer d'une PAC de 12 kW à une de 8 kW, soit une économie de 2 000 à 4 000 € à l'achat. Pour <a href="https://www.cout-pompe-a-chaleur.fr" target="_blank" rel="noopener">estimer le coût d'une pompe à chaleur</a> adaptée à votre logement après isolation, utilisez un simulateur en ligne.</p>
+      </blockquote>
+
+      <h2>Gains chiffrés : avant/après combo PAC + isolation</h2>
+      <p>Voici les résultats constatés sur des rénovations réelles de maisons individuelles de 100 à 130 m² :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 24px 0; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 14px; text-align: left;">Scénario</th>
+            <th style="padding: 14px; text-align: left;">Consommation/an</th>
+            <th style="padding: 14px; text-align: left;">Facture énergie/an</th>
+            <th style="padding: 14px; text-align: left;">Classe DPE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fff; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;"><strong>Avant travaux</strong> (chaudière fioul, 0 isolation)</td>
+            <td style="padding: 14px;">28 000 kWh</td>
+            <td style="padding: 14px; color: #dc2626; font-weight: bold;">3 400 €</td>
+            <td style="padding: 14px;">F</td>
+          </tr>
+          <tr style="background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;"><strong>PAC seule</strong> (sans isolation)</td>
+            <td style="padding: 14px;">18 000 kWh</td>
+            <td style="padding: 14px;">2 200 €</td>
+            <td style="padding: 14px;">D</td>
+          </tr>
+          <tr style="background: #fff; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;"><strong>Isolation seule</strong> (chaudière fioul conservée)</td>
+            <td style="padding: 14px;">14 000 kWh</td>
+            <td style="padding: 14px;">1 700 €</td>
+            <td style="padding: 14px;">D</td>
+          </tr>
+          <tr style="background: #ecfdf5; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px; font-weight: bold;">✅ Combo PAC + isolation</td>
+            <td style="padding: 14px; font-weight: bold;">7 000 kWh</td>
+            <td style="padding: 14px; color: #16a34a; font-weight: bold;">850 €</td>
+            <td style="padding: 14px; font-weight: bold; color: #16a34a;">B</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Le combo PAC + isolation permet une <strong>économie annuelle de 2 550 €</strong> par rapport à la situation initiale. Sur 15 ans (durée de vie moyenne d'une PAC), cela représente <strong>38 250 € d'économies cumulées</strong>.</p>
+
+      <h2>Quel type d'isolation privilégier ?</h2>
+
+      <h3>Les postes prioritaires par impact</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 24px 0; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 14px; text-align: left;">Zone</th>
+            <th style="padding: 14px; text-align: left;">% déperditions</th>
+            <th style="padding: 14px; text-align: left;">Coût moyen</th>
+            <th style="padding: 14px; text-align: left;">Priorité</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fff; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;">Combles / Toiture</td>
+            <td style="padding: 14px; font-weight: bold;">30 %</td>
+            <td style="padding: 14px;">20 à 50 €/m²</td>
+            <td style="padding: 14px; color: #dc2626; font-weight: bold;">★★★</td>
+          </tr>
+          <tr style="background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;">Murs (ITE ou ITI)</td>
+            <td style="padding: 14px; font-weight: bold;">25 %</td>
+            <td style="padding: 14px;">50 à 150 €/m²</td>
+            <td style="padding: 14px; color: #ea580c; font-weight: bold;">★★★</td>
+          </tr>
+          <tr style="background: #fff; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;">Fenêtres (double/triple vitrage)</td>
+            <td style="padding: 14px; font-weight: bold;">15 %</td>
+            <td style="padding: 14px;">300 à 800 €/fenêtre</td>
+            <td style="padding: 14px; color: #ca8a04; font-weight: bold;">★★</td>
+          </tr>
+          <tr style="background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+            <td style="padding: 14px;">Plancher bas</td>
+            <td style="padding: 14px; font-weight: bold;">10 %</td>
+            <td style="padding: 14px;">15 à 35 €/m²</td>
+            <td style="padding: 14px; color: #ca8a04; font-weight: bold;">★★</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour obtenir un chiffrage précis adapté à votre logement, vous pouvez <a href="https://www.cout-isolation-maison.fr" target="_blank" rel="noopener">estimer le prix de l'isolation de votre maison</a> en fonction des surfaces à traiter et du type d'isolant choisi.</p>
+
+      <h2>Budget total et aides cumulables en 2026</h2>
+
+      <h3>Estimation du budget brut</h3>
+      <p>Pour une maison de 100 m² classée F, le budget global d'une rénovation PAC + isolation complète se situe entre <strong>25 000 et 45 000 € TTC</strong>.</p>
+
+      <h3>Les aides mobilisables</h3>
+      <ul>
+        <li><strong>MaPrimeRénov' Parcours accompagné :</strong> De 30 à 90 % du coût selon les revenus et le gain DPE (jusqu'à 63 000 € pour les ménages très modestes visant un gain de 4 classes).</li>
+        <li><strong>CEE (Certificats d'Économie d'Énergie) :</strong> 2 000 à 6 000 € cumulables avec MaPrimeRénov'.</li>
+        <li><strong>Éco-PTZ :</strong> Prêt à taux zéro jusqu'à 50 000 € sur 20 ans pour les bouquets de travaux.</li>
+        <li><strong>TVA réduite à 5,5 %</strong> sur l'ensemble des travaux de rénovation énergétique.</li>
+        <li><strong>Aides locales :</strong> Régions, départements et communes proposent souvent des compléments (consulter votre ADIL).</li>
+      </ul>
+      <p><strong>Reste à charge réel :</strong> Pour un ménage aux revenus intermédiaires, le reste à charge après aides peut descendre à <strong>8 000 — 15 000 €</strong>, soit un retour sur investissement en 4 à 6 ans seulement.</p>
+
+      <h2>5 erreurs à éviter absolument</h2>
+      <ol>
+        <li><strong>Installer la PAC avant d'isoler :</strong> Vous surdimensionnez la puissance et surpayez l'équipement.</li>
+        <li><strong>Isoler les combles et oublier les murs :</strong> L'effet "point faible" : la chaleur s'échappe par la zone la moins isolée.</li>
+        <li><strong>Choisir un artisan non RGE :</strong> Sans label RGE, aucune aide publique n'est mobilisable. Vérifiez systématiquement sur <a href="/service/chauffage-climatisation" rel="noopener">l'annuaire des artisans qualifiés</a>.</li>
+        <li><strong>Négliger la ventilation :</strong> Un logement bien isolé mais mal ventilé = moisissures et qualité d'air dégradée.</li>
+        <li><strong>Ne pas faire d'audit énergétique :</strong> L'audit (obligatoire pour MaPrimeRénov' Parcours accompagné) permet de prioriser les travaux par rapport coût/efficacité.</li>
+      </ol>
+
+      <h2>Comment procéder ? Le parcours en 4 étapes</h2>
+      <ol>
+        <li><strong>Audit énergétique :</strong> Un diagnostiqueur certifié analyse votre logement et produit un plan de travaux hiérarchisé (budget : 800 à 1 500 €, souvent pris en charge par MaPrimeRénov').</li>
+        <li><strong>Consultation de 3 artisans RGE minimum :</strong> Comparez les devis pour chaque lot (isolation + PAC + ventilation). Les prix peuvent varier de 30 % d'un prestataire à l'autre.</li>
+        <li><strong>Montage des dossiers d'aides :</strong> Toutes les demandes doivent être déposées <strong>avant le début des travaux</strong>. Pas de rétroactivité.</li>
+        <li><strong>Travaux et réception :</strong> Isolation en premier, PAC en second, ventilation en dernier. Chaque lot donne lieu à un PV de réception.</li>
+      </ol>
+
+      <blockquote style="background: #f0fdf4; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 À retenir :</strong> Le combo <a href="https://www.cout-pompe-a-chaleur.fr" target="_blank" rel="noopener">pompe à chaleur</a> + <a href="https://www.cout-isolation-maison.fr" target="_blank" rel="noopener">isolation thermique</a> est la stratégie de rénovation la plus rentable en 2026. En isolant d'abord, vous réduisez les besoins de chauffage, ce qui permet de dimensionner une PAC plus petite et moins coûteuse. Résultat : un logement classé B ou C, une facture divisée par 3 et un patrimoine valorisé.</p>
+      </blockquote>
+    `,
+    category: "chauffage-pac",
+    publishedAt: "2026-03-25",
+    readingTime: "15 min",
+    image: "/images/blog/pac-isolation-combo.png"
   }
 ];
 
