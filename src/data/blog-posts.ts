@@ -2,6 +2,404 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "verifier-garantie-decennale-artisan",
+    title: "Garantie Décennale Artisan : Comment vérifier qu'elle est valide ?",
+    excerpt: "Vérifier la garantie décennale d'un artisan est indispensable avant de signer un devis. Découvrez comment contrôler l'attestation d'assurance décennale, les 7 points clés à vérifier, les risques en cas de défaut et les recours possibles en 2026. Guide complet avec checklist et FAQ.",
+    content: `
+      <p><strong>La garantie décennale est la protection la plus importante dont vous disposez en tant que maître d'ouvrage lorsque vous faites réaliser des travaux de construction ou de rénovation.</strong> Obligatoire pour tous les artisans et professionnels du bâtiment depuis la loi Spinetta de 1978, elle couvre pendant <strong>10 ans</strong> les dommages compromettant la solidité de l'ouvrage ou le rendant impropre à sa destination. Mais encore faut-il que cette assurance soit réellement valide au moment des travaux.</p>
+
+      <p>En 2026, <strong>un artisan du BTP sur dix exerce sans assurance décennale valide</strong> selon les données de la Fédération Française de l'Assurance (FFA). Les conséquences pour le particulier peuvent être dramatiques : malfaçons non couvertes, fissures structurelles, infiltrations, effondrement partiel — avec des réparations pouvant atteindre <strong>50 000€ à plus de 200 000€</strong> entièrement à votre charge. Ce guide complet vous explique exactement comment <strong>vérifier la garantie décennale d'un artisan</strong> avant de signer le moindre devis, et quels recours vous avez si vous découvrez un problème après les travaux.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Vous recherchez un artisan fiable et correctement assuré ?</strong><br/>
+        Recevez jusqu'à 3 devis gratuits d'artisans vérifiés près de chez vous. Toutes les attestations d'assurance décennale sont contrôlées avant mise en relation.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits d'artisans assurés →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#definition">Qu'est-ce que la garantie décennale ?</a></li>
+        <li><a href="#obligation">Qui est obligé de souscrire une décennale ?</a></li>
+        <li><a href="#attestation">L'attestation d'assurance décennale : le document clé</a></li>
+        <li><a href="#verifier">Les 7 points à vérifier sur l'attestation décennale</a></li>
+        <li><a href="#outils">Outils et démarches pour vérifier la décennale d'un artisan</a></li>
+        <li><a href="#risques">Les risques si l'artisan n'a pas de décennale valide</a></li>
+        <li><a href="#devis">Garantie décennale et devis : les mentions obligatoires</a></li>
+        <li><a href="#sinistre">Comment activer la garantie décennale en cas de sinistre</a></li>
+        <li><a href="#cout">Combien coûte une assurance décennale pour un artisan ?</a></li>
+        <li><a href="#faq">FAQ : Vos questions sur la vérification de la décennale</a></li>
+      </ul>
+
+      <h2 id="definition">Qu'est-ce que la garantie décennale ?</h2>
+
+      <p>La <strong>garantie décennale</strong> (ou « responsabilité civile décennale ») est une assurance obligatoire instituée par les <strong>articles 1792 et suivants du Code civil</strong> et précisée par la <strong>loi n°78-12 du 4 janvier 1978</strong> (dite loi Spinetta). Elle impose à tout constructeur — artisan, entrepreneur, architecte, bureau d'études — de garantir pendant <strong>10 ans à compter de la réception des travaux</strong> la réparation des dommages qui :</p>
+      <ul>
+        <li><strong>Compromettent la solidité de l'ouvrage :</strong> Fissures structurelles traversantes, affaissement de fondations, effondrement partiel de toiture, rupture de murs porteurs, etc.</li>
+        <li><strong>Rendent l'ouvrage impropre à sa destination :</strong> Infiltrations d'eau massives rendant une pièce inhabitable, défaut d'étanchéité rendant une toiture inutilisable, système de chauffage défaillant rendant le logement inconfortable, problème d'<a href="/blog/isolation-exterieure-prix-m2">isolation thermique</a> engendrant des déperditions majeures, etc.</li>
+        <li><strong>Affectent la solidité des éléments d'équipement indissociables :</strong> Canalisations encastrées, <a href="/blog/mise-aux-normes-tableau-electrique-prix">installation électrique intégrée</a>, plancher chauffant, etc. — c'est-à-dire les équipements dont le retrait ou le remplacement nécessiterait de détériorer la structure du bâtiment.</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Décennale vs garantie de parfait achèvement vs garantie biennale</strong><br/>
+        La <strong>garantie de parfait achèvement</strong> (1 an) couvre tous les désordres signalés lors de la réception ou dans l'année suivante, quelle que soit leur gravité. La <strong>garantie biennale</strong> (2 ans) couvre les éléments d'équipement dissociables (robinetterie, volets, radiateurs, etc.). La <strong>garantie décennale</strong> (10 ans) ne couvre que les désordres graves affectant la solidité ou l'habitabilité. Ces trois garanties se cumulent et se complètent. Pour bien comprendre la réception des travaux qui déclenche ces garanties, consultez notre <a href="/blog/reception-chantier-reserves-guide">guide complet sur la réception de chantier</a>.</p>
+      </blockquote>
+
+      <h3>Quels travaux sont couverts par la décennale ?</h3>
+
+      <p>La garantie décennale s'applique à tous les <strong>travaux de construction, de rénovation lourde et de gros œuvre</strong>. Voici un tableau récapitulatif :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type de travaux</th>
+            <th style="padding: 12px; text-align: center;">Couvert par la décennale ?</th>
+            <th style="padding: 12px; text-align: left;">Exemples</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gros œuvre / structure</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fondations, murs porteurs, charpente, dalles, escaliers maçonnés</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Toiture & couverture</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><a href="/blog/prix-refection-toiture-100m2-tuiles-ardoise-zinc">Réfection de toiture</a>, étanchéité, zinguerie, chéneau</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Ravalement & façade</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><a href="/blog/ravalement-facade-prix-m2">Ravalement de façade</a>, ITE, enduit structurel</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Plomberie & chauffage</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Canalisations encastrées, plancher chauffant, <a href="/blog/prix-pompe-chaleur-air-eau-2026">installation PAC</a></td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Électricité</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Réseau électrique encastré, <a href="/blog/mise-aux-normes-tableau-electrique-prix">tableau électrique</a>, mise aux normes</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Isolation thermique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><a href="/blog/isolation-exterieure-prix-m2">ITE</a>, <a href="/blog/isolation-combles-perdus-laine-verre-ouate-cellulose-roche">isolation combles</a>, isolation par insufflation</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Panneaux solaires</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">Installation photovoltaïque</a> (intégration au bâti, étanchéité)</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Menuiserie extérieure</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><a href="/blog/comparatif-fenetres-pvc-alu-bois-prix-performance">Fenêtres</a>, <a href="/blog/baie-vitree-coulissante-alu-prix">baies vitrées</a>, portes d'entrée</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Piscine enterrée</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><a href="/blog/prix-piscine-enterree-8x4-coque-beton-kit">Piscine coque ou béton</a>, local technique intégré</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Peinture / papier peint / déco</strong></td>
+            <td style="padding: 12px; text-align: center; color: #ef4444; font-weight: bold;">❌ Non*</td>
+            <td style="padding: 12px;">Travaux esthétiques sans impact structurel (* sauf si le défaut rend la pièce impropre à son usage)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="obligation">Qui est obligé de souscrire une assurance décennale ?</h2>
+
+      <p><strong>Tout professionnel du bâtiment intervenant sur un ouvrage est tenu de souscrire une assurance de responsabilité civile décennale</strong> avant l'ouverture de tout chantier (article L241-1 du Code des assurances). Cela concerne :</p>
+      <ul>
+        <li><strong>Les artisans du bâtiment</strong> (maçons, couvreurs, plombiers, électriciens, carreleurs, peintres en bâtiment, façadiers, etc.)</li>
+        <li><strong>Les entreprises générales du bâtiment</strong> et les sociétés de construction</li>
+        <li><strong>Les architectes</strong> et les maîtres d'œuvre</li>
+        <li><strong>Les bureaux d'études techniques</strong> (structure, thermique, acoustique)</li>
+        <li><strong>Les contrôleurs techniques</strong></li>
+        <li><strong>Les fabricants</strong> d'éléments pouvant entraîner des dommages décennaux (EPERS)</li>
+        <li><strong>Les auto-entrepreneurs du BTP</strong> — qui sont soumis à la même obligation</li>
+      </ul>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Sanctions en cas de défaut d'assurance décennale</strong><br/>
+        Un professionnel exerçant sans assurance décennale s'expose à des sanctions pénales sévères : <strong>jusqu'à 75 000€ d'amende et 6 mois d'emprisonnement</strong> (article L243-3 du Code des assurances). Malgré cela, de nombreux artisans exercent sans couverture valide. C'est pourquoi il est capital de <strong>vérifier systématiquement l'attestation</strong> avant de signer tout <a href="/blog/lire-analyser-devis-artisan">devis artisan</a>.</p>
+      </blockquote>
+
+      <h3>Cas particulier : les sous-traitants</h3>
+      <p>Si votre artisan principal fait appel à un sous-traitant pour une partie des travaux (plomberie, électricité, etc.), <strong>chaque sous-traitant doit également disposer de sa propre assurance décennale</strong>. L'artisan principal reste responsable du chantier dans son ensemble, mais en cas de défaillance et de liquidation judiciaire, vous pourriez avoir besoin de vous retourner directement contre le sous-traitant et son assureur. Demandez donc les attestations de tous les intervenants.</p>
+
+      <h2 id="attestation">L'attestation d'assurance décennale : le document clé</h2>
+
+      <p>L'<strong>attestation d'assurance de responsabilité civile décennale</strong> est le document officiel délivré par l'assureur qui prouve que l'artisan est bien couvert. Ce document doit être remis par l'artisan <strong>avant le début des travaux</strong> et annexé au devis ou au contrat. L'article L243-2 du Code des assurances impose à l'assureur de délivrer cette attestation à l'assuré.</p>
+
+      <h3>Que contient une attestation décennale valide ?</h3>
+      <p>Une attestation d'assurance décennale conforme doit comporter les mentions suivantes :</p>
+      <ul>
+        <li><strong>Le nom et l'adresse de l'assureur</strong></li>
+        <li><strong>Le numéro du contrat d'assurance</strong></li>
+        <li><strong>Le nom, la raison sociale et l'adresse de l'assuré</strong> (l'artisan)</li>
+        <li><strong>Le numéro SIREN/SIRET</strong> de l'entreprise assurée</li>
+        <li><strong>La période de validité</strong> de la garantie (dates de début et de fin)</li>
+        <li><strong>Les activités couvertes</strong> (le périmètre précis des travaux garantis)</li>
+        <li><strong>La zone géographique</strong> de couverture</li>
+        <li><strong>Les plafonds de garantie</strong> et les franchises éventuelles</li>
+        <li><strong>Les exclusions</strong> de garantie, le cas échéant</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Attestation vs contrat d'assurance : ne confondez pas</strong><br/>
+        L'<strong>attestation</strong> est un résumé synthétique délivré par l'assureur, facilement vérifiable. Le <strong>contrat d'assurance</strong> est le document complet qui détaille toutes les conditions (conditions générales + conditions particulières). Vous pouvez légitimement demander les deux, mais l'attestation suffit pour une première vérification. Si vous avez un doute, vous pouvez contacter directement l'assureur mentionné sur l'attestation pour en confirmer l'authenticité.</p>
+      </blockquote>
+
+      <h2 id="verifier">Les 7 points à vérifier sur l'attestation décennale</h2>
+
+      <p>Voici la <strong>checklist complète des 7 vérifications essentielles</strong> à effectuer sur l'attestation d'assurance décennale de votre artisan avant de signer un devis ou de verser un <a href="/blog/acompte-travaux-pourcentage">acompte</a> :</p>
+
+      <h3>1. La date de validité de l'attestation</h3>
+      <p>C'est le contrôle le plus élémentaire et pourtant le plus négligé. L'attestation doit être <strong>en cours de validité à la date d'ouverture du chantier</strong>. Vérifiez les dates « du… au… » indiquées sur le document. Une attestation expirée ne vaut rien, même si l'artisan prétend que « le renouvellement est en cours ». <strong>Exigez une attestation couvrant la période de vos travaux</strong> et, si le chantier dure plusieurs mois, demandez l'attestation mise à jour en cours de chantier.</p>
+
+      <h3>2. L'identité de l'assuré</h3>
+      <p>Vérifiez que le <strong>nom de l'entreprise</strong> (raison sociale exacte) et le <strong>numéro SIREN/SIRET</strong> correspondent bien à l'artisan avec qui vous contractez. Un artisan qui vous présente l'attestation d'une autre entreprise (ancienne société, société d'un associé, etc.) ne vous protège pas. La couverture est nominative.</p>
+
+      <h3>3. Les activités couvertes</h3>
+      <p>C'est <strong>le point le plus critique</strong>. L'attestation liste précisément les activités professionnelles couvertes (exemples : « maçonnerie », « couverture/zinguerie », « plomberie/chauffage », « installation photovoltaïque », etc.). Si votre artisan maçon vous propose de refaire votre toiture mais que son attestation ne couvre que la « maçonnerie générale » et pas la « couverture », <strong>les travaux de toiture ne seront pas couverts par sa décennale</strong>. Vérifiez que les activités listées correspondent exactement aux travaux que vous lui confiez.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Activité déclarée</th>
+            <th style="padding: 12px; text-align: left;">Travaux couverts</th>
+            <th style="padding: 12px; text-align: left;">Travaux NON couverts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maçonnerie générale</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Fondations, murs, dalles, cloisons</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Toiture, plomberie, électricité</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Couverture & zinguerie</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Toiture, gouttières, faîtage</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Charpente (si non mentionnée), façade</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Plomberie & chauffage</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Canalisations, sanitaires, PAC, chaudière</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Électricité, maçonnerie</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Électricité générale</strong></td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Réseau, tableau, éclairage</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Panneaux solaires (si non mentionnés)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Entreprise générale du bâtiment</strong></td>
+            <td style="padding: 12px;">Tous corps d'état (selon détail)</td>
+            <td style="padding: 12px;">Vérifier le détail exact des activités</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>4. Le numéro de contrat et l'assureur</h3>
+      <p>Notez le <strong>nom de la compagnie d'assurance</strong> et le <strong>numéro de contrat</strong>. Vous pourrez contacter l'assureur directement pour vérifier que le contrat est bien actif et à jour des cotisations. Les assureurs les plus courants en décennale BTP en France sont : <strong>SMABTP, AXA, Allianz, MMA, Groupama, MAAF Pro, SMA</strong>. Méfiez-vous des assureurs étrangers peu connus — certaines compagnies basées hors de France ont fait défaut par le passé, laissant les assurés sans couverture.</p>
+
+      <h3>5. La zone géographique de couverture</h3>
+      <p>Certaines assurances décennales sont limitées à un <strong>département ou une région</strong>. Vérifiez que votre chantier se situe bien dans la zone géographique couverte. Ce contrôle est particulièrement important si vous faites appel à un artisan d'un autre département.</p>
+
+      <h3>6. Les franchises et plafonds de garantie</h3>
+      <p>L'attestation peut mentionner des <strong>franchises</strong> (le montant restant à la charge de l'artisan en cas de sinistre) et des <strong>plafonds de garantie</strong>. Un plafond trop bas par rapport au montant de vos travaux pourrait vous laisser avec un reste à charge en cas de sinistre grave. Pour un chantier important (construction neuve, rénovation complète), assurez-vous que le plafond couvre au minimum le montant total des travaux.</p>
+
+      <h3>7. L'absence de résiliation ou de suspension</h3>
+      <p>Un artisan peut avoir une attestation en cours de validité, mais en réalité <strong>le contrat a été résilié ou suspendu</strong> pour non-paiement des cotisations. Ce cas est malheureusement fréquent. La seule façon de le vérifier est de <strong>contacter directement l'assureur</strong> mentionné sur l'attestation (par téléphone ou par courrier) pour confirmer que le contrat est bien actif et les cotisations à jour à la date de votre demande.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Conseil d'expert : demandez l'attestation dès le premier rendez-vous</strong><br/>
+        N'attendez pas la signature du devis pour demander l'attestation décennale. Un artisan sérieux vous la fournira spontanément ou sans difficulté lors du premier rendez-vous. Si votre artisan tergiverse, repousse ou refuse de vous fournir ce document, c'est un signal d'alerte majeur. Comparez toujours plusieurs professionnels pour vous assurer d'un bon rapport qualité/prix et d'une couverture adéquate.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer des artisans vérifiés et assurés →</a></p>
+      </blockquote>
+
+      <h2 id="outils">Outils et démarches pour vérifier la décennale d'un artisan</h2>
+
+      <p>Au-delà de l'examen visuel de l'attestation, plusieurs <strong>outils et démarches complémentaires</strong> vous permettent de vérifier la solidité de votre artisan :</p>
+
+      <h3>1. Contact direct avec l'assureur</h3>
+      <p>Le moyen le plus fiable : appelez ou écrivez à la compagnie d'assurance mentionnée sur l'attestation avec le numéro de contrat et le nom de l'assuré. L'assureur est tenu de vous confirmer si le contrat est bien en vigueur. Ce simple appel démasque les attestations falsifiées ou les contrats résiliés.</p>
+
+      <h3>2. Vérification du numéro SIRET</h3>
+      <p>Consultez le site <strong>societe.com</strong> ou le <strong>Répertoire Sirene de l'INSEE</strong> (sirene.fr) pour vérifier que le numéro SIRET figurant sur l'attestation correspond bien à une entreprise en activité, et que la raison sociale et l'adresse concordent. Une entreprise radiée ou en liquidation est un signal d'alarme critique.</p>
+
+      <h3>3. L'annuaire des artisans (CMA)</h3>
+      <p>La <strong>Chambre de Métiers et de l'Artisanat</strong> (CMA) tient un répertoire des artisans immatriculés. Vous pouvez consulter le Répertoire National des Métiers (RNM) en ligne ou en vous rendant à la CMA de votre département pour vérifier que l'artisan est bien inscrit et en règle.</p>
+
+      <h3>4. Qualifications et labels professionnels</h3>
+      <p>Les artisans certifiés <strong>RGE (Reconnu Garant de l'Environnement)</strong>, <strong>Qualibat</strong>, <strong>QualiPAC</strong> ou <strong>QualiPV</strong> sont généralement en règle sur leur assurance décennale, car les organismes certificateurs vérifient ce point lors de l'attribution et du renouvellement de la certification. L'annuaire officiel <strong>France Rénov'</strong> (france-renov.gouv.fr) liste les professionnels certifiés et vérifiés. Toutefois, ce n'est pas une garantie absolue — la vérification directe de l'attestation reste indispensable.</p>
+
+      <h3>5. Les plateformes de mise en relation vérifiées</h3>
+      <p>Les plateformes professionnelles de mise en relation avec des artisans (comme notre service) vérifient systématiquement les attestations décennales avant de référencer un professionnel. C'est un filtre supplémentaire qui réduit considérablement le risque d'avoir affaire à un artisan non assuré.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Checklist rapide de vérification décennale</strong><br/>
+        ☐ Attestation en cours de validité (dates)<br/>
+        ☐ Nom et SIRET de l'artisan conformes<br/>
+        ☐ Activités couvertes = travaux prévus<br/>
+        ☐ Assureur français identifiable<br/>
+        ☐ Numéro de contrat vérifié auprès de l'assureur<br/>
+        ☐ Zone géographique couverte<br/>
+        ☐ Plafonds de garantie suffisants</p>
+      </blockquote>
+
+      <h2 id="risques">Les risques si l'artisan n'a pas de décennale valide</h2>
+
+      <p>Faire réaliser des travaux par un artisan sans assurance décennale valide est <strong>l'une des erreurs les plus coûteuses</strong> que puisse commettre un particulier. Voici les scénarios possibles et leurs conséquences :</p>
+
+      <h3>Scénario 1 : Malfaçon découverte après les travaux</h3>
+      <p>Si un désordre décennal apparaît (fissure structurelle, infiltration, affaissement…) et que l'artisan n'avait pas de décennale valide au moment des travaux :</p>
+      <ul>
+        <li><strong>L'artisan reste personnellement responsable</strong> sur ses biens propres (patrimoine personnel en entreprise individuelle, ou actif de la société en SARL/SAS)</li>
+        <li><strong>Mais s'il est insolvable, en liquidation judiciaire ou introuvable</strong>, vous n'avez aucun assureur vers qui vous retourner</li>
+        <li><strong>Le coût des réparations est intégralement à votre charge</strong>, sauf si votre propre assurance Dommages-Ouvrage (DO) peut intervenir</li>
+      </ul>
+
+      <h3>Scénario 2 : L'artisan a falsifié son attestation</h3>
+      <p>La falsification d'une attestation d'assurance constitue un <strong>faux et usage de faux</strong> (articles 441-1 à 441-12 du Code pénal), puni de <strong>3 ans d'emprisonnement et 45 000€ d'amende</strong>. Vous pouvez déposer plainte pénale, mais cela ne résoudra pas le problème financier des réparations à court terme.</p>
+
+      <h3>Scénario 3 : L'attestation est valide mais les activités ne correspondent pas</h3>
+      <p>Si l'artisan a une décennale pour « plomberie » mais a réalisé des travaux d'« électricité », l'assureur <strong>refusera la prise en charge</strong> du sinistre. C'est le cas le plus insidieux car le particulier pensait être protégé. D'où l'importance cruciale de vérifier la concordance entre les activités couvertes et les travaux réalisés.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ L'assurance Dommages-Ouvrage (DO) : votre filet de sécurité</strong><br/>
+        En tant que maître d'ouvrage (commanditaire des travaux), <strong>vous êtes vous aussi obligé de souscrire une assurance Dommages-Ouvrage</strong> avant l'ouverture du chantier (article L242-1 du Code des assurances). Cette assurance vous indemnise rapidement (en 90 jours) sans attendre la recherche de responsabilité, puis l'assureur DO se retourne contre l'artisan ou son assureur. C'est votre protection en cas de défaillance de la décennale de l'artisan. En pratique, peu de particuliers y souscrivent (<strong>moins de 5% des rénovations</strong>), mais pour les gros chantiers (construction neuve, surélévation, extension), elle est fortement recommandée.</p>
+      </blockquote>
+
+      <h2 id="devis">Garantie décennale et devis : les mentions obligatoires</h2>
+
+      <p>La loi impose à tout professionnel du bâtiment de faire figurer sur ses <strong>devis et factures</strong> des mentions relatives à son assurance décennale. Ces mentions obligatoires sont définies par l'article L243-2 du Code des assurances :</p>
+
+      <ul>
+        <li><strong>Le nom et l'adresse de l'assureur</strong> ou du garant</li>
+        <li><strong>Le numéro du contrat</strong> d'assurance</li>
+        <li><strong>La couverture géographique</strong> du contrat</li>
+        <li><strong>Le périmètre d'activités couvertes</strong></li>
+      </ul>
+
+      <p>Si ces mentions sont absentes du devis, c'est un premier signal d'alerte. Un devis professionnel et complet doit tout mentionner clairement. Pour savoir exactement ce que doit contenir un devis artisan, référez-vous à notre guide sur comment <a href="/blog/lire-analyser-devis-artisan">lire et analyser un devis d'artisan</a>.</p>
+
+      <h3>La mention décennale sur la facture</h3>
+      <p>La facture finale doit également reprendre ces informations. Conservez précieusement ce document pendant <strong>10 ans minimum</strong> (durée de la garantie décennale). En cas de sinistre 7 ou 8 ans après les travaux, vous devrez justifier que l'artisan était bien assuré au moment de la réalisation. Le devis signé, la facture et l'attestation constituent votre triptyque de protection.</p>
+
+      <h2 id="sinistre">Comment activer la garantie décennale en cas de sinistre</h2>
+
+      <p>Si vous constatez un dommage relevant de la garantie décennale dans les 10 ans suivant la <a href="/blog/reception-chantier-reserves-guide">réception des travaux</a>, voici la procédure à suivre :</p>
+
+      <h3>Étape 1 : Constater et documenter le dommage</h3>
+      <ul>
+        <li>Prenez des <strong>photos datées</strong> du désordre (vues d'ensemble et détails)</li>
+        <li>Décrivez précisément les dommages par écrit</li>
+        <li>Notez la date de première apparition du désordre</li>
+        <li>Évaluez les conséquences sur l'habitabilité/la solidité du bâtiment</li>
+      </ul>
+
+      <h3>Étape 2 : Mettre en demeure l'artisan</h3>
+      <p>Envoyez un <strong>courrier recommandé avec accusé de réception (LRAR)</strong> à l'artisan pour l'informer du sinistre et le mettre en demeure de procéder aux réparations dans un délai raisonnable (généralement 30 à 60 jours). Mentionnez les articles 1792 et suivants du Code civil et joignez les photos.</p>
+
+      <h3>Étape 3 : Déclarer le sinistre à l'assureur décennal</h3>
+      <p>Si l'artisan ne réagit pas ou conteste sa responsabilité, contactez directement son <strong>assureur décennal</strong> dont vous avez les coordonnées grâce à l'attestation. Envoyez une déclaration de sinistre en LRAR comprenant : l'attestation décennale, le devis/facture des travaux, le procès-verbal de réception, les photos et la mise en demeure envoyée à l'artisan.</p>
+
+      <h3>Étape 4 : L'expertise et l'indemnisation</h3>
+      <p>L'assureur mandatera un <strong>expert en bâtiment</strong> pour évaluer les dommages. Si la garantie décennale s'applique (dommage relevant de la solidité ou de la destination de l'ouvrage), l'assureur prend en charge les réparations ou indemnise le maître d'ouvrage. <strong>Le délai moyen d'indemnisation est de 3 à 12 mois</strong> selon la complexité du dossier.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Attention aux délais de prescription</strong><br/>
+        La garantie décennale commence à partir de la <strong>date de réception des travaux</strong> (pas de la date de la facture ni de la fin de chantier). Si vous n'avez pas formalisé la réception par un procès-verbal, des difficultés de preuve peuvent survenir. Par ailleurs, une fois le dommage constaté, vous disposez d'un <strong>délai de 2 ans pour agir en justice</strong> (article 2224 du Code civil). Ne tardez pas à déclarer un sinistre.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Trouver un artisan assuré pour des réparations →</a></p>
+      </blockquote>
+
+      <h2 id="cout">Combien coûte une assurance décennale pour un artisan ?</h2>
+
+      <p>Comprendre le coût de la décennale permet de mieux apprécier pourquoi certains artisans tentent de s'en passer (ce qui est illégal) et pourquoi les devis de professionnels correctement assurés sont justifiés. En 2026, les tarifs de l'assurance décennale varient considérablement selon l'activité, le chiffre d'affaires et l'historique de sinistralité :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Métier / Activité</th>
+            <th style="padding: 12px; text-align: center;">Coût annuel indicatif (2026)</th>
+            <th style="padding: 12px; text-align: center;">% du CA moyen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Peinture / décoration</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 200€ – 3 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 – 4%</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Menuiserie / charpente</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 500€ – 6 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 – 5%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Plomberie / chauffage</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 000€ – 5 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 – 5%</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Électricité</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 800€ – 4 500€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2,5 – 4,5%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Maçonnerie / gros œuvre</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 500€ – 9 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 – 7%</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Couverture / toiture</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€ – 8 000€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 – 6%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Entreprise générale tous corps d'état</strong></td>
+            <td style="padding: 12px; text-align: center;">5 000€ – 15 000€+</td>
+            <td style="padding: 12px; text-align: center;">5 – 10%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Le coût de la décennale représente en moyenne <strong>3 à 7% du chiffre d'affaires</strong> annuel de l'artisan. C'est une charge significative, surtout pour les auto-entrepreneurs et les petites structures, ce qui explique (sans le justifier) que certains cherchent à s'en passer. Un artisan correctement assuré intègre ce coût dans ses prix — c'est un gage de sérieux et de professionnalisme.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Un devis « trop bas » peut cacher un problème d'assurance</strong><br/>
+        Si un artisan propose un tarif anormalement bas par rapport aux concurrents (30 à 50% en dessous des prix du marché), posez-vous la question : a-t-il une assurance décennale valide ? Un artisan non assuré peut se permettre de casser les prix car il économise 3 à 10% de charges. Mais cette « économie » peut vous coûter très cher en cas de sinistre. C'est le même principe que pour les arnaques fréquentes dans le secteur, comme les <a href="/blog/arnaque-panneau-solaire-5-signes-alerter">arnaques aux panneaux solaires</a> ou les <a href="/blog/devis-pompe-a-chaleur-arnaque">arnaques aux devis de pompe à chaleur</a>.</p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions sur la vérification de la garantie décennale</h2>
+
+      <h3>Comment vérifier si un artisan a une garantie décennale valide ?</h3>
+      <p>Pour <strong>vérifier la garantie décennale d'un artisan</strong>, demandez-lui son attestation d'assurance de responsabilité civile décennale en cours de validité. Vérifiez les dates, le nom de l'entreprise, le numéro SIRET, les activités couvertes et le nom de l'assureur. Pour une vérification approfondie, contactez directement l'assureur mentionné sur l'attestation avec le numéro de contrat pour confirmer que la police est bien active et les cotisations à jour. Vous pouvez aussi vérifier l'existence légale de l'entreprise sur societe.com ou le Répertoire Sirene de l'INSEE.</p>
+
+      <h3>Que faire si l'artisan refuse de fournir son attestation décennale ?</h3>
+      <p>Si un artisan refuse ou tarde à fournir son attestation d'assurance décennale, <strong>ne signez aucun devis et ne versez aucun acompte</strong>. Ce refus est un signal d'alarme majeur qui suggère soit une absence d'assurance (ce qui est illégal), soit un contrat résilié ou suspendu. Vous pouvez signaler ce professionnel à la <strong>DGCCRF</strong> (Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes) qui peut mener une enquête. Faites plutôt appel à un autre artisan correctement assuré.</p>
+
+      <h3>La garantie décennale couvre-t-elle les travaux réalisés par un auto-entrepreneur ?</h3>
+      <p>Oui, <strong>les auto-entrepreneurs (micro-entrepreneurs) du BTP sont soumis à la même obligation de souscription d'une assurance décennale</strong> que les artisans en entreprise individuelle ou en société. L'article L241-1 du Code des assurances ne fait aucune distinction selon le statut juridique. En pratique, les auto-entrepreneurs ont souvent plus de difficultés à trouver un assureur (tarifs plus élevés rapportés au chiffre d'affaires, exigences d'expérience), ce qui conduit certains à exercer sans couverture. La vérification est donc encore plus importante pour les auto-entrepreneurs.</p>
+
+      <h3>Peut-on faire jouer la garantie décennale si l'artisan a fermé son entreprise ?</h3>
+      <p>Oui, et c'est précisément l'intérêt de l'assurance décennale. <strong>La garantie est attachée au contrat d'assurance, pas à l'existence de l'entreprise.</strong> Même si l'artisan a cessé son activité, a été mis en liquidation judiciaire, ou a pris sa retraite, son assureur décennal reste tenu de couvrir les sinistres survenant dans les 10 ans suivant la réception des travaux. C'est pourquoi il est crucial de conserver précieusement l'attestation décennale et les factures : ce sont ces documents qui vous permettront de contacter directement l'assureur même des années plus tard.</p>
+
+      <h3>Quelle est la différence entre garantie décennale et responsabilité civile professionnelle ?</h3>
+      <p>La <strong>responsabilité civile professionnelle (RC Pro)</strong> couvre les dommages causés à des tiers pendant l'exécution des travaux (chute de matériaux sur le terrain du voisin, dégât des eaux accidentel, blessure d'un passant, etc.). Elle intervient pendant le chantier. La <strong>garantie décennale</strong> couvre les vices et malfaçons affectant la solidité ou la destination de l'ouvrage, et elle s'étend sur 10 ans après la réception. Ce sont deux assurances distinctes et complémentaires. Un artisan doit avoir les deux. Souvent, elles sont regroupées dans un même contrat « assurance professionnelle du BTP » ou « multirisque professionnelle ».</p>
+    `,
+    category: "guides-travaux",
+    publishedAt: "2026-03-31",
+    readingTime: "16 min",
+    image: "/images/blog/verifier-garantie-decennale-artisan.png"
+  },
+
+  {
     slug: "pergola-solaire-prix",
     title: "Pergola Solaire Bioclimatique : Le confort d'été qui produit de l'énergie",
     excerpt: "Pergola solaire prix en 2026 : découvrez les tarifs au m² (500€ à 1 400€), la production électrique réelle, les aides financières et nos conseils pour choisir une pergola bioclimatique photovoltaïque. Guide complet avec tableaux comparatifs et FAQ.",
