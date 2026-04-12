@@ -2,6 +2,613 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "crepi-facade-couleur-tendance",
+    title: "Crépi ou Enduit de façade : Les tendances couleurs et textures 2026",
+    excerpt: "Crépi façade couleur tendance 2026 : découvrez les teintes phares (terre cuite, vert sauge, gris anthracite), les textures modernes (gratté, taloché, minéral brut), les finitions bicolores et les prix au m². Guide complet avec tableaux, conseils d'architectes et FAQ.",
+    content: `
+      <p><strong>Le crépi de façade n'est plus ce simple enduit blanc ou beige que l'on appliquait sans réfléchir dans les années 2000.</strong> En 2026, la façade est devenue un véritable <strong>élément de design architectural</strong> à part entière. Les propriétaires français — qu'ils construisent, rénovent ou réalisent un <a href="/blog/ravalement-facade-prix-m2">ravalement de façade</a> — recherchent des <strong>couleurs affirmées, des textures sophistiquées et des finitions minérales durables</strong> qui donnent du caractère à leur maison tout en respectant les réglementations locales du Plan Local d'Urbanisme (PLU).</p>
+
+      <p>Ce guide exhaustif vous dévoile les <strong>tendances couleurs et textures crépi façade</strong> les plus demandées en 2026 par les architectes et façadiers de notre réseau. Des teintes terreuses inspirées de la Méditerranée aux gris architecturaux contemporains, en passant par les enduits à la chaux authentiques et les finitions bicolores spectaculaires — vous trouverez ici toute l'inspiration et les <strong>données techniques</strong> pour faire le bon choix. Nous détaillons également les <strong>prix au m²</strong>, les contraintes réglementaires et les erreurs à éviter absolument.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Vous préparez un ravalement ou une construction neuve ?</strong><br/>
+        Recevez jusqu'à 3 devis gratuits de façadiers qualifiés près de chez vous. Conseil couleur, conformité PLU et estimation des coûts inclus.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis gratuits pour ma façade →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#tendances-couleurs">Les couleurs tendance pour un crépi de façade en 2026</a></li>
+        <li><a href="#palette-regionales">Les palettes régionales : quelle couleur selon votre région ?</a></li>
+        <li><a href="#tendances-textures">Les textures de crépi tendance en 2026</a></li>
+        <li><a href="#finitions-bicolores">Les finitions bicolores et contrastes : la grande tendance</a></li>
+        <li><a href="#enduits-ecologiques">Les enduits écologiques et minéraux : la montée en puissance</a></li>
+        <li><a href="#prix">Prix au m² des crépis et enduits tendance</a></li>
+        <li><a href="#reglementation">Réglementation et PLU : les couleurs autorisées</a></li>
+        <li><a href="#erreurs">Les 7 erreurs à éviter pour choisir sa couleur de façade</a></li>
+        <li><a href="#entretien">Entretien et durabilité des crépis modernes</a></li>
+        <li><a href="#faq">FAQ : Vos questions sur le crépi de façade</a></li>
+      </ul>
+
+      <h2 id="tendances-couleurs">Les couleurs tendance pour un crépi de façade en 2026</h2>
+
+      <p>L'année 2026 consacre le retour massif des <strong>teintes naturelles et terreuses</strong>. Fini le tout blanc aseptisé ou le beige générique. Les architectes et les coloristes spécialisés en ravalement plébiscitent des couleurs qui connectent la maison à son environnement, tout en affirmant une identité forte. Voici les <strong>5 familles de couleurs crépi façade</strong> les plus demandées cette année :</p>
+
+      <h3>1. 🏺 Les terres cuites et ocres — La star incontestée</h3>
+      <p>La palette <strong>terre cuite</strong> domine les tendances façade 2026. Inspirée des bastides provençales et des maisons toscanes, elle apporte une chaleur incomparable tout en restant moderne. Les nuances les plus demandées :</p>
+      <ul>
+        <li><strong>Terre de Sienne :</strong> Un ocre profond, chaud et élégant, parfait pour les maisons de caractère (RAL 8023 ou NCS S 3040-Y50R)</li>
+        <li><strong>Terracotta doux :</strong> Plus clair et plus rosé que la terre de Sienne, il illumine les façades sans les écraser (RAL 3012)</li>
+        <li><strong>Ocre doré :</strong> Teinte lumineuse qui capte la lumière du soleil, idéale pour les régions du Sud (RAL 1024)</li>
+        <li><strong>Sable rosé :</strong> Un compromis entre le beige classique et le terracotta, très polyvalent et facilement accepté par les ABF (Architectes des Bâtiments de France)</li>
+      </ul>
+
+      <h3>2. 🌿 Les verts naturels — La tendance biophilique</h3>
+      <p>Le <strong>vert sauge</strong> et le <strong>vert olive</strong> s'imposent comme les couleurs de rupture en 2026 pour les façades contemporaines. Cette tendance s'inscrit dans le mouvement biophilique (architecture connectée à la nature) :</p>
+      <ul>
+        <li><strong>Vert sauge :</strong> Doux, grisé, sophistiqué — le vert le plus tendance de l'année (NCS S 3010-G30Y)</li>
+        <li><strong>Vert olive foncé :</strong> Profond et élégant, il crée un contraste saisissant avec des menuiseries blanches ou bois clair</li>
+        <li><strong>Vert amande :</strong> Plus clair et lumineux, idéal pour les petites surfaces ou les façades peu exposées au soleil</li>
+      </ul>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Le conseil de nos architectes partenaires</strong><br/>
+        Le vert sauge est magnifique, mais il doit être associé à des <strong>menuiseries en aluminium anthracite ou en bois naturel</strong> pour éviter l'effet « maison de campagne datée ». L'association vert sauge + <a href="/blog/baie-vitree-coulissante-alu-prix">baies vitrées aluminium noir</a> est la combinaison la plus demandée en 2026 chez les constructeurs haut de gamme.</p>
+      </blockquote>
+
+      <h3>3. ⬛ Les gris architecturaux — L'intemporel contemporain</h3>
+      <p>Le gris reste la valeur sûre des façades contemporaines, mais les nuances évoluent. En 2026, on s'éloigne du gris béton froid pour aller vers des <strong>gris chauds et texturés</strong> :</p>
+      <ul>
+        <li><strong>Gris anthracite chaud :</strong> Profond avec une pointe de brun, il apporte de la profondeur sans la froideur du noir (RAL 7016 nuancé)</li>
+        <li><strong>Gris pierre :</strong> Un gris clair et naturel, comme la pierre calcaire, très demandé en Île-de-France et dans le Nord</li>
+        <li><strong>Gris béton brut :</strong> Pour un effet matière industriel-chic, souvent associé à un enduit taloché ou brossé</li>
+        <li><strong>Gris perle rosé :</strong> Subtil mélange de gris et de rose poudré, très tendance sur les maisons d'architecte</li>
+      </ul>
+
+      <h3>4. ☀️ Les blancs cassés structurés — Le renouveau du classique</h3>
+      <p>Le blanc pur disparaît progressivement au profit de <strong>blancs cassés chauds</strong> qui ont plus de personnalité :</p>
+      <ul>
+        <li><strong>Blanc lin :</strong> Un blanc crémeux avec une touche de jaune très douce — le nouveau standard des maisons neuves RE2020</li>
+        <li><strong>Blanc calcaire :</strong> Un blanc minéral légèrement grisé, parfait pour les enduits à la chaux naturelle</li>
+        <li><strong>Blanc nacré :</strong> Avec de fines particules réfléchissantes, il crée des effets de lumière subtils au fil de la journée</li>
+      </ul>
+
+      <h3>5. 🍂 Les bruns et chocolats profonds — L'audace maîtrisée</h3>
+      <p>Réservés aux façades à forte personnalité, les <strong>tons bruns et chocolat</strong> sont la grande audace de 2026 :</p>
+      <ul>
+        <li><strong>Brun tabac :</strong> Élégant et sophistiqué, pour les maisons contemporaines à toiture plate</li>
+        <li><strong>Chocolat au lait :</strong> Plus doux, il s'intègre parfaitement dans les environnements boisés</li>
+        <li><strong>Brun terre brûlée :</strong> Intense et magnétique, souvent utilisé en accent sur un seul pan de mur</li>
+      </ul>
+
+      <h3>Tableau récapitulatif des couleurs tendance crépi 2026</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Famille de couleur</th>
+            <th style="padding: 12px; text-align: center;">Teinte phare 2026</th>
+            <th style="padding: 12px; text-align: center;">Référence RAL</th>
+            <th style="padding: 12px; text-align: center;">Idéale pour</th>
+            <th style="padding: 12px; text-align: center;">Niveau tendance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Terre cuite / Ocre</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Terracotta doux</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">RAL 3012</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Sud, Centre, Ouest</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vert naturel</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Vert sauge</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">RAL 6021</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Toutes régions</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gris architectural</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Gris anthracite chaud</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">RAL 7016</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Contemporain, urbain</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Blanc cassé</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Blanc lin</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">RAL 1015</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Classique, PLU strict</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Brun / Chocolat</strong></td>
+            <td style="padding: 12px; text-align: center;">Brun tabac</td>
+            <td style="padding: 12px; text-align: center;">RAL 8024</td>
+            <td style="padding: 12px; text-align: center;">Maison d'architecte</td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="palette-regionales">Les palettes régionales : quelle couleur selon votre région ?</h2>
+
+      <p>Le choix d'une <strong>couleur de crépi façade</strong> ne se fait pas uniquement selon les tendances. Il doit impérativement tenir compte du <strong>contexte régional</strong> — à la fois pour respecter les réglementations locales et pour harmoniser votre maison avec son environnement architectural et paysager. Voici les palettes recommandées par les architectes selon les grandes régions françaises :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Région</th>
+            <th style="padding: 12px; text-align: center;">Palette traditionnelle</th>
+            <th style="padding: 12px; text-align: center;">Tendance 2026</th>
+            <th style="padding: 12px; text-align: left;">Teinte à éviter</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Provence / PACA</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Ocre, jaune paille, rose</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Terracotta + bois brut</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Blanc pur, gris foncé</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Île-de-France</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Blanc cassé, crème, gris pierre</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Gris perle + vert sauge</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Couleurs vives, ocre</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Bretagne / Normandie</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Blanc, gris clair, bleu gris</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Blanc calcaire + ardoise</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Terracotta, jaune vif</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Sud-Ouest</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Rose, saumon, brique</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Rose poudré + béton ciré</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Vert foncé, noir</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Alsace / Est</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Blanc, jaune pâle, colombages</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Blanc nacré + bois</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Couleurs saturées</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Nord / Hauts-de-France</strong></td>
+            <td style="padding: 12px; text-align: center;">Brique rouge, blanc, gris</td>
+            <td style="padding: 12px; text-align: center;">Gris chaud + brique patinée</td>
+            <td style="padding: 12px;">Pastel, couleurs chaudes</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Vérifiez impérativement votre PLU avant de choisir</strong><br/>
+        Chaque commune dispose d'un <strong>Plan Local d'Urbanisme (PLU)</strong> qui définit les couleurs autorisées pour les façades. En zone protégée (ABF), le choix est encore plus restreint. Un façadier expérimenté connaît les contraintes locales et vous orientera vers une teinte conforme — et tendance. Un mauvais choix peut entraîner une <strong>obligation de reprise à vos frais</strong>.</p>
+      </blockquote>
+
+      <h2 id="tendances-textures">Les textures de crépi tendance en 2026</h2>
+
+      <p>Si la couleur attire l'œil, c'est la <strong>texture qui donne toute sa personnalité</strong> à une façade. En 2026, les textures de crépi évoluent vers plus de finesse, plus de matière et plus d'authenticité. Voici les finitions les plus demandées par les propriétaires et les architectes :</p>
+
+      <h3>1. Le crépi gratté fin — Le nouveau standard</h3>
+      <p>Le crépi gratté reste la finition la plus populaire en France, mais <strong>le grain s'affine</strong>. En 2026, on passe du gratté classique (grain 2-3 mm) au <strong>gratté ultra-fin (grain 0,5-1,5 mm)</strong> qui offre un aspect plus lisse, plus moderne, tout en conservant l'effet texturé qui masque les imperfections du support.</p>
+      <ul>
+        <li><strong>Aspect :</strong> Lignes horizontales ou circulaires très fines, effet contemporain</li>
+        <li><strong>Idéal pour :</strong> Maisons contemporaines, rénovation moderne d'une maison ancienne</li>
+        <li><strong>Prix :</strong> 25€ à 45€/m² (fourniture + pose)</li>
+        <li><strong>Entretien :</strong> Facile, nettoyage basse pression tous les 3-5 ans</li>
+      </ul>
+
+      <h3>2. L'enduit taloché — L'élégance naturelle</h3>
+      <p>Le <strong>taloché</strong> offre un rendu lisse et velouté, comme une surface de pierre naturelle. C'est la finition privilégiée par les architectes pour les maisons haut de gamme. La texture est obtenue par un lissage à la taloche (truelle large) qui laisse de subtiles traces de mouvement.</p>
+      <ul>
+        <li><strong>Aspect :</strong> Surface lisse avec de légères variations de relief, effet « pierre naturelle »</li>
+        <li><strong>Idéal pour :</strong> Maisons d'architecte, résidences de standing, bâtiments patrimoniaux</li>
+        <li><strong>Prix :</strong> 35€ à 60€/m² (demande plus de savoir-faire)</li>
+        <li><strong>Entretien :</strong> Plus exigeant, nécessite un traitement hydrofuge tous les 5-7 ans</li>
+      </ul>
+
+      <h3>3. Le crépi projeté écrasé — Le contemporain affirme</h3>
+      <p>Technique hybride entre le projeté classique et le taloché, le <strong>projeté écrasé</strong> offre une texture riche et organique. L'enduit est projeté à la machine puis aplati à la taloche, créant un effet de relief irrégulier très moderne.</p>
+      <ul>
+        <li><strong>Aspect :</strong> Texture riche et organique, effet matière prononcé</li>
+        <li><strong>Idéal pour :</strong> Façades contemporaines, accent sur un pan de mur</li>
+        <li><strong>Prix :</strong> 30€ à 50€/m²</li>
+        <li><strong>Entretien :</strong> Modéré, les irrégularités piègent moins la salissure qu'un enduit lisse</li>
+      </ul>
+
+      <h3>4. L'enduit à la chaux badigeonné — Le retour de l'authentique</h3>
+      <p>L'<strong>enduit à la chaux</strong> connaît un renouveau spectaculaire en 2026. Les propriétaires soucieux d'écologie et de patrimoine redécouvrent cette technique ancestrale qui offre un rendu unique, vivant, qui évolue avec la lumière du jour :</p>
+      <ul>
+        <li><strong>Aspect :</strong> Surface légèrement irrégulière, effet « patine du temps », teintes naturelles profondes</li>
+        <li><strong>Idéal pour :</strong> Maisons de caractère, bâti ancien, zone ABF, démarche écologique</li>
+        <li><strong>Prix :</strong> 45€ à 80€/m² (matériau plus cher, main-d'œuvre spécialisée)</li>
+        <li><strong>Avantage majeur :</strong> Respirant, régulateur d'humidité, anti-microbien naturel — parfait en complément d'une <a href="/blog/isolation-exterieure-prix-m2">isolation extérieure (ITE)</a></li>
+      </ul>
+
+      <h3>5. L'enduit minéral brut — La tendance architecturale</h3>
+      <p>Inspiré du béton ciré et du <strong>tadelakt marocain</strong>, l'enduit minéral brut est la finition la plus haut de gamme. Il crée un effet de matière naturelle, comme si la maison était sculptée dans un bloc de pierre :</p>
+      <ul>
+        <li><strong>Aspect :</strong> Très lisse, effet pierre brute ou béton ciré, légèrement brillant</li>
+        <li><strong>Idéal pour :</strong> Architecture contemporaine premium, villas, bâtiments commerciaux de standing</li>
+        <li><strong>Prix :</strong> 60€ à 120€/m² (nécessite un artisan très expérimenté)</li>
+        <li><strong>Limite :</strong> Très exigeant en termes de qualité du support et de conditions d'application</li>
+      </ul>
+
+      <h3>Tableau comparatif des textures de crépi 2026</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Texture</th>
+            <th style="padding: 12px; text-align: center;">Prix au m²</th>
+            <th style="padding: 12px; text-align: center;">Durabilité</th>
+            <th style="padding: 12px; text-align: center;">Entretien</th>
+            <th style="padding: 12px; text-align: center;">Tendance 2026</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gratté fin</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25€ – 45€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 – 30 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Facile</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Taloché</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">35€ – 60€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25 – 35 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Modéré</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Projeté écrasé</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30€ – 50€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 – 25 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Facile</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Chaux badigeonnée</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">45€ – 80€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30 – 50 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Entretien régulier</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Minéral brut</strong></td>
+            <td style="padding: 12px; text-align: center;">60€ – 120€</td>
+            <td style="padding: 12px; text-align: center;">25 – 40 ans</td>
+            <td style="padding: 12px; text-align: center;">Exigeant</td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Quel budget prévoir pour un crépi tendance ?</strong><br/>
+        Le prix varie de 25€ à 120€/m² selon la finition choisie. Pour une maison de 120 m² de surface de façade, comptez entre <strong>3 000€ et 14 400€</strong> hors préparation du support. Demandez plusieurs devis pour comparer — les écarts sont importants selon les façadiers.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Comparer des devis de façadiers qualifiés →</a></p>
+      </blockquote>
+
+      <h2 id="finitions-bicolores">Les finitions bicolores et contrastes : la grande tendance</h2>
+
+      <p>La <strong>façade bicolore</strong> est sans conteste la tendance architecturale la plus forte de 2026. Elle consiste à utiliser <strong>deux couleurs d'enduit complémentaires</strong> sur la même façade pour créer du rythme, de la profondeur et un effet visuel saisissant. Cette technique, autrefois réservée aux architectes de renom, se démocratise considérablement.</p>
+
+      <h3>Les combinaisons bicolores les plus demandées en 2026</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Combinaison</th>
+            <th style="padding: 12px; text-align: center;">Effet recherché</th>
+            <th style="padding: 12px; text-align: center;">Popularité 2026</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Blanc lin + gris anthracite</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Contemporain épuré, contraste fort</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Terracotta + blanc cassé</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Méditerranéen chic, chaleur contenue</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Vert sauge + bois naturel</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Biophilique, chalet moderne</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Gris pierre + brun tabac</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Architectural contemporain</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Blanc nacré + ocre doré</strong></td>
+            <td style="padding: 12px; text-align: center;">Provençal revisité, lumineux</td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">⭐⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>La <strong>technique la plus courante</strong> consiste à appliquer la couleur claire sur la majorité de la façade et la couleur foncée en <strong>accent</strong> — souvent sur l'avancée du garage, l'encadrement de la porte d'entrée, un pan de mur en étage ou le soubassement. L'idéal est de respecter la règle des <strong>2/3 – 1/3</strong> : deux tiers de teinte principale, un tiers de teinte d'accent.</p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Notre conseil : pensez aussi aux menuiseries</strong><br/>
+        La couleur du crépi ne se choisit pas isolément. Elle doit s'harmoniser avec vos <a href="/blog/comparatif-fenetres-pvc-alu-bois-prix-performance">fenêtres (PVC, alu ou bois)</a>, vos <a href="/blog/volet-roulant-solaire-prix">volets roulants</a>, votre toiture et vos gouttières. La règle d'or : pas plus de <strong>3 couleurs</strong> sur l'ensemble de votre façade (crépi + menuiseries + toiture). Un architecte ou un façadier expérimenté peut réaliser une <strong>simulation colorimétrique</strong> sur photo de votre maison avant les travaux.</p>
+      </blockquote>
+
+      <h2 id="enduits-ecologiques">Les enduits écologiques et minéraux : la montée en puissance</h2>
+
+      <p>La tendance <strong>éco-responsable</strong> ne concerne plus seulement l'isolation ou les <a href="/blog/rentabilite-panneaux-solaires-2026">panneaux solaires</a>. En 2026, elle touche pleinement le choix du crépi de façade. Les enduits organiques (à base de résines pétrochimiques) laissent progressivement la place à des <strong>enduits minéraux et naturels</strong> plus durables et plus sains :</p>
+
+      <h3>Les 4 types d'enduits écologiques tendance</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type d'enduit</th>
+            <th style="padding: 12px; text-align: center;">Composition</th>
+            <th style="padding: 12px; text-align: center;">Prix au m²</th>
+            <th style="padding: 12px; text-align: center;">Durabilité</th>
+            <th style="padding: 12px; text-align: left;">Points forts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit à la chaux aérienne</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Chaux + sable + pigments</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">45€ – 80€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30 – 50 ans</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Respirant, anti-moisissure, patine naturelle</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit chaux-chanvre</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Chaux + fibre de chanvre</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">55€ – 100€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25 – 40 ans</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Isolant thermique, bilan carbone négatif</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit silicate</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Silicate de potassium</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">40€ – 70€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30 – 50 ans</td>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;">Extrêmement résistant aux UV, couleurs stables</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Enduit terre crue</strong></td>
+            <td style="padding: 12px; text-align: center;">Argile + sable + fibres</td>
+            <td style="padding: 12px; text-align: center;">60€ – 110€</td>
+            <td style="padding: 12px; text-align: center;">20 – 30 ans</td>
+            <td style="padding: 12px;">Ultra-écologique, régulateur hygrométrique</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>L'enduit <strong>chaux-chanvre</strong> est particulièrement intéressant car il combine finition esthétique et <strong>isolation thermique</strong>. Appliqué en couche épaisse (5-8 cm), il contribue à l'amélioration du DPE du bâtiment — un atout considérable dans le contexte des nouvelles obligations énergétiques 2026 et complémentaire d'une démarche d'<a href="/blog/isolation-combles-perdus-laine-verre-ouate-cellulose-roche">isolation des combles</a>.</p>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>✅ Le chiffre clé : +180% de demandes d'enduits à la chaux en 5 ans</strong><br/>
+        Selon la Fédération Française du Bâtiment, les demandes d'enduits minéraux et à la chaux ont augmenté de <strong>180%</strong> entre 2021 et 2026 en France. Cette tendance est portée par les propriétaires éco-conscients, les exigences de la RE2020 et le retour en grâce des techniques traditionnelles dans l'architecture contemporaine. Les <a href="/blog/maprimenov-2026-guide-complet">aides MaPrimeRénov'</a> pour la rénovation des façades avec isolation renforcent cette dynamique.</p>
+      </blockquote>
+
+      <h2 id="prix">Prix au m² des crépis et enduits tendance en 2026</h2>
+
+      <p>Le <strong>prix d'un crépi de façade</strong> dépend de la finition choisie, du type d'enduit, de la préparation du support et de la zone géographique. Voici un récapitulatif complet des prix constatés en 2026 :</p>
+
+      <h3>Prix global fourni-posé par type de prestation</h3>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Prestation</th>
+            <th style="padding: 12px; text-align: center;">Prix au m² (fourni-posé)</th>
+            <th style="padding: 12px; text-align: center;">Pour 120 m² de façade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Crépi classique gratté (monocouche)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">25€ – 40€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 000€ – 4 800€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Crépi gratté fin (grain 0,5-1,5 mm)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30€ – 50€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 600€ – 6 000€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit taloché</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">35€ – 60€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">4 200€ – 7 200€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit à la chaux (traditionnel)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">45€ – 80€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">5 400€ – 9 600€</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit minéral brut / béton ciré</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">60€ – 120€</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">7 200€ – 14 400€</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Finition bicolore (2 teintes)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+5€ à +15€/m²</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">+600€ à +1 800€</td>
+          </tr>
+          <tr style="background: #dcfce7;">
+            <td style="padding: 12px;"><strong>Échafaudage (obligatoire)</strong></td>
+            <td style="padding: 12px; text-align: center;">15€ – 25€/m² de façade</td>
+            <td style="padding: 12px; text-align: center;">1 800€ – 3 000€</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><em>* Prix TTC constatés en France métropolitaine au printemps 2026. Les prix varient de ±15% selon la région (plus cher en Île-de-France et PACA). Le coût de l'échafaudage s'ajoute systématiquement au prix de l'enduit. En cas de ravalement, ajoutez le coût de la préparation du support (décapage, traitement des fissures, hydrofugation) : 10€ à 30€/m² supplémentaires.</em></p>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Combiner crépi et ITE pour maximiser les aides</strong><br/>
+        Si vous profitez du ravalement pour ajouter une <a href="/blog/isolation-exterieure-prix-m2">isolation thermique par l'extérieur (ITE)</a>, vous pouvez bénéficier de <strong>MaPrimeRénov' + primes CEE</strong> qui couvrent une grande partie des travaux. L'enduit de finition est inclus dans le coût de l'ITE (70€ à 150€/m² tout compris). Avec les <a href="/blog/prime-cee-comment-ca-marche-cumul">primes CEE cumulées</a>, le reste à charge d'un ravalement + ITE peut être inférieur à celui d'un ravalement simple !</p>
+      </blockquote>
+
+      <h2 id="reglementation">Réglementation et PLU : les couleurs autorisées</h2>
+
+      <p>Avant de choisir votre <strong>couleur de crépi façade</strong>, vous devez impérativement prendre en compte le cadre réglementaire. En France, la liberté de choix des couleurs de façade est <strong>strictement encadrée</strong> :</p>
+
+      <h3>Le Plan Local d'Urbanisme (PLU)</h3>
+      <p>Chaque commune possède un PLU qui définit les couleurs autorisées pour les façades. Ce document est consultable gratuitement en mairie ou sur le site de votre commune. Il précise généralement :</p>
+      <ul>
+        <li><strong>Une palette de couleurs autorisées :</strong> Souvent sous forme de nuancier avec les références RAL ou NCS acceptées</li>
+        <li><strong>Les couleurs interdites :</strong> Généralement les couleurs vives (rouge, bleu, jaune primaire) et les teintes trop éloignées du patrimoine local</li>
+        <li><strong>Les règles spécifiques par zone :</strong> Centre historique, zone pavillonnaire, zone d'activité — les règles varient</li>
+      </ul>
+
+      <h3>Les zones protégées (ABF)</h3>
+      <p>Si votre maison se situe dans un <strong>périmètre protégé</strong> (à moins de 500 mètres d'un monument historique), vous devez obtenir l'accord de l'Architecte des Bâtiments de France (ABF). Les contraintes sont beaucoup plus strictes : souvent limitées aux teintes locales traditionnelles (pierre, chaux, enduit coloré dans la masse).</p>
+
+      <h3>La déclaration préalable de travaux</h3>
+      <p>Tout changement de couleur de façade (même en ravalement) nécessite une <strong>déclaration préalable de travaux</strong> en mairie. Le délai d'instruction est d'un mois (deux mois en zone ABF). Sans cette déclaration, vous risquez une <strong>amende de 1 200€ à 6 000€/m²</strong> et l'obligation de reprendre les travaux à vos frais. C'est un point fondamental que tout professionnel sérieux vérifiera avant de vous <a href="/blog/lire-analyser-devis-artisan">établir un devis</a>.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Cas réel : 18 000€ de pénalité pour une mauvaise couleur de crépi</strong><br/>
+        Un propriétaire du Var a été condamné en 2024 à <strong>reprendre intégralement son ravalement de façade</strong> (18 000€) après avoir appliqué un enduit gris anthracite dans une zone où le PLU n'autorisait que les teintes ocre et rose. La déclaration préalable avait bien été déposée, mais avec une référence couleur différente de celle effectivement appliquée. Le tribunal a considéré qu'il s'agissait d'une « modification non autorisée de l'aspect extérieur » au titre de l'article L. 421-4 du Code de l'urbanisme. <strong>Moralité : vérifiez, re-vérifiez et faites valider un échantillon avant application.</strong></p>
+      </blockquote>
+
+      <h2 id="erreurs">Les 7 erreurs à éviter pour choisir sa couleur de façade</h2>
+
+      <p>Les façadiers de notre réseau identifient systématiquement les mêmes erreurs chez les propriétaires. Voici les <strong>7 pièges les plus courants</strong> — et comment les éviter :</p>
+
+      <h3>❌ Erreur n°1 : Choisir sur écran et non sur échantillon</h3>
+      <p>Les couleurs sur un écran d'ordinateur ou de smartphone ne correspondent <strong>jamais</strong> à la réalité. Un écran émet de la lumière, un mur la reflète — le rendu est fondamentalement différent. <strong>Exigez toujours un échantillon physique</strong> (plaque de 50×50 cm minimum, idéalement 1 m²) appliqué directement sur votre mur et observez-le à différentes heures de la journée.</p>
+
+      <h3>❌ Erreur n°2 : Ignorer l'orientation de la façade</h3>
+      <p>Une même couleur apparaît <strong>très différente</strong> selon l'exposition :</p>
+      <ul>
+        <li><strong>Façade Sud :</strong> Les couleurs apparaissent plus claires et plus chaudes. Choisissez une teinte légèrement plus foncée que souhaité</li>
+        <li><strong>Façade Nord :</strong> Les couleurs paraissent plus froides et plus sombres. Privilégiez des teintes chaudes pour compenser</li>
+        <li><strong>Façade Ouest :</strong> Reçoit la lumière du soir — les teintes chaudes (ocre, terracotta) y sont sublimées</li>
+      </ul>
+
+      <h3>❌ Erreur n°3 : Négliger le sous-ton du crépi</h3>
+      <p>Un « blanc » peut avoir un sous-ton jaune, rose, bleu ou vert. Un « gris » peut tirer sur le bleu, le vert ou le violet. Ces subtilités sont invisibles sur les nuanciers mais <strong>très visibles en grand format</strong>. Testez toujours le crépi en vrai échantillon sur au moins 1 m².</p>
+
+      <h3>❌ Erreur n°4 : Oublier le voisinage</h3>
+      <p>Votre maison ne vit pas en isolation. Une façade terracotta peut être superbe isolément, mais <strong>détonner violemment</strong> si toutes les maisons voisines sont en blanc ou gris. Observez le quartier, consultez le PLU, et demandez l'avis de votre façadier sur l'harmonie d'ensemble.</p>
+
+      <h3>❌ Erreur n°5 : Choisir une couleur trop foncée en plein Sud</h3>
+      <p>Les couleurs foncées <strong>absorbent la chaleur solaire</strong> et peuvent provoquer un échauffement excessif du mur, entraînant des fissures à moyen terme. En zone méditerranéenne, restez sur des teintes <strong>claires à moyennes</strong> (indice de réflectance solaire ≥ 50%). Ce phénomène thermique est particulièrement critique sur les façades avec <a href="/blog/isolation-exterieure-prix-m2">ITE polystyrène</a>.</p>
+
+      <h3>❌ Erreur n°6 : Ne pas traiter le support avant d'appliquer la couleur</h3>
+      <p>Un support dégradé (fissures, mousse, efflorescence) donnera un rendu irrégulier, quelle que soit la qualité du crépi. Un bon ravalement commence toujours par un <strong>diagnostic complet du support</strong> : décapage, traitement anti-mousse, rebouchage des fissures, application d'un fixateur. Vérifiez que l'artisan choisi possède une <a href="/blog/verifier-garantie-decennale-artisan">garantie décennale valide</a>.</p>
+
+      <h3>❌ Erreur n°7 : Choisir le crépi le moins cher systématiquement</h3>
+      <p>Un crépi entrée de gamme (15-20€/m²) tiendra <strong>5 à 10 ans</strong> avant de ternir, se fissurer ou verdrir. Un enduit de qualité (35-60€/m²) conservera son aspect pendant <strong>20 à 30 ans</strong>. Sur la durée de vie, le crépi « cher » revient souvent <strong>moins cher au total</strong> qu'un crépi basique renouvelé tous les 8 ans.</p>
+
+      <h2 id="entretien">Entretien et durabilité des crépis modernes</h2>
+
+      <p>Un crépi de façade bien choisi et bien entretenu conserve son aspect pendant <strong>15 à 30 ans</strong>. Voici les règles d'entretien selon le type de finition :</p>
+
+      <h3>Programme d'entretien recommandé</h3>
+      <ul>
+        <li><strong>Tous les ans :</strong> Inspection visuelle des façades — repérer les fissures naissantes, les décollements, les traces de mousse</li>
+        <li><strong>Tous les 2-3 ans :</strong> Nettoyage au nettoyeur basse pression (maximum 50 bars) ou à la brosse douce + eau de Javel diluée. <strong>Jamais de karcher haute pression</strong> qui détruit la surface du crépi</li>
+        <li><strong>Tous les 5-7 ans :</strong> Application d'un traitement hydrofuge (15€ à 25€/m²) pour maintenir l'imperméabilité et prévenir la mousse</li>
+        <li><strong>Tous les 8-12 ans :</strong> Reprise des micro-fissures et retouches de peinture si nécessaire</li>
+        <li><strong>Tous les 15-30 ans :</strong> Ravalement complet avec remise en état du support</li>
+      </ul>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Astuce des façadiers : les couleurs qui vieillissent le mieux</strong><br/>
+        Les teintes <strong>terre, ocre et sable</strong> sont les plus durables dans le temps car elles utilisent des pigments minéraux naturels (oxydes de fer) qui ne se décolorent pas aux UV. Les <strong>gris clairs</strong> sont également très résistants. En revanche, les <strong>verts, bleus et rouges vifs</strong> sont les plus sensibles à la décoloration — ils nécessitent des pigments organiques moins stables. C'est pourquoi les enduits à la chaux colorés dans la masse (pigments minéraux) gardent leur couleur des décennies, alors que les peintures de façade ternissent en 5-8 ans.</p>
+      </blockquote>
+
+      <h3>Durée de vie par type d'enduit</h3>
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Type d'enduit</th>
+            <th style="padding: 12px; text-align: center;">Durée de vie moyenne</th>
+            <th style="padding: 12px; text-align: center;">Résistance UV</th>
+            <th style="padding: 12px; text-align: center;">Résistance humidité</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Crépi monocouche acrylique</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">15 – 20 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit siloxane</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 – 30 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit silicate minéral</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30 – 50 ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Enduit à la chaux</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">30 – 60+ ans</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Peinture de façade (pliolite/acrylique)</strong></td>
+            <td style="padding: 12px; text-align: center;">5 – 10 ans</td>
+            <td style="padding: 12px; text-align: center;">⭐⭐</td>
+            <td style="padding: 12px; text-align: center;">⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Besoin d'un professionnel pour votre projet de façade ?</strong><br/>
+        Que ce soit pour un ravalement complet, un changement de couleur ou une finition haut de gamme, nos artisans façadiers qualifiés vous accompagnent du conseil couleur à la réalisation. Devis gratuit et sans engagement.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Recevoir mes 3 devis gratuits de façadiers →</a></p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions sur le crépi de façade</h2>
+
+      <h3>Quelle est la couleur de crépi de façade la plus tendance en 2026 ?</h3>
+      <p>Les couleurs de <strong>crépi façade</strong> les plus tendance en 2026 sont les <strong>teintes terracotta et ocre doré</strong>, suivies du <strong>vert sauge</strong> et du <strong>gris anthracite chaud</strong>. La grande tendance est la <strong>façade bicolore</strong> qui associe deux teintes complémentaires (par exemple, blanc lin + gris anthracite, ou terracotta + blanc cassé). Les blancs purs sont en net recul au profit des <strong>blancs cassés chauds</strong> (blanc lin, blanc calcaire). Les architectes recommandent de choisir des teintes naturelles et minérales qui s'intègrent harmonieusement à l'environnement local et respectent le PLU de votre commune.</p>
+
+      <h3>Quel est le prix d'un crépi de façade au m² en 2026 ?</h3>
+      <p>Le prix d'un crépi de façade fourni-posé varie de <strong>25€ à 120€/m²</strong> selon la finition choisie. Un crépi gratté classique coûte 25€ à 40€/m², un enduit taloché 35€ à 60€/m², un enduit à la chaux 45€ à 80€/m², et un enduit minéral brut haut de gamme 60€ à 120€/m². Il faut ajouter le coût de l'échafaudage (15€ à 25€/m²) et, en cas de ravalement, la préparation du support (10€ à 30€/m²). Pour une maison moyenne avec 120 m² de façade, le budget total se situe entre <strong>4 800€ et 17 400€</strong> selon la prestation.</p>
+
+      <h3>Peut-on changer la couleur de sa façade librement ?</h3>
+      <p><strong>Non.</strong> Tout changement de couleur de façade est soumis à une <strong>déclaration préalable de travaux</strong> en mairie, même s'il s'agit d'un simple ravalement dans la même teinte. Chaque commune dispose d'un PLU qui définit les couleurs autorisées, souvent sous forme d'un nuancier communal. En zone protégée (périmètre de monument historique), l'accord de l'Architecte des Bâtiments de France (ABF) est en plus requis. Le non-respect de ces règles peut entraîner une amende et l'obligation de reprendre les travaux à vos frais.</p>
+
+      <h3>Quel type de crépi résiste le mieux dans le temps ?</h3>
+      <p>L'<strong>enduit à la chaux aérienne</strong> et l'<strong>enduit silicate minéral</strong> sont les plus durables, avec une espérance de vie de <strong>30 à 60 ans</strong>. Ils utilisent des liants minéraux et des pigments naturels (oxydes de fer) qui résistent exceptionnellement bien aux UV et aux intempéries. Les enduits organiques (acryliques) sont moins chers mais durent 15 à 20 ans. Les peintures de façade sont les moins durables (5 à 10 ans). Pour optimiser la longévité, un traitement hydrofuge tous les 5 à 7 ans est recommandé, et évitez absolument le nettoyage au karcher haute pression qui détruit la surface du crépi.</p>
+
+      <h3>Crépi gratté ou taloché : lequel choisir ?</h3>
+      <p>Le <strong>crépi gratté</strong> est le choix le plus polyvalent et le plus économique (25-45€/m²). Il masque bien les imperfections du support et offre un entretien facile. Le <strong>taloché</strong> (35-60€/m²) offre un rendu plus lisse, plus raffiné, de type « pierre naturelle », mais il nécessite un support parfaitement préparé et un façadier expérimenté. En 2026, la tendance est au <strong>gratté ultra-fin</strong> (grain 0,5-1,5 mm) qui offre le meilleur des deux mondes : la facilité d'entretien du gratté avec un aspect visuellement proche du taloché. Pour les maisons d'architecte ou les bâtiments de standing, le taloché reste la référence.</p>
+
+      <h3>Comment savoir si une couleur de façade plaira dans la durée ?</h3>
+      <p>Pour éviter de regretter votre choix, suivez cette méthode en 3 étapes : <strong>1)</strong> Demandez à votre façadier de réaliser un échantillon d'au moins 1 m² directement sur votre mur, <strong>2)</strong> observez l'échantillon à différents moments de la journée (matin, midi, soir) et par temps couvert et ensoleillé — les couleurs changent radicalement selon la lumière, <strong>3)</strong> vivez avec l'échantillon pendant au moins une semaine avant de valider. Les <strong>couleurs naturelles et minérales</strong> (terre cuite, ocre, blanc calcaire, gris pierre) sont les plus sûres car elles s'inscrivent dans une tradition architecturale éprouvée et ne se démodent pas.</p>
+    `,
+    category: "isolation-fenetres",
+    publishedAt: "2026-04-12",
+    readingTime: "18 min",
+    image: "/images/blog/crepi-facade-couleur-tendance.png"
+  },
+
+  {
     slug: "chauffe-eau-thermodynamique-avis",
     title: "Chauffe-eau Thermodynamique : Rentabilité vs Chauffe-eau électrique classique",
     excerpt: "Chauffe-eau thermodynamique avis 2026 : comparatif complet avec le cumulus électrique classique. Consommation réelle, rentabilité, économies, aides financières, marques fiables et retours d'expérience. Découvrez si le CET est vraiment rentable pour votre foyer.",
