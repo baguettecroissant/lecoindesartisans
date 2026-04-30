@@ -2,6 +2,439 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prime-autoconsommation-2026",
+    title: "Prime à l'autoconsommation 2026 : Montants et conditions de versement",
+    excerpt: "Prime autoconsommation 2026 : montants exacts T2 (80 €/kWc ≤ 9 kWc, 120 €/kWc ≤ 36 kWc, 60 €/kWc ≤ 100 kWc), conditions d'éligibilité, modalités de versement en une fois ou échelonné, tarifs de rachat surplus EDF OA, cumul avec MaPrimeRénov' et CEE. Guide complet avec simulations et FAQ.",
+    content: `
+      <p><strong>La prime à l'autoconsommation photovoltaïque est l'une des aides financières les plus attractives pour les particuliers qui souhaitent investir dans le solaire en 2026.</strong> Versée par EDF Obligation d'Achat, cette prime à l'investissement récompense les propriétaires qui choisissent l'<strong>autoconsommation avec vente du surplus</strong> — le modèle le plus rentable pour les installations résidentielles. Mais avec la <strong>réforme majeure de mars 2025</strong> et les révisions trimestrielles de la CRE (Commission de Régulation de l'Énergie), les montants ont considérablement évolué.</p>
+
+      <p>Ce guide exhaustif vous détaille les <strong>montants exacts de la prime autoconsommation 2026</strong> en vigueur au T2 (avril-juin 2026), les conditions précises d'éligibilité, les modalités de versement selon la puissance de votre installation, et surtout les <strong>stratégies pour maximiser le montant total de vos aides</strong>. Nous analysons également l'évolution historique de la prime depuis 2023 et ce que cela signifie pour votre projet solaire. Si vous envisagez une installation photovoltaïque, consultez d'abord notre <a href="/blog/rentabilite-panneaux-solaires-2026">guide complet sur la rentabilité des panneaux solaires en 2026</a> pour une vision globale de l'investissement.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Vous souhaitez bénéficier de la prime autoconsommation 2026 ?</strong><br/>
+        Recevez jusqu'à 3 devis gratuits d'installateurs certifiés RGE près de chez vous. Calcul de votre prime, simulation de production et estimation de rentabilité inclus.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Demander mes devis solaires gratuits →</a></p>
+      </blockquote>
+
+      <h2>📋 Sommaire</h2>
+      <ul>
+        <li><a href="#montants-2026">Montants de la prime autoconsommation T2 2026 (avril-juin)</a></li>
+        <li><a href="#conditions-eligibilite">Conditions d'éligibilité : qui peut en bénéficier ?</a></li>
+        <li><a href="#modalites-versement">Modalités de versement : en une fois ou échelonné ?</a></li>
+        <li><a href="#simulation-prime">Simulation : combien allez-vous toucher selon votre installation ?</a></li>
+        <li><a href="#tarif-rachat-surplus">Tarif de rachat du surplus EDF OA 2026</a></li>
+        <li><a href="#evolution-historique">Évolution historique de la prime : 2023 à 2026</a></li>
+        <li><a href="#cumul-aides">Cumul avec les autres aides : MaPrimeRénov', CEE, TVA réduite</a></li>
+        <li><a href="#demarches">Démarches pour obtenir la prime : étape par étape</a></li>
+        <li><a href="#erreurs-eviter">Les 5 erreurs qui peuvent vous faire perdre la prime</a></li>
+        <li><a href="#faq">FAQ : Vos questions sur la prime autoconsommation 2026</a></li>
+      </ul>
+
+      <h2 id="montants-2026">Montants de la prime autoconsommation T2 2026 (avril-juin)</h2>
+
+      <p>Les montants de la <strong>prime à l'autoconsommation photovoltaïque</strong> sont fixés par la Commission de Régulation de l'Énergie (CRE) et révisés chaque trimestre. Pour le <strong>2ème trimestre 2026</strong> (du 1er avril au 30 juin 2026), voici les montants en vigueur pour les installations en autoconsommation avec vente du surplus :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance de l'installation</th>
+            <th style="padding: 12px; text-align: center;">Prime par kWc</th>
+            <th style="padding: 12px; text-align: center;">Prime totale estimée</th>
+            <th style="padding: 12px; text-align: center;">Versement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>≤ 3 kWc</strong> (6-8 panneaux)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">80 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">240 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">En une fois</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>≤ 9 kWc</strong> (16-24 panneaux)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">80 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">720 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">En une fois</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>> 9 et ≤ 36 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">120 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 080 € à 4 320 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Sur 5 ans</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>> 36 et ≤ 100 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">60 €/kWc</td>
+            <td style="padding: 12px; text-align: center;">2 160 € à 6 000 €</td>
+            <td style="padding: 12px; text-align: center;">Sur 5 ans</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💡 Point important : le montant est figé à la date de votre DCR</strong><br/>
+        Le montant de votre prime est définitivement fixé au moment de la <strong>validation de votre Demande Complète de Raccordement (DCR)</strong> par Enedis. Même si les tarifs changent le trimestre suivant, vous conservez le montant en vigueur à la date de votre DCR. Ce montant reste garanti pour toute la durée de votre contrat de 20 ans avec EDF OA. C'est pourquoi il est important de ne pas tarder si vous souhaitez profiter des tarifs actuels.</p>
+      </blockquote>
+
+      <h3>Exemple concret : prime pour une installation de 6 kWc</h3>
+
+      <p>L'installation la plus courante en résidentiel est le <strong>6 kWc</strong> (environ 14-16 panneaux). Voici le calcul détaillé de la prime :</p>
+      <ul>
+        <li><strong>Puissance :</strong> 6 kWc (dans la tranche ≤ 9 kWc)</li>
+        <li><strong>Prime par kWc :</strong> 80 €</li>
+        <li><strong>Prime totale :</strong> 6 × 80 € = <strong>480 €</strong></li>
+        <li><strong>Versement :</strong> En une seule fois, lors de la première échéance de facturation après mise en service</li>
+      </ul>
+
+      <p>Ce montant peut sembler modeste comparé aux primes généreuses de 2023 (qui pouvaient atteindre 2 340 € pour 6 kWc), mais la baisse du <a href="/blog/prix-panneaux-solaires-3kwc-6kwc-9kwc">prix des panneaux solaires</a> compense largement cette réduction. Le retour sur investissement reste excellent grâce aux économies sur la facture d'électricité.</p>
+
+      <h2 id="conditions-eligibilite">Conditions d'éligibilité : qui peut en bénéficier ?</h2>
+
+      <p>Pour bénéficier de la <strong>prime à l'autoconsommation 2026</strong>, votre installation doit remplir toutes les conditions suivantes :</p>
+
+      <h3>1. Choisir l'autoconsommation avec vente du surplus</h3>
+      <p>C'est la condition n°1. Votre installation doit être configurée en <strong>autoconsommation avec injection du surplus</strong> sur le réseau. Vous consommez directement l'électricité que vous produisez, et le surplus non consommé est revendu à EDF OA à un tarif garanti. Les installations en <a href="/blog/autoconsommation-ou-vente-totale-panneaux-solaires">vente totale</a> ne sont <strong>pas éligibles</strong> à la prime (et ne sont plus éligibles à l'obligation d'achat pour les installations < 9 kWc depuis 2026).</p>
+
+      <h3>2. Puissance ≤ 100 kWc</h3>
+      <p>Seules les installations d'une puissance inférieure ou égale à <strong>100 kWc</strong> sont éligibles. Au-delà, d'autres mécanismes de soutien existent (appels d'offres CRE). Pour les particuliers, les puissances courantes sont :</p>
+      <ul>
+        <li><strong>3 kWc :</strong> Petit budget ou faible consommation — prime de 240 €</li>
+        <li><strong>6 kWc :</strong> Le choix le plus courant — prime de 480 €</li>
+        <li><strong>9 kWc :</strong> Grande maison ou gros consommateur — prime de 720 €</li>
+      </ul>
+
+      <h3>3. Installation sur bâtiment (pas au sol)</h3>
+      <p>L'installation doit être réalisée sur un <strong>bâtiment, un hangar, un abri ou une ombrière</strong>. Les <a href="/blog/panneaux-solaires-sol-permis-regles-installation">installations au sol</a> sont exclues de la prime à l'autoconsommation. En revanche, les <a href="/blog/carport-solaire-prix">carports solaires</a> et les pergolas solaires y sont éligibles puisqu'ils sont considérés comme des ombrières.</p>
+
+      <h3>4. Installateur certifié RGE obligatoire</h3>
+      <p>L'installation doit <strong>impérativement</strong> être réalisée par un professionnel certifié <strong>RGE (Reconnu Garant de l'Environnement)</strong> avec la qualification QualiPV. C'est une condition sine qua non : sans certificat RGE, pas de prime. Attention aux <a href="/blog/arnaque-panneau-solaire-5-signes-alerter">arnaques aux panneaux solaires</a> — vérifiez toujours la certification de votre installateur sur l'annuaire officiel france-renov.gouv.fr.</p>
+
+      <h3>5. Raccordement au réseau public</h3>
+      <p>Votre installation doit être raccordée au réseau électrique public via <strong>Enedis</strong> (ou une ELD — Entreprise Locale de Distribution). Un contrat d'obligation d'achat doit être signé avec EDF OA ou un autre acheteur obligé.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ La condition RGE est non négociable</strong><br/>
+        Depuis le renforcement des contrôles en 2025, Enedis et EDF OA vérifient systématiquement la validité de la certification RGE de l'installateur au moment de la validation de la DCR. Un certificat expiré, suspendu ou non conforme à l'activité déclarée entraîne le <strong>rejet automatique de votre demande de prime</strong>. Pensez à <a href="/blog/verifier-garantie-decennale-artisan">vérifier la garantie décennale de votre artisan</a> en complément.</p>
+      </blockquote>
+
+      <h2 id="modalites-versement">Modalités de versement : en une fois ou échelonné ?</h2>
+
+      <p>Les modalités de versement de la prime dépendent directement de la <strong>puissance de votre installation</strong>. Depuis la réforme de 2025, le système a été simplifié :</p>
+
+      <h3>Installations ≤ 9 kWc : versement unique</h3>
+      <p>Pour les installations résidentielles les plus courantes (3, 6 ou 9 kWc), la prime est versée <strong>en une seule fois</strong>, lors de la première échéance de facturation du surplus par EDF OA. Concrètement, cela intervient généralement <strong>12 à 14 mois après la mise en service</strong> de votre installation (la première facture de surplus étant émise à la date anniversaire du contrat).</p>
+
+      <h3>Installations > 9 kWc : versement sur 5 ans</h3>
+      <p>Pour les installations de plus grande puissance (typiquement les professionnels, agriculteurs ou grandes toitures), le versement est <strong>échelonné sur 5 ans</strong> selon la répartition suivante :</p>
+      <ul>
+        <li><strong>Année 1 :</strong> 80% du montant total de la prime</li>
+        <li><strong>Années 2 à 5 :</strong> 5% du montant total chaque année</li>
+      </ul>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: center;">Prime totale</th>
+            <th style="padding: 12px; text-align: center;">Année 1</th>
+            <th style="padding: 12px; text-align: center;">Années 2 à 5</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>3 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">240 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">240 € (100%)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">—</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>6 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">480 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">480 € (100%)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">—</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>9 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">720 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">720 € (100%)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">—</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>18 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 160 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 728 € (80%)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">108 €/an (5%)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>36 kWc</strong></td>
+            <td style="padding: 12px; text-align: center;">4 320 €</td>
+            <td style="padding: 12px; text-align: center;">3 456 € (80%)</td>
+            <td style="padding: 12px; text-align: center;">216 €/an (5%)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>🏠 Optimisez votre installation pour maximiser la prime</strong><br/>
+        Pour les particuliers, rester en dessous de 9 kWc présente un double avantage : la prime est versée en une seule fois et vous bénéficiez d'une TVA réduite à 10% au lieu de 20%. C'est le sweet spot économique pour la plupart des foyers français.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Simuler ma prime et mes économies solaires →</a></p>
+      </blockquote>
+
+      <h2 id="simulation-prime">Simulation : combien allez-vous toucher selon votre installation ?</h2>
+
+      <p>Pour vous aider à estimer le montant total de vos aides, voici une <strong>simulation complète</strong> intégrant la prime autoconsommation, le tarif de rachat du surplus et les économies sur votre facture d'électricité pour les 3 puissances résidentielles les plus courantes :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Critère</th>
+            <th style="padding: 12px; text-align: center;">3 kWc</th>
+            <th style="padding: 12px; text-align: center;">6 kWc</th>
+            <th style="padding: 12px; text-align: center;">9 kWc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Nombre de panneaux</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 à 8</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">14 à 16</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 à 24</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Production annuelle</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">3 300 kWh</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">6 600 kWh</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">9 900 kWh</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prime autoconsommation</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">240 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">480 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">720 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Revente surplus/an</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">53 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">106 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">158 €</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Économies facture/an</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">500 € – 700 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">900 € – 1 400 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">1 200 € – 1 900 €</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>Retour sur investissement</strong></td>
+            <td style="padding: 12px; text-align: center;">8 – 11 ans</td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">7 – 10 ans</td>
+            <td style="padding: 12px; text-align: center;">8 – 11 ans</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Ces estimations sont basées sur un taux d'autoconsommation de <strong>40% sans batterie</strong> et un tarif de rachat du surplus de 0,04 €/kWh pour les installations ≤ 9 kWc. Avec une <a href="/blog/batterie-panneau-solaire-rentabilite">batterie de stockage solaire</a>, le taux d'autoconsommation peut monter à 70-80%, améliorant significativement les économies annuelles mais allongeant légèrement le retour sur investissement en raison du coût de la batterie.</p>
+
+      <h2 id="tarif-rachat-surplus">Tarif de rachat du surplus EDF OA 2026</h2>
+
+      <p>En complément de la prime, vous bénéficiez d'un <strong>tarif de rachat garanti</strong> pour l'électricité que vous n'autoconsommez pas. Voici les tarifs en vigueur au T2 2026 :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Puissance</th>
+            <th style="padding: 12px; text-align: center;">Tarif surplus (€/kWh)</th>
+            <th style="padding: 12px; text-align: center;">Durée du contrat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>≤ 9 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">0,0400 €/kWh</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">20 ans</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px;"><strong>> 9 et ≤ 100 kWc</strong></td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">0,0473 €/kWh</td>
+            <td style="padding: 12px; text-align: center;">20 ans</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Le tarif de rachat, bien que modeste, est <strong>garanti pendant 20 ans</strong>. Combiné à la prime et aux économies sur la facture, l'ensemble constitue un plan de financement solide. Le choix entre <a href="/blog/autoconsommation-ou-vente-totale-panneaux-solaires">autoconsommation et vente totale</a> reste crucial — et en 2026, l'autoconsommation avec vente du surplus est clairement le modèle le plus avantageux pour les particuliers.</p>
+
+      <h2 id="evolution-historique">Évolution historique de la prime : 2023 à 2026</h2>
+
+      <p>La prime à l'autoconsommation a connu une <strong>baisse progressive significative</strong> depuis 2023, reflétant la diminution du coût des équipements solaires et la maturité croissante du marché français. Voici l'évolution pour la tranche ≤ 9 kWc :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Période</th>
+            <th style="padding: 12px; text-align: center;">Prime ≤ 3 kWc</th>
+            <th style="padding: 12px; text-align: center;">Prime 3-9 kWc</th>
+            <th style="padding: 12px; text-align: center;">Évolution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>T2 2023</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">440 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">330 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">—</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>T4 2023</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">370 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">280 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #ef4444;">↓ -16%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>T2 2024</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">310 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">230 €/kWc</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #ef4444;">↓ -18%</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Mars 2025 (réforme)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;" colspan="2">80 €/kWc (tranche unifiée ≤ 9 kWc)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #ef4444; font-weight: bold;">↓ -65%</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>T2 2026 (actuel)</strong></td>
+            <td style="padding: 12px; text-align: center;" colspan="2">80 €/kWc (stable)</td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">→ Stable</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="background: #dcfce7; border-left: 4px solid #22c55e; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>📊 Pourquoi la prime a-t-elle baissé et faut-il s'inquiéter ?</strong><br/>
+        La baisse de la prime ne signifie <strong>pas</strong> que le solaire est devenu moins rentable — bien au contraire. Le prix des panneaux solaires a chuté de <strong>30 à 40%</strong> entre 2023 et 2026, et le prix de l'électricité réseau a augmenté de 15%. Le retour sur investissement est donc resté stable, voire s'est amélioré. La prime est un bonus, pas le pilier de la rentabilité. Consultez notre <a href="/blog/rentabilite-panneaux-solaires-2026">analyse complète de la rentabilité solaire 2026</a>.</p>
+      </blockquote>
+
+      <h2 id="cumul-aides">Cumul avec les autres aides : MaPrimeRénov', CEE, TVA réduite</h2>
+
+      <p>La prime à l'autoconsommation est <strong>cumulable avec d'autres dispositifs d'aide</strong>, ce qui permet de réduire significativement le coût total de votre installation solaire :</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background: #1e3a5f; color: white;">
+            <th style="padding: 12px; text-align: left;">Aide</th>
+            <th style="padding: 12px; text-align: center;">Montant</th>
+            <th style="padding: 12px; text-align: center;">Cumulable avec la prime ?</th>
+            <th style="padding: 12px; text-align: center;">Conditions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prime autoconsommation</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">80 €/kWc (≤ 9 kWc)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">—</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">RGE + surplus</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>TVA réduite 10%</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">~800 € – 1 200 € d'économie</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">≤ 3 kWc (auto.)</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>Prime CEE (certificats)</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Variable (200 € – 500 €)</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Selon fournisseur</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px; border-bottom: 1px solid #e2e8f0;"><strong>MaPrimeRénov'</strong></td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">2 000 € – 4 000 €</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0; color: #f59e0b; font-weight: bold;">⚠️ Sous conditions</td>
+            <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e2e8f0;">Parcours accompagné</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 12px;"><strong>Aides locales (région/commune)</strong></td>
+            <td style="padding: 12px; text-align: center;">Variable</td>
+            <td style="padding: 12px; text-align: center; color: #16a34a; font-weight: bold;">✅ Oui</td>
+            <td style="padding: 12px; text-align: center;">Selon collectivité</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Pour maximiser vos aides, consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide complet MaPrimeRénov' 2026</a> et notre article sur le <a href="/blog/prime-cee-comment-ca-marche-cumul">fonctionnement et cumul des primes CEE</a>. Le cumul intelligent de ces dispositifs peut réduire le coût de votre installation de <strong>15 à 30%</strong> selon votre situation.</p>
+
+      <blockquote style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>💰 Maximisez vos aides solaires avec un accompagnement expert</strong><br/>
+        Nos installateurs partenaires RGE vous accompagnent dans le montage de tous vos dossiers d'aides : prime autoconsommation, CEE, MaPrimeRénov', aides régionales. Aucune aide n'est oubliée.<br/>
+        <a href="/#services" style="color: #d97706; font-weight: bold;">Obtenir mes 3 devis solaires avec simulation d'aides →</a></p>
+      </blockquote>
+
+      <h2 id="demarches">Démarches pour obtenir la prime : étape par étape</h2>
+
+      <p>Bonne nouvelle : vous n'avez <strong>aucune démarche spécifique</strong> à réaliser pour obtenir la prime. Elle est automatiquement liée à votre contrat d'obligation d'achat avec EDF OA. Voici le parcours complet :</p>
+
+      <h3>Étape 1 : Choisir un installateur RGE QualiPV</h3>
+      <p>Demandez plusieurs devis à des installateurs certifiés RGE. Comparez les offres, les marques de panneaux et d'onduleurs proposés, et vérifiez la validité de la certification RGE sur l'annuaire officiel. Le choix entre un <a href="/blog/micro-onduleur-ou-onduleur-central">micro-onduleur et un onduleur central</a> impactera les performances à long terme de votre installation.</p>
+
+      <h3>Étape 2 : Signer le devis et planifier l'installation</h3>
+      <p>Une fois votre installateur choisi, signez le devis et convenez d'une date d'installation. L'installateur se charge de la déclaration préalable de travaux en mairie (obligatoire).</p>
+
+      <h3>Étape 3 : Installation et mise en service</h3>
+      <p>L'installation prend généralement <strong>1 à 3 jours</strong>. Votre installateur réalise la pose, le raccordement électrique et la mise en service. Il produit l'attestation de conformité du Consuel (obligatoire).</p>
+
+      <h3>Étape 4 : Demande de raccordement Enedis</h3>
+      <p>Votre installateur dépose la <strong>Demande Complète de Raccordement (DCR)</strong> auprès d'Enedis. C'est à cette date que le montant de votre prime est définitivement fixé. Enedis procède à la mise en service du compteur Linky en injection (généralement sous 2 à 4 semaines).</p>
+
+      <h3>Étape 5 : Contrat EDF OA et versement de la prime</h3>
+      <p>Vous signez votre contrat d'achat avec EDF OA (ou un autre acheteur obligé) pour une durée de 20 ans. La prime sera versée <strong>automatiquement</strong> lors de votre première échéance de facturation du surplus (environ 12 mois après la mise en service pour les installations ≤ 9 kWc).</p>
+
+      <h2 id="erreurs-eviter">Les 5 erreurs qui peuvent vous faire perdre la prime</h2>
+
+      <h3>1. ❌ Choisir un installateur non RGE</h3>
+      <p>C'est l'erreur la plus fréquente et la plus coûteuse. Sans certification RGE valide au moment de la DCR, <strong>votre demande de prime est automatiquement rejetée</strong>. Vérifiez la certification de votre artisan sur france-renov.gouv.fr avant de signer.</p>
+
+      <h3>2. ❌ Opter pour la vente totale au lieu de l'autoconsommation</h3>
+      <p>La prime n'est versée qu'en mode <strong>autoconsommation avec vente du surplus</strong>. Si vous choisissez la vente totale, vous ne percevrez aucune prime à l'investissement.</p>
+
+      <h3>3. ❌ Installer les panneaux au sol</h3>
+      <p>Les installations au sol sont exclues du dispositif. Seules les installations sur bâtiment, ombrière ou pergola sont éligibles.</p>
+
+      <h3>4. ❌ Dépasser 100 kWc de puissance</h3>
+      <p>Au-delà de 100 kWc, le dispositif de prime ne s'applique plus. Pour les grandes installations, d'autres mécanismes de soutien existent (appels d'offres CRE).</p>
+
+      <h3>5. ❌ Ne pas finaliser le raccordement Enedis</h3>
+      <p>La prime n'est versée que si votre installation est effectivement raccordée au réseau et qu'un contrat EDF OA est actif. Un raccordement incomplet ou un dossier manquant bloque le versement.</p>
+
+      <blockquote style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p><strong>⚠️ Attention aux arnaques « prime solaire doublée »</strong><br/>
+        Des démarcheurs peu scrupuleux promettent des primes bien supérieures aux montants officiels pour vous faire signer rapidement. La prime est fixée par la CRE et son montant est public : <strong>personne ne peut vous obtenir une prime supérieure</strong>. Méfiez-vous des offres trop belles et consultez notre guide pour <a href="/blog/arnaque-panneau-solaire-5-signes-alerter">reconnaître les arnaques aux panneaux solaires</a>.</p>
+      </blockquote>
+
+      <h2 id="faq">FAQ : Vos questions sur la prime autoconsommation 2026</h2>
+
+      <h3>Quel est le montant de la prime autoconsommation en 2026 ?</h3>
+      <p>Au T2 2026 (avril-juin), la <strong>prime à l'autoconsommation</strong> est de <strong>80 €/kWc</strong> pour les installations ≤ 9 kWc, <strong>120 €/kWc</strong> pour les installations de 9 à 36 kWc, et <strong>60 €/kWc</strong> pour les installations de 36 à 100 kWc. Pour une installation résidentielle classique de 6 kWc, cela représente une prime de 480 €, versée en une seule fois après la mise en service. Ces montants sont fixés par la CRE et révisés chaque trimestre.</p>
+
+      <h3>Quand est versée la prime à l'autoconsommation ?</h3>
+      <p>Pour les installations <strong>≤ 9 kWc</strong> (la grande majorité des installations résidentielles), la prime est versée <strong>en une seule fois</strong> lors de la première échéance de facturation du surplus par EDF OA, soit environ <strong>12 à 14 mois après la mise en service</strong>. Pour les installations de plus de 9 kWc, le versement est échelonné sur 5 ans (80% la première année, puis 5% les quatre années suivantes). Le versement est automatique — vous n'avez aucune démarche supplémentaire à effectuer.</p>
+
+      <h3>La prime autoconsommation est-elle cumulable avec MaPrimeRénov' ?</h3>
+      <p>Oui, sous certaines conditions. La prime à l'autoconsommation est <strong>cumulable avec MaPrimeRénov'</strong> dans le cadre du parcours accompagné de rénovation globale, avec les <strong>primes CEE</strong>, la <strong>TVA réduite à 10%</strong> (installations ≤ 3 kWc) et les <strong>aides locales</strong> (régions, communes). Le cumul de toutes ces aides peut représenter une réduction de 15 à 30% du coût total de votre installation. Consultez notre <a href="/blog/maprimenov-2026-guide-complet">guide MaPrimeRénov' 2026</a> pour les détails.</p>
+
+      <h3>Peut-on bénéficier de la prime pour des panneaux au sol ?</h3>
+      <p><strong>Non.</strong> Les installations au sol sont exclues du dispositif de prime à l'autoconsommation. Seules les installations sur <strong>bâtiment</strong> (toiture, façade), <strong>ombrière</strong> (carport solaire, pergola) ou <strong>hangar</strong> sont éligibles. Si vous souhaitez installer des panneaux au sol, consultez notre guide sur les <a href="/blog/panneaux-solaires-sol-permis-regles-installation">règles et permis pour les panneaux solaires au sol</a>.</p>
+
+      <h3>La prime autoconsommation va-t-elle encore baisser en 2026 ?</h3>
+      <p>Après la baisse drastique de mars 2025 (-65%), les montants se sont <strong>stabilisés</strong> en 2026. La CRE ajuste les tarifs trimestriellement en fonction du marché, mais les baisses massives semblent derrière nous. Néanmoins, rien ne garantit que les montants resteront identiques : si vous avez un projet solaire, <strong>ne tardez pas</strong> car les tarifs actuels pourraient encore évoluer. Le montant de votre prime est définitivement figé à la date de validation de votre DCR par Enedis.</p>
+
+      <h3>Faut-il encore investir dans le solaire malgré la baisse de la prime ?</h3>
+      <p><strong>Oui, absolument.</strong> La baisse de la prime est largement compensée par la <strong>chute du prix des panneaux</strong> (-30 à 40% depuis 2023) et la <strong>hausse du prix de l'électricité</strong> (+15%). Le retour sur investissement est resté stable entre 7 et 11 ans, et la <a href="/blog/duree-vie-panneau-solaire">durée de vie des panneaux</a> dépasse 30 ans. La prime n'est qu'un bonus — la vraie rentabilité vient des économies sur votre facture d'électricité et de la revente du surplus pendant 20 ans.</p>
+`,
+    category: "solaire-photovoltaique",
+    publishedAt: "2026-04-30",
+    readingTime: "18 min",
+    image: "/images/blog/prime-autoconsommation-2026.png"
+  },
+  {
     slug: "duree-vie-panneau-solaire",
     title: "Durée de vie et recyclage des panneaux photovoltaïques : La vérité",
     excerpt: "Durée de vie panneau solaire : combien d'années produisent réellement vos panneaux photovoltaïques en 2026 ? Dégradation annuelle, garanties fabricants, facteurs d'usure, recyclage en France (Soren/PV Cycle), seconde vie des modules et FAQ complète. Le guide expert avec données chiffrées.",
